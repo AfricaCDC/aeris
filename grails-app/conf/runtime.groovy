@@ -305,6 +305,15 @@ openboxes {
             label = "report.label"
             defaultLabel = "Reporting"
             subsections = [
+                // AERIS: Excel exports for the logistics team (MCM stock cards, stock across warehouses)
+                [
+                    label: "aeris.export.title",
+                    defaultLabel: "Excel exports",
+                    menuItems: [
+                        [label: "aeris.export.stockCard.title", defaultLabel: "Stock cards (MCM format)", href: "/aerisExport/index#cards"],
+                        [label: "aeris.export.consolidated.title", defaultLabel: "Stock across warehouses", href: "/aerisExport/index#all"],
+                    ]
+                ],
                 [
                     label: "report.inventoryReports.label",
                     defaultLabel: "Inventory Reports",
