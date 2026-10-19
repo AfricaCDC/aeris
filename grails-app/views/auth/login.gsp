@@ -50,17 +50,19 @@
 								<tr>
 									<td class="middle center">
 										<button type="submit" class="button big" id="loginButton">
-											<g:message code="auth.login.label"/>
+											<warehouse:message code="auth.login.label"/>
 										</button>
 									</td>
 								</tr>
 
+                                <g:if test="${grailsApplication.config.openboxes.signup.enabled}">
                                 <tr class="">
                                     <td class="middle left" colspan="2">
                                         <warehouse:message code="auth.newuser.text"/>
                                         <g:link class="list" controller="auth" action="signup"><warehouse:message code="auth.signup.label" default="Signup"/></g:link>
                                     </td>
                                 </tr>
+                                </g:if>
 
                             </tbody>
 						</table>

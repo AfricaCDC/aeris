@@ -156,6 +156,7 @@ class AuthController {
             flash.message = "Apologies, but the signup feature is disabled on your system. " +
                     "Please contact a system administrator for access."
             redirect(controller: "auth", action: "login")
+            return
         }
         Boolean configured = grailsApplication.config.openboxes.signup.recaptcha.v2.secretKey?.trim()
         if (!configured) {

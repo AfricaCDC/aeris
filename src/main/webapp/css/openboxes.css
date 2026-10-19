@@ -4168,3 +4168,9 @@ table.pvtTable tr th { background-color: #ddd; }
 .grayed {
     background-color: var(--gray-200) !important;
 }
+
+/* AERIS: environment tag in gold (see src/css/aeris-theme.scss) */
+.location-chooser__button .location-chooser__button-tag {
+    background-color: #C9A227;
+    color: #0E3520;
+}

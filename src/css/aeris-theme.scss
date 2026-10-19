@@ -24,3 +24,9 @@
 .main-wrapper {
   border-bottom: 3px solid var(--aeris-gold);
 }
+
+// Environment tag next to the location chooser (openboxes.logo.label): gold instead of red.
+.location-chooser__button .location-chooser__button-tag {
+  background-color: var(--aeris-gold);
+  color: var(--aeris-green-darker);
+}
