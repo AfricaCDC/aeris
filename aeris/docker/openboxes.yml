@@ -6,13 +6,13 @@ openboxes:
     # Default: the AERIS mark shipped in the image. To use the official Africa CDC logo,
     # host it on the server and point these URLs at it.
     url: "/openboxes/assets/aeris_logo_40x40.png"
-    label: "Riposte Ebola"
+    label: "Ebola Response"
   report:
     logo:
       url: "/openboxes/assets/aeris_logo_100.png"
   locale:
-    defaultLocale: 'fr'
-    supportedLocales: ['fr', 'en']
+    defaultLocale: 'en'
+    supportedLocales: ['en', 'fr']
     defaultCurrencyCode: "USD"
     supportedCurrencyCodes: ["USD", "EUR"]
   signup:
@@ -40,7 +40,7 @@ openboxes:
 
 grails:
   i18n:
-    defaultLocale: fr
+    defaultLocale: en
   mail:
     host: "smtp.example.org"          # Africa CDC SMTP server
     port: 587

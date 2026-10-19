@@ -4,8 +4,8 @@
   fields as upstream to auth/handleLogin: username, password, targetUri, browserTimezone.
 --%>
 <%-- Same source as warehouse:message (session, then user, then default locale), not the browser locale --%>
-<g:set var="lang" value="${grailsApplication.mainContext.getBean('localeManager').currentLocale?.language ?: 'fr'}"/>
-<g:set var="locales" value="${grailsApplication.config.openboxes.locale.supportedLocales ?: ['fr', 'en']}"/>
+<g:set var="lang" value="${grailsApplication.mainContext.getBean('localeManager').currentLocale?.language ?: 'en'}"/>
+<g:set var="locales" value="${grailsApplication.config.openboxes.locale.supportedLocales ?: ['en', 'fr']}"/>
 <g:set var="deploymentLabel" value="${grailsApplication.config.openboxes.logo.label ?: ''}"/>
 <g:set var="microsoftEnabled" value="${grailsApplication.mainContext.getBean('microsoftAuthService').enabled}"/>
 <g:set var="showFormSetting" value="${grailsApplication.config.openboxes.auth.local.showForm}"/>

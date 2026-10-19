@@ -578,9 +578,9 @@ openboxes:
     locale:
         custom:
             enabled: false
-        defaultLocale: 'fr'
+        defaultLocale: 'en'
         localizationModeLocale: 'ach'
-        supportedLocales: ['fr', 'en']
+        supportedLocales: ['en', 'fr']
         # Currency configuration
         defaultCurrencyCode: "USD"
         defaultCurrencySymbol: '\$'
