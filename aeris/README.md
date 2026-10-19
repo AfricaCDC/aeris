@@ -13,12 +13,14 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Logo and favicon | AERIS mark (40 px header, 100 px reports), favicon. | `grails-app/assets/images/aeris_logo_*.png`, `favicon.ico`, `src/main/webapp/images/` |
 | Colours | Upstream blue palette re-pointed to green `#1F6F43` and gold `#C9A227`, gold rule under the header. | `src/css/aeris-theme.scss`, imported in `src/js/index.jsx` |
 | Defaults | French first (`fr`, `en`), USD/EUR, self-signup off, error and feedback emails to Africa CDC instead of openboxes.com, mail prefix `[AERIS]`. | `grails-app/conf/application.yml` |
+| Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
 ## To confirm before go-live
 
 - **Logo and colours.** The mark and the two colours are provisional, made without the Africa CDC brand guide. Replace `aeris_logo_40x40.png`, `aeris_logo_100.png` and `favicon.ico` (same names, same sizes), and the four `--aeris-*` values in `src/css/aeris-theme.scss`. To show the official Africa CDC logo without rebuilding, host it and set `openboxes.logo.url` in `openboxes.yml`.
 - **Email addresses.** `stocks-ebola@africacdc.org` (sender) and `aeris-support@africacdc.org` (error reports) are proposals. Africa CDC IT must create them or name others.
+- **French wording.** Some dashboard widget titles (Inventory Summary, Expiration Summary, In Progress Shipments) still show in English in the French UI, because upstream has no French text for them. A storekeeper should list the English text seen during the test week, so it can be added to `messages_fr.properties` or overridden in the in-app Localization screen.
 - **Name use.** Check with Africa CDC communications that "AERIS" is free to use and clashes with no other Africa CDC system.
 
 ## Build and run
