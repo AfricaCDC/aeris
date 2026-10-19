@@ -16,6 +16,7 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Bon de sortie | French labels on the delivery note ("Bon de sortie", Expéditeur, Destinataire, Total demandé/livré, Quantité par lot, Expédié/Livré/Reçu par). Upstream kept English in the FR bundle. | `grails-app/i18n/messages_fr.properties` |
 | Works without internet | Every CDN script, stylesheet, font and image the pages used (jQuery, jQuery UI, Bootstrap, DataTables, select2, Font Awesome, Remix Icon, Inter…) is served by AERIS itself, so a weak or broken warehouse link no longer leaves pages unstyled on "Loading ...". The HelpScout support chat (OpenBoxes vendor) is off, and the sample `openboxes.yml` keeps every third-party widget off. Only exception: `country/list.gsp` still points at the dead Yahoo YUI CDN (broken upstream too). | `src/main/webapp/vendor/`, `aeris/tools/vendor_cdn.py`, `grails-app/views/**`, `.gitattributes` |
 | Login page | Africa CDC login page in the style of the DERK kit: logo card and AERIS panel, sign-in form with FR/EN switch, light/dark mode and show-password. No external files. Strings `aeris.login.*` in EN and FR. | `grails-app/views/auth/login.gsp`, `grails-app/assets/images/africacdc_logo.png` |
+| Microsoft 365 sign-in | "Sign in with Microsoft" for Africa CDC accounts (Entra ID, OpenID Connect with PKCE). Microsoft proves identity only; roles stay in AERIS. First sign-in creates an inactive account that an AERIS admin activates. Local password form kept behind "Local account (administrator)" for outages. Off until configured, see below. | `MicrosoftAuthService.groovy`, `MicrosoftAuthController.groovy`, `SecurityInterceptor.groovy`, `application.yml` (`openboxes.auth`), `build.gradle` (nimbus-jose-jwt), `aeris/tools/dev_mock_entra.py` |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
@@ -48,6 +49,43 @@ GRAILS_SERVER_URL=https://aeris.<domain>/openboxes/
 
 In production, put nginx with HTTPS in front (see upstream `docker/nginx`) and keep port 8080 closed to the internet.
 
+## Microsoft 365 sign-in (Entra ID)
+
+Users click **Sign in with Microsoft** and use their Africa CDC account, with the tenant's MFA and conditional access. AERIS checks the token signature, issuer, audience, expiry, tenant and that the email ends in `@africacdc.org`. **Microsoft grants no privileges**: what someone may do is the role an AERIS admin gives them.
+
+| Situation | What AERIS does |
+| --- | --- |
+| Email matches an active AERIS user | Signed in, same as a password login |
+| First sign-in, no AERIS account | Creates an **inactive** account from the Microsoft profile (name, email) and notifies admins by email. The person sees "awaiting approval". |
+| Account inactive | "Awaiting approval" |
+| Email outside `africacdc.org`, cancelled, or tampered request | Refused with a message; nothing created |
+
+**Approving someone:** Admin → Users → open the person → tick *Active* → add the role (Manager, Assistant, Browser…) and the Bunia location.
+
+### What Africa CDC IT needs to do (once)
+
+1. Entra admin center → App registrations → **New registration**: name `AERIS`, supported accounts **this organization only**, redirect URI (Web) `https://<aeris host>/openboxes/microsoftAuth/callback`.
+2. Certificates & secrets → **New client secret** (24 months). Note its expiry date: sign-in stops when it expires.
+3. API permissions: `openid`, `profile`, `email` (Microsoft Graph, delegated). Grant admin consent.
+4. Enterprise applications → AERIS → Properties → **Assignment required = Yes**, then assign the response team (a group). Only assigned people can even reach the "awaiting approval" step.
+5. Send the AERIS technical owner: tenant ID, client ID, client secret (through a password manager, never email), and the exact redirect URI.
+
+### Server settings
+
+In `aeris/docker/.env` (not committed):
+
+```
+AERIS_ENTRA_ENABLED=true
+AERIS_ENTRA_TENANT_ID=<tenant id>
+AERIS_ENTRA_CLIENT_ID=<application (client) id>
+AERIS_ENTRA_CLIENT_SECRET=<client secret>
+AERIS_ENTRA_REDIRECT_URI=https://<aeris host>/openboxes/microsoftAuth/callback
+```
+
+The AERIS server must reach `login.microsoftonline.com` over HTTPS. If the link or Microsoft is down, the system focal point can still sign in with **Local account (administrator)**. Keep at least one local admin with a strong password, stored in the Africa CDC password manager.
+
+**Testing without Entra:** `python -I aeris/tools/dev_mock_entra.py` runs a stand-in on port 8099; its header lists the `.env` values to use. Development only.
+
 ## Loading the reference data
 
 Tested on 2026-10-19 with `ACDC_OpenBoxes_fichiers_import.zip`: all files load once the points below are handled.
@@ -66,7 +104,7 @@ Tested on 2026-10-19 with `ACDC_OpenBoxes_fichiers_import.zip`: all files load o
 
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc6`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc7`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 

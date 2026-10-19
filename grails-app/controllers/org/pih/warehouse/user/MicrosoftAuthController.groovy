@@ -20,7 +20,6 @@ class MicrosoftAuthController {
     static allowedMethods = [signIn: "GET", callback: "GET"]
 
     MicrosoftAuthService microsoftAuthService
-    def grailsApplication
 
     def signIn() {
         if (!microsoftAuthService.enabled) {
