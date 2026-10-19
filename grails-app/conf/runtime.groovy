@@ -585,194 +585,53 @@ openboxes {
         mainDashboardId = "mainDashboard"
         dashboards {
             mainDashboard {
+                // AERIS: three tabs for an emergency-response depot (Bunia). 'personal' is the one users can
+                // rearrange; the others are the same for everyone. Upstream had 5 warehouse-oriented tabs.
                 personal {
-                    name = "My Dashboard"
+                    name = "Overview"
                     filters {}
                     widgets = [
-                        [
-                            widgetId: "inventoryByLotAndBin",
-                            order   : 1
-                        ],
-                        [
-                            widgetId: "receivingBin",
-                            order   : 2
-                        ],
-                        [
-                            widgetId: "inProgressShipments",
-                            order   : 3
-                        ],
-                        [
-                            widgetId: "inProgressPutaways",
-                            order   : 4
-                        ],
-
-                        [
-                            widgetId: "inventorySummary",
-                            order   : 1
-                        ],
-                        [
-                            widgetId: "expirationSummary",
-                            order   : 2
-                        ],
-                        [
-                            widgetId: "incomingStock",
-                            order   : 3
-                        ],
-                        [
-                            widgetId: "outgoingStock",
-                            order   : 4
-                        ],
-                        [
-                            widgetId: "delayedShipments",
-                            order   : 5
-                        ],
-                        [
-                            widgetId: "discrepancy",
-                            order   : 6
-                        ]
+                        // number cards (top row)
+                        [widgetId: "expiredStock", order: 1],
+                        [widgetId: "requestsPendingApproval", order: 2],
+                        [widgetId: "openStockRequests", order: 3],
+                        [widgetId: "negativeInventory", order: 4],
+                        // charts
+                        [widgetId: "expirationSummary", order: 1],
+                        [widgetId: "inventorySummary", order: 2],
+                        [widgetId: "outgoingStock", order: 3],
+                        [widgetId: "incomingStock", order: 4]
                     ]
                 }
-                warehouse {
-                    name = "Warehouse Management"
+                stock {
+                    name = "Stock & expiry"
                     filters {}
                     widgets = [
-                        [
-                            widgetId: "inventoryByLotAndBin",
-                            order   : 1
-                        ],
-                        [
-                            widgetId: "receivingBin",
-                            order   : 2
-                        ],
-                        [
-                            widgetId: "inProgressShipments",
-                            order   : 3
-                        ],
-                        [
-                            widgetId: "inProgressPutaways",
-                            order   : 4
-                        ],
-
-                        [
-                            widgetId: "inventorySummary",
-                            order   : 1
-                        ],
-                        [
-                            widgetId: "expirationSummary",
-                            order   : 2
-                        ],
-                        [
-                            widgetId: "incomingStock",
-                            order   : 3
-                        ],
-                        [
-                            widgetId: "outgoingStock",
-                            order   : 4
-                        ],
-                        [
-                            widgetId: "delayedShipments",
-                            order   : 5
-                        ],
-                        [
-                            widgetId: "discrepancy",
-                            order   : 6
-                        ]
+                        // number cards (top row)
+                        [widgetId: "itemsInventoried", order: 1],
+                        [widgetId: "expiredStock", order: 2],
+                        [widgetId: "negativeInventory", order: 3],
+                        // charts
+                        [widgetId: "expirationSummary", order: 1],
+                        [widgetId: "inventorySummary", order: 2],
+                        [widgetId: "discrepancy", order: 3],
+                        [widgetId: "delayedShipments", order: 4]
                     ]
                 }
-                inventory {
-                    name = "Inventory Management"
+                distribution {
+                    name = "Distribution"
                     filters {}
                     widgets = [
-                        [
-                            widgetId: "receivingBin",
-                            order   : 1
-                        ],
-                        [
-                            widgetId: "defaultBin",
-                            order   : 2
-                        ],
-                        [
-                            widgetId: "negativeInventory",
-                            order   : 3
-                        ],
-                        [
-                            widgetId: "expiredStock",
-                            order   : 4
-                        ],
-                        [
-                            widgetId: "openStockRequests",
-                            order   : 5
-                        ],
-                        [
-                                widgetId: "requestsPendingApproval",
-                                order   : 6
-                        ],
-
-                        [
-                            widgetId: "delayedShipments",
-                            order   : 1
-                        ],
-                        [
-                            widgetId: "productsInventoried",
-                            order   : 2
-                        ]
+                        // number cards (top row)
+                        [widgetId: "inProgressShipments", order: 1],
+                        [widgetId: "fillRateSnapshot", order: 2],
+                        // charts
+                        [widgetId: "sentStockMovements", order: 1],
+                        [widgetId: "receivedStockMovements", order: 2],
+                        [widgetId: "stockOutLastMonth", order: 3],
+                        [widgetId: "fillRate", order: 4]
                     ]
                 }
-                transaction {
-                    name = "Transaction Management"
-                    filters {}
-                    widgets = [
-                        [
-                            widgetId: "fillRateSnapshot",
-                            order   : 1
-                        ],
-
-                        [
-                            widgetId: "receivedStockMovements",
-                            order   : 1
-                        ],
-                        [
-                            widgetId: "sentStockMovements",
-                            order   : 2
-                        ],
-                        [
-                            widgetId: "lossCausedByExpiry",
-                            order   : 3
-                        ],
-                        [
-                            widgetId: "percentageAdHoc",
-                            order   : 4
-                        ],
-                        [
-                            widgetId: "fillRate",
-                            order   : 5
-                        ],
-                        [
-                            widgetId: "stockOutLastMonth",
-                            order   : 6
-                        ]
-                    ]
-                }
-                fillRate {
-                    name = "Fill Rate"
-                    filters {
-                        category {
-                            endpoint = "/categoryApi/list"
-                        }
-                    }
-                    widgets = [
-                        [
-                            widgetId: "fillRateSnapshot",
-                            order   : 1
-                        ],
-
-                        [
-                            widgetId: "fillRate",
-                            order   : 1
-                        ]
-                    ]
-                }
-
             }
             supplier {
                 supplier {
@@ -794,7 +653,7 @@ openboxes {
         // TODO: OBPIH-4384 Refactor indicator filters to be more generic (currently filters are hardcoded on the frontend, these should be defined here and rendered there basing on config)
         dashboardWidgets {
             inProgressPutaways {
-                enabled = true
+                enabled = false  // AERIS: not used at the Bunia depot
                 title = "react.dashboard.inProgressPutaways.title.label"
                 info = "react.dashboard.inProgressPutaways.info.label"
                 subtitle = "react.dashboard.subtitle.putaways.label"
@@ -821,7 +680,7 @@ openboxes {
                 endpoint = "/api/dashboard/inProgressShipments"
             }
             receivingBin {
-                enabled = true
+                enabled = false  // AERIS: not used at the Bunia depot
                 title = "react.dashboard.receivingBin.title.label"
                 info = "react.dashboard.receivingBin.info.label"
                 subtitle = "react.dashboard.subtitle.products.label"
@@ -839,7 +698,7 @@ openboxes {
                 endpoint = "/api/dashboard/itemsInventoried"
             }
             defaultBin {
-                enabled = true
+                enabled = false  // AERIS: not used at the Bunia depot
                 title = "react.dashboard.defaultBin.title.label"
                 info = "react.dashboard.defaultBin.info.label"
                 subtitle = "react.dashboard.subtitle.products.label"
@@ -884,7 +743,7 @@ openboxes {
                 endpoint = "/api/dashboard/requestsPendingApproval"
             }
             inventoryValue {
-                enabled = true
+                enabled = false  // AERIS: not used at the Bunia depot
                 title = "react.dashboard.inventoryValue.title.label"
                 info = ''
                 subtitle = "react.dashboard.subtitle.inStock.label"
@@ -903,7 +762,7 @@ openboxes {
             }
 
             requisitionCountByYear {
-                enabled = true
+                enabled = false  // AERIS: not used at the Bunia depot
                 title = "react.dashboard.requisitionCountByYear.title.label"
                 info = "react.dashboard.requisitionCountByYear.info.label"
                 graphType = "bar"
@@ -1066,7 +925,7 @@ openboxes {
                 }
             }
             percentageAdHoc {
-                enabled = true
+                enabled = false  // AERIS: not used at the Bunia depot
                 title = "react.dashboard.percentageAdHoc.title.label"
                 info = "react.dashboard.percentageAdHoc.info.label"
                 graphType = "doughnut"

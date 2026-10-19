@@ -479,7 +479,7 @@ openboxes:
         sendStockAlertsJob:
             enabled: true
             skipOnEmpty: true
-            daysUntilExpiry: 60
+            daysUntilExpiry: 180 # AERIS: lots expiring within 6 months, so they go out first or are redeployed
             cronExpression: "0 0 0 * * ?" # every day at midnight
 
         # Refresh inventory snapshots (triggered manually)

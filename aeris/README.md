@@ -17,6 +17,8 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Works without internet | Every CDN script, stylesheet, font and image the pages used (jQuery, jQuery UI, Bootstrap, DataTables, select2, Font Awesome, Remix Icon, Inter…) is served by AERIS itself, so a weak or broken warehouse link no longer leaves pages unstyled on "Loading ...". The HelpScout support chat (OpenBoxes vendor) is off, and the sample `openboxes.yml` keeps every third-party widget off. Only exception: `country/list.gsp` still points at the dead Yahoo YUI CDN (broken upstream too). | `src/main/webapp/vendor/`, `aeris/tools/vendor_cdn.py`, `grails-app/views/**`, `.gitattributes` |
 | Login page | Africa CDC login page in the style of the DERK kit: logo card and AERIS panel, sign-in form with FR/EN switch, light/dark mode and show-password. No external files. Strings `aeris.login.*` in EN and FR. | `grails-app/views/auth/login.gsp`, `grails-app/assets/images/africacdc_logo.png` |
 | Microsoft 365 sign-in | "Sign in with Microsoft" for Africa CDC accounts (Entra ID, OpenID Connect with PKCE). Microsoft proves identity only; roles stay in AERIS. First sign-in creates an inactive account that an AERIS admin activates. Local password form kept behind "Local account (administrator)" for outages. Off until configured, see below. | `MicrosoftAuthService.groovy`, `MicrosoftAuthController.groovy`, `SecurityInterceptor.groovy`, `application.yml` (`openboxes.auth`), `build.gradle` (nimbus-jose-jwt), `aeris/tools/dev_mock_entra.py` |
+| Dashboard | Three tabs for the depot instead of five: **Overview** (expired lots, requests awaiting approval, open requests, negative stock; expiry, stock vs min/max, outbound and inbound movements), **Stock & expiry** (items counted, discrepancies at receipt, delayed inbound) and **Distribution** (issued/received per month, stock-outs, fill rate). Bin, putaway, valuation, purchasing and ad-hoc widgets switched off. | `grails-app/conf/runtime.groovy` (`openboxes.dashboardConfig`) |
+| Expiry alerts | Daily expiry alert covers lots expiring within **180 days** (upstream 60), per the 6-month rule in the configuration plan. | `application.yml` (`openboxes.jobs.sendStockAlertsJob.daysUntilExpiry`) |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
@@ -86,6 +88,16 @@ The AERIS server must reach `login.microsoftonline.com` over HTTPS. If the link 
 
 **Testing without Entra:** `python -I aeris/tools/dev_mock_entra.py` runs a stand-in on port 8099; its header lists the `.env` values to use. Development only.
 
+## Stock alert emails
+
+The daily alert job (midnight) emails expiring lots (180 days), low stock, reorder and stock-outs. It sends nothing until three things are in place:
+
+1. Mail on: in `aeris/docker/openboxes.yml`, `grails.mail.enabled: true` with the Africa CDC SMTP host, port and sender.
+2. The Bunia depot has the **Enable notifications** activity: Configuration → Locations → Entrepôt Africa CDC Bunia → supported activities (or on the Dépôt location type).
+3. Each recipient has a notification role: *Item all notification*, or one of *Item expiry / out of stock / low stock / reorder / overstock notification* (Admin → Users → roles). The plan in the configuration document: Managers get out-of-stock; the logistics lead gets low stock, out of stock and expiry; the information management officer gets expiry.
+
+A user who saved their own Overview layout keeps it after an upgrade. To give them the new default, clear their saved layout in the database: `update user set dashboard_config = null where username = '…';`
+
 ## Loading the reference data
 
 Tested on 2026-10-19 with `ACDC_OpenBoxes_fichiers_import.zip`: all files load once the points below are handled.
@@ -104,7 +116,7 @@ Tested on 2026-10-19 with `ACDC_OpenBoxes_fichiers_import.zip`: all files load o
 
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc9`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc10`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 

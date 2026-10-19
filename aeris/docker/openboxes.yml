@@ -42,6 +42,7 @@ grails:
   i18n:
     defaultLocale: en
   mail:
+    enabled: false                     # true once Africa CDC IT confirms the SMTP server (alerts, notifications)
     host: "smtp.example.org"          # Africa CDC SMTP server
     port: 587
     from: "stocks-ebola@africacdc.org" # proposal, to be created by Africa CDC IT
