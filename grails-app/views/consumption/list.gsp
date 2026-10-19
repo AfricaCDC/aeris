@@ -120,7 +120,7 @@
 
 		</div>
     %{--<script src="${resource(dir:'js/pivottable', file:'pivot.js')}" type="text/javascript" ></script>--}%
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/1.6.3/pivot.min.js" type="text/javascript" ></script>
+    <script src="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/pivottable/1.6.3/pivot.min.js" type="text/javascript" ></script>
 
 
     <script type="text/javascript">

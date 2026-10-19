@@ -16,7 +16,7 @@
         </g:elseif>
     </title>
     <content tag="pageTitle">${entityName}</content>
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/jquery-date-range-picker/0.16.1/daterangepicker.min.css" />
+    <link rel="stylesheet" type="text/css" href="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/jquery-date-range-picker/0.16.1/daterangepicker.min.css" />
 </head>
 <body>
 
@@ -241,8 +241,8 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-date-range-picker/0.16.1/jquery.daterangepicker.min.js"></script>
+<script type="text/javascript" src="${request.contextPath}/static/vendor/cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/jquery-date-range-picker/0.16.1/jquery.daterangepicker.min.js"></script>
 
 
 <script type="text/javascript">

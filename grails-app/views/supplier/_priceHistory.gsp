@@ -52,8 +52,8 @@
         </table>
     </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js"></script>
-<script type="text/javascript" charset="utf8" src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js"></script>
+<script src="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js"></script>
+<script type="text/javascript" charset="utf8" src="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js"></script>
 <script>
   function initializeDataTable() {
     var dataTable = $('#priceHistoryTable').dataTable( {

@@ -13,6 +13,7 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Logo and favicon | Africa CDC seal (cropped from the official logo, `aeris/branding/africacdc_logo_full.png`), shown at 40 px in the header and on reports (files are 2x/5x for high-DPI screens), and as favicon. | `grails-app/assets/images/aeris_logo_*.png`, `favicon.ico`, `src/main/webapp/images/` |
 | Colours | Upstream blue palette re-pointed to the Africa CDC logo colours: maroon `#911936` (primary), gold `#BCA053`, green `#237348`; gold rule under the header. All text/background pairs pass WCAG AA (lowest 6.0:1). | `src/css/aeris-theme.scss`, imported in `src/js/index.jsx` |
 | Defaults | French first (`fr`, `en`), USD/EUR, self-signup off, error and feedback emails to Africa CDC instead of openboxes.com, mail prefix `[AERIS]`. | `grails-app/conf/application.yml` |
+| Bon de sortie | French labels on the delivery note ("Bon de sortie", Expéditeur, Destinataire, Total demandé/livré, Quantité par lot, Expédié/Livré/Reçu par). Upstream kept English in the FR bundle. | `grails-app/i18n/messages_fr.properties` |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
@@ -44,9 +45,25 @@ GRAILS_SERVER_URL=https://aeris.<domain>/openboxes/
 
 In production, put nginx with HTTPS in front (see upstream `docker/nginx`) and keep port 8080 closed to the internet.
 
+## Loading the reference data
+
+Tested on 2026-10-19 with `ACDC_OpenBoxes_fichiers_import.zip`: all files load once the points below are handled.
+
+| Order | File | How | Notes |
+| --- | --- | --- | --- |
+| 1 | Location types | Configuration → Location types, by hand | Dépôt = code DEPOT with the same activities as the stock "Depot" type. The five destination types = CONSUMER with "Receive stock" and "Submit request". Donateur = DONOR with "Send stock" and "External". Leave Description empty: it is shown in brackets after every site name in pickers. |
+| 2 | Location groups | Configuration → Location groups | Create Ituri, Nord-Kivu, Sud-Kivu **before** the site import, which only matches existing groups. |
+| 3 | `1_categories` | Configuration → Import data → Category | |
+| 4 | `2_produits.csv` | Products → Import products (CSV) | Categories must exist first. |
+| 5 | `3_noms_francais` | Configuration → Import data → Product synonym | |
+| 6 | `4_sites` | Configuration → Import data → Location | **Organization is required** for every site that is not internal. Only the warehouse row has one, so fill the column first. |
+| 7 | `6_stock_initial` | Configuration → Import data → Inventory, logged in at the Bunia depot, with the count date | After replacing column G with counted quantities. |
+
+**Save the Excel files as `.xls` (Excel 97-2003) before importing.** The import screens accept only `.xls` and `.csv`. An `.xlsx` is rejected, and even forced through, it fails inside Apache POI because of a library clash in OpenBoxes 0.9.8 (`poi-ooxml-full` 5.2.0 next to POI 3.17).
+
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc2`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc3`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 

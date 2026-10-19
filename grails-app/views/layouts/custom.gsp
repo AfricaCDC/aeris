@@ -6,15 +6,15 @@
 
     <!-- Include default page title -->
     <title><g:layoutTitle default="AERIS" /></title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="${request.contextPath}/static/vendor/code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="${request.contextPath}/static/vendor/cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="${request.contextPath}/static/vendor/cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- YUI -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/yui/2.9.0/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/yui/2.9.0/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
 
     <!-- Remix icons -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="${request.contextPath}/static/vendor/cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
     <!-- Include Favicon -->
     <link rel="shortcut icon" href="${resource(dir:'images',file:'favicon.ico')}" type="image/x-icon" />
@@ -23,10 +23,10 @@
     <link rel="stylesheet" href="${resource(dir:'js/jquery.megaMenu/',file:'jquery.megamenu.css')}" type="text/css" media="all" />
     <link rel="stylesheet" href="${resource(dir:'js/jquery.nailthumb',file:'jquery.nailthumb.1.1.css')}" type="text/css" media="all" />
     <link rel="stylesheet" href="${resource(dir:'js/chosen',file:'chosen.css')}" type="text/css" media="all" />
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" type="text/css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.min.css" type="text/css">
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" type="text/css" />
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.min.css" type="text/css">
     <link rel="stylesheet" href="${resource(dir:'css',file:'footable.css')}" type="text/css" media="all" />
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='${request.contextPath}/static/vendor/fonts.googleapis.com/css__family_Inter.css' rel='stylesheet'>
 
     <g:render template="/localization/crowdin"/>
 
@@ -34,9 +34,9 @@
     <g:javascript library="application"/>
 
     <!-- Include jQuery UI files -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/themes/smoothness/jquery-ui.min.css" type="text/css" media="all" />
+    <script type="text/javascript" src="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.24/themes/smoothness/jquery-ui.min.css" type="text/css" media="all" />
 
     <link rel="stylesheet" href="${resource(dir:'css',file:'openboxes.css')}?v=${g.meta(name: 'app.version')}" type="text/css" media="all" />
     <link rel="stylesheet" href="${resource(dir:'css',file:'loading.css')}" type="text/css" media="all" />
@@ -57,7 +57,7 @@
     <r:layoutResources/>
 
     <!-- TODO: replace fontawesowe by remix icons -->
-    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="${request.contextPath}/static/vendor/use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
 
 <body class="yui-skin-sam">
@@ -222,9 +222,9 @@
 <script src="${resource(dir:'js/chosen/', file:'chosen.jquery.min.js')}" type="text/javascript" ></script>
 <script src="${resource(dir:'js/feedback/', file:'feedback.js')}" type="text/javascript" ></script>
 <script src="${resource(dir:'js/footable/', file:'footable.js')}" type="text/javascript" ></script>
-<script src="//cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js" type="text/javascript" ></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.js" type="text/javascript"></script>
+<script src="${request.contextPath}/static/vendor/cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script src="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js" type="text/javascript" ></script>
+<script src="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.js" type="text/javascript"></script>
 
 <!-- JIRA Issue Collector -->
 <g:if test="${session.user && Boolean.valueOf(grailsApplication.config.openboxes.jira.issue.collector.enabled)}">

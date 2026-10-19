@@ -9,25 +9,25 @@
     <link rel="shortcut icon" href="${resource(dir:'images',file:'favicon.ico')}" type="image/x-icon" />
 
     <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="${resource(dir:'css/',file:'dashboard.css')}" type="text/css" media="all" />
 
-    <link rel="stylesheet" href="//cdn.datatables.net/plug-ins/e9421181788/integration/bootstrap/3/dataTables.bootstrap.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/cdn.datatables.net/plug-ins/e9421181788/integration/bootstrap/3/dataTables.bootstrap.css" type="text/css" media="all" />
 
     <!-- Add some weird styling like black borders and weird button hover animations-->
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.0/css/jquery.dataTables.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="${request.contextPath}/static/vendor/cdn.datatables.net/1.10.0/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="${resource(dir:'js/chosen', file:'chosen.css')}">
     <link rel="stylesheet" href="${resource(dir:'js/bootstrap-datepicker-1.3.0/css', file:'datepicker.css')}">
 
     <!-- Javascript -->
-    <script type="text/javascript" charset="utf8" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.0/js/jquery.dataTables.js"></script>
-    <script type="text/javascript" charset="utf8" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/plug-ins/e9421181788/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+    <script type="text/javascript" charset="utf8" src="${request.contextPath}/static/vendor/ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="${request.contextPath}/static/vendor/ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="${request.contextPath}/static/vendor/cdn.datatables.net/1.10.0/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8" src="${request.contextPath}/static/vendor/netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="${request.contextPath}/static/vendor/cdn.datatables.net/plug-ins/e9421181788/integration/bootstrap/3/dataTables.bootstrap.js"></script>
     <script src="${resource(dir:'js/chosen', file:'chosen.jquery.js')}" type="text/javascript" ></script>
     <script src="${resource(dir:'js/bootstrap-datepicker-1.3.0/js', file:'bootstrap-datepicker.js')}" type="text/javascript" ></script>
 

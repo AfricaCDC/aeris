@@ -17,6 +17,23 @@ openboxes:
     supportedCurrencyCodes: ["USD", "EUR"]
   signup:
     enabled: false
+  # No third-party calls from users' browsers: AERIS must work on the warehouse link alone,
+  # and stock data must not reach outside services.
+  helpscout:
+    widget:
+      enabled: false
+  hotjar:
+    enabled: false
+  uservoice:
+    widget:
+      enabled: false
+  zopim:
+    widget:
+      enabled: false
+  jira:
+    issue:
+      collector:
+        enabled: false
   mail:
     errors:
       recipients: ["aeris-support@africacdc.org"]   # to confirm with Africa CDC IT

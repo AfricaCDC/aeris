@@ -4,7 +4,7 @@
 <head>
     <%= NewRelic.getBrowserTimingHeader() %>
     <title><g:layoutTitle default="AERIS" /></title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="${request.contextPath}/static/vendor/netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
     <g:render template="/localization/crowdin"/>
     <g:googleSiteTag />
     <g:render template="/common/hotjar"/>

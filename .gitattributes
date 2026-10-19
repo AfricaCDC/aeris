@@ -1,0 +1,3 @@
+
+# AERIS: vendored CDN files must stay byte-identical (SRI hashes in the views)
+src/main/webapp/vendor/** -text

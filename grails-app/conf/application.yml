@@ -408,11 +408,11 @@ openboxes:
             enabled: false
             url: "//v2.zopim.com/?2T7RMi7ERqr3s8N20KQ3wOBRudcwosBA"
 
-    # HelpScout beacon
+    # HelpScout beacon (AERIS: off, it is the OpenBoxes vendor's support chat, a third-party service)
     helpscout:
         widget:
             color: "#3AB4B1"
-            enabled: true
+            enabled: false
             key: "44ee4f01-5334-4b93-ad25-03037903eb80"
 
     # JIRA Issue Collector

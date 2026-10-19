@@ -43,7 +43,7 @@
         </table>
 	</div>
 </div>
-<script type="text/javascript" charset="utf8" src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8" src="${request.contextPath}/static/vendor/cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.js"></script>
 <script>
     $(window).load(function(){
 
