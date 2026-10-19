@@ -1059,7 +1059,7 @@ class AddItemsPage extends Component {
                   // eslint-disable-next-line no-param-reassign
                     event.target.value = null;
                   }}
-                  accept=".csv"
+                  accept=".csv,.xlsx,.xls"
                 />
               </label>
               <button

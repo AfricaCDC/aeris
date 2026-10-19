@@ -14,11 +14,14 @@ import org.apache.poi.poifs.filesystem.OfficeXmlFileException
 import org.pih.warehouse.api.GenericApiService
 import org.pih.warehouse.core.DocumentService
 import org.pih.warehouse.core.Location
+import org.pih.warehouse.core.RoleType
+import org.pih.warehouse.core.User
 import org.pih.warehouse.core.UploadService
 import org.pih.warehouse.data.DataService
 import org.pih.warehouse.importer.CategoryExcelImporter
 import org.pih.warehouse.importer.DataImporter
 import org.pih.warehouse.importer.ImportDataCommand
+import org.pih.warehouse.importer.ImportFileNormalizer
 import org.pih.warehouse.importer.InventoryExcelImporter
 import org.pih.warehouse.importer.InventoryLevelExcelImporter
 import org.pih.warehouse.importer.LocationExcelImporter
@@ -42,6 +45,8 @@ import org.springframework.web.multipart.support.DefaultMultipartHttpServletRequ
 import org.springframework.web.multipart.support.StandardMultipartHttpServletRequest
 
 class BatchController {
+
+    def userService
 
     DataService dataService
     DocumentService documentService
@@ -106,7 +111,22 @@ class BatchController {
 
     def importData(ImportDataCommand command) {
 
+        // AERIS: storekeepers upload stock counts; the rest of this page stays with admins
+        request.aerisAllowedTypes = aerisUploadTypes()
+
         if ("POST".equals(request.getMethod())) {
+            String aerisType = command.importType ?: params.importType
+            if (aerisType && !request.aerisAllowedTypes.contains(aerisType)) {
+                redirect(controller: "errors", action: "handleForbidden")
+                return
+            }
+            if (command.importNow && aerisType && !aerisMayImport(aerisType)) {
+                // Checked but not imported: the logistics lead (Manager) imports, per separation of duties
+                command.importNow = false
+                request.aerisNotice = warehouse.message(code: 'aeris.import.managerOnly',
+                        default: 'Only the logistics lead (Manager role) can import this file.')
+            }
+            request.aerisCanImport = aerisMayImport(aerisType)
             def localFile = session.localFile
             if (request instanceof StandardMultipartHttpServletRequest) {
                 def uploadFile = command.importFile
@@ -114,6 +134,8 @@ class BatchController {
                     try {
                         localFile = uploadService.createLocalFile(uploadFile.originalFilename)
                         uploadFile.transferTo(localFile)
+                        // AERIS: .xlsx from French Excel ("Feuil1") and CSV files become readable workbooks
+                        localFile = ImportFileNormalizer.normalize(localFile)
                         session.localFile = localFile
 
                     } catch (Exception e) {
@@ -182,6 +204,36 @@ class BatchController {
             // Render data for user to review before proceeding
             render(view: "importData", model: [commandInstance:command])
         }
+    }
+
+    // AERIS: who may use which import type. Upload means "upload and check"; import means "Import now".
+    private List<String> aerisUploadTypes() {
+        if (aerisHasRole([RoleType.ROLE_SUPERUSER, RoleType.ROLE_ADMIN])) {
+            return ['category', 'inventory', 'inventoryLevel', 'location', 'person', 'product', 'productAttribute',
+                    'productCatalog', 'productCatalogItem', 'productPackage', 'productSupplier', 'productSupplierAttribute',
+                    'productSupplierPreference', 'productSynonym', 'productAssociation', 'tag', 'user', 'userLocation',
+                    'outboundStockMovement', 'purchaseOrderActualReadyDate', 'productGroup']
+        }
+        List<String> types = []
+        if (userService.isUserManager(session.user)) {          // Assistant and above
+            types << 'inventory'
+        }
+        if (aerisHasRole([RoleType.ROLE_MANAGER])) {
+            types << 'inventoryLevel'
+        }
+        return types
+    }
+
+    private boolean aerisMayImport(String type) {
+        if (type in ['inventory', 'inventoryLevel']) {
+            return aerisHasRole([RoleType.ROLE_SUPERUSER, RoleType.ROLE_ADMIN, RoleType.ROLE_MANAGER])
+        }
+        return aerisHasRole([RoleType.ROLE_SUPERUSER, RoleType.ROLE_ADMIN])
+    }
+
+    private boolean aerisHasRole(List<RoleType> roles) {
+        User user = session.user ? User.get(session.user.id) : null
+        return user && userService.getEffectiveRoles(user).any { roles.contains(it.roleType) }
     }
 
     DataImporter createExcelImporter(ImportDataCommand command) {

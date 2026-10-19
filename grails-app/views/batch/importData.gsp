@@ -117,13 +117,19 @@
                                 <img src="${resource(dir: 'images/icons/silk', file: 'bullet_left.png')}"/>&nbsp;
                                 <warehouse:message code="default.button.back.label" default="Back"/>
                             </a>
-                            <g:if test="${!commandInstance?.hasErrors()}">
+                            <g:if test="${!commandInstance?.hasErrors() && request.aerisCanImport != false}">
                                 <input name="import" id="import" type="hidden" value="${true}"/>
                                 <button type="button" class="button" id="finish-button">
                                     <img src="${resource(dir: 'images/icons/silk', file: 'accept.png')}"/>&nbsp;
                                     ${warehouse.message(code: 'default.button.finish.label')}
                                 </button>
                             </g:if>
+                            <g:elseif test="${!commandInstance?.hasErrors()}">
+                                <%-- AERIS: storekeepers check counts; the logistics lead imports them --%>
+                                <div class="message" role="status">
+                                    ${request.aerisNotice ?: warehouse.message(code: 'aeris.import.askManager', default: 'The file is valid. Ask the logistics lead (Manager role) to import it.')}
+                                </div>
+                            </g:elseif>
 
                         </div>
                     </div>

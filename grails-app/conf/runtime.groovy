@@ -192,6 +192,8 @@ openboxes {
                                 [label: "inventory.manageCycleCount.label", defaultLabel: "Manage Cycle Count", href: "/inventory/cycleCount"],
                                 [label: "inventory.performCycleCount.label", defaultLabel: "Perform Cycle Count", href: "/inventory/cycleCount?tab=TO_COUNT"],
                                 [label: "inventory.reporting.label", defaultLabel: "Reporting", href: "/inventory/cycleCount/reporting?tab=PRODUCTS"],
+                                // AERIS: storekeepers upload counted stock (Excel or CSV); a Manager imports it
+                                [label: "aeris.import.stockCount.label", defaultLabel: "Import stock count (Excel/CSV)", href: "/batch/importData?importType=inventory", minimumRequiredRole: RoleType.ROLE_ASSISTANT],
                         ]
                 ]
             ]

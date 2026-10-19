@@ -32,6 +32,7 @@ import org.pih.warehouse.core.Comment
 import org.pih.warehouse.core.User
 import org.pih.warehouse.core.UserService
 import org.pih.warehouse.importer.CSVUtils
+import org.pih.warehouse.importer.ExcelToCsv
 import org.pih.warehouse.importer.ImportDataCommand
 import org.pih.warehouse.order.Order
 import org.pih.warehouse.picklist.PicklistItem
@@ -547,7 +548,9 @@ class StockMovementController {
             def importFile = command.importFile
 
 
-            String csv = new String(importFile.bytes)
+            // AERIS: staff may upload the template saved from Excel (.xlsx/.xls) as well as CSV
+            byte[] bytes = importFile.bytes
+            String csv = ExcelToCsv.isExcel(bytes) ? ExcelToCsv.convert(bytes) : new String(bytes, "UTF-8")
             char separatorChar = CSVUtils.getSeparator(csv, StockMovement.buildCsvRow()?.keySet()?.size())
             def settings = [separatorChar: separatorChar, skipLines: 1]
 

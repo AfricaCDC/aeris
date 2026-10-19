@@ -490,6 +490,9 @@ dependencies {
     implementation "fr.opensagres.xdocreport:fr.opensagres.xdocreport.converter:${xDocReportVersion}"
     implementation("fr.opensagres.xdocreport:fr.opensagres.xdocreport.converter.docx.xwpf:${xDocReportVersion}") {
         exclude group: "org.apache.poi", module: "poi-ooxml"
+        // AERIS: poi-ooxml-full 5.x needs xmlbeans 5 and shadowed POI 3.17's schemas, so every .xlsx
+        // upload failed (NoClassDefFoundError DocumentFactory). Templates render via DOCX4J/ODFDOM, not XWPF.
+        exclude group: "org.apache.poi", module: "poi-ooxml-full"
     }
     implementation "fr.opensagres.xdocreport:fr.opensagres.xdocreport.converter.odt.odfdom:${xDocReportVersion}"
     implementation "fr.opensagres.xdocreport:fr.opensagres.xdocreport.document.docx:${xDocReportVersion}"

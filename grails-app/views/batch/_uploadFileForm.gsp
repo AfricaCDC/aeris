@@ -30,7 +30,7 @@
                     <label><warehouse:message code="inventory.uploadAFileToImport.label"/></label>
                 </td>
                 <td class="value">
-                    <input name="importFile" type="file" />
+                    <input name="importFile" type="file" accept=".xlsx,.xls,.csv" />
                 </td>
             </tr>
 
@@ -366,4 +366,19 @@
         </tfoot>
     </table>
 </g:uploadForm>
-
+<%-- AERIS: show only the import types this user may use (storekeepers: stock count) --%>
+<g:if test="${request.aerisAllowedTypes != null}">
+<script type="text/javascript">
+    (function () {
+        var allowed = ${raw(((request.aerisAllowedTypes ?: []) as grails.converters.JSON).toString())};
+        var radios = document.querySelectorAll('input[type=radio][name=importType]');
+        var visible = [];
+        for (var i = 0; i < radios.length; i++) {
+            if (allowed.indexOf(radios[i].value) < 0) {
+                var row = radios[i].closest('tr'); if (row) { row.style.display = 'none'; }
+            } else { visible.push(radios[i]); }
+        }
+        if (visible.length === 1) { visible[0].checked = true; }
+    })();
+</script>
+</g:if>

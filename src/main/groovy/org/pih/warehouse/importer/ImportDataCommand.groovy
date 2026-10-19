@@ -48,7 +48,9 @@ class ImportDataCommand implements Validateable {
                 return false
             }
 
-            return ['application/vnd.ms-excel', 'text/plain', 'text/csv', 'text/tsv'].any { fileType ->
+            // AERIS: also accept .xlsx (modern Excel) now that POI reads it again
+            return ['application/vnd.ms-excel', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                    'text/plain', 'text/csv', 'text/tsv'].any { fileType ->
                 val.part.contentType == fileType
             }
         })
