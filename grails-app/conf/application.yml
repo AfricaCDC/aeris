@@ -110,16 +110,16 @@ grails:
     cache:
         clearAtStartup: true
     doc:
-        title: "OpenBoxes"
-        subtitle: ""
+        title: "AERIS"
+        subtitle: "Africa CDC Emergency Response Inventory System"
         authors: "Justin Miranda"
         license: "Eclipse Public License - Version 1.0"
         copyright: ""
         footer: ""
     mail:
         enabled: false
-        from: "info@openboxes.com"
-        prefix: "[OpenBoxes]"
+        from: "stocks-ebola@africacdc.org"
+        prefix: "[AERIS]"
         host: "localhost"
         port: "25"
 
@@ -385,9 +385,9 @@ openboxes:
     bom:
         enabled: false
 
-    # User signup
+    # User signup (AERIS: off, accounts are created by the system focal point)
     signup:
-        enabled: true
+        enabled: false
         recaptcha:
             enabled: false
             v2:
@@ -426,11 +426,11 @@ openboxes:
     mail:
         feedback:
             enabled: false
-            recipients: ["feedback@openboxes.com"]
-        # OpenBoxes Error Emails (bug reports)
+            recipients: ["aeris-support@africacdc.org"]
+        # Error Emails (bug reports). AERIS: sent to Africa CDC, never upstream
         errors:
             enabled: true
-            recipients: ["errors@openboxes.com"]
+            recipients: ["aeris-support@africacdc.org"]
 
     # Barcode scanner (disabled by default)
     scannerDetection:
@@ -556,13 +556,13 @@ openboxes:
     locale:
         custom:
             enabled: false
-        defaultLocale: 'en'
+        defaultLocale: 'fr'
         localizationModeLocale: 'ach'
-        supportedLocales: ['ar', 'ach', 'de', 'en', 'es', 'es_MX', 'fr', 'ht', 'it', 'pt', 'fi', 'zh']
+        supportedLocales: ['fr', 'en']
         # Currency configuration
         defaultCurrencyCode: "USD"
         defaultCurrencySymbol: '\$'
-        supportedCurrencyCodes: ["USD", "CAD", "EUR", "GBP"]
+        supportedCurrencyCodes: ["USD", "EUR"]
         currencyApi:
             url: "https://api.exchangeratesapi.io/latest?base=%s"
             apiKey: ""
@@ -582,11 +582,11 @@ openboxes:
 
     # Allow users to customize logo image url as well as label
     logo:
-        url: "${server.contextPath}/assets/openboxes_logo_40x40.jpg"
-        label: ""
+        url: "${server.contextPath}/assets/aeris_logo_40x40.png"
+        label: "AERIS"
     report:
         logo:
-            url: "https://openboxes.com/img/logo_100.png"
+            url: "${server.contextPath}/assets/aeris_logo_100.png"
 
     # Allow system to anonymize user data to prevent it from being accessed by unauthorized users
     anonymize:
@@ -654,13 +654,13 @@ mail:
     error:
         enabled: false
         debug: false
-        to: 'errors@openboxes.com'
+        to: 'aeris-support@africacdc.org'
         server: "localhost"
         port: "25"
-        from: "info@openboxes.com"
+        from: "stocks-ebola@africacdc.org"
         username: null
         password: null
-        prefix: "[OpenBoxes]"
+        prefix: "[AERIS]"
 
 uiperformance:
     enabled: false

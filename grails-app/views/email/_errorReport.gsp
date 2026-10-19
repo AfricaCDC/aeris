@@ -1,11 +1,11 @@
 <%@ page defaultCodec="html" %>
 <html>
 <head>
-    <title>OpenBoxes Bug Report</title>
+    <title>AERIS Bug Report</title>
 </head>
 <body>
 
-<h1>OpenBoxes Bug Report</h1>
+<h1>AERIS Bug Report</h1>
 <h3>Stacktrace</h3>
 <pre>
     ${stacktrace}

@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="layout" content="analytics" />
-    <title><warehouse:message code="openboxes.analytics.title" default="OpenBoxes Analytics"/> | <g:layoutTitle/></title>
+    <title><warehouse:message code="openboxes.analytics.title" default="AERIS Analytics"/> | <g:layoutTitle/></title>
 
     <!-- Include Favicon -->
     <link rel="shortcut icon" href="${resource(dir:'images',file:'favicon.ico')}" type="image/x-icon" />
@@ -90,7 +90,7 @@
 
             <footer>
                 <p>
-                &copy; OpenBoxes 2017
+                &copy; Africa CDC &middot; AERIS
                 </p>
             </footer>
 

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <%= NewRelic.getBrowserTimingHeader() %>
     <title>
-        <g:layoutTitle default="OpenBoxes" />
+        <g:layoutTitle default="AERIS" />
     </title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
     <g:render template="/localization/crowdin"/>

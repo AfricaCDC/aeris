@@ -14,7 +14,7 @@ exports[`logo component should match snapshot 1`] = `
       onClick={[Function]}
     >
       <img
-        alt="Openboxes"
+        alt="AERIS"
         height="40"
         src=""
         width="40"

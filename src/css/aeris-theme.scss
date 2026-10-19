@@ -1,0 +1,26 @@
+// AERIS (Africa CDC Emergency Response Inventory System) theme.
+// Re-points the upstream blue palette to Africa CDC green and gold.
+// Provisional values: replace with the Africa CDC brand guide when confirmed.
+
+:root {
+  --aeris-green: #1F6F43;
+  --aeris-green-dark: #154D2F;
+  --aeris-green-darker: #0E3520;
+  --aeris-gold: #C9A227;
+
+  --blue-primary: var(--aeris-green);
+  --blue-100: #F6FAF7;
+  --blue-200: #EAF4EE;
+  --blue-201: #F1F8F3;
+  --blue-202: #DDEEE3;
+  --blue-400: #5FA37D;
+  --blue-401: #2E8B57;
+  --blue-500: var(--aeris-green);
+  --blue-700: var(--aeris-green-dark);
+  --blue-800: var(--aeris-green-darker);
+}
+
+// Gold rule under the main header, as on Africa CDC material.
+.main-wrapper {
+  border-bottom: 3px solid var(--aeris-gold);
+}

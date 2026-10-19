@@ -21,6 +21,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
 // eslint-disable-next-line import/no-unresolved
 import 'css/main.scss';
+// eslint-disable-next-line import/no-unresolved
+import 'css/aeris-theme.scss';
 import 'react-tippy/dist/tippy.css';
 
 library.add(fab, fas);

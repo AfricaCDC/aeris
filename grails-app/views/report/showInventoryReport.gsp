@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="#"><i class="glyphicon glyphicon-th"></i> OpenBoxes Analytics</a>
+                <a class="navbar-brand" href="#"><i class="glyphicon glyphicon-th"></i> AERIS Analytics</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -245,7 +245,7 @@
 
                     <footer>
                         <p>
-                        &copy; OpenBoxes 2014
+                        &copy; Africa CDC &middot; AERIS
                         </p>
                     </footer>
                 </div>

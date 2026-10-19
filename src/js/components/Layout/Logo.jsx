@@ -14,7 +14,7 @@ const Logo = ({
       <Link to={DASHBOARD_URL.base}>
         <img
           src={logoUrl}
-          alt="Openboxes"
+          alt="AERIS"
           width="40"
           height="40"
         />

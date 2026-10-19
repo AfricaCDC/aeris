@@ -1,0 +1,3 @@
+# AERIS image is built from .git only (see aeris/docker/Dockerfile)
+*
+!.git
