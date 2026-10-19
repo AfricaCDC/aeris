@@ -47,7 +47,7 @@ Then copy the `aeris/deploy` folder to `/opt/aeris/deploy`.
 ```bash
 cd /opt/aeris/deploy
 cp .env.example .env && chmod 600 .env
-nano .env                      # AERIS_HOST, AERIS_IMAGE, two passwords (openssl rand -base64 24)
+nano .env                      # AERIS_HOST, AERIS_IMAGE, two passwords (openssl rand -hex 24: no spaces or quotes)
 nano openboxes.yml             # SMTP host/port/sender, then grails.mail.enabled: true when ready
 mkdir -p certs                 # fullchain.pem + privkey.pem for AERIS_HOST
 ```
@@ -74,6 +74,7 @@ Open `https://<AERIS_HOST>/openboxes`. Then, at once:
 1. Sign in with **Local account**: `admin` / `password`, and **change that password** (Admin → Users). Store it in the Africa CDC password manager. It is the break-glass account for outages.
 2. Load the reference data in the order of `aeris/README.md` → *Loading the reference data* (location types and groups, categories, products, French names, sites, the three warehouses from `4b_entrepots_isiro_beni.xlsx`).
 3. Give each user a role **per warehouse** (Admin → Users → user → Location roles), e.g. an Isiro storekeeper: Assistant at *Entrepôt Africa CDC Isiro* only.
+4. Deactivate OpenBoxes' built-in demo depot **Main Warehouse** (Configuration → Locations → Main Warehouse → untick *Active*), so it does not appear in warehouse lists and Excel exports.
 
 ## 6. Backups (do not skip)
 

@@ -3,7 +3,12 @@
 #   30 2 * * *  cd /opt/aeris/deploy && ./scripts/backup.sh >> /var/log/aeris-backup.log 2>&1
 set -euo pipefail
 cd "$(dirname "$0")/.."
-set -a; . ./.env; set +a
+
+# Read only the settings this script needs (.env uses Docker's format: unquoted values may contain spaces)
+env_get() { grep -E "^$1=" .env | tail -1 | cut -d= -f2- | sed -e 's/^"\(.*\)"$/\1/' -e "s/^'\(.*\)'\$/\1/"; }
+BACKUP_DIR="$(env_get BACKUP_DIR)"
+BACKUP_KEEP_DAYS="$(env_get BACKUP_KEEP_DAYS)"
+BACKUP_OFFSITE_CMD="$(env_get BACKUP_OFFSITE_CMD)"
 
 BACKUP_DIR="${BACKUP_DIR:-/var/backups/aeris}"
 KEEP="${BACKUP_KEEP_DAYS:-30}"
@@ -18,9 +23,9 @@ docker compose -f docker-compose.prod.yml exec -T db sh -c \
   | gzip -9 > "${FILE}.part"
 mv "${FILE}.part" "$FILE"
 
-# Refuse a suspiciously small dump (empty or failed)
+# Refuse an empty or failed dump (the schema alone compresses to about 80 KB)
 SIZE=$(stat -c %s "$FILE")
-if [ "$SIZE" -lt 100000 ]; then
+if [ "$SIZE" -lt 20000 ]; then
   echo "$(date -u) ERROR backup $FILE is only $SIZE bytes" >&2
   exit 1
 fi

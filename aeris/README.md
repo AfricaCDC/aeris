@@ -20,6 +20,9 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Dashboard | Three tabs for the depot instead of five: **Overview** (expired lots, requests awaiting approval, open requests, negative stock; expiry, stock vs min/max, outbound and inbound movements), **Stock & expiry** (items counted, discrepancies at receipt, delayed inbound) and **Distribution** (issued/received per month, stock-outs, fill rate). Bin, putaway, valuation, purchasing and ad-hoc widgets switched off. | `grails-app/conf/runtime.groovy` (`openboxes.dashboardConfig`) |
 | Expiry alerts | Daily expiry alert covers lots expiring within **180 days** (upstream 60), per the 6-month rule in the configuration plan. | `application.yml` (`openboxes.jobs.sendStockAlertsJob.daysUntilExpiry`) |
 | Stock uploads | Staff upload **deliveries** (inbound items step) and **stock counts** (Inventory → Cycle count → Import stock count) from **.xlsx, .xls or .csv**. Fixed the library clash that broke every .xlsx; French Excel sheet names and ";" CSV with day-first dates are handled. Storekeepers check counts, a Manager imports them; other import types are admin-only. | `build.gradle`, `ExcelToCsv.groovy`, `ImportFileNormalizer.groovy`, `BatchController.groovy`, `StockMovementController.groovy`, `ImportDataCommand.groovy`, `batch/*.gsp`, inbound `AddItemsPage.jsx`, `runtime.groovy` (menu) |
+| Warehouses | Bunia, **Isiro** (Haut-Uélé) and **Beni** (Nord-Kivu) as depots, each with its own stock; transfers between them are stock movements ("Transfert sortant" / "Transfert entrant"). Users get roles per warehouse. | data: `4b_entrepots_isiro_beni.xlsx` (Logistics folder) |
+| Excel exports | Reporting → **Excel exports**: (1) **stock cards in the MCM format** of the logistics team, one sheet per item and batch with opening balance, every receipt and issue, running balance, totals and a verification line; (2) **stock across warehouses**: stock on hand by warehouse/item/lot with expiry and min-level status, item × warehouse totals, all transactions in the period. | `AerisExportService.groovy`, `AerisExportController.groovy`, `views/aerisExport/index.gsp`, `runtime.groovy` (menu) |
+| Deployment kit | Production compose with nginx/HTTPS, backups, restore test and a runbook for IT, rehearsed on a test machine. | `aeris/deploy/` (see `DEPLOY.md`) |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
@@ -88,6 +91,16 @@ AERIS_ENTRA_REDIRECT_URI=https://<aeris host>/openboxes/microsoftAuth/callback
 The AERIS server must reach `login.microsoftonline.com` over HTTPS. If the link or Microsoft is down, the system focal point can still sign in with **Local account (administrator)**. Keep at least one local admin with a strong password, stored in the Africa CDC password manager.
 
 **Testing without Entra:** `python -I aeris/tools/dev_mock_entra.py` runs a stand-in on port 8099; its header lists the `.env` values to use. Development only.
+
+## Stock cards and Excel exports (logistics team)
+
+Reporting → **Excel exports**.
+
+- **Stock cards (MCM format)**: choose the warehouse, optionally one item and one batch, and the period. The workbook opens on an index (one line per card, with links); each card follows the MCM Ebola response stock card: warehouse, item, category, unit, opening balance, batch, expiry, minimum level, storage conditions, custodian (the warehouse manager in Configuration → Locations), reporting period, then one line per receipt or issue with document number (stock movement or bon de sortie number), type, source, destination, quantities and running balance. Print one card per page, landscape.
+- **Transaction types** use the card's vocabulary: Réception (from a donor or supplier), Distribution (to a health zone, CTE, facility or pillar), Transfert entrant / sortant (between AERIS warehouses), Retour (back from a site), Ajustement + / − (corrections and count results, marked "Comptage / count"), Perte / destruction (damaged, expired, lost).
+- **Stock across warehouses**: one workbook with sheets *Stock on hand* (filterable, with expiry and minimum-level status), *By product* (item × warehouse), *Transactions* (period) and *About*.
+
+The card's closing balance always equals AERIS stock on hand: it is computed from the same transactions.
 
 ## Uploading stock from Excel or CSV (for staff)
 
