@@ -19,6 +19,7 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Microsoft 365 sign-in | "Sign in with Microsoft" for Africa CDC accounts (Entra ID, OpenID Connect with PKCE). Microsoft proves identity only; roles stay in AERIS. First sign-in creates an inactive account that an AERIS admin activates. Local password form kept behind "Local account (administrator)" for outages. Off until configured, see below. | `MicrosoftAuthService.groovy`, `MicrosoftAuthController.groovy`, `SecurityInterceptor.groovy`, `application.yml` (`openboxes.auth`), `build.gradle` (nimbus-jose-jwt), `aeris/tools/dev_mock_entra.py` |
 | Dashboard | Three tabs for the depot instead of five: **Overview** (expired lots, requests awaiting approval, open requests, negative stock; expiry, stock vs min/max, outbound and inbound movements), **Stock & expiry** (items counted, discrepancies at receipt, delayed inbound) and **Distribution** (issued/received per month, stock-outs, fill rate). Bin, putaway, valuation, purchasing and ad-hoc widgets switched off. | `grails-app/conf/runtime.groovy` (`openboxes.dashboardConfig`) |
 | Expiry alerts | Daily expiry alert covers lots expiring within **180 days** (upstream 60), per the 6-month rule in the configuration plan. | `application.yml` (`openboxes.jobs.sendStockAlertsJob.daysUntilExpiry`) |
+| Stock uploads | Staff upload **deliveries** (inbound items step) and **stock counts** (Inventory → Cycle count → Import stock count) from **.xlsx, .xls or .csv**. Fixed the library clash that broke every .xlsx; French Excel sheet names and ";" CSV with day-first dates are handled. Storekeepers check counts, a Manager imports them; other import types are admin-only. | `build.gradle`, `ExcelToCsv.groovy`, `ImportFileNormalizer.groovy`, `BatchController.groovy`, `StockMovementController.groovy`, `ImportDataCommand.groovy`, `batch/*.gsp`, inbound `AddItemsPage.jsx`, `runtime.groovy` (menu) |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
@@ -88,6 +89,24 @@ The AERIS server must reach `login.microsoftonline.com` over HTTPS. If the link 
 
 **Testing without Entra:** `python -I aeris/tools/dev_mock_entra.py` runs a stand-in on port 8099; its header lists the `.env` values to use. Development only.
 
+## Uploading stock from Excel or CSV (for staff)
+
+Files can be `.xlsx`, `.xls` or `.csv` (comma or semicolon). Dates: an Excel date cell, `2028-04-01`, or day-first `01/04/2028`.
+
+**A delivery arrives (donation or purchase)** - storekeeper or logistics lead
+1. Entrée / Inbound → Create inbound: origin = the donor, destination = Entrepôt Africa CDC Bunia, then Next.
+2. On the items step click **Export template**, open it in Excel and fill one row per lot: product code, lot number, expiry date, quantity. Save (Excel format is fine).
+3. Click **Import template** and choose the file. The lines appear; check them, then continue to send and receive as usual. Lot numbers made only of digits (e.g. `150326`) are kept as typed.
+
+**A physical count** - storekeepers prepare, the logistics lead imports
+1. Inventaire / Inventory → Cycle count → **Import stock count (Excel/CSV)**. Click *Download data*: an Excel sheet of the current stock by lot (product code, name, lot, expiry, system quantity) with an empty *Physical QOH* column.
+2. Type the counted quantity in column G (*Physical QOH*) for every line; add a line for any lot found that is not listed. Keep columns A (product code), C (lot) and D (expiry).
+3. Upload it with the **count date**. AERIS checks the file and shows each line.
+   - Storekeeper: the check ends there, with "Ask the logistics lead to import it".
+   - Logistics lead (Manager): uploads the same file and clicks **Finish**. Each lot is set to the counted quantity, recorded as an inventory count (baseline and adjustment transactions) on the count date.
+
+Min/max levels (Manager) and all other imports (products, sites, users: admin) use Configuration → Import data.
+
 ## Stock alert emails
 
 The daily alert job (midnight) emails expiring lots (180 days), low stock, reorder and stock-outs. It sends nothing until three things are in place:
@@ -112,7 +131,7 @@ Tested on 2026-10-19 with `ACDC_OpenBoxes_fichiers_import.zip`: all files load o
 | 6 | `4_sites` | Configuration → Import data → Location | **Organization is required** for every site that is not internal. Only the warehouse row has one, so fill the column first. |
 | 7 | `6_stock_initial` | Configuration → Import data → Inventory, logged in at the Bunia depot, with the count date | After replacing column G with counted quantities. |
 
-**Save the Excel files as `.xls` (Excel 97-2003) before importing.** The import screens accept only `.xls` and `.csv`. An `.xlsx` is rejected, and even forced through, it fails inside Apache POI because of a library clash in OpenBoxes 0.9.8 (`poi-ooxml-full` 5.2.0 next to POI 3.17).
+Upload the files as they are: `.xlsx`, `.xls` or `.csv` (fixed in AERIS; upstream 0.9.8 could not read `.xlsx`).
 
 ## Image versioning
 
