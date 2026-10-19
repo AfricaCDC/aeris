@@ -10,15 +10,15 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | --- | --- | --- |
 | Name | "OpenBoxes" → "AERIS" in page titles, analytics navbar, footers, email footer, bug-report email, and every UI string in the message bundles. "Powered by OpenBoxes" kept as attribution. | `grails-app/views/layouts/*.gsp`, `grails-app/views/common/_navbar.gsp`, `grails-app/views/email/_footer.gsp`, `grails-app/views/email/_errorReport.gsp`, `grails-app/views/report/showInventoryReport.gsp`, `grails-app/i18n/messages*.properties` |
 | French | Emails, the "Entered in AERIS?" flag and the import success message were still English in the FR bundle; now translated. | `grails-app/i18n/messages_fr.properties` |
-| Logo and favicon | AERIS mark (40 px header, 100 px reports), favicon. | `grails-app/assets/images/aeris_logo_*.png`, `favicon.ico`, `src/main/webapp/images/` |
-| Colours | Upstream blue palette re-pointed to green `#1F6F43` and gold `#C9A227`, gold rule under the header. | `src/css/aeris-theme.scss`, imported in `src/js/index.jsx` |
+| Logo and favicon | Africa CDC seal (cropped from the official logo, `aeris/branding/africacdc_logo_full.png`), shown at 40 px in the header and on reports (files are 2x/5x for high-DPI screens), and as favicon. | `grails-app/assets/images/aeris_logo_*.png`, `favicon.ico`, `src/main/webapp/images/` |
+| Colours | Upstream blue palette re-pointed to the Africa CDC logo colours: maroon `#911936` (primary), gold `#BCA053`, green `#237348`; gold rule under the header. All text/background pairs pass WCAG AA (lowest 6.0:1). | `src/css/aeris-theme.scss`, imported in `src/js/index.jsx` |
 | Defaults | French first (`fr`, `en`), USD/EUR, self-signup off, error and feedback emails to Africa CDC instead of openboxes.com, mail prefix `[AERIS]`. | `grails-app/conf/application.yml` |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
 ## To confirm before go-live
 
-- **Logo and colours.** The mark and the two colours are provisional, made without the Africa CDC brand guide. Replace `aeris_logo_40x40.png`, `aeris_logo_100.png` and `favicon.ico` (same names, same sizes), and the four `--aeris-*` values in `src/css/aeris-theme.scss`. To show the official Africa CDC logo without rebuilding, host it and set `openboxes.logo.url` in `openboxes.yml`.
+- **Logo use.** The seal is taken from the official Africa CDC logo, and the colours are measured from it. Africa CDC communications should confirm that the seal may appear on an internal system under the AERIS name. To change the logo later, replace `aeris_logo_40x40.png`, `aeris_logo_100.png` and `favicon.ico` under the same names, or host a file and set `openboxes.logo.url` in `openboxes.yml` (no rebuild needed).
 - **Email addresses.** `stocks-ebola@africacdc.org` (sender) and `aeris-support@africacdc.org` (error reports) are proposals. Africa CDC IT must create them or name others.
 - **French wording.** Some dashboard widget titles (Inventory Summary, Expiration Summary, In Progress Shipments) still show in English in the French UI, because upstream has no French text for them. A storekeeper should list the English text seen during the test week, so it can be added to `messages_fr.properties` or overridden in the in-app Localization screen.
 - **Name use.** Check with Africa CDC communications that "AERIS" is free to use and clashes with no other Africa CDC system.
@@ -46,7 +46,7 @@ In production, put nginx with HTTPS in front (see upstream `docker/nginx`) and k
 
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc1`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc2`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 

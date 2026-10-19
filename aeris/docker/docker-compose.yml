@@ -8,7 +8,7 @@ services:
     build:
       context: ../..
       dockerfile: aeris/docker/Dockerfile
-    image: ${AERIS_IMAGE:-aeris:0.9.8-acdc1}
+    image: ${AERIS_IMAGE:-aeris:0.9.8-acdc2}
     container_name: aeris-app
     restart: unless-stopped
     ports:

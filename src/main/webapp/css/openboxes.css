@@ -4171,6 +4171,6 @@ table.pvtTable tr th { background-color: #ddd; }
 
 /* AERIS: environment tag in gold (see src/css/aeris-theme.scss) */
 .location-chooser__button .location-chooser__button-tag {
-    background-color: #C9A227;
-    color: #0E3520;
+    background-color: #BCA053;
+    color: #4D0C1C;
 }

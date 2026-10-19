@@ -1,23 +1,24 @@
 // AERIS (Africa CDC Emergency Response Inventory System) theme.
-// Re-points the upstream blue palette to Africa CDC green and gold.
-// Provisional values: replace with the Africa CDC brand guide when confirmed.
+// Re-points the upstream blue palette to the Africa CDC logo colours:
+// maroon (wordmark) as primary, gold (seal ring) and green (hands, laurels) as accents.
 
 :root {
-  --aeris-green: #1F6F43;
-  --aeris-green-dark: #154D2F;
-  --aeris-green-darker: #0E3520;
-  --aeris-gold: #C9A227;
+  --aeris-maroon: #911936;
+  --aeris-maroon-dark: #6E1229;
+  --aeris-maroon-darker: #4D0C1C;
+  --aeris-gold: #BCA053;
+  --aeris-green: #237348;
 
-  --blue-primary: var(--aeris-green);
-  --blue-100: #F6FAF7;
-  --blue-200: #EAF4EE;
-  --blue-201: #F1F8F3;
-  --blue-202: #DDEEE3;
-  --blue-400: #5FA37D;
-  --blue-401: #2E8B57;
-  --blue-500: var(--aeris-green);
-  --blue-700: var(--aeris-green-dark);
-  --blue-800: var(--aeris-green-darker);
+  --blue-primary: var(--aeris-maroon);
+  --blue-100: #FBF5F7;
+  --blue-200: #F6E9ED;
+  --blue-201: #F9F0F3;
+  --blue-202: #EED6DD;
+  --blue-400: #C25A74;
+  --blue-401: #A8284A;
+  --blue-500: var(--aeris-maroon);
+  --blue-700: var(--aeris-maroon-dark);
+  --blue-800: var(--aeris-maroon-darker);
 }
 
 // Gold rule under the main header, as on Africa CDC material.
@@ -28,5 +29,5 @@
 // Environment tag next to the location chooser (openboxes.logo.label): gold instead of red.
 .location-chooser__button .location-chooser__button-tag {
   background-color: var(--aeris-gold);
-  color: var(--aeris-green-darker);
+  color: var(--aeris-maroon-darker);
 }

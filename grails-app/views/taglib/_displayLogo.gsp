@@ -5,21 +5,21 @@
         <g:hasHighestRoleAuthenticated>
             <div id="logo-square">
                 <a href="${createLink(uri: '/stockMovement/list?direction=INBOUND')}">
-                    <img src="${attrs?.logoUrl}" alt="Openboxes" width="40" height="40" />
+                    <img src="${attrs?.logoUrl}" alt="AERIS" width="40" height="40" />
                 </a>
             </div>
         </g:hasHighestRoleAuthenticated>
         <g:hasHigherRoleThanAuthenticated>
             <div id="logo-square">
                 <a href="${createLink(uri: '/')}">
-                    <img src="${attrs?.logoUrl}" alt="Openboxes" width="40" height="40" />
+                    <img src="${attrs?.logoUrl}" alt="AERIS" width="40" height="40" />
                 </a>
             </div>
         </g:hasHigherRoleThanAuthenticated>
     </g:if>
     <g:else>
         <div id="logo-square">
-            <img src="${attrs?.logoUrl}" alt="Openboxes" width="40" height="40" />
+            <img src="${attrs?.logoUrl}" alt="AERIS" width="40" height="40" />
         </div>
     </g:else>
 </div>
