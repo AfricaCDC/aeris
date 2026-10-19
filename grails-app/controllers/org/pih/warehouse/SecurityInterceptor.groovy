@@ -15,7 +15,8 @@ import org.pih.warehouse.core.LocationStatus
 
 class SecurityInterceptor {
 
-    static ArrayList controllersWithAuthUserNotRequired = ['test', 'errors']
+    // AERIS: microsoftAuth runs the Microsoft 365 sign-in, before any user is in the session
+    static ArrayList controllersWithAuthUserNotRequired = ['test', 'errors', 'microsoftAuth']
     static ArrayList actionsWithAuthUserNotRequired = ['status', 'test', 'login', 'logout', 'handleLogin', 'signup', 'handleSignup', 'json', 'updateAuthUserLocale', 'viewLogo', 'changeLocation', 'menu']
 
     static ArrayList controllersWithLocationNotRequired = ['categoryApi', 'productApi', 'genericApi', 'api']

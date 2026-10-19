@@ -385,6 +385,28 @@ openboxes:
     bom:
         enabled: false
 
+    # AERIS: sign-in with Africa CDC Microsoft 365 (Entra ID). Values come from the environment
+    # (AERIS_ENTRA_*), so the client secret is never in a file. Roles stay managed in AERIS.
+    auth:
+        microsoft:
+            enabled: ${AERIS_ENTRA_ENABLED:false}
+            tenantId: ${AERIS_ENTRA_TENANT_ID:}
+            clientId: ${AERIS_ENTRA_CLIENT_ID:}
+            clientSecret: ${AERIS_ENTRA_CLIENT_SECRET:}
+            # Leave empty for Microsoft (https://login.microsoftonline.com/<tenantId>/v2.0); set only for testing
+            authority: ${AERIS_ENTRA_AUTHORITY:}
+            allowInsecureAuthority: ${AERIS_ENTRA_ALLOW_HTTP:false}
+            allowedEmailDomains: ${AERIS_ENTRA_EMAIL_DOMAINS:africacdc.org}
+            # Must equal the redirect URI registered in Entra, e.g. https://aeris.africacdc.org/openboxes/microsoftAuth/callback
+            # Empty: built from the incoming request (fine without a reverse proxy)
+            redirectUri: ${AERIS_ENTRA_REDIRECT_URI:}
+            # First Microsoft sign-in creates an inactive account; an AERIS admin activates it and assigns roles
+            createPendingAccounts: true
+        local:
+            # Show the username/password form directly (true), or behind a "Local account" link (false).
+            # Ignored when Microsoft sign-in is off: the form is then always shown.
+            showForm: false
+
     # User signup (AERIS: off, accounts are created by the system focal point)
     signup:
         enabled: false

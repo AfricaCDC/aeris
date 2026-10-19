@@ -481,6 +481,9 @@ dependencies {
 
     implementation 'org.apache.commons:commons-text:1.15.0'
 
+    // AERIS: verify Microsoft Entra ID (OpenID Connect) ID tokens for Microsoft 365 sign-in
+    implementation 'com.nimbusds:nimbus-jose-jwt:9.37.3'
+
     implementation "fr.opensagres.xdocreport:fr.opensagres.xdocreport.converter.docx.docx4j:${xDocReportVersion}"
     implementation "fr.opensagres.xdocreport:fr.opensagres.xdocreport.document:${xDocReportVersion}"
     implementation "fr.opensagres.xdocreport:fr.opensagres.xdocreport.template:${xDocReportVersion}"

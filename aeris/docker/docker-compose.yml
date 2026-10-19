@@ -8,7 +8,7 @@ services:
     build:
       context: ../..
       dockerfile: aeris/docker/Dockerfile
-    image: ${AERIS_IMAGE:-aeris:0.9.8-acdc6}
+    image: ${AERIS_IMAGE:-aeris:0.9.8-acdc7}
     container_name: aeris-app
     restart: unless-stopped
     ports:
@@ -19,6 +19,16 @@ services:
       DATASOURCE_URL: ${DATASOURCE_URL:-jdbc:mysql://db/openboxes?serverTimezone=UTC&useSSL=false}
       GRAILS_SERVER_URL: ${GRAILS_SERVER_URL:-http://localhost:8080/openboxes/}
       JAVA_TOOL_OPTIONS: ${JAVA_TOOL_OPTIONS:--Xms1024m -Xmx2048m -XX:+UseParallelGC -Djava.awt.headless=true}
+      # Microsoft 365 sign-in (Entra ID app registration by Africa CDC IT). Put the values in .env, never here.
+      AERIS_ENTRA_ENABLED: ${AERIS_ENTRA_ENABLED:-false}
+      AERIS_ENTRA_TENANT_ID: ${AERIS_ENTRA_TENANT_ID:-}
+      AERIS_ENTRA_CLIENT_ID: ${AERIS_ENTRA_CLIENT_ID:-}
+      AERIS_ENTRA_CLIENT_SECRET: ${AERIS_ENTRA_CLIENT_SECRET:-}
+      AERIS_ENTRA_REDIRECT_URI: ${AERIS_ENTRA_REDIRECT_URI:-}
+      AERIS_ENTRA_EMAIL_DOMAINS: ${AERIS_ENTRA_EMAIL_DOMAINS:-africacdc.org}
+      # Testing only (aeris/tools/dev_mock_entra.py); leave unset in production
+      AERIS_ENTRA_AUTHORITY: ${AERIS_ENTRA_AUTHORITY:-}
+      AERIS_ENTRA_ALLOW_HTTP: ${AERIS_ENTRA_ALLOW_HTTP:-false}
     volumes:
       # Africa CDC settings (logo, language, mail, reason codes). Survives image upgrades.
       - ./openboxes.yml:/app/.grails/openboxes.yml:ro
