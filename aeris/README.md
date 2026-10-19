@@ -15,6 +15,7 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Defaults | French first (`fr`, `en`), USD/EUR, self-signup off, error and feedback emails to Africa CDC instead of openboxes.com, mail prefix `[AERIS]`. | `grails-app/conf/application.yml` |
 | Bon de sortie | French labels on the delivery note ("Bon de sortie", Expéditeur, Destinataire, Total demandé/livré, Quantité par lot, Expédié/Livré/Reçu par). Upstream kept English in the FR bundle. | `grails-app/i18n/messages_fr.properties` |
 | Works without internet | Every CDN script, stylesheet, font and image the pages used (jQuery, jQuery UI, Bootstrap, DataTables, select2, Font Awesome, Remix Icon, Inter…) is served by AERIS itself, so a weak or broken warehouse link no longer leaves pages unstyled on "Loading ...". The HelpScout support chat (OpenBoxes vendor) is off, and the sample `openboxes.yml` keeps every third-party widget off. Only exception: `country/list.gsp` still points at the dead Yahoo YUI CDN (broken upstream too). | `src/main/webapp/vendor/`, `aeris/tools/vendor_cdn.py`, `grails-app/views/**`, `.gitattributes` |
+| Login page | Africa CDC login page in the style of the DERK kit: logo card and AERIS panel, sign-in form with FR/EN switch, light/dark mode and show-password. No external files. Strings `aeris.login.*` in EN and FR. | `grails-app/views/auth/login.gsp`, `grails-app/assets/images/africacdc_logo.png` |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
@@ -65,7 +66,7 @@ Tested on 2026-10-19 with `ACDC_OpenBoxes_fichiers_import.zip`: all files load o
 
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc4`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc6`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 

@@ -1,9 +1,9 @@
-<%@ page import="org.springframework.web.servlet.support.RequestContextUtils" %>
 <%--
   AERIS login page (replaces the upstream login box). Standalone: no layout, no external files.
   Posts the same fields as upstream to auth/handleLogin: username, password, targetUri, browserTimezone.
 --%>
-<g:set var="lang" value="${RequestContextUtils.getLocale(request)?.language ?: grailsApplication.config.openboxes.locale.defaultLocale}"/>
+<%-- Same source as warehouse:message (session, then user, then default locale), not the browser locale --%>
+<g:set var="lang" value="${grailsApplication.mainContext.getBean('localeManager').currentLocale?.language ?: 'fr'}"/>
 <g:set var="otherLang" value="${lang == 'fr' ? 'en' : 'fr'}"/>
 <g:set var="deploymentLabel" value="${grailsApplication.config.openboxes.logo.label ?: ''}"/>
 <!doctype html>
