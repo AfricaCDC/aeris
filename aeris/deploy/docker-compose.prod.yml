@@ -1,0 +1,69 @@
+# AERIS - production deployment (one server). See DEPLOY.md.
+#   cp .env.example .env   (fill it in)
+#   docker compose -f docker-compose.prod.yml up -d
+# Only nginx is published (80, 443). The app and the database are reachable inside this stack only.
+name: aeris-prod
+
+services:
+  app:
+    image: ${AERIS_IMAGE:?set AERIS_IMAGE in .env, e.g. aeris:0.9.8-acdc13}
+    restart: unless-stopped
+    environment:
+      DATASOURCE_USERNAME: ${DATASOURCE_USERNAME:-aeris}
+      DATASOURCE_PASSWORD: ${DATASOURCE_PASSWORD:?set DATASOURCE_PASSWORD in .env}
+      DATASOURCE_URL: jdbc:mysql://db/openboxes?serverTimezone=UTC&useSSL=false
+      GRAILS_SERVER_URL: https://${AERIS_HOST:?set AERIS_HOST in .env}/openboxes/
+      # Behind nginx: trust X-Forwarded-Proto/For so redirects stay on https
+      SERVER_USE_FORWARD_HEADERS: "true"
+      JAVA_TOOL_OPTIONS: ${JAVA_TOOL_OPTIONS:--Xms1024m -Xmx3072m -XX:+UseParallelGC -Djava.awt.headless=true}
+      TZ: ${TZ:-Africa/Kinshasa}
+      AERIS_ENTRA_ENABLED: ${AERIS_ENTRA_ENABLED:-false}
+      AERIS_ENTRA_TENANT_ID: ${AERIS_ENTRA_TENANT_ID:-}
+      AERIS_ENTRA_CLIENT_ID: ${AERIS_ENTRA_CLIENT_ID:-}
+      AERIS_ENTRA_CLIENT_SECRET: ${AERIS_ENTRA_CLIENT_SECRET:-}
+      AERIS_ENTRA_REDIRECT_URI: https://${AERIS_HOST}/openboxes/microsoftAuth/callback
+      AERIS_ENTRA_EMAIL_DOMAINS: ${AERIS_ENTRA_EMAIL_DOMAINS:-africacdc.org}
+    volumes:
+      - ./openboxes.yml:/app/.grails/openboxes.yml:ro
+      - uploads:/app/uploads
+    expose:
+      - "8080"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: mariadb:10.11
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?set MYSQL_ROOT_PASSWORD in .env}
+      MARIADB_DATABASE: openboxes
+      MARIADB_USER: ${DATASOURCE_USERNAME:-aeris}
+      MARIADB_PASSWORD: ${DATASOURCE_PASSWORD}
+      TZ: UTC
+    command: ["--character-set-server=utf8", "--collation-server=utf8_general_ci", "--max-allowed-packet=64M"]
+    volumes:
+      - db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      AERIS_HOST: ${AERIS_HOST}
+    volumes:
+      - ./nginx/aeris.conf.template:/etc/nginx/templates/default.conf.template:ro
+      - ./certs:/etc/nginx/certs:ro
+    depends_on:
+      - app
+
+volumes:
+  db:
+  uploads:

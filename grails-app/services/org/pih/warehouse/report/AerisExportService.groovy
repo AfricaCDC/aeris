@@ -109,6 +109,8 @@ class AerisExportService {
         entries.groupBy { it.product_id }.each { String pid, List<GroovyRowResult> productEntries ->
             Map<String, Integer> balance = [:].withDefault { 0 }
             Map<String, GroovyRowResult> lotRow = [:]       // lot -> a row carrying its lot number and expiry
+            // A count writes a baseline then adjustments a second later: tag those adjustments as count results
+            List<Long> baselines = productEntries.findAll { it.code == 'PRODUCT_INVENTORY' }*.transaction_date*.time.unique()
             productEntries.groupBy { it.tid }.each { String tid, List<GroovyRowResult> txEntries ->
                 txEntries.each { lotRow.putIfAbsent(lotKey(it), it) }
                 GroovyRowResult t = txEntries.first()
@@ -117,13 +119,13 @@ class AerisExportService {
                 String code = t.code
                 if (code == 'CREDIT' || code == 'DEBIT') {
                     txEntries.each { e ->
-                        int q = (e.quantity ?: 0) as int
+                        int q = qty(e.quantity)
                         String lot = lotKey(e)
                         delta[lot] = (delta[lot] ?: 0) + (code == 'CREDIT' ? q : -q)
                     }
                 } else {  // INVENTORY: listed lots; PRODUCT_INVENTORY: whole product
                     Map<String, Integer> counted = [:].withDefault { 0 }
-                    txEntries.each { e -> counted[lotKey(e)] += ((e.quantity ?: 0) as int) }
+                    txEntries.each { e -> String k = lotKey(e); counted.put(k, counted[k] + qty(e.quantity)) }
                     Set<String> lots = code == 'PRODUCT_INVENTORY' ? (balance.keySet() + counted.keySet()) : counted.keySet()
                     lots.each { lot -> delta[lot] = counted[lot] - balance[lot] }
                 }
@@ -152,15 +154,16 @@ class AerisExportService {
                             expiry     : e.expiration_date,
                             bin        : e.bin_name,
                             user       : t.user_name,
-                            remarks    : [e.reason_code, e.remarks ?: t.remarks, code in ['INVENTORY', 'PRODUCT_INVENTORY'] ? 'Comptage / count' : null]
+                            remarks    : [e.reason_code, e.remarks ?: t.remarks,
+                                          (code in ['INVENTORY', 'PRODUCT_INVENTORY'] || baselines.any { Math.abs((t.transaction_date as Date).time - it) <= 5000 }) ? 'Comptage / count' : null]
                                     .findAll { it }.join(' - '),
                             warehouse  : depot.name,
                             productCode: e.product_code,
                             productName: e.product_name,
                     ]
                     card.rows << row
-                    card.received += (row.received ?: 0)
-                    card.issued += (row.issued ?: 0)
+                    card.received = qty(card.received) + qty(row.received)
+                    card.issued = qty(card.issued) + qty(row.issued)
                     flat << row
                 }
             }
@@ -212,7 +215,7 @@ class AerisExportService {
         }
         // products at or below level per warehouse
         Map<String, Integer> totals = [:].withDefault { 0 }
-        rows.each { totals["${it.location_id}|${it.product_id}".toString()] += (it.qoh as int) }
+        rows.each { String k = "${it.location_id}|${it.product_id}".toString(); totals.put(k, totals[k] + qty(it.qoh)) }
         rows.each { r ->
             int total = totals["${r.location_id}|${r.product_id}".toString()]
             r.productTotal = total
@@ -308,7 +311,7 @@ class AerisExportService {
         Map<String, Map> products = new TreeMap()
         soh.each { m ->
             Map p = products.computeIfAbsent(m.product_code as String) { [name: m.product_name, unit: m.unit_of_measure, q: [:].withDefault { 0 }] }
-            p.q[m.warehouse] += (m.qoh as int)
+            p.q.put(m.warehouse, p.q[m.warehouse] + qty(m.qoh))
         }
         r = 3
         products.each { String code, Map p ->
@@ -407,6 +410,9 @@ class AerisExportService {
          min: min, opening: 0, received: 0, issued: 0, closing: 0, rows: []]
     }
 
+    /** SQL quantities arrive as BigDecimal/Long; never rely on 'as int' inside map arithmetic. */
+    private static int qty(Object value) { value == null ? 0 : (value as Number).intValue() }
+
     private static String lotKey(GroovyRowResult e) { "${e.lot_number ?: ''}|${e.expiration_date ?: ''}" }
 
     private static String label(GroovyRowResult t, GroovyRowResult e, int delta, String code) {
@@ -431,9 +437,9 @@ class AerisExportService {
 
     private static String levelStatus(int total, Object min, Object reorder, Object max) {
         if (total <= 0) return 'Stock-out'
-        if (min != null && total < (min as int)) return 'Below minimum'
-        if (reorder != null && total < (reorder as int)) return 'Below reorder point'
-        if (max != null && (max as int) > 0 && total > (max as int)) return 'Above maximum'
+        if (min != null && total < qty(min)) return 'Below minimum'
+        if (reorder != null && total < qty(reorder)) return 'Below reorder point'
+        if (max != null && qty(max) > 0 && total > qty(max)) return 'Above maximum'
         return (min == null && reorder == null && max == null) ? 'No level set' : 'OK'
     }
 

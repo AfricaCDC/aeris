@@ -1,0 +1,42 @@
+# AERIS production configuration (mounted read-only into the app). Secrets stay in .env, not here.
+openboxes:
+  logo:
+    url: "/openboxes/assets/aeris_logo_40x40.png"
+    label: "Ebola Response"
+  report:
+    logo:
+      url: "/openboxes/assets/aeris_logo_100.png"
+  locale:
+    defaultLocale: 'en'
+    supportedLocales: ['en', 'fr']
+    defaultCurrencyCode: "USD"
+    supportedCurrencyCodes: ["USD", "EUR"]
+  signup:
+    enabled: false
+  helpscout:
+    widget:
+      enabled: false
+  hotjar:
+    enabled: false
+  uservoice:
+    widget:
+      enabled: false
+  zopim:
+    widget:
+      enabled: false
+  jira:
+    issue:
+      collector:
+        enabled: false
+  mail:
+    errors:
+      recipients: ["aeris-support@africacdc.org"]
+
+grails:
+  i18n:
+    defaultLocale: en
+  mail:
+    enabled: false                     # true once Africa CDC IT gives the SMTP server
+    host: "smtp.example.org"
+    port: 587
+    from: "stocks-ebola@africacdc.org"

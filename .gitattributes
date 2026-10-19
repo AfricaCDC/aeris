@@ -1,3 +1,5 @@
 
 # AERIS: vendored CDN files must stay byte-identical (SRI hashes in the views)
 src/main/webapp/vendor/** -text
+# AERIS: deployment files run on Linux servers
+aeris/deploy/** text eol=lf
