@@ -29,6 +29,9 @@
         })();
     </script>
     <style>
+        /* Everything is sized in rem; the root size follows the window so the card always fits on screen
+           with a margin around it (about 80% of a wide screen, proportionally smaller on a laptop). */
+        html { font-size: clamp(11px, min(0.95vw, 1.5vh), 16px); }
         :root {
             --green: #237348; --green-2: #0F7A47; --green-3: #0A5C36; --olive: #3F5E26;
             --gold: #BCA053; --gold-ink: #8A5F10; --maroon: #911936;
@@ -45,108 +48,109 @@
         html, body { margin: 0; }
         body {
             font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif; background: var(--bg); color: var(--text);
-            min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px 16px;
+            min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem;
         }
-        /* Compact card, centred with room around it */
         .card {
-            display: grid; grid-template-columns: 0.95fr 1fr; width: 100%; max-width: 900px;
-            background: var(--card); border-radius: 20px; overflow: hidden; position: relative;
-            box-shadow: 0 24px 48px -28px rgba(15, 27, 45, .35), 0 0 0 1px var(--line);
+            display: grid; grid-template-columns: 1.05fr 1fr; width: min(100%, 92rem); min-height: min(58rem, calc(100vh - 4rem));
+            background: var(--card); border-radius: 1.75rem; overflow: hidden; position: relative;
+            box-shadow: 0 1.75rem 3.5rem -2rem rgba(15, 27, 45, .35), 0 0 0 1px var(--line);
         }
         .card::before {
-            content: ""; position: absolute; top: 0; left: 0; width: 49%; height: 3px; z-index: 2;
+            content: ""; position: absolute; top: 0; left: 0; width: 51%; height: .25rem; z-index: 2;
             background: linear-gradient(90deg, var(--gold), #9BBF3A 60%, var(--green-2));
         }
         /* Brand panel */
         .brand {
-            color: #fff; padding: 32px 32px 28px; display: flex; flex-direction: column;
+            color: #fff; padding: 3.5rem 3.75rem 3rem; display: flex; flex-direction: column;
             background: radial-gradient(120% 90% at 0% 0%, #17995A 0%, transparent 60%),
                         linear-gradient(165deg, var(--green-2) 0%, var(--green-3) 55%, var(--olive) 100%);
         }
-        .logo-card { background: #fff; border-radius: 12px; padding: 10px 14px; width: fit-content; box-shadow: 0 8px 22px -12px rgba(0,0,0,.35); }
-        .logo-card img { display: block; width: 190px; max-width: 100%; height: auto; }
-        .brand h1 { font-size: 36px; line-height: 1; margin: 26px 0 6px; font-weight: 800; letter-spacing: -1px; }
-        .brand .subtitle { font-size: 15px; font-weight: 600; margin: 0; }
-        .brand .tagline { font-size: 15px; line-height: 1.55; margin: 18px 0 0; color: rgba(255,255,255,.92); }
-        .features { list-style: none; padding: 26px 0 0; margin: auto 0 0; display: grid; gap: 14px; }
-        .features li { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: start; }
-        .features svg { width: 18px; height: 18px; stroke: #E6CF7A; fill: none; stroke-width: 1.8; margin-top: 2px; }
-        .features b { display: block; font-size: 14px; font-weight: 700; }
-        .features span { display: block; font-size: 13px; line-height: 1.45; color: rgba(255,255,255,.86); margin-top: 1px; }
+        .logo-card { background: #fff; border-radius: 1.1rem; padding: 1rem 1.4rem; width: fit-content; box-shadow: 0 .6rem 1.5rem -.8rem rgba(0,0,0,.35); }
+        .logo-card img { display: block; width: 19rem; max-width: 100%; height: auto; }
+        .brand h1 { font-size: 3.5rem; line-height: 1; margin: 3rem 0 .6rem; font-weight: 800; letter-spacing: -.1rem; }
+        .brand .subtitle { font-size: 1.4rem; font-weight: 600; margin: 0; }
+        .brand .tagline { font-size: 1.4rem; line-height: 1.55; margin: 2.2rem 0 0; max-width: 34rem; color: rgba(255,255,255,.92); }
+        .features { list-style: none; padding: 2.5rem 0 0; margin: auto 0 0; display: grid; gap: 1.3rem; }
+        .features li { display: grid; grid-template-columns: 2rem 1fr; gap: .9rem; align-items: start; }
+        .features svg { width: 1.6rem; height: 1.6rem; stroke: #E6CF7A; fill: none; stroke-width: 1.8; margin-top: .1rem; }
+        .features b { display: block; font-size: 1.3rem; font-weight: 700; }
+        .features span { display: block; font-size: 1.2rem; line-height: 1.45; color: rgba(255,255,255,.88); margin-top: .15rem; }
         /* Form panel */
-        .form { padding: 28px 36px 24px; display: flex; flex-direction: column; }
-        .toolbar { display: flex; justify-content: flex-end; align-items: center; gap: 8px; }
-        .seg { display: inline-flex; background: var(--seg-bg); border: 1px solid var(--line); border-radius: 10px; padding: 3px; }
+        .form { padding: 3rem 3.75rem 2.6rem; display: flex; flex-direction: column; }
+        .toolbar { display: flex; justify-content: flex-end; align-items: center; gap: .6rem; }
+        .seg { display: inline-flex; background: var(--seg-bg); border: 1px solid var(--line); border-radius: .9rem; padding: .25rem; }
         .seg a {
-            min-width: 40px; height: 30px; padding: 0 10px; border-radius: 7px; display: inline-flex; align-items: center; justify-content: center;
-            font: 700 13px Inter, sans-serif; color: var(--muted); text-decoration: none;
+            min-width: 3.2rem; height: 2.9rem; padding: 0 .9rem; border-radius: .65rem; display: inline-flex; align-items: center; justify-content: center;
+            font: 700 1.05rem Inter, sans-serif; color: var(--muted); text-decoration: none;
         }
         .seg a[aria-current="true"] { background: var(--card); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
         .seg a:not([aria-current="true"]):hover { color: var(--text); }
         .tool {
-            width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--line); background: var(--card);
+            width: 3.5rem; height: 3.5rem; border-radius: .9rem; border: 1px solid var(--line); background: var(--card);
             color: var(--text); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0;
         }
         .tool:hover { background: var(--field); }
-        .tool svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 1.8; }
-        .eyebrow { margin: 18px 0 0; color: var(--gold-ink); font-weight: 800; letter-spacing: 1.3px; font-size: 12px; text-transform: uppercase; }
-        .form h2 { font-size: 28px; margin: 8px 0 4px; font-weight: 800; letter-spacing: -.5px; }
-        .intro { color: var(--muted); font-size: 14px; margin: 0 0 20px; }
+        .tool svg { width: 1.5rem; height: 1.5rem; stroke: currentColor; fill: none; stroke-width: 1.8; }
+        .eyebrow { margin: 2.2rem 0 0; color: var(--gold-ink); font-weight: 800; letter-spacing: .1rem; font-size: 1.05rem; text-transform: uppercase; }
+        .form h2 { font-size: 2.6rem; margin: .6rem 0 .4rem; font-weight: 800; letter-spacing: -.05rem; }
+        .intro { color: var(--muted); font-size: 1.35rem; margin: 0 0 2rem; }
         .ms {
-            width: 100%; height: 48px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--text);
-            font: 600 15px Inter, sans-serif; display: flex; align-items: center; justify-content: center; gap: 12px; text-decoration: none;
+            width: 100%; height: 4.6rem; border-radius: 1.1rem; border: 1px solid var(--line); background: var(--card); color: var(--text);
+            font: 600 1.3rem Inter, sans-serif; display: flex; align-items: center; justify-content: center; gap: .9rem; text-decoration: none;
             box-shadow: 0 1px 2px rgba(15,27,45,.08);
         }
         .ms:hover { background: var(--field); border-color: #B9C3CF; }
-        .ms svg { width: 20px; height: 20px; }
-        details.local { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
-        details.local summary { cursor: pointer; color: var(--muted); font-size: 13px; font-weight: 600; list-style: none; }
+        .ms svg { width: 1.5rem; height: 1.5rem; }
+        details.local { margin-top: 1.4rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+        details.local summary { cursor: pointer; color: var(--muted); font-size: 1.1rem; font-weight: 600; list-style: none; }
         details.local summary::-webkit-details-marker { display: none; }
-        details.local summary::before { content: "›"; display: inline-block; margin-right: 6px; transition: transform .15s; }
+        details.local summary::before { content: "\203A"; display: inline-block; margin-right: .5rem; transition: transform .15s; }
         details.local[open] summary::before { transform: rotate(90deg); }
         details.local.always { border-top: 0; padding-top: 0; margin-top: 0; }
         details.local.always summary { display: none; }
-        .local-body { padding-top: 14px; }
-        label { display: block; font-weight: 700; font-size: 13px; margin: 0 0 6px; }
-        .field { position: relative; margin-bottom: 14px; }
-        .field > svg { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 17px; height: 17px; stroke: var(--muted); fill: none; stroke-width: 1.8; pointer-events: none; }
+        .local-body { padding-top: 1.2rem; }
+        label { display: block; font-weight: 700; font-size: 1.15rem; margin: 0 0 .55rem; }
+        .field { position: relative; margin-bottom: 1.3rem; }
+        .field > svg { position: absolute; left: 1.2rem; top: 50%; transform: translateY(-50%); width: 1.4rem; height: 1.4rem; stroke: var(--muted); fill: none; stroke-width: 1.8; pointer-events: none; }
         .field input {
-            width: 100%; height: 44px; border-radius: 11px; border: 1.5px solid var(--line); background: var(--field); color: var(--text);
-            font: 400 15px Inter, sans-serif; padding: 0 44px 0 42px; outline: none; transition: border-color .15s, box-shadow .15s;
+            width: 100%; height: 4.2rem; border-radius: 1rem; border: 1.5px solid var(--line); background: var(--field); color: var(--text);
+            font: 400 1.3rem Inter, sans-serif; padding: 0 3.6rem 0 3.5rem; outline: none; transition: border-color .15s, box-shadow .15s;
         }
         .field input::placeholder { color: #8893A2; }
-        .field input:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(35,115,72,.15); }
+        .field input:focus { border-color: var(--green); box-shadow: 0 0 0 .2rem rgba(35,115,72,.15); }
         .field.has-error input { border-color: var(--maroon); }
-        .reveal { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); background: none; border: 0; padding: 6px; cursor: pointer; color: var(--muted); border-radius: 8px; }
-        .reveal svg { width: 18px; height: 18px; stroke: currentColor; fill: none; stroke-width: 1.8; display: block; }
+        .reveal { position: absolute; right: .6rem; top: 50%; transform: translateY(-50%); background: none; border: 0; padding: .5rem; cursor: pointer; color: var(--muted); border-radius: .6rem; }
+        .reveal svg { width: 1.5rem; height: 1.5rem; stroke: currentColor; fill: none; stroke-width: 1.8; display: block; }
         .submit {
-            width: 100%; height: 46px; border: 0; border-radius: 12px; margin-top: 4px; cursor: pointer; color: #fff;
-            font: 700 15px Inter, sans-serif; background: linear-gradient(180deg, #158A52, var(--green-3));
-            box-shadow: 0 10px 20px -12px rgba(10, 92, 54, .8);
+            width: 100%; height: 4.4rem; border: 0; border-radius: 1.1rem; margin-top: .3rem; cursor: pointer; color: #fff;
+            font: 700 1.35rem Inter, sans-serif; background: linear-gradient(180deg, #158A52, var(--green-3));
+            box-shadow: 0 .8rem 1.6rem -.9rem rgba(10, 92, 54, .8);
         }
         .submit:hover { filter: brightness(1.06); }
         .submit:focus-visible, .tool:focus-visible, .reveal:focus-visible, .ms:focus-visible, .seg a:focus-visible, summary:focus-visible {
             outline: 3px solid var(--gold); outline-offset: 2px;
         }
-        .alert { border-radius: 11px; padding: 10px 14px; margin: 0 0 16px; font-size: 13.5px; line-height: 1.5; background: var(--error-bg); border: 1px solid var(--error-line); }
-        .alert ul { margin: 0; padding-left: 18px; }
+        .alert { border-radius: 1rem; padding: .9rem 1.2rem; margin: 0 0 1.4rem; font-size: 1.15rem; line-height: 1.5; background: var(--error-bg); border: 1px solid var(--error-line); }
+        .alert ul { margin: 0; padding-left: 1.2rem; }
         .help {
-            display: grid; grid-template-columns: 20px 1fr; gap: 10px; align-items: start; margin-top: 18px;
-            background: var(--help-bg); border: 1px solid var(--help-line); border-radius: 12px; padding: 12px 14px; color: var(--muted); font-size: 13px; line-height: 1.5;
+            display: grid; grid-template-columns: 1.6rem 1fr; gap: .9rem; align-items: start; margin-top: 1.8rem;
+            background: var(--help-bg); border: 1px solid var(--help-line); border-radius: 1.1rem; padding: 1.1rem 1.3rem; color: var(--muted); font-size: 1.15rem; line-height: 1.5;
         }
-        .help svg { width: 18px; height: 18px; stroke: var(--green); fill: none; stroke-width: 1.8; margin-top: 1px; }
+        .help svg { width: 1.5rem; height: 1.5rem; stroke: var(--green); fill: none; stroke-width: 1.8; margin-top: .1rem; }
         .help a { color: var(--green); font-weight: 600; }
-        .foot { margin-top: auto; padding-top: 18px; color: var(--muted); font-size: 12px; display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
-        .status { display: inline-flex; align-items: center; gap: 6px; font-family: ui-monospace, Consolas, monospace; }
-        .dot { width: 7px; height: 7px; border-radius: 50%; background: #2DA160; box-shadow: 0 0 0 3px rgba(45,161,96,.2); }
+        .foot { margin-top: auto; padding-top: 1.8rem; color: var(--muted); font-size: 1.05rem; display: flex; justify-content: space-between; gap: .6rem; flex-wrap: wrap; }
+        .status { display: inline-flex; align-items: center; gap: .5rem; font-family: ui-monospace, Consolas, monospace; }
+        .dot { width: .55rem; height: .55rem; border-radius: 50%; background: #2DA160; box-shadow: 0 0 0 .2rem rgba(45,161,96,.2); }
         @media (max-width: 760px) {
-            body { padding: 16px; align-items: flex-start; }
-            .card { grid-template-columns: 1fr; }
+            html { font-size: 14px; }
+            body { padding: 1rem; align-items: flex-start; }
+            .card { grid-template-columns: 1fr; min-height: 0; }
             .card::before { width: 100%; }
-            .brand { padding: 22px; }
-            .brand h1 { font-size: 30px; margin-top: 18px; }
+            .brand { padding: 1.75rem; }
+            .brand h1 { font-size: 2.4rem; margin-top: 1.5rem; }
+            .brand .tagline { font-size: 1.1rem; margin-top: 1rem; }
             .features { display: none; }
-            .form { padding: 22px; }
+            .form { padding: 1.75rem; }
         }
     </style>
 </head>
@@ -154,7 +158,7 @@
 <main class="card">
     <section class="brand" aria-label="AERIS">
         <div class="logo-card">
-            <img src="${assetPath(src: 'africacdc_logo.png')}" alt="Africa CDC – Centres for Disease Control and Prevention" width="190" height="53"/>
+            <img src="${assetPath(src: 'africacdc_logo.png')}" alt="Africa CDC – Centres for Disease Control and Prevention" width="304" height="84"/>
         </div>
         <h1>AERIS</h1>
         <p class="subtitle">${warehouse.message(code: 'aeris.login.subtitle', default: 'Emergency Response Inventory System')}</p>

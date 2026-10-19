@@ -44,6 +44,11 @@ class InitializationInterceptor {
         try {
             // Only initialize the session if a user has logged in.
             if (!session?.user) {
+                // AERIS: the login page offers FR | EN, so honour ?lang= before sign-in too.
+                // The choice is kept in the session and carries over once the user signs in.
+                if (params.lang) {
+                    setLocale()
+                }
                 return true
             }
 

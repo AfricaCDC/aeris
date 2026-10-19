@@ -104,7 +104,7 @@ Tested on 2026-10-19 with `ACDC_OpenBoxes_fichiers_import.zip`: all files load o
 
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc7`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc8`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 

@@ -5,7 +5,7 @@
 # and packages it like the upstream image (docker/Dockerfile).
 #
 # Build from the repository root:
-#   docker build -f aeris/docker/Dockerfile -t aeris:0.9.8-acdc7 .
+#   docker build -f aeris/docker/Dockerfile -t aeris:0.9.8-acdc8 .
 
 ############################
 # 1. Build the war
