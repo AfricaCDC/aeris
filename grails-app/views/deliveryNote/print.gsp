@@ -4,7 +4,8 @@
 <html>
 <head>
     <g:set var="entityName" value="${warehouse.message(code: 'requisition.label', default: 'Requisition')}"/>
-    <title><warehouse:message code="default.show.label" args="[entityName]"/></title>
+    <%-- AERIS: "Bon de sortie 870FSS" - also the default file name when saved as PDF --%>
+    <title>${warehouse.message(code: 'requisition.deliveryNote.label', default: 'Delivery Note')} ${requisition?.requestNumber ?: ''}</title>
     <link rel="stylesheet" href="${resource(dir:'css',file:'buttons.css')}" type="text/css" media="all" />
     <script src="${request.contextPath}/static/vendor/code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <g:render template="styles"/>

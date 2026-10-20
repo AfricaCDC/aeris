@@ -30,14 +30,14 @@ Either build on the server (needs the repository, about 20 minutes the first tim
 ```bash
 sudo mkdir -p /opt/aeris && sudo chown $USER /opt/aeris && cd /opt/aeris
 git clone <Africa CDC repository URL> openboxes && cd openboxes && git checkout aeris/v0.9.8
-docker build -f aeris/docker/Dockerfile -t aeris:0.9.8-acdc15 .
+docker build -f aeris/docker/Dockerfile -t aeris:0.9.8-acdc16 .
 ```
 
 or copy a built image from the build PC:
 
 ```bash
-docker save aeris:0.9.8-acdc15 | gzip > aeris-0.9.8-acdc15.tar.gz      # on the build PC
-docker load < aeris-0.9.8-acdc15.tar.gz                                   # on the server
+docker save aeris:0.9.8-acdc16 | gzip > aeris-0.9.8-acdc16.tar.gz      # on the build PC
+docker load < aeris-0.9.8-acdc16.tar.gz                                   # on the server
 ```
 
 Then copy the `aeris/deploy` folder to `/opt/aeris/deploy`.
@@ -72,9 +72,9 @@ docker compose -f docker-compose.prod.yml logs -f app     # first start creates 
 Open `https://<AERIS_HOST>/openboxes`. Then, at once:
 
 1. Sign in with **Local account**: `admin` / `password`, and **change that password** (Admin → Users). Store it in the Africa CDC password manager. It is the break-glass account for outages.
-2. Load the reference data in the order of `aeris/README.md` → *Loading the reference data* (location types and groups, categories, products, French names, sites, the three warehouses from `4b_entrepots_isiro_beni.xlsx`).
+2. Load the reference data in the order of `aeris/README.md` → *Loading the reference data* (use `2_produits_unites_bilingues.csv` for products: units in English and French) (location types and groups, categories, products, French names, sites, the three warehouses from `4b_entrepots_isiro_beni.xlsx`).
 3. Give each user a role **per warehouse** (Admin → Users → user → Location roles), e.g. an Isiro storekeeper: Assistant at *Entrepôt Africa CDC Isiro* only.
-4. Deactivate OpenBoxes' built-in demo depot **Main Warehouse** (Configuration → Locations → Main Warehouse → untick *Active*), so it does not appear in warehouse lists and Excel exports.
+4. Run `./scripts/golive-cleanup.sh`: it deactivates OpenBoxes' demo depot **Main Warehouse** (so it stays out of warehouse lists and Excel exports) and renames the seed admin "Miss Administrator" to **AERIS Administrator** (the name printed as *Handled by*). Safe to run twice.
 
 ## 6. Backups (do not skip)
 

@@ -23,6 +23,7 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Warehouses | Bunia, **Isiro** (Haut-Uélé) and **Beni** (Nord-Kivu) as depots, each with its own stock; transfers between them are stock movements ("Transfert sortant" / "Transfert entrant"). Users get roles per warehouse. | data: `4b_entrepots_isiro_beni.xlsx` (Logistics folder) |
 | Excel exports | Reporting → **Excel exports**: (1) **stock cards in the MCM format** of the logistics team, one sheet per item and batch with opening balance, every receipt and issue, running balance, totals and a verification line; (2) **stock across warehouses**: stock on hand by warehouse/item/lot with expiry and min-level status, item × warehouse totals, all transactions in the period. | `AerisExportService.groovy`, `AerisExportController.groovy`, `views/aerisExport/index.gsp`, `runtime.groovy` (menu) |
 | Deployment kit | Production compose with nginx/HTTPS, backups, restore test and a runbook for IT, rehearsed on a test machine. | `aeris/deploy/` (see `DEPLOY.md`) |
+| French on daily screens | 173 upstream strings still in English translated for receiving, issuing, statuses, shipment events, dialogs and buttons; bon de sortie page titled "Bon de sortie <number>" (also the PDF file name). | `grails-app/i18n/messages_fr.properties`, `views/deliveryNote/print.gsp` |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
@@ -31,7 +32,7 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 - **Logo use.** The seal is taken from the official Africa CDC logo, and the colours are measured from it. Africa CDC communications should confirm that the seal may appear on an internal system under the AERIS name. To change the logo later, replace `aeris_logo_40x40.png`, `aeris_logo_100.png` and `favicon.ico` under the same names, or host a file and set `openboxes.logo.url` in `openboxes.yml` (no rebuild needed).
 - **Email addresses.** `stocks-ebola@africacdc.org` (sender) and `aeris-support@africacdc.org` (error reports) are proposals. Africa CDC IT must create them or name others.
 - **French wording.** Some dashboard widget titles (Inventory Summary, Expiration Summary, In Progress Shipments) still show in English in the French UI, because upstream has no French text for them. A storekeeper should list the English text seen during the test week, so it can be added to `messages_fr.properties` or overridden in the in-app Localization screen.
-- **Units on the bon de sortie.** Quantities print with the product unit from `2_produits.csv` (tablet, sachet, piece, bottle…), in English. If storekeepers prefer French units, change the UnitOfMeasure column (comprimé, sachet, pièce, flacon) before the product import.
+- **Units on the bon de sortie.** Import products from `2_produits_unites_bilingues.csv` (Logistics folder): units read "tablet / comprimé", "piece / pièce", "bottle / flacon"… so documents read well in both languages.
 - **Name use.** Check with Africa CDC communications that "AERIS" is free to use and clashes with no other Africa CDC system.
 
 ## Build and run
@@ -148,7 +149,7 @@ Upload the files as they are: `.xlsx`, `.xls` or `.csv` (fixed in AERIS; upstrea
 
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc15`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc16`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 
