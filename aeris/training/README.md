@@ -1,4 +1,4 @@
-# AERIS training video (storekeepers, French)
+# AERIS training videos (storekeepers, French and English)
 
 Regenerates `AERIS_formation_magasiniers.mp4` (about 10 minutes, 1080p, French narration and captions) from a
 running local AERIS. Scenes: sign in, dashboard, receiving a donation, stock lookup, issue with bon de sortie,
@@ -14,3 +14,10 @@ that service. The demo storekeeper login comes from `aeris/tools/test-accounts.l
     python build_video.py <out.mp4>
 
 Each capture run creates real movements in the database it points at: use a test copy, never production.
+
+English version (`AERIS_training_storekeepers_EN.mp4`, English interface, voice en-GB-SoniaNeural):
+
+    python excel_shots.py count en
+    python capture_en.py <path to openboxes> 1 2 3 4 5 6 7 8
+    python excel_shots.py card fiche_ringer_en.xlsx en
+    python build_video_en.py <out.mp4>

@@ -12,7 +12,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SHOTS = os.path.join(HERE, "shots")
 
 
-def make_count_file(path):
+def make_count_file(path, comment="2 flacons cassés"):
     from openpyxl import Workbook
     from openpyxl.styles import Font, PatternFill, Alignment
     wb = Workbook()
@@ -21,7 +21,7 @@ def make_count_file(path):
     ws.append(["Product code", "Product", "Lot", "Expiry", "Bin", "Stock AERIS", "Physical QOH", "Comments"])
     rows = [
         ("ACDC-MED-005", "Ringer's lactate 500 ml", "RL0925", date(2027, 9, 30), None, 107, 107, None),
-        ("ACDC-MED-005", "Ringer's lactate 500 ml", "RL1130", date(2027, 11, 30), None, 110, 108, "2 flacons cassés"),
+        ("ACDC-MED-005", "Ringer's lactate 500 ml", "RL1130", date(2027, 11, 30), None, 110, 108, comment),
         ("ACDC-MED-005", "Ringer's lactate 500 ml", "RL1026", date(2028, 6, 15), None, 60, 60, None),
         ("ACDC-MED-005", "Ringer's lactate 500 ml", "6D340213", date(2029, 3, 1), None, 14700, 14700, None),
     ]
@@ -80,9 +80,11 @@ def picture(xlsx, sheet_index, cell_range, out_png, zoom_to=1700):
 
 
 if __name__ == "__main__":
+    en = sys.argv[-1] == "en"
+    shots = os.path.join(HERE, "shots_en" if en else "shots")
     if sys.argv[1] == "count":
-        path = os.path.join(HERE, "comptage_video.xlsx")
-        make_count_file(path)
-        picture(path, 1, "A1:H5", os.path.join(SHOTS, "x_count.png"), zoom_to=1800)
+        path = os.path.join(HERE, "comptage_video_en.xlsx" if en else "comptage_video.xlsx")
+        make_count_file(path, "2 bottles broken" if en else "2 flacons cassés")
+        picture(path, 1, "A1:H5", os.path.join(shots, "x_count.png"), zoom_to=1800)
     else:
-        picture(sys.argv[2], 2, None, os.path.join(SHOTS, "x_card.png"), zoom_to=1800)
+        picture(sys.argv[2], 2, None, os.path.join(shots, "x_card.png"), zoom_to=1800)
