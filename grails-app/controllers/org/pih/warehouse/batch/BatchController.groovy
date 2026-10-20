@@ -196,7 +196,10 @@ class BatchController {
                         return
                     }
                 } else if (!command.hasErrors()) {
-                    flash.message = "${warehouse.message(code: 'inventoryItem.dataReadyToBeImported.message')}"
+                    // AERIS: storekeepers have no "Import now" button, so don't tell them to click it
+                    flash.message = request.aerisCanImport ?
+                            "${warehouse.message(code: 'inventoryItem.dataReadyToBeImported.message')}" :
+                            "${warehouse.message(code: 'aeris.import.checkedOk', default: 'File checked: no errors. Review the lines below.')}"
                 }
             } else {
                 flash.message = "${warehouse.message(code: 'inventoryItem.notValidXLSFile.message')}"

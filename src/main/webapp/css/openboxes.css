@@ -4174,3 +4174,9 @@ table.pvtTable tr th { background-color: #ddd; }
     background-color: #BCA053;
     color: #4D0C1C;
 }
+
+/* AERIS: all depots start with "Entrepôt Africa CDC", so cut the start, not the end ("…Africa CDC Bunia") */
+.location-chooser__button .location-chooser__button-title {
+    direction: rtl;
+    text-align: left;
+}

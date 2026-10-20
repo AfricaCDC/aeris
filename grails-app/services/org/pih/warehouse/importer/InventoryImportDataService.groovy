@@ -297,13 +297,19 @@ class InventoryImportDataService implements ImportDataService {
             transaction.addToTransactionEntries(transactionEntry)
         }
 
-        // For all products in the import, any other bins/lots of those products that exist in the system (ie have
-        // a product availability entry) but were not in the import should have their quantity set to zero.
+        // AERIS: counts are per lot (as on the MCM stock cards), so a lot that is in the import is set to the
+        // counted quantity across the depot: its other bins are set to zero. Lots of the same product that are
+        // NOT in the import keep their stock. (Upstream zeroed every unlisted lot of an imported product, so a
+        // partial count silently wiped the other lots.)
         Set<AvailableItemKey> keysInImport = inventoryImportData.rows.keySet()
+        Set<String> inventoryItemIdsInImport = inventoryImportData.rows.values().flatten()*.inventoryItem*.id as Set<String>
         for (entry in availableItems.map) {
             AvailableItem availableItem = entry.value
 
             if (keysInImport.contains(entry.key)) {
+                continue
+            }
+            if (!inventoryItemIdsInImport.contains(availableItem.inventoryItem?.id)) {
                 continue
             }
 
@@ -313,7 +319,7 @@ class InventoryImportDataService implements ImportDataService {
                     product: availableItem.inventoryItem.product,
                     binLocation: availableItem.binLocation,
                     inventoryItem: availableItem.inventoryItem,
-                    comments: 'Item was not in inventory import file so quantity was assumed to be zero.',
+                    comments: 'Lot counted in the import file; stock in this bin consolidated into the counted quantity.',
             )
             transaction.addToTransactionEntries(transactionEntry)
         }

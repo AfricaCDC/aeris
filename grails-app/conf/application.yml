@@ -623,9 +623,11 @@ openboxes:
             maxResults: 1000
 
     # Automatically create temporary receiving locations for shipments
+    # AERIS: off. The depots do not use putaways, so received stock goes straight to the depot's
+    # stock instead of waiting in an "R-<shipment>" bin (which also confused stock counts).
     receiving:
         createReceivingLocation:
-            enabled: true
+            enabled: false
         receivingLocation:
             prefix: "R"
 

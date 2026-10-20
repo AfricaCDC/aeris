@@ -153,9 +153,12 @@ class LocationService {
         }
 
         if (direction == StockMovementDirection.INBOUND.name()) {
-            LocationTypeCode code = (params.locationTypeCode as LocationTypeCode) ?: LocationTypeCode.SUPPLIER
+            // AERIS: most Ebola commodities are donations, so donors (DONOR) are valid origins as well as suppliers
+            List<LocationTypeCode> codes = params.locationTypeCode ?
+                    [params.locationTypeCode as LocationTypeCode] :
+                    [LocationTypeCode.SUPPLIER, LocationTypeCode.DONOR]
             return locations.findAll {
-                it.locationType.locationTypeCode == code
+                it.locationType.locationTypeCode in codes
             }
         }
 

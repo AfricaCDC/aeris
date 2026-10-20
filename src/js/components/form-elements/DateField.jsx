@@ -36,6 +36,21 @@ class DateField extends Component {
     localizedDateFormat = DateFormat.COMMON, showLocalizedPlaceholder, ...attributes
   }) {
     const onChangeRaw = (e) => {
+      // AERIS: a typed numeric date is day-first (31/03/2028, 31-03-2028, 31.3.28), as on DRC
+      // delivery notes. Without this, the picker's loose parse against the display format
+      // (DD/MMM/YYYY) silently turned 31/03/2028 into 31/Mar/2026.
+      const numeric = /^\s*(\d{1,2})[/.-](\d{1,2})[/.-](\d{2}|\d{4})\s*$/.exec(e.target.value || '');
+      if (numeric) {
+        const parsed = moment(`${numeric[1]}/${numeric[2]}/${numeric[3]}`, ['D/M/YYYY', 'D/M/YY'], true);
+        if (parsed.isValid()) {
+          e.preventDefault();
+          if (this.dateInput) {
+            this.dateInput.setState({ inputValue: e.target.value });
+          }
+          attributes.onChange(parsed.format(dateFormat));
+          return;
+        }
+      }
       attributes.onChange(e.target.value);
     };
 

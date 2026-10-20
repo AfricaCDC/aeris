@@ -14,15 +14,17 @@
 
             <tr class="prop">
                 <td class="name">
-                    <label><warehouse:message code="default.date.label"/></label>
+                    <label><warehouse:message code="aeris.import.countDate.label" default="Date and time of the count"/></label>
                 </td>
                 <td class="value">
+                    %{-- AERIS: defaults to now (upstream: empty, then an error after upload) --}%
                     <g:datePicker name="date"
-                                  value="none"
+                                  value="${new Date()}"
                                   fieldType="${Date}"
                                   precision="minute"
                                   relativeYears="[-20..0]"
                                   noSelection="['':'']"/>
+                    <div class="fade" style="margin-top:4px"><warehouse:message code="aeris.import.countDate.help" default="When the count was done."/></div>
                 </td>
             </tr>
             <tr class="prop">

@@ -31,3 +31,9 @@
   background-color: var(--aeris-gold);
   color: var(--aeris-maroon-darker);
 }
+
+// All depots start with "Entrepôt Africa CDC": cut the start, not the end ("…Africa CDC Bunia")
+.location-chooser__button .location-chooser__button-title {
+  direction: rtl;
+  text-align: left;
+}
