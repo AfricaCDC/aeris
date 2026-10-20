@@ -93,6 +93,25 @@ const DateFieldDateFns = ({
     onChange(formatted);
   };
 
+  // AERIS: a typed numeric date is day-first (31/03/2028, 31-03-2028, 31.3.28), as on DRC delivery
+  // notes. The picker's loose parse against the display format (dd/MMM/yyyy) turned 31/03/2028 into
+  // 31/Mar/2026 without any warning.
+  const onRawInput = (event) => {
+    const text = event?.target?.value;
+    const numeric = /^\s*(\d{1,2})[/.-](\d{1,2})[/.-](\d{2}|\d{4})\s*$/.exec(text || '');
+    if (!numeric) {
+      return;
+    }
+    const [, day, month, year] = numeric;
+    const parsed = parse(`${day}/${month}/${year}`, year.length === 2 ? 'd/M/yy' : 'd/M/yyyy', new Date());
+    if (Number.isNaN(parsed.getTime()) || parsed.getDate() !== Number(day)) {
+      return;
+    }
+    event.preventDefault();
+    datePickerRef.current?.setState({ inputValue: text });
+    (onChangeRaw || onChangeHandler)(parsed);
+  };
+
   useFocusOnMatch({
     ...focusProps,
     ref: datePickerRef,
@@ -144,6 +163,7 @@ const DateFieldDateFns = ({
         maxDate={MAX_DATE_PICKER_DATE}
         highlightDates={highlightedDates}
         onChange={onChangeRaw || onChangeHandler}
+        onChangeRaw={onRawInput}
         onSelect={() => {
           datePickerRef.current?.setOpen(false);
         }}
