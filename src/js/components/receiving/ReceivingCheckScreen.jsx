@@ -255,7 +255,11 @@ class ReceivingCheckScreen extends Component {
     const isBinLocationChosen = !_.some(formValues.containers, (container) =>
       _.some(container.shipmentItems, (shipmentItem) => _.isNull(shipmentItem.binLocation.id)));
 
-    if (!isBinLocationChosen && this.props.hasBinLocationSupport && !(formValues.shipmentStatus === 'RECEIVED')) {
+    // AERIS: depots have no bins to choose (receipts go to the default bin, no putaway), so the
+    // "lines without a bin" confirmation would show on every receipt. It stays for real bin setups.
+    const aerisNoBins = _.every(formValues.containers, (container) =>
+      _.every(container.shipmentItems, (shipmentItem) => _.isNull(shipmentItem.binLocation.id)));
+    if (!isBinLocationChosen && !aerisNoBins && this.props.hasBinLocationSupport && !(formValues.shipmentStatus === 'RECEIVED')) {
       this.confirmReceive(formValues);
     } else {
       this.save({

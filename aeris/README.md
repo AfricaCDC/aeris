@@ -24,6 +24,12 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Excel exports | Reporting → **Excel exports**: (1) **stock cards in the MCM format** of the logistics team, one sheet per item and batch with opening balance, every receipt and issue, running balance, totals and a verification line; (2) **stock across warehouses**: stock on hand by warehouse/item/lot with expiry and min-level status, item × warehouse totals, all transactions in the period. | `AerisExportService.groovy`, `AerisExportController.groovy`, `views/aerisExport/index.gsp`, `runtime.groovy` (menu) |
 | Deployment kit | Production compose with nginx/HTTPS, backups, restore test and a runbook for IT, rehearsed on a test machine. | `aeris/deploy/` (see `DEPLOY.md`) |
 | French on daily screens | 173 upstream strings still in English translated for receiving, issuing, statuses, shipment events, dialogs and buttons; bon de sortie page titled "Bon de sortie <number>" (also the PDF file name). | `grails-app/i18n/messages_fr.properties`, `views/deliveryNote/print.gsp` |
+| Stock counts per lot | Upstream treats a count file as a full count of each product: lots of that product missing from the file were set to zero. AERIS sets only the lots in the file (and empties that lot's other bins); other lots keep their stock. Found in the storekeeper test, where a 3-line count wiped 54,700 units. | `InventoryImportDataService.groovy` |
+| Receipts into stock | No temporary "R-&lt;shipment&gt;" receiving bins (there is no putaway step in AERIS): received stock goes straight to the depot, and the "lines without a bin" question no longer appears on every receipt. | `application.yml` (`openboxes.receiving.createReceivingLocation.enabled: false`), `ReceivingCheckScreen.jsx` |
+| Donations | Donors (location type code `DONOR`) can be the origin of an inbound movement; upstream allowed suppliers only. | `LocationService.groovy` |
+| Typed dates | A date typed as numbers is read day-first and exactly (`31/03/2028`, `31-03-28`). Upstream silently saved `31/03/2028` as 31 Mar **2026** in every React date field. | `DateField.jsx`, `v2/DateFieldDateFns.jsx` |
+| Count upload page | Count date and time default to now, with a help line; missing French/English labels added; French "Charger" (upload) instead of "Télécharger"; storekeepers are no longer told to click a button they do not have. | `batch/_uploadFileForm.gsp`, `BatchController.groovy`, `messages*.properties` |
+| Depot name in header | Cut at the start ("…Africa CDC Bunia") so the three depots can be told apart. | `src/css/aeris-theme.scss`, `src/main/webapp/css/openboxes.css` |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
@@ -34,6 +40,8 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 - **French wording.** Some dashboard widget titles (Inventory Summary, Expiration Summary, In Progress Shipments) still show in English in the French UI, because upstream has no French text for them. A storekeeper should list the English text seen during the test week, so it can be added to `messages_fr.properties` or overridden in the in-app Localization screen.
 - **Units on the bon de sortie.** Import products from `2_produits_unites_bilingues.csv` (Logistics folder): units read "tablet / comprimé", "piece / pièce", "bottle / flacon"… so documents read well in both languages.
 - **Name use.** Check with Africa CDC communications that "AERIS" is free to use and clashes with no other Africa CDC system.
+- **Donors and suppliers.** Only the placeholder "Donateur – à compléter" exists. Load the real donors (UNICEF, OMS, …) as locations of type *Donateur* before the first delivery, or receipts cannot name the right donor. Run `aeris/deploy/scripts/golive-cleanup.sh` after loading data (demo depot, seed admin name, French shipment types).
+- **Storekeeper test.** Findings and fixes of the 20 October 2026 test run are in `AERIS_test_findings.md` (Logistics folder). Repeat the test with a real storekeeper once the server is up.
 
 ## Build and run
 
@@ -115,9 +123,9 @@ Files can be `.xlsx`, `.xls` or `.csv` (comma or semicolon). Dates: an Excel dat
 **A physical count** - storekeepers prepare, the logistics lead imports
 1. Inventaire / Inventory → Cycle count → **Import stock count (Excel/CSV)**. Click *Download data*: an Excel sheet of the current stock by lot (product code, name, lot, expiry, system quantity) with an empty *Physical QOH* column.
 2. Type the counted quantity in column G (*Physical QOH*) for every line; add a line for any lot found that is not listed. Keep columns A (product code), C (lot) and D (expiry).
-3. Upload it with the **count date**. AERIS checks the file and shows each line.
+3. Upload it with the **date and time of the count** (pre-filled with now, in server time UTC: Bunia is UTC+2). Movements recorded *after* that time are applied on top of the counted quantities, so do not back-date a count to before the day's receipts and issues. AERIS checks the file and shows each line.
    - Storekeeper: the check ends there, with "Ask the logistics lead to import it".
-   - Logistics lead (Manager): uploads the same file and clicks **Finish**. Each lot is set to the counted quantity, recorded as an inventory count (baseline and adjustment transactions) on the count date.
+   - Logistics lead (Manager): uploads the same file and clicks **Finish**. Each lot in the file is set to the counted quantity, recorded as an inventory count (baseline and adjustment transactions) on the count date. **Lots not in the file are not changed**, so a partial count (one shelf, one product) is safe.
 
 Min/max levels (Manager) and all other imports (products, sites, users: admin) use Configuration → Import data.
 
@@ -149,7 +157,7 @@ Upload the files as they are: `.xlsx`, `.xls` or `.csv` (fixed in AERIS; upstrea
 
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc17`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc20`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 
