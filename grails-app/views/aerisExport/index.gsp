@@ -13,7 +13,7 @@
         .aeris-exports .dates { display: flex; gap: 12px; flex-wrap: wrap; }
         .aeris-exports .dates > div { flex: 1; min-width: 150px; }
         .aeris-exports .checks label { font-weight: normal; display: flex; gap: 6px; align-items: center; margin: 4px 0; }
-        .aeris-exports .actions { margin-top: 16px; }
+        .aeris-exports .aeris-actions { margin-top: 16px; }
         .aeris-exports button { padding: 6px 14px; font-weight: bold; }
     </style>
 </head>
@@ -48,7 +48,7 @@
                     <div><label for="cardEnd">${warehouse.message(code: 'aeris.export.to', default: 'To')}</label>
                         <input type="date" id="cardEnd" name="endDate" value="${endDate}"/></div>
                 </div>
-                <div class="actions">
+                <div class="aeris-actions">
                     <button type="submit" class="button">${warehouse.message(code: 'aeris.export.download', default: 'Download Excel')}</button>
                 </div>
             </g:form>
@@ -70,7 +70,7 @@
                     <div><label for="allEnd">${warehouse.message(code: 'aeris.export.to', default: 'To')}</label>
                         <input type="date" id="allEnd" name="endDate" value="${endDate}"/></div>
                 </div>
-                <div class="actions">
+                <div class="aeris-actions">
                     <button type="submit" class="button">${warehouse.message(code: 'aeris.export.download', default: 'Download Excel')}</button>
                 </div>
             </g:form>

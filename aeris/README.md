@@ -157,7 +157,7 @@ Upload the files as they are: `.xlsx`, `.xls` or `.csv` (fixed in AERIS; upstrea
 
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc20`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc21`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 
