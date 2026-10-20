@@ -137,7 +137,7 @@ Tested on 2026-10-19 with `ACDC_OpenBoxes_fichiers_import.zip`: all files load o
 
 | Order | File | How | Notes |
 | --- | --- | --- | --- |
-| 1 | Location types | Configuration → Location types, by hand | Dépôt = code DEPOT with the same activities as the stock "Depot" type. The five destination types = CONSUMER with "Receive stock" and "Submit request". Donateur = DONOR with "Send stock" and "External". Leave Description empty: it is shown in brackets after every site name in pickers. |
+| 1 | Location types | Configuration → Location types, by hand | Dépôt = code DEPOT with the same activities as the stock "Depot" type. The five destination types = CONSUMER with "Receive stock" and "Submit request". Donateur = DONOR with "Send stock" and "External". Description: a short label, shown in brackets after site names in pickers (Dépôt, Zone de santé, CTE, Formation sanitaire, Pilier, Point d'entrée, Donateur). |
 | 2 | Location groups | Configuration → Location groups | Create Ituri, Nord-Kivu, Sud-Kivu **before** the site import, which only matches existing groups. |
 | 3 | `1_categories` | Configuration → Import data → Category | |
 | 4 | `2_produits.csv` | Products → Import products (CSV) | Categories must exist first. |
@@ -149,7 +149,7 @@ Upload the files as they are: `.xlsx`, `.xls` or `.csv` (fixed in AERIS; upstrea
 
 ## Image versioning
 
-Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc16`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
+Tag images `aeris:<openboxes version>-acdc<n>`, for example `aeris:0.9.8-acdc17`. Bump `n` for each AERIS change on the same upstream release. Never deploy `latest`.
 
 ## Upgrading to a new OpenBoxes release
 

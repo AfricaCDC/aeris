@@ -80,7 +80,8 @@ export const debounceLocationsFetch = (
           locationTypeCode: locationTypeCode || undefined,
         },
       }).then((result) => callback(_.map(result.data.data, (obj) => {
-        const locationTypeData = withTypeDescription ? ` [${obj.locationType.description}]` : '';
+        // AERIS: no "[null]" when a location type has no description
+        const locationTypeData = withTypeDescription && obj.locationType?.description ? ` [${obj.locationType.description}]` : '';
         const label = `${obj.name}${locationTypeData}`;
         return {
           id: obj.id,
