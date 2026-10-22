@@ -18,6 +18,8 @@ services:
       DATASOURCE_PASSWORD: ${DATASOURCE_PASSWORD:-openboxes}
       DATASOURCE_URL: ${DATASOURCE_URL:-jdbc:mysql://db/openboxes?serverTimezone=UTC&useSSL=false}
       GRAILS_SERVER_URL: ${GRAILS_SERVER_URL:-http://localhost:8080/openboxes/}
+      # true when AERIS sits behind an HTTPS proxy or tunnel (nginx, Cloudflare): trust X-Forwarded-Proto
+      SERVER_USE_FORWARD_HEADERS: ${SERVER_USE_FORWARD_HEADERS:-false}
       JAVA_TOOL_OPTIONS: ${JAVA_TOOL_OPTIONS:--Xms1024m -Xmx2048m -XX:+UseParallelGC -Djava.awt.headless=true}
       # Microsoft 365 sign-in (Entra ID app registration by Africa CDC IT). Put the values in .env, never here.
       AERIS_ENTRA_ENABLED: ${AERIS_ENTRA_ENABLED:-false}
