@@ -30,6 +30,8 @@ AERIS is the Africa CDC build of [OpenBoxes](https://github.com/openboxes/openbo
 | Typed dates | A date typed as numbers is read day-first and exactly (`31/03/2028`, `31-03-28`). Upstream silently saved `31/03/2028` as 31 Mar **2026** in every React date field. | `DateField.jsx`, `v2/DateFieldDateFns.jsx` |
 | Count upload page | Count date and time default to now, with a help line; missing French/English labels added; French "Charger" (upload) instead of "Télécharger"; storekeepers are no longer told to click a button they do not have. | `batch/_uploadFileForm.gsp`, `BatchController.groovy`, `messages*.properties` |
 | Depot name in header | Cut at the start ("…Africa CDC Bunia") so the three depots can be told apart. | `src/css/aeris-theme.scss`, `src/main/webapp/css/openboxes.css` |
+| Excel exports page | The upstream stylesheet hides any element with class `actions`, which hid both "Download Excel" buttons; renamed. | `views/aerisExport/index.gsp` |
+| Behind a proxy or tunnel | `SERVER_USE_FORWARD_HEADERS` passed through the local compose file (production already sets it), so sign-in redirects stay on https behind nginx or a Cloudflare tunnel; `aeris/tools/quick-tunnel.ps1` publishes a test copy through a Cloudflare quick tunnel. | `aeris/docker/docker-compose.yml`, `aeris/tools/quick-tunnel.ps1` |
 | Signup | Upstream bug fixed: with signup disabled, `/auth/signup` returned HTTP 500 instead of redirecting. The signup link on the login page is hidden when signup is off. | `AuthController.groovy`, `grails-app/views/auth/login.gsp` |
 | Packaging | Multi-stage Docker build, compose file with MariaDB, sample external config. | `aeris/docker/`, `.dockerignore` |
 
