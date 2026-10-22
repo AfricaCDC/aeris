@@ -1,6 +1,7 @@
 # AERIS on a Cloudflare quick tunnel, for TESTING ONLY (test data, this laptop).
 # Starts (or restarts) the tunnel, points AERIS at the new https://<random>.trycloudflare.com address,
 # restarts the app and prints the link to share. The address changes every time this runs.
+# Uses HTTP/2 over TCP: steadier than the default QUIC (UDP) on office Wi-Fi.
 #   powershell -ExecutionPolicy Bypass -File aeris\tools\quick-tunnel.ps1
 $ErrorActionPreference = "Stop"
 $cloudflared = "C:\Program Files (x86)\cloudflared\cloudflared.exe"
@@ -17,7 +18,7 @@ for ($try = 1; $try -le 5 -and -not $url; $try++) {
     Start-Sleep 2
     if (Test-Path $log) { Remove-Item $log }
     Start-Process -FilePath $cloudflared -WindowStyle Hidden `
-        -ArgumentList @("tunnel", "--no-autoupdate", "--url", "http://localhost:8080", "--logfile", $log)
+        -ArgumentList @("tunnel", "--no-autoupdate", "--protocol", "http2", "--url", "http://localhost:8080", "--logfile", $log)
     for ($i = 0; $i -lt 30 -and -not $url; $i++) {
         Start-Sleep 2
         if (Test-Path $log) {
