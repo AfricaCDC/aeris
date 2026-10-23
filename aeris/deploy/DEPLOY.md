@@ -30,13 +30,13 @@ Either build on the server (needs the repository, about 20 minutes the first tim
 ```bash
 sudo mkdir -p /opt/aeris && sudo chown $USER /opt/aeris && cd /opt/aeris
 git clone <Africa CDC repository URL> openboxes && cd openboxes && git checkout aeris/v0.9.8
-docker build -f aeris/docker/Dockerfile -t aeris:0.9.8-acdc21 .
+docker build -f aeris/docker/Dockerfile -t aeris:0.9.8-acdc22 .
 ```
 
 or copy a built image from the build PC:
 
 ```bash
-docker save aeris:0.9.8-acdc21 | gzip > aeris-0.9.8-acdc20.tar.gz      # on the build PC
+docker save aeris:0.9.8-acdc22 | gzip > aeris-0.9.8-acdc20.tar.gz      # on the build PC
 docker load < aeris-0.9.8-acdc20.tar.gz                                   # on the server
 ```
 

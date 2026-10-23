@@ -1,12 +1,12 @@
 <%--
   AERIS login page (replaces the upstream login box). Standalone: no layout, no external files.
+  Layout follows the Ebola response's teleconsultation platform: brand panel with the DRC flag stripe, white form.
   Microsoft 365 sign-in (microsoftAuth/signIn) when enabled; the local username/password form posts the same
   fields as upstream to auth/handleLogin: username, password, targetUri, browserTimezone.
 --%>
 <%-- Same source as warehouse:message (session, then user, then default locale), not the browser locale --%>
 <g:set var="lang" value="${grailsApplication.mainContext.getBean('localeManager').currentLocale?.language ?: 'en'}"/>
 <g:set var="locales" value="${grailsApplication.config.openboxes.locale.supportedLocales ?: ['en', 'fr']}"/>
-<g:set var="deploymentLabel" value="${grailsApplication.config.openboxes.logo.label ?: ''}"/>
 <g:set var="microsoftEnabled" value="${grailsApplication.mainContext.getBean('microsoftAuthService').enabled}"/>
 <g:set var="showFormSetting" value="${grailsApplication.config.openboxes.auth.local.showForm}"/>
 <g:set var="localOpen" value="${!microsoftEnabled || showFormSetting == true || showFormSetting?.toString() == 'true' || userInstance?.hasErrors()}"/>
@@ -19,30 +19,14 @@
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico"/>
     <link rel="stylesheet" href="${request.contextPath}/static/vendor/fonts.googleapis.com/css2__family_Inter_wght_400_500_600_700_800.css"/>
     <script src="${resource(dir: 'js/', file: 'detect_timezone.js')}" type="text/javascript"></script>
-    <script>
-        // Apply the saved or system theme before first paint, to avoid a light flash in dark mode.
-        (function () {
-            var t = null;
-            try { t = localStorage.getItem('aeris-theme'); } catch (e) {}
-            if (!t) { t = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
-            document.documentElement.setAttribute('data-theme', t);
-        })();
-    </script>
     <style>
-        /* Everything is sized in rem; the root size follows the window so the card always fits on screen
-           with a margin around it (about 80% of a wide screen, proportionally smaller on a laptop). */
-        html { font-size: clamp(11px, min(0.95vw, 1.5vh), 16px); }
+        /* Sized in rem; the root size follows the window so the card fits with a margin around it. */
+        html { font-size: clamp(11px, min(0.9vw, 1.45vh), 16px); }
         :root {
-            --green: #237348; --green-2: #0F7A47; --green-3: #0A5C36; --olive: #3F5E26;
-            --gold: #BCA053; --gold-ink: #8A5F10; --maroon: #911936;
-            --bg: #EEF1F4; --card: #FFFFFF; --text: #0F1B2D; --muted: #4A5566; --line: #DCE2EA;
-            --field: #F7F9FB; --help-bg: #EDF8F2; --help-line: #CFEBDD; --error-bg: #FDEEEF; --error-line: #F3C6CC;
-            --seg-bg: #F1F4F7;
-        }
-        [data-theme="dark"] {
-            --bg: #0D1117; --card: #161B22; --text: #E6EDF3; --muted: #9AA6B2; --line: #2D3742;
-            --field: #0F141A; --help-bg: #12261C; --help-line: #1F4A33; --error-bg: #2A1418; --error-line: #5C2630;
-            --gold-ink: #D9B860; --seg-bg: #0F141A;
+            --maroon: #911936; --maroon-2: #7A1430; --maroon-3: #5C0F24; --gold: #BCA053;
+            --drc-blue: #007FFF; --drc-yellow: #F7D618; --drc-red: #CE1021;
+            --bg: #EEF1F5; --card: #FFFFFF; --text: #14202E; --muted: #5B6676; --line: #DCE2EA; --field: #FFFFFF;
+            --error-bg: #FDEEEF; --error-line: #F3C6CC; --note-bg: #F7F1E4; --note-line: #E6D7B0;
         }
         * { box-sizing: border-box; }
         html, body { margin: 0; }
@@ -51,55 +35,40 @@
             min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 2rem;
         }
         .card {
-            display: grid; grid-template-columns: 1.05fr 1fr; width: min(100%, 92rem); min-height: min(58rem, calc(100vh - 4rem));
-            background: var(--card); border-radius: 1.75rem; overflow: hidden; position: relative;
-            box-shadow: 0 1.75rem 3.5rem -2rem rgba(15, 27, 45, .35), 0 0 0 1px var(--line);
-        }
-        .card::before {
-            content: ""; position: absolute; top: 0; left: 0; width: 51%; height: .25rem; z-index: 2;
-            background: linear-gradient(90deg, var(--gold), #9BBF3A 60%, var(--green-2));
+            display: grid; grid-template-columns: 1fr 1fr; width: min(100%, 86rem); min-height: min(49rem, calc(100vh - 4rem));
+            background: var(--card); border-radius: 1.6rem; overflow: hidden;
+            box-shadow: 0 1.5rem 3.5rem -2rem rgba(20, 32, 46, .35), 0 0 0 1px rgba(20, 32, 46, .04);
         }
         /* Brand panel */
         .brand {
-            color: #fff; padding: 3.5rem 3.75rem 3rem; display: flex; flex-direction: column;
-            background: radial-gradient(120% 90% at 0% 0%, #17995A 0%, transparent 60%),
-                        linear-gradient(165deg, var(--green-2) 0%, var(--green-3) 55%, var(--olive) 100%);
+            position: relative; color: #fff; padding: 4rem 3.5rem; text-align: center;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            background: radial-gradient(110% 80% at 50% 0%, var(--maroon) 0%, transparent 70%),
+                        linear-gradient(170deg, var(--maroon-2) 0%, var(--maroon-3) 100%);
         }
-        .logo-card { background: #fff; border-radius: 1.1rem; padding: 1rem 1.4rem; width: fit-content; box-shadow: 0 .6rem 1.5rem -.8rem rgba(0,0,0,.35); }
-        .logo-card img { display: block; width: 19rem; max-width: 100%; height: auto; }
-        .brand h1 { font-size: 3.5rem; line-height: 1; margin: 3rem 0 .6rem; font-weight: 800; letter-spacing: -.1rem; }
-        .brand .subtitle { font-size: 1.4rem; font-weight: 600; margin: 0; }
-        .brand .tagline { font-size: 1.4rem; line-height: 1.55; margin: 2.2rem 0 0; max-width: 34rem; color: rgba(255,255,255,.92); }
-        .features { list-style: none; padding: 2.5rem 0 0; margin: auto 0 0; display: grid; gap: 1.3rem; }
-        .features li { display: grid; grid-template-columns: 2rem 1fr; gap: .9rem; align-items: start; }
-        .features svg { width: 1.6rem; height: 1.6rem; stroke: #E6CF7A; fill: none; stroke-width: 1.8; margin-top: .1rem; }
-        .features b { display: block; font-size: 1.3rem; font-weight: 700; }
-        .features span { display: block; font-size: 1.2rem; line-height: 1.45; color: rgba(255,255,255,.88); margin-top: .15rem; }
+        .flag { position: absolute; top: 0; left: 0; right: 0; height: .5rem; display: grid; grid-template-columns: 1fr 1fr 1fr; }
+        .flag i:nth-child(1) { background: var(--drc-blue); }
+        .flag i:nth-child(2) { background: var(--drc-yellow); }
+        .flag i:nth-child(3) { background: var(--drc-red); }
+        .country { margin: 0; font-size: 1.05rem; letter-spacing: .28rem; text-transform: uppercase; color: rgba(255,255,255,.85); font-weight: 500; }
+        .brand h1 { margin: 1.4rem 0 0; font-size: 4.6rem; line-height: 1; font-weight: 800; letter-spacing: .1rem; }
+        .headline { margin: .9rem 0 0; font-size: 2rem; line-height: 1.25; font-weight: 700; max-width: 30rem; }
+        .rule { width: 3.5rem; height: .25rem; border-radius: .2rem; background: var(--gold); margin: 1.6rem auto 0; }
+        .outbreak { margin: 1.4rem 0 0; font-size: 1.3rem; color: rgba(255,255,255,.92); }
+        .logo-card {
+            margin-top: 3rem; background: #fff; border-radius: .9rem; padding: .9rem 1.4rem;
+            box-shadow: 0 .6rem 1.6rem -.8rem rgba(0,0,0,.45);
+        }
+        .logo-card img { display: block; width: 15.5rem; max-width: 100%; height: auto; }
         /* Form panel */
-        .form { padding: 3rem 3.75rem 2.6rem; display: flex; flex-direction: column; }
-        .toolbar { display: flex; justify-content: flex-end; align-items: center; gap: .6rem; }
-        .seg { display: inline-flex; background: var(--seg-bg); border: 1px solid var(--line); border-radius: .9rem; padding: .25rem; }
-        .seg a {
-            min-width: 3.2rem; height: 2.9rem; padding: 0 .9rem; border-radius: .65rem; display: inline-flex; align-items: center; justify-content: center;
-            font: 700 1.05rem Inter, sans-serif; color: var(--muted); text-decoration: none;
-        }
-        .seg a[aria-current="true"] { background: var(--card); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
-        .seg a:not([aria-current="true"]):hover { color: var(--text); }
-        .tool {
-            width: 3.5rem; height: 3.5rem; border-radius: .9rem; border: 1px solid var(--line); background: var(--card);
-            color: var(--text); display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0;
-        }
-        .tool:hover { background: var(--field); }
-        .tool svg { width: 1.5rem; height: 1.5rem; stroke: currentColor; fill: none; stroke-width: 1.8; }
-        .eyebrow { margin: 2.2rem 0 0; color: var(--gold-ink); font-weight: 800; letter-spacing: .1rem; font-size: 1.05rem; text-transform: uppercase; }
-        .form h2 { font-size: 2.6rem; margin: .6rem 0 .4rem; font-weight: 800; letter-spacing: -.05rem; }
-        .intro { color: var(--muted); font-size: 1.35rem; margin: 0 0 2rem; }
+        .form { padding: 4rem 4.2rem 3rem; display: flex; flex-direction: column; justify-content: center; }
+        .form h2 { font-size: 2.6rem; margin: 0 0 1.8rem; font-weight: 600; letter-spacing: -.03rem; }
+        .intro { color: var(--muted); font-size: 1.2rem; margin: -1.1rem 0 1.6rem; }
         .ms {
-            width: 100%; height: 4.6rem; border-radius: 1.1rem; border: 1px solid var(--line); background: var(--card); color: var(--text);
-            font: 600 1.3rem Inter, sans-serif; display: flex; align-items: center; justify-content: center; gap: .9rem; text-decoration: none;
-            box-shadow: 0 1px 2px rgba(15,27,45,.08);
+            width: 100%; height: 4.4rem; border-radius: 1rem; border: 1px solid var(--line); background: var(--card); color: var(--text);
+            font: 600 1.25rem Inter, sans-serif; display: flex; align-items: center; justify-content: center; gap: .9rem; text-decoration: none;
         }
-        .ms:hover { background: var(--field); border-color: #B9C3CF; }
+        .ms:hover { background: #F7F9FB; border-color: #B9C3CF; }
         .ms svg { width: 1.5rem; height: 1.5rem; }
         details.local { margin-top: 1.4rem; border-top: 1px solid var(--line); padding-top: 1rem; }
         details.local summary { cursor: pointer; color: var(--muted); font-size: 1.1rem; font-weight: 600; list-style: none; }
@@ -108,100 +77,85 @@
         details.local[open] summary::before { transform: rotate(90deg); }
         details.local.always { border-top: 0; padding-top: 0; margin-top: 0; }
         details.local.always summary { display: none; }
-        .local-body { padding-top: 1.2rem; }
-        label { display: block; font-weight: 700; font-size: 1.15rem; margin: 0 0 .55rem; }
-        .field { position: relative; margin-bottom: 1.3rem; }
-        .field > svg { position: absolute; left: 1.2rem; top: 50%; transform: translateY(-50%); width: 1.4rem; height: 1.4rem; stroke: var(--muted); fill: none; stroke-width: 1.8; pointer-events: none; }
+        .local-body { padding-top: 1rem; }
+        details.local.always .local-body { padding-top: 0; }
+        label { display: block; font-weight: 500; font-size: 1.3rem; margin: 0 0 .6rem; }
+        .field { position: relative; margin-bottom: 1.5rem; }
         .field input {
-            width: 100%; height: 4.2rem; border-radius: 1rem; border: 1.5px solid var(--line); background: var(--field); color: var(--text);
-            font: 400 1.3rem Inter, sans-serif; padding: 0 3.6rem 0 3.5rem; outline: none; transition: border-color .15s, box-shadow .15s;
+            width: 100%; height: 4.4rem; border-radius: .9rem; border: 1px solid var(--line); background: var(--field); color: var(--text);
+            font: 400 1.3rem Inter, sans-serif; padding: 0 1.4rem; outline: none; transition: border-color .15s, box-shadow .15s;
         }
-        .field input::placeholder { color: #8893A2; }
-        .field input:focus { border-color: var(--green); box-shadow: 0 0 0 .2rem rgba(35,115,72,.15); }
+        .field input[type="password"], .field input.pwd { padding-right: 3.8rem; }
+        .field input::placeholder { color: #9AA4B2; }
+        .field input:focus { border-color: var(--maroon); box-shadow: 0 0 0 .2rem rgba(145, 25, 54, .14); }
         .field.has-error input { border-color: var(--maroon); }
-        .reveal { position: absolute; right: .6rem; top: 50%; transform: translateY(-50%); background: none; border: 0; padding: .5rem; cursor: pointer; color: var(--muted); border-radius: .6rem; }
+        .reveal { position: absolute; right: .7rem; top: 50%; transform: translateY(-50%); background: none; border: 0; padding: .5rem; cursor: pointer; color: var(--text); border-radius: .6rem; }
         .reveal svg { width: 1.5rem; height: 1.5rem; stroke: currentColor; fill: none; stroke-width: 1.8; display: block; }
-        .submit {
-            width: 100%; height: 4.4rem; border: 0; border-radius: 1.1rem; margin-top: .3rem; cursor: pointer; color: #fff;
-            font: 700 1.35rem Inter, sans-serif; background: linear-gradient(180deg, #158A52, var(--green-3));
-            box-shadow: 0 .8rem 1.6rem -.9rem rgba(10, 92, 54, .8);
+        .forgot-row { display: flex; justify-content: flex-end; margin: -.4rem 0 1.4rem; }
+        .forgot { background: none; border: 0; padding: 0; cursor: pointer; color: var(--maroon); font: 600 1.25rem Inter, sans-serif; }
+        .forgot:hover { text-decoration: underline; }
+        .note {
+            display: none; margin: -.6rem 0 1.4rem; background: var(--note-bg); border: 1px solid var(--note-line);
+            border-radius: .9rem; padding: .9rem 1.1rem; color: var(--muted); font-size: 1.1rem; line-height: 1.5;
         }
-        .submit:hover { filter: brightness(1.06); }
-        .submit:focus-visible, .tool:focus-visible, .reveal:focus-visible, .ms:focus-visible, .seg a:focus-visible, summary:focus-visible {
+        .note.show { display: block; }
+        .submit {
+            width: 100%; height: 4.6rem; border: 0; border-radius: 1rem; cursor: pointer; color: #fff;
+            font: 700 1.4rem Inter, sans-serif; background: var(--maroon);
+            box-shadow: 0 .7rem 1.4rem -.8rem rgba(122, 20, 48, .8);
+        }
+        .submit:hover { background: var(--maroon-2); }
+        .alert { border-radius: .9rem; padding: .9rem 1.2rem; margin: 0 0 1.4rem; font-size: 1.15rem; line-height: 1.5; background: var(--error-bg); border: 1px solid var(--error-line); }
+        .alert ul { margin: 0; padding-left: 1.2rem; }
+        .lang { display: flex; justify-content: center; margin-top: 2rem; }
+        .lang-box {
+            position: relative; display: inline-flex; align-items: center; gap: .6rem; border: 1px solid var(--line); border-radius: .9rem;
+            padding: 0 1rem; height: 3.6rem; background: var(--card);
+        }
+        .lang-box svg { width: 1.4rem; height: 1.4rem; stroke: var(--muted); fill: none; stroke-width: 1.7; flex: none; }
+        .lang-box select {
+            appearance: none; -webkit-appearance: none; border: 0; background: transparent; color: var(--text);
+            font: 500 1.2rem Inter, sans-serif; padding-right: 1.6rem; cursor: pointer; outline: none;
+        }
+        .lang-box .chev { position: absolute; right: .9rem; pointer-events: none; width: 1.1rem; height: 1.1rem; }
+        .submit:focus-visible, .reveal:focus-visible, .ms:focus-visible, .forgot:focus-visible, summary:focus-visible, .lang-box:focus-within {
             outline: 3px solid var(--gold); outline-offset: 2px;
         }
-        .alert { border-radius: 1rem; padding: .9rem 1.2rem; margin: 0 0 1.4rem; font-size: 1.15rem; line-height: 1.5; background: var(--error-bg); border: 1px solid var(--error-line); }
-        .alert ul { margin: 0; padding-left: 1.2rem; }
-        .help {
-            display: grid; grid-template-columns: 1.6rem 1fr; gap: .9rem; align-items: start; margin-top: 1.8rem;
-            background: var(--help-bg); border: 1px solid var(--help-line); border-radius: 1.1rem; padding: 1.1rem 1.3rem; color: var(--muted); font-size: 1.15rem; line-height: 1.5;
-        }
-        .help svg { width: 1.5rem; height: 1.5rem; stroke: var(--green); fill: none; stroke-width: 1.8; margin-top: .1rem; }
-        .help a { color: var(--green); font-weight: 600; }
-        .foot { margin-top: auto; padding-top: 1.8rem; color: var(--muted); font-size: 1.05rem; display: flex; justify-content: space-between; gap: .6rem; flex-wrap: wrap; }
-        .status { display: inline-flex; align-items: center; gap: .5rem; font-family: ui-monospace, Consolas, monospace; }
-        .dot { width: .55rem; height: .55rem; border-radius: 50%; background: #2DA160; box-shadow: 0 0 0 .2rem rgba(45,161,96,.2); }
         @media (max-width: 760px) {
             html { font-size: 14px; }
             body { padding: 1rem; align-items: flex-start; }
             .card { grid-template-columns: 1fr; min-height: 0; }
-            .card::before { width: 100%; }
-            .brand { padding: 1.75rem; }
-            .brand h1 { font-size: 2.4rem; margin-top: 1.5rem; }
-            .brand .tagline { font-size: 1.1rem; margin-top: 1rem; }
-            .features { display: none; }
-            .form { padding: 1.75rem; }
+            .brand { padding: 2.2rem 1.5rem 1.8rem; }
+            .brand h1 { font-size: 3rem; margin-top: 1rem; }
+            .headline { font-size: 1.4rem; }
+            .country { font-size: .8rem; letter-spacing: .18rem; }
+            .outbreak { font-size: 1rem; margin-top: 1rem; }
+            .logo-card { margin-top: 1.4rem; padding: .6rem 1rem; }
+            .logo-card img { width: 11rem; }
+            .form { padding: 1.8rem 1.4rem 1.6rem; }
+            .form h2 { font-size: 2rem; margin-bottom: 1.2rem; }
         }
     </style>
 </head>
 <body>
 <main class="card">
     <section class="brand" aria-label="AERIS">
+        <div class="flag" aria-hidden="true"><i></i><i></i><i></i></div>
+        <p class="country">${warehouse.message(code: 'aeris.login.country', default: 'Democratic Republic of the Congo')}</p>
+        <h1>AERIS</h1>
+        <p class="headline">${warehouse.message(code: 'aeris.login.headline', default: 'Ebola response stock management')}</p>
+        <div class="rule" aria-hidden="true"></div>
+        <p class="outbreak">${warehouse.message(code: 'aeris.login.outbreak', default: '17th Ebola Virus Disease outbreak')}</p>
         <div class="logo-card">
             <img src="${assetPath(src: 'africacdc_logo.png')}" alt="Africa CDC – Centres for Disease Control and Prevention" width="304" height="84"/>
         </div>
-        <h1>AERIS</h1>
-        <p class="subtitle">${warehouse.message(code: 'aeris.login.subtitle', default: 'Emergency Response Inventory System')}</p>
-        <p class="tagline">${warehouse.message(code: 'aeris.login.tagline', default: 'Response commodities tracked lot by lot, from donor receipt to signed release note.')}</p>
-        <ul class="features">
-            <li>
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M3 7v10l9 4 9-4V7"/><path d="M12 11v10"/></svg>
-                <div><b>${warehouse.message(code: 'aeris.login.feature1.title', default: 'Every lot, every expiry')}</b>
-                    <span>${warehouse.message(code: 'aeris.login.feature1.text', default: 'Stock received by lot and expiry; earliest expiry leaves first.')}</span></div>
-            </li>
-            <li>
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5"/><path d="M8.5 14.5l2 2 4-4.5"/></svg>
-                <div><b>${warehouse.message(code: 'aeris.login.feature2.title', default: 'Signed release notes')}</b>
-                    <span>${warehouse.message(code: 'aeris.login.feature2.text', default: 'Each issue traces to a signed bon de sortie.')}</span></div>
-            </li>
-            <li>
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/></svg>
-                <div><b>${warehouse.message(code: 'aeris.login.feature3.title', default: 'Hosted by Africa CDC')}</b>
-                    <span>${warehouse.message(code: 'aeris.login.feature3.text', default: 'Stock data stays on Africa CDC servers.')}</span></div>
-            </li>
-        </ul>
     </section>
 
     <section class="form">
-        <div class="toolbar">
-            <nav class="seg" aria-label="${warehouse.message(code: 'aeris.login.language', default: 'Language')}">
-                <g:each in="${locales}" var="l">
-                    <a href="${createLink(controller: 'auth', action: 'login', params: [lang: l, targetUri: params.targetUri])}"
-                       lang="${l}" hreflang="${l}" aria-current="${l == lang}"
-                       title="${l == 'fr' ? 'Français' : l == 'en' ? 'English' : l}">${l.toUpperCase()}</a>
-                </g:each>
-            </nav>
-            <button class="tool" type="button" id="themeToggle" aria-label="${warehouse.message(code: 'aeris.login.theme', default: 'Switch light or dark mode')}">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
-            </button>
-        </div>
-
-        <p class="eyebrow">Africa CDC<g:if test="${deploymentLabel}"> · ${deploymentLabel}</g:if></p>
-        <h2>${warehouse.message(code: 'aeris.login.title', default: 'Sign in')}</h2>
-        <p class="intro">
-            <g:if test="${microsoftEnabled}">${warehouse.message(code: 'aeris.login.microsoft.intro', default: 'Use your Africa CDC Microsoft 365 account.')}</g:if>
-            <g:else>${warehouse.message(code: 'aeris.login.intro', default: 'Use your AERIS account.')}</g:else>
-        </p>
+        <h2>${warehouse.message(code: 'aeris.login.heading', default: 'Sign in')}</h2>
+        <g:if test="${microsoftEnabled}">
+            <p class="intro">${warehouse.message(code: 'aeris.login.microsoft.intro', default: 'Use your Africa CDC Microsoft 365 account.')}</p>
+        </g:if>
 
         <g:if test="${flash.message}">
             <div class="alert" role="alert" aria-label="message">${flash.message}</div>
@@ -226,7 +180,6 @@
 
                     <label for="username">${warehouse.message(code: 'aeris.login.username.label', default: 'Username')}</label>
                     <div class="field ${hasErrors(bean: userInstance, field: 'username', 'has-error')}">
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
                         <input type="text" id="username" name="username" autocomplete="username" required
                                value="${userInstance?.username ?: params.username}"
                                placeholder="${warehouse.message(code: 'aeris.login.username.placeholder', default: 'e.g. firstname.lastname')}"/>
@@ -234,13 +187,22 @@
 
                     <label for="password">${warehouse.message(code: 'aeris.login.password.label', default: 'Password')}</label>
                     <div class="field ${hasErrors(bean: userInstance, field: 'password', 'has-error')}">
-                        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
-                        <input type="password" id="password" name="password" autocomplete="current-password" required
-                               placeholder="${warehouse.message(code: 'aeris.login.password.placeholder', default: 'Your AERIS password')}"/>
+                        <input type="password" class="pwd" id="password" name="password" autocomplete="current-password" required
+                               placeholder="••••••••"/>
                         <button type="button" class="reveal" id="reveal" aria-pressed="false"
                                 aria-label="${warehouse.message(code: 'aeris.login.showPassword', default: 'Show password')}">
                             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
                         </button>
+                    </div>
+
+                    <div class="forgot-row">
+                        <button type="button" class="forgot" id="forgot" aria-expanded="false" aria-controls="forgotNote">
+                            ${warehouse.message(code: 'aeris.login.forgot', default: 'Forgot password?')}
+                        </button>
+                    </div>
+                    <div class="note" id="forgotNote" role="note">
+                        <g:if test="${microsoftEnabled}">${warehouse.message(code: 'aeris.login.microsoft.help', default: "First time? Sign in with Microsoft once, then ask your team's AERIS focal point to activate your account.")}</g:if>
+                        <g:else>${warehouse.message(code: 'aeris.login.help', default: "No account or forgotten password? Ask your team's AERIS focal point.")}</g:else>
                     </div>
 
                     <button type="submit" class="submit" id="loginButton">${warehouse.message(code: 'aeris.login.submit', default: 'Sign in')}</button>
@@ -248,20 +210,18 @@
             </div>
         </details>
 
-        <div class="help">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6"/><circle cx="12" cy="17" r=".6"/></svg>
-            <div>
-                <g:if test="${microsoftEnabled}">${warehouse.message(code: 'aeris.login.microsoft.help', default: "First time? Sign in with Microsoft once, then ask your team's AERIS focal point to activate your account.")}</g:if>
-                <g:else>${warehouse.message(code: 'aeris.login.help', default: "No account or forgotten password? Ask your team's AERIS focal point.")}</g:else>
-                <g:if test="${grailsApplication.config.openboxes.signup.enabled}">
-                    <br/><g:link controller="auth" action="signup">${warehouse.message(code: 'auth.signup.label', default: 'Signup')}</g:link>
-                </g:if>
-            </div>
-        </div>
-
-        <div class="foot">
-            <span>Africa CDC · ${warehouse.message(code: 'aeris.login.footer', default: 'Emergency logistics')}</span>
-            <span class="status"><span class="dot" aria-hidden="true"></span>AERIS <g:meta name="info.app.version"/></span>
+        <div class="lang">
+            <label class="lang-box">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
+                <span class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">${warehouse.message(code: 'aeris.login.language', default: 'Language')}</span>
+                <select id="langSelect">
+                    <g:each in="${locales}" var="l">
+                        <option value="${createLink(controller: 'auth', action: 'login', params: [lang: l, targetUri: params.targetUri])}"
+                                lang="${l}" ${l == lang ? 'selected' : ''}>${l == 'fr' ? 'Français' : l == 'en' ? 'English' : l}</option>
+                    </g:each>
+                </select>
+                <svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </label>
         </div>
     </section>
 </main>
@@ -275,18 +235,20 @@
         var ms = document.getElementById('microsoftSignIn');
         if (ms && tz) { ms.href += (ms.href.indexOf('?') < 0 ? '?' : '&') + 'tz=' + encodeURIComponent(tz); }
 
-        document.getElementById('themeToggle').addEventListener('click', function () {
-            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-            document.documentElement.setAttribute('data-theme', next);
-            try { localStorage.setItem('aeris-theme', next); } catch (e) {}
-        });
-
         var reveal = document.getElementById('reveal'), pwd = document.getElementById('password');
         reveal.addEventListener('click', function () {
             var show = pwd.type === 'password';
             pwd.type = show ? 'text' : 'password';
             reveal.setAttribute('aria-pressed', String(show));
         });
+
+        var forgot = document.getElementById('forgot'), note = document.getElementById('forgotNote');
+        forgot.addEventListener('click', function () {
+            var open = note.classList.toggle('show');
+            forgot.setAttribute('aria-expanded', String(open));
+        });
+
+        document.getElementById('langSelect').addEventListener('change', function () { window.location.href = this.value; });
 
         // Focus the first useful control
         var local = document.querySelector('details.local');
