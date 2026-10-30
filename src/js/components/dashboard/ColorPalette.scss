@@ -15,47 +15,47 @@ $tertiary :#0c60e5;
 $tertiary-dark : #0a58d5;
 $tertiary-light: #186cf2;
 
-// State Colors
-$state-1 : #f57c00;
-$state-2 : #f2a365;
-$state-3 : #00796b;
-$state-4 : #116979;
-$state-5 : #0288d1;
-$state-6 : #303f9f;
-$state-7 : #7b1fa2;
-$state-8 : #b80d57;
+// State Colors (AERIS: Africa CDC palette: crimson, AU green, AU gold, navy, bronze, blue, green, slate)
+$state-1 : #9F2241;
+$state-2 : #1A5632;
+$state-3 : #B4A269;
+$state-4 : #0E2A47;
+$state-5 : #B45F06;
+$state-6 : #00558C;
+$state-7 : #008755;
+$state-8 : #455A75;
 $state-9 : var(--color-red);
 
-$dark-state-1 : #e65100;
-$dark-state-2 : #bc5b10;
-$dark-state-3 : #004d40;
-$dark-state-4 : #0a3a43;
-$dark-state-5 : #01579b;
-$dark-state-6 : #1a237e;
-$dark-state-7 : #4a148c;
-$dark-state-8 : #770838;
+$dark-state-1 : #6E1229;
+$dark-state-2 : #0F3A21;
+$dark-state-3 : #8A7A45;
+$dark-state-4 : #061A2E;
+$dark-state-5 : #7E4204;
+$dark-state-6 : #003A61;
+$dark-state-7 : #005C3A;
+$dark-state-8 : #2E3D50;
 
-$light-state-1 :#ffa726;
-$light-state-2 : #f7c6a1;
-$light-state-3 : #26a69a;
-$light-state-4 : #199cb3;
-$light-state-5 : #29b6f6;
-$light-state-6 : #5c6bc0;
-$light-state-7 : #ab47bc;
-$light-state-8 : #f0287f;
+$light-state-1 : #C25A74;
+$light-state-2 : #4E8A63;
+$light-state-3 : #D3C597;
+$light-state-4 : #3E5A78;
+$light-state-5 : #D98A3D;
+$light-state-6 : #3D86B8;
+$light-state-7 : #3DB385;
+$light-state-8 : #7A8CA3;
 
-// GYR colors
-$success : #689f38;
-$warning : #fbc02d;
-$error : #d32f2f;
+// GYR colors (AERIS: AU green, alert orange, red)
+$success : #1A5632;
+$warning : #F28E2B;
+$error : #C0392B;
 
-$dark-success : #33691e;
-$dark-warning : #f57f17;
-$dark-error : #b71c1c;
+$dark-success : #0F3A21;
+$dark-warning : #B45F06;
+$dark-error : #8E2A20;
 
-$light-success : #9ccc65;
-$light-warning : #ffee58;
-$light-error : #ef5350;
+$light-success : #4E8A63;
+$light-warning : #F7B36B;
+$light-error : #E06B5E;
 
 :export {
   default: $default;

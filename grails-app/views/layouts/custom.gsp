@@ -50,6 +50,8 @@
     <g:layoutHead />
 
     <g:render template="/common/customCss"/>
+    <%-- AERIS: Africa CDC brand layer, loaded after every other stylesheet --%>
+    <link rel="stylesheet" href="${resource(dir:'css',file:'aeris-brand.css')}?v=${g.meta(name: 'build.time')}" type="text/css" media="all" />
     <g:render template="/common/fullstory"/>
     <g:render template="/common/hotjar"/>
 

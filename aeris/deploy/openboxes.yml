@@ -1,11 +1,8 @@
 # AERIS production configuration (mounted read-only into the app). Secrets stay in .env, not here.
 openboxes:
   logo:
-    url: "/openboxes/assets/aeris_logo_40x40.png"
+    # Logo URLs come from the image and follow the context path; set url: only to use another logo.
     label: "Ebola Response"
-  report:
-    logo:
-      url: "/openboxes/assets/aeris_logo_100.png"
   locale:
     defaultLocale: 'en'
     supportedLocales: ['en', 'fr']

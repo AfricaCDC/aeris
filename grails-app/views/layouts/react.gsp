@@ -16,6 +16,8 @@
     <div style="flex: 1">
         <g:layoutBody />
     </div>
+    <%-- AERIS: Africa CDC brand layer, after the webpack bundle's stylesheet so it wins --%>
+    <link rel="stylesheet" href="${resource(dir:'css',file:'aeris-brand.css')}?v=${g.meta(name: 'build.time')}" type="text/css" media="all" />
 <%= NewRelic.getBrowserTimingFooter() %>
 </body>
 </html>

@@ -6,7 +6,10 @@
 <div id="footer">
 	<div style="line-height: 2em;" class="center middle">
 		&copy; <g:copyrightYear/>
-        <a href="https://openboxes.com"><warehouse:message code="default.poweredBy.label" default="Powered by OpenBoxes"/></a> &nbsp;&nbsp; | &nbsp;&nbsp;
+        <a href="https://openboxes.com"><warehouse:message code="default.poweredBy.label" default="Powered by OpenBoxes"/></a>
+        <%-- AERIS: version, server and timing details for administrators only --%>
+        <g:isUserInRole roles="[RoleType.ROLE_ADMIN, RoleType.ROLE_SUPERUSER]">
+        &nbsp;&nbsp; | &nbsp;&nbsp;
         <g:message code="application.grailsVersion.label"/>: &nbsp; <b><g:meta name="info.app.grailsVersion"></g:meta></b> &nbsp;&nbsp; | &nbsp;&nbsp;
         <g:message code="application.version.label"/>: &nbsp;<b><a href="https://github.com/openboxes/openboxes/releases/tag/v${g.meta(name:'info.app.version')}"><g:meta name="info.app.version"/></a></b>&nbsp;&nbsp; | &nbsp;&nbsp;
         <g:if test="${gitProperties}">
@@ -15,6 +18,7 @@
         </g:if>
 		<g:message code="application.environment.label"/>: <b>${grails.util.Environment?.current?.name}</b> &nbsp;&nbsp; | &nbsp;&nbsp;
 		<g:message code="application.buildDate.label"/>: <b>${g.meta(name: "build.time") ?: g.message(code: "application.realTimeBuild.label")}</b>
+        </g:isUserInRole>
     </div>
     <div class="center" style="line-height: 2em;">
 		<g:message code="default.locale.label"/>: &nbsp;
@@ -36,14 +40,13 @@
 				${warehouse.message(code: "locale." + l + ".label", default: locale?.getDisplayName(locale ?: defaultLocale))}
 			</a>
 		</g:each>
-		<g:isUserInRole roles="[RoleType.ROLE_ADMIN]">
+		<g:isUserInRole roles="[RoleType.ROLE_ADMIN, RoleType.ROLE_SUPERUSER]">
 			&nbsp;&nbsp; | &nbsp;&nbsp;
 			<a href="${createLink(controller: 'user', action: 'updateAuthUserLocale',
 				params: ['locale':'debug','targetUri':targetUri])}">
 				<g:message code="admin.debug.label"/>:
 			</a>
 			<b>${session.useDebugLocale ?"on":"off" }</b>
-		</g:isUserInRole>
         &nbsp;&nbsp; | &nbsp;&nbsp;
         <span>
             <g:message code="default.ipAddress.label" default="IP Address"/>: &nbsp;
@@ -71,5 +74,7 @@
                 <b>${(request?.pageLoadInMilliseconds?:0)/1000}s</b>
             </span>
         </g:if>
+		</g:isUserInRole>
 	</div>
+    <div class="aeris-brand-footer"><a href="https://africacdc.org">www.africacdc.org</a></div>
 </div>

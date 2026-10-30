@@ -1,13 +1,13 @@
 // AERIS (Africa CDC Emergency Response Inventory System) theme.
-// Re-points the upstream blue palette to the Africa CDC logo colours:
+// Re-points the upstream blue palette to the official Africa CDC colours (design system):
 // maroon (wordmark) as primary, gold (seal ring) and green (hands, laurels) as accents.
 
 :root {
-  --aeris-maroon: #911936;
-  --aeris-maroon-dark: #6E1229;
+  --aeris-maroon: #9F2241;
+  --aeris-maroon-dark: #7A1A32;
   --aeris-maroon-darker: #4D0C1C;
-  --aeris-gold: #BCA053;
-  --aeris-green: #237348;
+  --aeris-gold: #B4A269;
+  --aeris-green: #1A5632;
 
   --blue-primary: var(--aeris-maroon);
   --blue-100: #FBF5F7;
@@ -21,9 +21,9 @@
   --blue-800: var(--aeris-maroon-darker);
 }
 
-// Gold rule under the main header, as on Africa CDC material.
+// Crimson rule under the main header (the full brand layer is src/main/webapp/css/aeris-brand.css).
 .main-wrapper {
-  border-bottom: 3px solid var(--aeris-gold);
+  border-bottom: 4px solid var(--aeris-maroon);
 }
 
 // Environment tag next to the location chooser (openboxes.logo.label): gold instead of red.

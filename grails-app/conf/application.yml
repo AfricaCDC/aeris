@@ -604,7 +604,8 @@ openboxes:
 
     # Allow users to customize logo image url as well as label
     logo:
-        url: "${server.contextPath}/assets/aeris_logo_40x40.png"
+        # AERIS: the full Africa CDC logo in the header (aeris-brand.css sizes it); the seal stays on printed reports
+        url: "${server.contextPath}/assets/africacdc_logo.png"
         label: "AERIS"
     report:
         logo:

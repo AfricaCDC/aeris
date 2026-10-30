@@ -1,0 +1,266 @@
+/*
+ * AERIS brand layer: the Africa CDC design system on top of OpenBoxes, after sign-in.
+ * Loaded last by both layouts (custom.gsp for Grails pages, react.gsp for React pages),
+ * so it wins over openboxes.css and the webpack bundle at equal specificity.
+ * Tokens: crimson #9F2241, AU green #1A5632, AU gold #B4A269, sand surfaces, Encode Sans + Arial.
+ * Encode Sans is bundled (SIL Open Font License, fonts/encode-sans/OFL.txt): no call to Google from the depots.
+ */
+
+@font-face {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 400 900;
+    font-display: swap;
+    src: url('fonts/encode-sans/EncodeSans-latin-ext.woff2') format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 400 900;
+    font-display: swap;
+    src: url('fonts/encode-sans/EncodeSans-latin.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 1. Colours: official Africa CDC values, re-pointing the upstream blue scale */
+:root {
+    --acdc-crimson: #9F2241;
+    --acdc-crimson-dark: #7A1A32;
+    --acdc-crimson-darker: #4D0C1C;
+    --acdc-green: #1A5632;
+    --acdc-gold: #B4A269;
+    --acdc-bronze: #B45F06;
+    --acdc-navy: #0E2A47;
+    --acdc-ink: #1F2937;
+    --acdc-grey: #53575A;
+    --acdc-sand: #F5F3EE;
+    --acdc-sand-2: #F1ECE3;
+    --acdc-sand-3: #EEE7D6;
+    --acdc-mint: #F6F8F7;
+    --acdc-blush: #FDF0F3;
+    --acdc-heading: 'Encode Sans', Arial, sans-serif;
+    --acdc-body: Arial, Helvetica, sans-serif;
+
+    --aeris-maroon: var(--acdc-crimson);
+    --aeris-maroon-dark: var(--acdc-crimson-dark);
+    --aeris-maroon-darker: var(--acdc-crimson-darker);
+    --aeris-gold: var(--acdc-gold);
+    --aeris-green: var(--acdc-green);
+
+    --blue-primary: var(--acdc-crimson);
+    --blue-100: #FBF5F7;
+    --blue-200: #F6E9ED;
+    --blue-201: #F9F0F3;
+    --blue-202: #EED6DD;
+    --blue-300: #F1ECE3;
+    --blue-301: #E4D9C4;
+    --blue-400: #C25A74;
+    --blue-401: #A8284A;
+    --blue-500: var(--acdc-crimson);
+    --blue-700: var(--acdc-crimson-dark);
+    --blue-800: var(--acdc-crimson-darker);
+    --color-green: var(--acdc-green);
+    --page-background: var(--acdc-sand);
+}
+
+/* 2. Type: Arial for reading, Encode Sans for headings, menu, figures and labels */
+body, #main-wrapper, .main-wrapper, td, th, input, select, textarea, button {
+    font-family: var(--acdc-body);
+}
+#main-wrapper .nav-item a, #main-wrapper .nav-item button,
+.main-wrapper .nav-item a, .main-wrapper .nav-item button,
+.location-chooser__button,
+h1, h2, h3, .title, .title-text, .create-page-title, .list-page-header .title,
+.number-card .title-card, .number-card .result-card, .number-card .result-part,
+.graph-card .header-card, .configs-left-nav,
+.button, .primary-button, .btn {
+    font-family: var(--acdc-heading);
+}
+
+/* 3. Header: white bar, Africa CDC logo, crimson rule; depot chip keeps the gold "Ebola Response" tag */
+#main-wrapper, .main-wrapper {
+    background: #fff;
+    box-shadow: none;
+    border-bottom: 4px solid var(--acdc-crimson) !important;
+}
+#main-wrapper #logo-wrapper > #logo-square,
+.main-wrapper .logo-wrapper .logo-square,
+#main-wrapper #logo-wrapper > #logo-square img,
+.main-wrapper .logo-wrapper .logo-square img {
+    width: auto;
+    height: 40px;
+    border: 0;
+    border-radius: 0;
+}
+#main-wrapper #logo-wrapper > #logo-square img,
+.main-wrapper .logo-wrapper .logo-square img {
+    max-width: 160px;
+    object-fit: contain;
+}
+#main-wrapper .nav-item a, #main-wrapper .nav-item button,
+.main-wrapper .nav-item a, .main-wrapper .nav-item button {
+    color: var(--acdc-ink) !important;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 10px !important;
+}
+#main-wrapper .active-section, .main-wrapper .active-section {
+    box-shadow: 0 -4px 0 var(--acdc-crimson) inset;
+}
+#main-wrapper .active-section .nav-link, .main-wrapper .active-section .nav-link {
+    color: var(--acdc-crimson) !important;
+}
+.navbar-nav > .dropdown.nav-item:hover, .collapse-nav-item > .nav-link:hover {
+    background-color: var(--acdc-sand) !important;
+}
+.location-chooser__button {
+    border-radius: 0 !important;
+    border-color: var(--acdc-sand-3) !important;
+}
+.location-chooser__button .location-chooser__button-tag {
+    background-color: var(--acdc-gold) !important;
+    color: #2A2210 !important;
+    border-radius: 0 !important;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.navbar-icons .menu-icon, #main-wrapper .menu-icon { color: var(--acdc-crimson); }
+
+/* 4. Page titles: crimson capitals (Grails pages and React list pages) */
+.summary .title, .list-page-header .title, .create-page-title, .title-text, .graph-card .header-card {
+    color: var(--acdc-crimson) !important;
+}
+.summary .title, .list-page-header .title, .create-page-title {
+    font-weight: 900 !important;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+}
+.summary .title { font-size: 20px; line-height: 1.3; }
+.summary { background-color: #fff; border-bottom: 1px solid var(--acdc-sand-3); }
+.list-page-header .title { font-size: 22px !important; line-height: 1.2 !important; }
+.list-page-main, #bd { background-color: var(--acdc-sand); }
+.box > h2, .box h2:first-child, .title-text, .graph-card .header-card {
+    font-family: var(--acdc-heading);
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+.box > h2, .box h2:first-child {
+    color: var(--acdc-green);
+    background: var(--acdc-sand-2);
+    border-bottom: 1px solid var(--acdc-sand-3);
+}
+
+/* 5. Dashboard: square tiles with a coloured top bar, heavy figures, sand side menu */
+.number-card, .graph-card, .box, .list-page-filters, .list-page-list-section, .dialog {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.box { border-color: var(--acdc-sand-3); background-color: #fff; }
+.number-card { border-top: 6px solid var(--acdc-crimson); background: #fff; }
+.card-component > :nth-child(4n+2) .number-card, .card-component > .number-card:nth-child(4n+2) { border-top-color: var(--acdc-green); }
+.card-component > :nth-child(4n+3) .number-card, .card-component > .number-card:nth-child(4n+3) { border-top-color: var(--acdc-bronze); }
+.card-component > :nth-child(4n+4) .number-card, .card-component > .number-card:nth-child(4n+4) { border-top-color: var(--acdc-navy); }
+.number-card .number-body .title-card {
+    color: var(--acdc-grey);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+.number-card .number-body .result-card, .number-card .number-body .result-part {
+    color: var(--acdc-ink);
+    font-weight: 900;
+}
+.number-card .number-body .subtitle-card { color: var(--acdc-grey); }
+.graph-card { border-top: 6px solid var(--acdc-green); }
+.graph-card .header-card { border-bottom-color: var(--acdc-sand-3); }
+.configs-left-nav { background-color: var(--acdc-sand-2) !important; box-shadow: none !important; }
+.configs-left-nav .configs-list a, .configs-left-nav .configs-list button { color: var(--acdc-ink); }
+.configs-left-nav .active, .configs-left-nav [aria-selected="true"] {
+    background-color: #fff !important;
+    box-shadow: 6px 0 0 var(--acdc-crimson) inset;
+    color: var(--acdc-crimson) !important;
+}
+
+/* 6. Tables: AU green header in white capitals, sand banding; tags in AU green */
+.box table th, table.dataTable thead th, #inventoryBrowserTable th, .list th,
+.app-react-table .rt-thead .rt-th, .app-react-table .rt-thead.-header .rt-th,
+.v2-table thead th, .data-table thead th {
+    background: var(--acdc-green) !important;
+    color: #fff !important;
+    font-family: var(--acdc-heading);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    border-color: var(--acdc-green) !important;
+}
+.box table th a, .box table th a:link, .box table th a:visited, .list th a,
+table.dataTable thead th a, .app-react-table .rt-thead .rt-th a {
+    color: #fff !important;
+}
+.odd, table.dataTable tbody tr.odd, table.dataTable tbody tr.odd td.sorting_1,
+.app-react-table .rt-tbody .rt-tr-group:nth-child(odd) .rt-tr {
+    background-color: var(--acdc-sand) !important;
+}
+.list tbody tr:hover, .app-react-table .rt-tbody .rt-tr:hover {
+    background: var(--acdc-sand-3) !important;
+}
+.tag, .tag-label, span.tag, .badge-tag {
+    background-color: #E3EEE7 !important;
+    color: var(--acdc-green) !important;
+    border: 1px solid #C3D9CB !important;
+    border-radius: 0 !important;
+}
+.list-page-filters, .dialog .box, .yui-u.first .box { background-color: var(--acdc-sand-2); }
+
+/* 7. Buttons: square crimson for the main action, crimson outline for the others */
+.primary-button, .btn-primary, input[type=submit].button, button.button.primary {
+    background-color: var(--acdc-crimson) !important;
+    border-color: var(--acdc-crimson) !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    font-weight: 700;
+}
+.primary-button:hover, .btn-primary:hover { background-color: var(--acdc-crimson-dark) !important; }
+.button, .btn-outline-primary, .secondary-button {
+    border-radius: 0 !important;
+    border: 1px solid var(--acdc-crimson) !important;
+    color: var(--acdc-crimson) !important;
+    background: #fff !important;
+    background-image: none !important;
+    font-weight: 600;
+}
+.button:hover, .btn-outline-primary:hover, .secondary-button:hover { background: var(--acdc-blush) !important; }
+a, a:link, a:visited { color: var(--acdc-crimson); }
+#main-wrapper a, .main-wrapper a { color: inherit; }
+
+/* 8. Footer: crimson bar and www.africacdc.org (technical details are admin-only, see the footer templates) */
+.aeris-brand-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    margin-top: 16px;
+}
+.aeris-brand-footer::before {
+    content: "";
+    flex: 1;
+    height: 10px;
+    background: var(--acdc-crimson);
+}
+.aeris-brand-footer a {
+    font-family: var(--acdc-heading);
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--acdc-crimson) !important;
+    padding-right: 24px;
+    text-decoration: none;
+}
+#footer, .footer { color: var(--acdc-grey); font-size: 11px; }
+#footer a.selected, .footer .selected { color: var(--acdc-crimson); font-weight: 700; }
