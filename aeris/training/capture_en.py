@@ -20,6 +20,7 @@ os.makedirs(SHOTS, exist_ok=True)
 STEPS_FILE = os.path.join(HERE, "steps_en.json")
 ACCOUNTS = os.path.join(sys.argv[1], "aeris", "tools", "test-accounts.local.txt")
 SCENES = [int(a) for a in sys.argv[2:]]
+TODAY = time.strftime("%d/%m/%Y")  # typed dates: AERIS refuses arrivals before the ship date (today)
 
 BUNIA = "2c938083a153d0e401a153d92d8d0052"
 ISIRO = "2c938083a154558001a1545cad71001a"
@@ -132,9 +133,9 @@ def scene1(page):
     r.shot("This is the sign-in page of AERIS, the stock management system of the Africa CDC Ebola response. "
            "Open the address given by your supervisor in Chrome or Edge.",
            "Open AERIS in your browser")
-    r.shot("The screen is in English by default. If you prefer French, click F R at the top right; E N brings "
-           "English back.",
-           "EN / FR: choose the language", hl=["a[href*='lang=en']", "a[href*='lang=fr']"])
+    r.shot("The screen is in English by default. If you prefer French, choose Français in the language menu "
+           "below the Sign in button.",
+           "Language menu: English / Français", hl="#langSelect")
     page.fill("input[name=username]", "magasinier.bunia")
     page.fill("input[name=password]", password())
     r.shot("Enter your username and password, then click Sign in. Never share your password: every movement is "
@@ -182,8 +183,15 @@ def choose_type(page, st, label="Land"):
         if not opt.is_visible():
             page.keyboard.type(label[:2], delay=80)
             time.sleep(0.8)
+        if not opt.is_visible():
+            st.scroll_into_view_if_needed()
+            st.focus()
+            page.keyboard.press("ArrowDown")
+            time.sleep(0.8)
         if opt.is_visible():
             break
+    if not opt.is_visible():
+        print("  options seen:", [o.inner_text() for o in page.locator("[id*='-option-']").all()])
     opt.click()
     time.sleep(0.5)
 
@@ -203,7 +211,7 @@ def scene3(page):
     pick(page, 0, "UNICEF")
     pick(page, 3, "Magasinier", "Magasinier Bunia")
     page.locator("input[name=dateRequested]").click()
-    page.keyboard.type("20/10/2026", delay=40)
+    page.keyboard.type(TODAY, delay=40)
     page.keyboard.press("Tab")
     time.sleep(0.5)
     r.shot("Fill in the header. Description: the delivery note number. Origin: the donor, here UNICEF. The "
@@ -244,7 +252,7 @@ def scene3(page):
     st = rsel(page, 2)
     choose_type(page, st)
     page.locator("input[name=expectedDeliveryDate]").click()
-    page.keyboard.type("20/10/2026", delay=40)
+    page.keyboard.type(TODAY, delay=40)
     page.keyboard.press("Tab")
     time.sleep(0.6)
     r.shot("Last step of the record: choose the shipment type, for example Land, and the arrival date. Then click "
@@ -312,7 +320,7 @@ def outbound(page, r, destination, dest_option, description, items, narrate=True
     pick(page, 1, destination, dest_option)
     pick(page, 2, "Magasinier", "Magasinier Bunia")
     page.locator("#dateRequested").click()
-    page.keyboard.type("20/10/2026", delay=40)
+    page.keyboard.type(TODAY, delay=40)
     page.keyboard.press("Escape")
     pick(page, 3, "Ad", "Adhoc")
     time.sleep(0.5)

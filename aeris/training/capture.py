@@ -20,6 +20,7 @@ os.makedirs(SHOTS, exist_ok=True)
 STEPS_FILE = os.path.join(HERE, "steps.json")
 ACCOUNTS = os.path.join(sys.argv[1], "aeris", "tools", "test-accounts.local.txt")
 SCENES = [int(a) for a in sys.argv[2:]]
+TODAY = time.strftime("%d/%m/%Y")  # typed dates: AERIS refuses arrivals before the ship date (today)
 
 BUNIA = "2c938083a153d0e401a153d92d8d0052"
 ISIRO = "2c938083a154558001a1545cad71001a"
@@ -103,9 +104,11 @@ def scene1(page):
     r.shot("Voici la page de connexion d'AERIS, le système de gestion des stocks de la riposte Ebola d'Africa CDC. "
            "Ouvrez l'adresse donnée par votre responsable dans Chrome ou Edge.",
            "Ouvrir AERIS dans le navigateur")
-    r.shot("D'abord, mettez l'écran en français : cliquez sur F R, en haut à droite.",
-           "Cliquer sur FR pour le français", hl="a[href*='lang=fr']")
-    page.click("a[href*='lang=fr']")
+    r.shot("D'abord, mettez l'écran en français : sous le bouton Sign in, choisissez Français dans le menu "
+           "des langues.",
+           "Menu des langues : choisir Français", hl="#langSelect")
+    with page.expect_navigation():
+        page.select_option("#langSelect", label="Français")
     wait_idle(page)
     page.fill("input[name=username]", "magasinier.bunia")
     page.fill("input[name=password]", password())
@@ -185,7 +188,7 @@ def scene3(page):
     pick(page, 0, "UNICEF")
     pick(page, 3, "Magasinier", "Magasinier Bunia")
     page.locator("input[name=dateRequested]").click()
-    page.keyboard.type("20/10/2026", delay=40)
+    page.keyboard.type(TODAY, delay=40)
     page.keyboard.press("Tab")
     time.sleep(0.5)
     r.shot("Remplissez l'en-tête. Description : le numéro du bordereau de livraison. Origine : le donateur, ici "
@@ -230,10 +233,10 @@ def scene3(page):
     time.sleep(0.8)
     page.locator("[id*='-option-']", has_text=re.compile("Route|Land")).first.click()
     page.locator("input[name=expectedDeliveryDate]").click()
-    page.keyboard.type("20/10/2026", delay=40)
+    page.keyboard.type(TODAY, delay=40)
     page.keyboard.press("Tab")
     time.sleep(0.6)
-    r.shot("Dernière étape de l'enregistrement : choisissez le type de livraison, par exemple Route, et la date "
+    r.shot("Dernière étape de l'enregistrement : choisissez le type de livraison, par exemple Land, c'est-à-dire la route, et la date "
            "d'arrivée. Cliquez ensuite sur Send shipment : cela enregistre la livraison comme en route vers vous.",
            "Type de livraison · date d'arrivée → « Send shipment »",
            hl=[st, "input[name=expectedDeliveryDate]",
@@ -299,7 +302,7 @@ def outbound(page, r, destination, dest_option, description, items, narrate=True
     pick(page, 1, destination, dest_option)
     pick(page, 2, "Magasinier", "Magasinier Bunia")
     page.locator("#dateRequested").click()
-    page.keyboard.type("20/10/2026", delay=40)
+    page.keyboard.type(TODAY, delay=40)
     page.keyboard.press("Escape")
     pick(page, 3, "Ad", "Adhoc")
     time.sleep(0.5)
@@ -351,7 +354,7 @@ def outbound(page, r, destination, dest_option, description, items, narrate=True
     page.locator(".react-datepicker__day--today, .react-datepicker__day--020:not(.react-datepicker__day--outside-month)").first.click()
     time.sleep(0.6)
     if narrate:
-        r.shot("Dernier écran : le type de livraison, Route, et la date d'arrivée prévue. Vérifiez la liste, "
+        r.shot("Dernier écran : le type de livraison, Land pour la route, et la date d'arrivée prévue. Vérifiez la liste, "
                "puis cliquez sur Envoyer la livraison. Le stock diminue à ce moment-là.",
                "Type de livraison · date prévue → « Envoyer la livraison »",
                hl=[st, page.get_by_role("button", name="Envoyer la livraison")])
