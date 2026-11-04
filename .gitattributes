@@ -3,3 +3,7 @@
 src/main/webapp/vendor/** -text
 # AERIS: deployment files run on Linux servers
 aeris/deploy/** text eol=lf
+
+# Catalogue import files: keep LF, the AERIS product CSV import splits lines on 
+
+aeris/catalogue/**/*.csv text eol=lf
