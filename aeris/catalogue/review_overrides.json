@@ -1,0 +1,2582 @@
+{
+"ACDC-MED-011": {
+"name": "ASCORBIC ACID (Vitamin C), 250 mg",
+"fr": "Acide ascorbique (vitamine C), 250 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-012": {
+"name": "FOLIC ACID, 5 mg",
+"fr": "Acide folique, 5 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-013": {
+"name": "ALBENDAZOLE, 400 mg",
+"fr": "Albendazole, 400 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-014": {
+"name": "HYDRO-ALCOHOLIC solution, 500 ml",
+"fr": "Solution hydroalcoolique, 500 ml",
+"unit": "bottle / flacon"
+},
+"ACDC-MED-015": {
+"name": "AMOXICILLIN 500 mg / CLAVULANIC ACID 125 mg",
+"fr": "Amoxicilline 500 mg / acide clavulanique 125 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-016": {
+"name": "AMOXICILLIN, 250 mg",
+"fr": "Amoxicilline, 250 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-017": {
+"name": "AMOXICILLIN, 500 mg",
+"fr": "Amoxicilline, 500 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-018": {
+"name": "AMPHOTERICIN B (sodium deoxycholate) Powder intravenous, 50 mg/vial",
+"fr": "Amphotéricine B (désoxycholate de sodium) Poudre injectable 50 mg/flacon",
+"unit": "vial / fiole"
+},
+"ACDC-MED-019": {
+"name": "AMPICILLIN, 1 g, powder",
+"fr": "Ampicilline, 1 g, poudre",
+"unit": "vial / fiole"
+},
+"ACDC-MED-020": {
+"name": "AMPICILLIN, 500 mg, powder",
+"fr": "Ampicilline, 500 mg, poudre",
+"unit": "vial / fiole"
+},
+"ACDC-MED-021": {
+"name": "ARTEMETHER 20mg / LUMEFANTRINE 120mg, infant blister 6 tabs",
+"fr": "Arteméther 20 mg / luméfantrine 120 mg, nourrisson, plaquette de 6 cp",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-022": {
+"name": "ARTEMETHER 20mg / LUMEFANTRINE 120mg, child blister 12 tabs",
+"fr": "Arteméther 20 mg / luméfantrine 120 mg, enfant, plaquette de 12 cp",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-023": {
+"name": "ARTEMETHER 20mg / LUMEFANTRINE 120mg, blister 18 tabs",
+"fr": "Arteméther 20 mg / luméfantrine 120 mg, plaquette de 18 cp",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-024": {
+"name": "ARTEMETHER 20mg / LUMEFANTRINE 120mg, adult blister 24 tabs",
+"fr": "Arteméther 20 mg / luméfantrine 120 mg, adulte, plaquette de 24 cp",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-025": {
+"name": "ARTESUNATE 60 mg, powder, vial + NaHCO3 5% 1ml + NaCl 0.9% 5ml",
+"fr": "Artesunate 60 mg, poudre, flacon + NaHCO3 5 % 1 ml + NaCl 0,9 % 5 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-026": {
+"name": "ATROPINE sulfate, 1 mg/ml, 1 ml",
+"fr": "Atropine sulfate, 1 mg/ml, 1 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-027": {
+"name": "AZITHROMYCIN 500 mg",
+"fr": "Azithromycine 500 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-028": {
+"name": "AZITHROMYCIN, 250 mg",
+"fr": "Azithromycine, 250 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-029": {
+"name": "Azithromycin 500 mg, lyophilized powder IV",
+"fr": "Azithromycine 500 mg, poudre lyophilisée IV",
+"unit": "vial / fiole"
+},
+"ACDC-MED-030": {
+"name": "BETAMETHASONE VALERATE, equivalent to 0.1% base, cream, 15 g",
+"fr": "Betaméthasone valérate, éq. 0,1 % base, crème, 15 g",
+"unit": "tube"
+},
+"ACDC-MED-031": {
+"name": "HYOSCINE BUTYLBROMIDE (scopolamine butylbromide), 10 mg, tablet",
+"fr": "Butylbromure d'hyoscine (butylbromure de scopolamine), 10 mg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-032": {
+"name": "HYOSCINE BUTYLBROMIDE (scopolamine butylbromide), 20 mg/1 ml",
+"fr": "Butylbromure d'hyoscine (butylbromure de scopolamine), 20 mg/1 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-033": {
+"name": "CALCIUM GLUCONATE, 100 mg/ml, 10 ml",
+"fr": "Gluconate de calcium, 100 mg/ml, 10 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-034": {
+"name": "ZINC OXIDE, 10%, ointment, 100 g",
+"fr": "Oxyde de zinc, 10 %, pommade, 100 g",
+"unit": "tube"
+},
+"ACDC-MED-035": {
+"name": "CARBAMAZEPINE, 200 mg, tablet",
+"fr": "Carbamazépine, 200 mg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-036": {
+"name": "Carbamazepine Oral Liquid 300 ml, 100 mg/5 mL",
+"fr": "Carbamazépine, forme buvable, 300 ml, 100 mg/5 mL",
+"unit": "bottle / flacon"
+},
+"ACDC-MED-037": {
+"name": "CEFAZOLIN, 1 g, (IV), powder",
+"fr": "Céfazoline, 1 g, (IV), poudre",
+"unit": "vial / fiole"
+},
+"ACDC-MED-038": {
+"name": "CEFIXIME, 100 mg/5ml, powder for oral suspension, 60 ml",
+"fr": "Céfixime, 100 mg/5 ml, poudre pour suspension buvable, 60 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-039": {
+"name": "CEFIXIME, 200 mg",
+"fr": "Céfixime, 200 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-040": {
+"name": "CEFTRIAXONE, 250 mg, powder with IV solvent",
+"fr": "Ceftriaxone, 250 mg, poudre + solvant IV",
+"unit": "vial / fiole"
+},
+"ACDC-MED-041": {
+"name": "CEFTRIAXONE, 1 g, powder with IV solvent",
+"fr": "Ceftriaxone, 1 g, poudre + solvant IV",
+"unit": "vial / fiole"
+},
+"ACDC-MED-042": {
+"name": "CHLORPHENIRAMINE maleate, 4 mg",
+"fr": "Chlorpheniramine maléate, 4 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-043": {
+"name": "CHLORPROMAZINE, 25 mg/ml, 2 ml",
+"fr": "Chlorpromazine, 25 mg/ml, 2 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-044": {
+"name": "CIPROFLOXACIN hydrochloride, equivalent to 250 mg base",
+"fr": "Ciprofloxacine chlorhydrate, éq. 250 mg base",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-045": {
+"name": "CIPROFLOXACIN hydrochloride, 2 mg/ml base, 100 ml semi-rigid bottle, PVC free",
+"fr": "Ciprofloxacine chlorhydrate, 2 mg/ml base, flacon semi-rigide 100 ml, sans PVC",
+"unit": "vial / fiole"
+},
+"ACDC-MED-046": {
+"name": "CIMETIDINE, 200 mg, effervescent, Tablet",
+"fr": "Cimétidine, 200 mg, comprimé effervescent",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-047": {
+"name": "Clotrimazole 500 mg",
+"fr": "Clotrimazole 500 mg",
+"unit": "vaginal tablet / comprimé vaginal"
+},
+"ACDC-MED-048": {
+"name": "Cloxacillin sodium, éq. 500 mg base, powder, IV",
+"fr": "Cloxacilline sodique, éq. 500 mg base, poudre, IV",
+"unit": "vial / fiole"
+},
+"ACDC-MED-049": {
+"name": "CLOXACILLIN sodium, equivalent to 250 mg base, capsule",
+"fr": "Cloxacilline sodique, éq. 250 mg base, gélule",
+"unit": "capsule / gélule"
+},
+"ACDC-MED-050": {
+"name": "COTRIMOXAZOLE, 400 mg / 80 mg, tablet",
+"fr": "Cotrimoxazole, 400 mg / 80 mg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-051": {
+"name": "D.E.E.T., mosquito repellent lotion, 30%",
+"fr": "DEET, lotion répulsive anti-moustiques, 30 %",
+"unit": "tube"
+},
+"ACDC-MED-052": {
+"name": "GLUCOSE, 5%, 1 liter, soft bag, without PVC",
+"fr": "Glucose, 5 %, 1 l, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-053": {
+"name": "GLUCOSE, 5%, 500 ml, soft bag, without PVC",
+"fr": "Glucose, 5 %, 500 ml, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-054": {
+"name": "GLUCOSE, 10%, 250 ml, soft bag, without PVC",
+"fr": "Glucose, 10 %, 250 ml, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-055": {
+"name": "DOXYCYCLINE salt, equivalent to 100 mg base",
+"fr": "Doxycycline sel, éq. 100 mg base",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-056": {
+"name": "EPINEPHRINE (adrenaline) tartrate, equivalent to 1 mg/ml base, 1 ml ampoule IM (intramuscular)",
+"fr": "Épinéphrine (adrénaline) tartrate, éq. 1 mg/ml base, ampoule 1 ml IM (intramusculaire)",
+"unit": "vial / fiole"
+},
+"ACDC-MED-057": {
+"name": "Iron salt equivalent to 60 mg iron / folic acid 0.4 mg",
+"fr": "Sel de fer éq. 60 mg de fer / acide folique 0,4 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-058": {
+"name": "Fluconazole IV, 200 mg/100 mL",
+"fr": "Fluconazole IV, 200 mg/100 mL",
+"unit": "vial / fiole"
+},
+"ACDC-MED-059": {
+"name": "FLUMAZENIL 0.1mg/ml in 5ml amp",
+"fr": "Flumazénil 0,1 mg/ml, ampoule de 5 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-060": {
+"name": "FUROSEMIDE, 10 mg/ml, 2 ml",
+"fr": "Furosemide, 10 mg/ml, 2 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-061": {
+"name": "FUROSEMIDE, 40 mg,",
+"fr": "Furosemide, 40 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-062": {
+"name": "GENTAMICINE sulfate, eq. 40 mg/ml base, 2 ml",
+"fr": "Gentamycine sulfate, éq. 40 mg/ml base, 2 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-063": {
+"name": "GLUCOSE hypertonique, 50%, 50 ml",
+"fr": "Glucose hypertonique, 50 %, 50 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-064": {
+"name": "GLYCERYL TRINITRATE 0,5 mg",
+"fr": "Trinitrine (trinitrate de glycéryle) 0,5 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-065": {
+"name": "HYDROCHLOROTHIAZIDE, 25 mg,",
+"fr": "Hydrochlorothiazide, 25 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-066": {
+"name": "HYDROCORTISONE succinate sodique, eq.100mg base, powder",
+"fr": "Hydrocortisone succinate sodique, éq. 100 mg base, poudre",
+"unit": "vial / fiole"
+},
+"ACDC-MED-067": {
+"name": "IBUPROFENE, 200 mg,",
+"fr": "Ibuprofène, 200 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-068": {
+"name": "WIPE, 70% isopropyl alcohol, sachet, small",
+"fr": "Lingette, alcool isopropylique 70 %, sachet, petite",
+"unit": "piece / pièce"
+},
+"ACDC-MED-069": {
+"name": "Labetalol iv 5mg/ml, 20ml",
+"fr": "Labétalol IV 5 mg/ml, 20 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-070": {
+"name": "MAGNESIUM sulfate, 0.5 g/ml, 10 ml",
+"fr": "Sulfate de magnésium, 0,5 g/ml, 10 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-071": {
+"name": "METHYLDOPA, 250 mg",
+"fr": "Méthyldopa, 250 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-072": {
+"name": "METFORMIN hydrochloride, 500 mg",
+"fr": "Metformine chlorhydrate, 500 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-073": {
+"name": "METOCLOPRAMIDE hydrochloride anhydrous, 10 mg",
+"fr": "Metoclopramide chlorhydrate anhydre, 10 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-074": {
+"name": "METRONIDAZOLE, 5 mg/ml, 100 ml, semi-rigid without PVC",
+"fr": "Metronidazole, 5 mg/ml, 100 ml, flacon semi-rigide sans PVC",
+"unit": "vial / fiole"
+},
+"ACDC-MED-075": {
+"name": "METRONIDAZOLE, 500 mg,",
+"fr": "Metronidazole, 500 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-076": {
+"name": "METRONIDAZOLE, 250 mg,",
+"fr": "Metronidazole, 250 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-077": {
+"name": "MICONAZOLE nitrate, 2%, cream, 30 g",
+"fr": "Miconazole nitrate, 2 %, crème, 30 g",
+"unit": "tube"
+},
+"ACDC-MED-078": {
+"name": "MISOPROSTOL, 200 ug, tablet",
+"fr": "Misoprostol, 200 µg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-079": {
+"name": "MULTIVITAMINS",
+"fr": "Multivitamines",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-080": {
+"name": "NALOXONE hydrochloride 1 mg/mL",
+"fr": "Naloxone chlorhydrate 1 mg/mL",
+"unit": "vial / fiole"
+},
+"ACDC-MED-081": {
+"name": "NIFEDIPINE, 10 mg, immediate release",
+"fr": "Nifédipine, 10 mg, libération immédiate",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-082": {
+"name": "NOREPINEPHRINE (norepinephrine) tartrate, equivalent to 1 mg/ml base, 4 ml",
+"fr": "Norépinéphrine (noradrénaline) tartrate, éq. 1 mg/ml base, 4 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-083": {
+"name": "NYSTATIN, 100,000 IU/ml, oral suspension",
+"fr": "Nystatine, 100 000 UI/ml, suspension buvable",
+"unit": "bottle / flacon"
+},
+"ACDC-MED-084": {
+"name": "OMEPRAZOLE, 20 mg, enteric-coated capsule",
+"fr": "Oméprazole, 20 mg, gélule gastrorésistante",
+"unit": "capsule / gélule"
+},
+"ACDC-MED-085": {
+"name": "OMEPRAZOLE sodium, equivalent to 40 mg base, powder for infusion",
+"fr": "Oméprazole sodique, éq. 40 mg base, poudre pour perfusion",
+"unit": "vial / fiole"
+},
+"ACDC-MED-086": {
+"name": "ONDANSETRON hydrochloride, equivalent to 2 mg/ml base, 2 ml",
+"fr": "Ondansetron chlorhydrate, éq. 2 mg/ml base, 2 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-087": {
+"name": "ONDANSETRON hydrochloride, equivalent to 4 mg base",
+"fr": "Ondansetron chlorhydrate, éq. 4 mg base",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-088": {
+"name": "ONDANSETRON hydrochloride 8mg",
+"fr": "Ondansetron chlorhydrate 8 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-089": {
+"name": "ORAL REHYDRATION SALTS (ORS) low osmol., sachet 20.5g/1l",
+"fr": "Sels de réhydratation orale (SRO) basse osmolarité, sachet 20,5 g/1 l",
+"unit": "sachet"
+},
+"ACDC-MED-090": {
+"name": "OXYTOCINE, 10 UI/ml, 1 ml, amp",
+"fr": "Oxytocine, 10 UI/ml, 1 ml, amp",
+"unit": "vial / fiole"
+},
+"ACDC-MED-091": {
+"name": "PARACETAMOL (acetaminophen), 100 mg",
+"fr": "Paracétamol (acétaminophène), 100 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-092": {
+"name": "PARACETAMOL (acetaminophen), 10 mg/ml, 100 ml, soft bag, without PVC",
+"fr": "Paracétamol (acétaminophène), 10 mg/ml, 100 ml, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-093": {
+"name": "PARACETAMOL (acetaminophen), 120 mg/5 ml, oral suspension, 100 ml",
+"fr": "Paracétamol (acétaminophène), 120 mg/5 ml, suspension buvable, 100 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-003": {
+"name": "PARACETAMOL (acetaminophen), 500 mg",
+"fr": "Paracétamol (acétaminophène), 500 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-094": {
+"name": "PHENYTOIN sodium 100mg",
+"fr": "Phénytoïne sodique 100 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-095": {
+"name": "PHENYTOIN sodium 50mg/ml in 5ml",
+"fr": "Phénytoïne sodique 50 mg/ml, 5 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-096": {
+"name": "PHENYTOIN sodium 30mg/5ml oral suspension",
+"fr": "Phénytoïne sodique 30 mg/5 ml, suspension buvable",
+"unit": "vial / fiole"
+},
+"ACDC-MED-097": {
+"name": "PHYTOMENADIONE (vitamine K1), 10mg/ml (2mg/0,2ml),0.2ml amp",
+"fr": "Phytoménadione (vitamine K1), 10 mg/ml (2 mg/0,2 ml), amp. 0,2 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-007": {
+"name": "PHYTOMENADIONE (VITAMINE K1), 10MG/ML, 1ML AMP., 10mg, injec",
+"fr": "Phytoménadione (vitamine K1), 10 mg/ml, amp. 1 ml, 10 mg, injectable",
+"unit": "vial / fiole"
+},
+"ACDC-MED-098": {
+"name": "Piperacillin and Tazobactam 4,5g",
+"fr": "Pipéracilline + tazobactam 4,5g",
+"unit": "vial / fiole"
+},
+"ACDC-MED-099": {
+"name": "POVIDONE-IODINE, 10%, solution, 200 ml",
+"fr": "Povidone iodée, 10 %, solution, 200 ml",
+"unit": "bottle / flacon"
+},
+"ACDC-MED-100": {
+"name": "POTASSIUM chloride, 100 mg/ml, 10 ml",
+"fr": "Chlorure de potassium, 100 mg/ml, 10 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-101": {
+"name": "PROMETHAZINE hydrochloride, equivalent to 25 mg base",
+"fr": "Promethazine chlorhydrate, éq. 25 mg base",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-102": {
+"name": "Quinine dihydrochloride, solution for dilution for infusion, 300 mg/ml, 2-ml ampoule",
+"fr": "Quinine dichlorhydrate, solution à diluer pour perfusion, 300 mg/ml, ampoule de 2 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-103": {
+"name": "Sodium polystyrene sulfonate 15 g",
+"fr": "Polystyrène sulfonate de sodium 15 g",
+"unit": "sachet"
+},
+"ACDC-MED-104": {
+"name": "RETINOL (vitamin A) stabilized, 200,000 IU, soft capsule",
+"fr": "Rétinol (vitamine A) stabilisé, 200 000 UI, capsule molle",
+"unit": "capsule / gélule"
+},
+"ACDC-MED-105": {
+"name": "RINGER lactate, 1 liter, soft bag, without PVC",
+"fr": "Ringer lactate, 1 l, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-106": {
+"name": "SALBUTAMOL sulfate, equivalent to 0.1 mg base per puff, 200 puffs aerosol",
+"fr": "Salbutamol sulfate, éq. 0,1 mg base par bouffée, aérosol 200 bouffées",
+"unit": "piece / pièce"
+},
+"ACDC-MED-107": {
+"name": "SILVER SULFADIAZINE, 1%, cream, sterile, 50 g",
+"fr": "Sulfadiazine argentique, 1 %, crème, stérile, 50 g",
+"unit": "tube"
+},
+"ACDC-MED-108": {
+"name": "SODIUM BICARBONATE, 8.4%, 1 mEq/ml, 20 ml",
+"fr": "Bicarbonate de sodium, 8,4 %, 1 mEq/ml, 20 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-005": {
+"name": "RINGER lactate, 500 ml, soft bag, without PVC",
+"fr": "Ringer lactate, 500 ml, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-109": {
+"name": "SODIUM chloride, 0.9%, 100 ml, soft bag, without PVC",
+"fr": "Chlorure de sodium, 0,9 %, 100 ml, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-110": {
+"name": "SODIUM chloride 0.9% w/v in 10 ml",
+"fr": "Chlorure de sodium 0,9 % p/v, 10 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-111": {
+"name": "SODIUM chloride, 0.9%, 250 ml, soft bag, without PVC",
+"fr": "Chlorure de sodium, 0,9 %, 250 ml, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-112": {
+"name": "SODIUM chloride, 0.9%, 500 ml, soft bag, without PVC",
+"fr": "Chlorure de sodium, 0,9 %, 500 ml, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-113": {
+"name": "SODIUM chloride, 0.9%, 1 l, soft bag, without PVC",
+"fr": "Chlorure de sodium, 0,9 %, 1 l, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-114": {
+"name": "THIAMINE hydrochloride (vitamin B1), 50 mg",
+"fr": "Thiamine chlorhydrate (vitamine B1), 50 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-115": {
+"name": "SULFAMETHOXAZOLE 400mg/TRIMETHOPRIM 80mg",
+"fr": "Sulfaméthoxazole 400 mg / triméthoprime 80 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-116": {
+"name": "TETRACYCLINE hydrochloride, 1%, ophthalmic ointment, sterile, 5g",
+"fr": "Tétracycline chlorhydrate, 1 %, pommade ophtalmique, stérile, 5 g",
+"unit": "tube"
+},
+"ACDC-MED-117": {
+"name": "TRANEXAMIC ACID, 100 mg/ml, 5 ml",
+"fr": "Acide tranexamique, 100 mg/ml, 5 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-118": {
+"name": "Water for injection, 10 ml, amp. Plastique",
+"fr": "Eau pour préparation injectable, 10 ml, amp. plastique",
+"unit": "vial / fiole"
+},
+"ACDC-MED-119": {
+"name": "ZINC sulfate 20 mg",
+"fr": "Sulfate de zinc 20 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-120": {
+"name": "Insulin Isophane",
+"fr": "Insuline isophane",
+"unit": "vial / fiole"
+},
+"ACDC-MED-121": {
+"name": "INSULIN RAPID (Actrapid)",
+"fr": "Insuline rapide (Actrapid)",
+"unit": "vial / fiole"
+},
+"ACDC-MED-122": {
+"name": "DIAZEPAM, 5 mg,",
+"fr": "Diazépam, 5 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-123": {
+"name": "DIAZEPAM, 5 mg/ml, 2 ml",
+"fr": "Diazépam, 5 mg/ml, 2 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-124": {
+"name": "FENTANYL citrate 5 ml",
+"fr": "Fentanyl citrate 5 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-125": {
+"name": "HALOPERIDOL, 5 mg/ml, 1 ml",
+"fr": "Halopéridol, 5 mg/ml, 1 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-126": {
+"name": "MORPHINE hydrochloride, 10 mg/ml, 1 ml, ampoule",
+"fr": "Morphine chlorhydrate, 10 mg/ml, 1 ml, ampoule",
+"unit": "vial / fiole"
+},
+"ACDC-MED-127": {
+"name": "PHENOBARBITAL sodium, 200 mg/ml, 1 ml",
+"fr": "Phénobarbital sodique, 200 mg/ml, 1 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-128": {
+"name": "PHENOBARBITAL, 50 mg",
+"fr": "Phénobarbital, 50 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-129": {
+"name": "TRAMADOL hydrochloride, 50 mg",
+"fr": "Tramadol chlorhydrate, 50 mg",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-130": {
+"name": "TRAMADOL hydrochloride, 50 mg/ml, 2 ml",
+"fr": "Tramadol chlorhydrate, 50 mg/ml, 2 ml",
+"unit": "ampoule"
+},
+"ACDC-MED-131": {
+"name": "TRAMADOL hydrochloride, 100 mg/ml / 40 drops, 10 ml",
+"fr": "Tramadol chlorhydrate, 100 mg/ml / 40 gouttes, 10 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-132": {
+"name": "Prednisolone 5mg tabs PO",
+"fr": "Prednisolone 5 mg, comprimé, voie orale",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-133": {
+"name": "LEVETIRACETAM, 250mg, tab",
+"fr": "Levétiracetam, 250 mg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-134": {
+"name": "ZINC OXIDE, 10%, ointment, 100g, tube",
+"fr": "Oxyde de zinc, 10 %, pommade, 100 g, tube",
+"unit": "tube"
+},
+"ACDC-MED-135": {
+"name": "SALBUTAMOL, 2mg/ml, 2.5ml, sol. for nebulizer, monodose",
+"fr": "Salbutamol, 2 mg/ml, 2,5 ml, solution pour nébulisation, unidose",
+"unit": "piece / pièce"
+},
+"ACDC-MED-136": {
+"name": "IPRATROPIUM bromide, 0.25mg/ml, 2ml, sol. for nebulizer",
+"fr": "Ipratropium bromure, 0,25 mg/ml, 2 ml, solution pour nébulisation",
+"unit": "piece / pièce"
+},
+"ACDC-MED-137": {
+"name": "LIDOCAINE hydrochloride, 1%, preservative-free, 10ml, amp",
+"fr": "Lidocaïne chlorhydrate, 1 %, sans conservateur, 10 ml, amp",
+"unit": "vial / fiole"
+},
+"ACDC-MED-138": {
+"name": "VALPROATE SODIUM, 200mg, gastro-resistant tab",
+"fr": "Valproate de sodium, 200 mg, comprimé gastrorésistant",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-139": {
+"name": "IVERMECTIN, 3mg, tab",
+"fr": "Ivermectine, 3 mg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-140": {
+"name": "PRAZIQUANTEL, 600mg, break. tab",
+"fr": "Praziquantel, 600 mg, comprimé sécable",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-141": {
+"name": "AMIKACIN sulfate, eq. 250mg/ml base, 2ml, amp",
+"fr": "Amikacine sulfate, éq. 250 mg/ml base, 2 ml, amp",
+"unit": "vial / fiole"
+},
+"ACDC-MED-142": {
+"name": "BENZYL BENZOATE, 25%, lotion, 400ml, bot",
+"fr": "Benzoate de benzyle, 25 %, lotion, 400 ml, flacon",
+"unit": "bottle / flacon"
+},
+"ACDC-MED-143": {
+"name": "ACICLOVIR sodium, eq. 500mg base, powder, vial",
+"fr": "Aciclovir sodique, éq. 500 mg base, poudre, flacon",
+"unit": "vial / fiole"
+},
+"ACDC-MED-144": {
+"name": "ACICLOVIR, 200mg, tab",
+"fr": "Aciclovir, 200 mg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-145": {
+"name": "BISOPROLOL fumarate, 2.5mg, break. tab",
+"fr": "Bisoprolol fumarate, 2,5 mg, comprimé sécable",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-146": {
+"name": "DIGOXIN, 0.25mg, tab",
+"fr": "Digoxine, 0,25 mg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-147": {
+"name": "AMLODIPINE, 5mg, tab",
+"fr": "Amlodipine, 5 mg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-148": {
+"name": "ENALAPRIL maleate, 5mg, tab",
+"fr": "Énalapril maléate, 5 mg, comprimé",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-149": {
+"name": "GLICLAZIDE, 60mg, Slow release",
+"fr": "Gliclazide, 60 mg, libération prolongée",
+"unit": "tablet / comprimé"
+},
+"ACDC-MED-150": {
+"name": "ANSUVIMAB, 400mg, powder for injection",
+"fr": "Ansuvimab, 400 mg, poudre pour solution injectable",
+"unit": "vial / fiole"
+},
+"ACDC-MED-151": {
+"name": "ATOLTIVIMAB + MAFTIVIMAB + ODESIVIMAB 241.7mg + 241.7mg + 241.7mg in 14.5 ml vial",
+"fr": "Atoltivimab + maftivimab + odésivimab 241,7 mg + 241,7 mg + 241,7 mg, flacon de 14,5 ml",
+"unit": "vial / fiole"
+},
+"ACDC-MED-152": {
+"name": "Premix isotonic fluids with potassium 20 mmol",
+"fr": "Soluté isotonique prémélangé avec potassium 20 mmol",
+"unit": "vial / fiole"
+},
+"ACDC-MED-153": {
+"name": "DEXTROSE 5%/ RINGER LACTATE, 500ml, flex. bag, PVC free",
+"fr": "Glucose 5 % / Ringer lactate, 500 ml, poche souple sans PVC",
+"unit": "bag / poche"
+},
+"ACDC-MED-154": {
+"name": "CARBAMAZEPINE, 250mg, suppository",
+"fr": "Carbamazépine, 250 mg, suppositoire",
+"unit": "suppository / suppositoire"
+},
+"ACDC-MED-155": {
+"name": "LEVETIRACETAM, 100mg/ml, vial for injection",
+"fr": "Lévétiracétam, 100 mg/ml, flacon injectable",
+"unit": "vial / fiole"
+},
+"ACDC-MED-156": {
+"name": "TDF 300mg / 3TC 300mg / DTG 50mg, tab., for PEP",
+"fr": "TDF 300 mg / 3TC 300 mg / DTG 50 mg, comprimé, pour PPE",
+"unit": "tablet / comprimé"
+},
+"ACDC-EQP-006": {
+"name": "O2 CONCENTRATOR (BEDSIDE) - 10L (For adults)",
+"fr": "Concentrateur d'oxygène (chevet) - 10 l (adultes)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-007": {
+"name": "(O2 concentrator) O2 nipple nut connector, for nasal cannula and humidifier",
+"fr": "(Concentrateur O2) Raccord écrou-olive O2, pour lunettes nasales et humidificateur",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-008": {
+"name": "(O2 Concentrator) Humidifier, bubble, non-heated, autoclavable",
+"fr": "(Concentrateur O2) Humidificateur à bulles, non chauffant, autoclavable",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-009": {
+"name": "(O2 Concentrator) Nasal oxygen cannula, with prongs, adult, single use",
+"fr": "(Concentrateur O2) Lunettes nasales à oxygène, adulte, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-010": {
+"name": "(O2 Concentrator) Mask, oxygen, with connection tube, reservoir bag and valve, high-concentration, adult, non-sterile, single use",
+"fr": "(Concentrateur O2) Masque à oxygène haute concentration, avec tubulure, ballon réservoir et valve, adulte, non stérile, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-011": {
+"name": "CONCENTRATOR O2 (BEDSIDE) - 5L (For paediatrics)",
+"fr": "Concentrateur d'oxygène (chevet) - 5 l (pédiatrie)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-012": {
+"name": "(O2 Concentrator) Nasal oxygen cannula, with prongs, neonate, single use",
+"fr": "(Concentrateur O2) Lunettes nasales à oxygène, nouveau-né, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-013": {
+"name": "(O2 Concentrator) Nasal oxygen cannula, with prongs, paediatric, single use",
+"fr": "(Concentrateur O2) Lunettes nasales à oxygène, pédiatrique, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-014": {
+"name": "(O2 concentrator) Nasal oxygen cannula, with prongs, premature low flow, single use",
+"fr": "(Concentrateur O2) Lunettes nasales à oxygène, prématuré, bas débit, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-015": {
+"name": "(O2 Concentrator) Mask, oxygen, with connection tube, reservoir bag and valve, high-concentration, paediatric, non-sterile, single use",
+"fr": "(Concentrateur O2) Masque à oxygène haute concentration, avec tubulure, ballon réservoir et valve, pédiatrique, non stérile, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-016": {
+"name": "PATIENT MONITOR, MULTIPARAMETRIC WITHOUT ECG",
+"fr": "Moniteur patient multiparamétrique sans ECG",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-017": {
+"name": "(Patient monitor) Adult NIBP cuff",
+"fr": "(Moniteur patient) Brassard PNI adulte",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-018": {
+"name": "(Patient monitor) Pediatric NIBP cuff",
+"fr": "(Moniteur patient) Brassard PNI pédiatrique",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-019": {
+"name": "(Patient monitor) NIBP hose",
+"fr": "(Moniteur patient) Tuyau PNI",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-020": {
+"name": "(Patient monitor) Adult SPO2 sensor",
+"fr": "(Moniteur patient) Capteur SpO2 adulte",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-021": {
+"name": "(Patient monitor) Pediatric SPO2 sensor",
+"fr": "(Moniteur patient) Capteur SpO2 pédiatrique",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-022": {
+"name": "PATIENT MONITOR, MULTIPARAMETRIC WITH ECG",
+"fr": "Moniteur patient multiparamétrique avec ECG",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-023": {
+"name": "(Patient monitor) Temperature cable",
+"fr": "(Moniteur patient) Câble de température",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-024": {
+"name": "(Patient monitor) Temperature probe, single use",
+"fr": "(Moniteur patient) Sonde de température, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-025": {
+"name": "(Patient monitor) ECG limb wire leads",
+"fr": "(Moniteur patient) Fils de dérivation ECG des membres",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-026": {
+"name": "(Patient monitor) ECG trunk cable",
+"fr": "(Moniteur patient) Câble tronc ECG",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-027": {
+"name": "(Patient monitor) ECG gel, bottle",
+"fr": "(Moniteur patient) Gel ECG, flacon",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-028": {
+"name": "ELECTRONIC DROP COUNTER",
+"fr": "Compte-gouttes électronique",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-029": {
+"name": "INFUSION PUMP WITH ACCESSORIES",
+"fr": "Pompe à perfusion avec accessoires",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-030": {
+"name": "(Infusion pump) Infusion line/IV set",
+"fr": "(Pompe à perfusion) Tubulure de perfusion/set IV",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-031": {
+"name": "DRILL, FOR intraosseous VASCULAR ACCESS - WITH TRANSPORT BAG",
+"fr": "Perceuse pour accès vasculaire intraosseux, avec sac de transport",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-032": {
+"name": "(Drill) Needle + Stabilizer Kit, 15 G, 15 mm, paediatric",
+"fr": "(Perceuse) Kit aiguille + stabilisateur, 15 G, 15 mm, pédiatrique",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-033": {
+"name": "(Drill) Needle + Stabilizer Kit, 15 G, 25 mm, adult",
+"fr": "(Perceuse) Kit aiguille + stabilisateur, 15 G, 25 mm, adulte",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-034": {
+"name": "(Drill) TRAINING KIT",
+"fr": "(Perceuse) Kit de formation",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-035": {
+"name": "SUCTION PUMP, MECHANICAL WITH COLLECTION BOTTLES",
+"fr": "Aspirateur mécanique avec bocaux de recueil",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-036": {
+"name": "(Suction pump, mechanical) COLLECTION BOTTLE",
+"fr": "(Aspirateur mécanique) Bocal de recueil",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-037": {
+"name": "(Suction pump, mechanical) Suction tube with combination suction tip and angle connector",
+"fr": "(Aspirateur mécanique) Tube d'aspiration avec embout d'aspiration combiné et raccord coudé",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-038": {
+"name": "(Suction pump, mechanical) Tube, silicone, autoclavable, int. diam.8 mm, 10 m",
+"fr": "(Aspirateur mécanique) Tube, silicone, autoclavable, diam. int. 8 mm, 10 m",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-039": {
+"name": "SUCTION PUMP, ELECTRICAL WITH ACCESSORIES",
+"fr": "Aspirateur électrique avec accessoires",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-040": {
+"name": "(Suction pump, electrical) Tube, silicone, autoclavable, int. diam.8 mm, 10 m",
+"fr": "(Aspirateur électrique) Tube, silicone, autoclavable, diam. int. 8 mm, 10 m",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-041": {
+"name": "(Suction pump, electrical) Tube, Suction Machine, CH 25,1.8m, sterile, s.u",
+"fr": "(Aspirateur électrique) Tubulure d'aspiration, CH 25, 1,8 m, stérile, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-042": {
+"name": "(Suction pump, electrical) Bottle, autoclavable",
+"fr": "(Aspirateur électrique) Bocal, autoclavable",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-043": {
+"name": "ELECTROCARDIOGRAPH, PORTABLE, WITH ACCESSORIES",
+"fr": "Électrocardiographe portable, avec accessoires",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-044": {
+"name": "(Electrocardiograph) PATIENT CABLE, 10 leads",
+"fr": "(Électrocardiographe) Câble patient, 10 dérivations",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-045": {
+"name": "(Electrocardiograph) SET SUCTION ELECTRODES, reusable",
+"fr": "(Électrocardiographe) Jeu d'électrodes à ventouse, réutilisables",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-046": {
+"name": "(Electrocardiograph) SET CLIP ELECTRODES, reusable",
+"fr": "(Électrocardiographe) Jeu d'électrodes à pince, réutilisables",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-047": {
+"name": "(Electrocardiograph) RECORDING PAPER",
+"fr": "(Électrocardiographe) Papier d'enregistrement",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-048": {
+"name": "(Electrocardiograph) ELECTRODE GEL, 5 mL",
+"fr": "(Électrocardiographe) Gel pour électrodes, 5 ml",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-049": {
+"name": "COMPRESSIBLE SELF-REFILLING VENTILATION BAG FOR ADULT, CAPACITY > 1500 mL - WITH MASKS (SMALL, MEDIUM, LARGE)",
+"fr": "Ballon de ventilation auto-remplisseur adulte, capacité > 1500 ml, avec masques (petit, moyen, grand)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-050": {
+"name": "SELF-INFLATING RESUSCITATION BAG, CHILD/NEONATE - WITH MASKS RH2/S1 (AMBU TYPE)",
+"fr": "Ballon de réanimation auto-gonflant, enfant/nouveau-né, avec masques RH2/S1 (type Ambu)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-051": {
+"name": "IV cannula set, 16 G",
+"fr": "Cathéter IV, 16 G",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-052": {
+"name": "IV cannula set, 18 G",
+"fr": "Cathéter IV, 18 G",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-053": {
+"name": "IV cannula set, 20 G",
+"fr": "Cathéter IV, 20 G",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-054": {
+"name": "IV cannula set, 22 G",
+"fr": "Cathéter IV, 22 G",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-055": {
+"name": "IV cannula set, 24 G",
+"fr": "Cathéter IV, 24 G",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-056": {
+"name": "AUTOCLAVE, 39 L, with single burner",
+"fr": "Autoclave, 39 l, avec réchaud à un brûleur",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-057": {
+"name": "TAPE, AUTOCLAVE STEAM INDICATOR, 50 m x 19 mm",
+"fr": "Ruban indicateur de stérilisation vapeur pour autoclave, 50 m x 19 mm",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-058": {
+"name": "TST INDICATOR STRIP, Type 5",
+"fr": "Bandelette indicatrice TST, type 5",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-059": {
+"name": "SHEET, STERILIZATION, crepe paper, 0.9 x 0.9 m",
+"fr": "Feuille de stérilisation, papier crêpé, 0,9 x 0,9 m",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-060": {
+"name": "SUCTION BULB, for newborn, reusable, autoclavable",
+"fr": "Poire d'aspiration pour nouveau-né, réutilisable, autoclavable",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-061": {
+"name": "SCALE, electronic, 50g/0-200kg",
+"fr": "Balance électronique, 50 g/0-200 kg",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-002": {
+"name": "Digital thermometer",
+"fr": "Thermomètre numérique",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-062": {
+"name": "GLUCOMETER, blood glucose monitor mg/dl",
+"fr": "Glucomètre, lecteur de glycémie mg/dl",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-063": {
+"name": "(glucometer) STRIP 42214",
+"fr": "(Glucomètre) Bandelette 42214",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-064": {
+"name": "SAFETY LANCET, medium flow, needle 21G x 1.8mm, green, s.u",
+"fr": "Lancette de sécurité, débit moyen, aiguille 21G x 1,8 mm, verte, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-065": {
+"name": "(glucometer) CONTROL SOL.normal 4ml vial46948",
+"fr": "(Glucomètre) Solution de contrôle normale, flacon 4 ml 46948",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-066": {
+"name": "(glucometer) CONTROL SOL.high, 4ml vial 46949",
+"fr": "(Glucomètre) Solution de contrôle haute, flacon 4 ml 46949",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-067": {
+"name": "(glucometer) CONTROL SOL. low, 4ml vial 46947",
+"fr": "(Glucomètre) Solution de contrôle basse, flacon 4 ml 46947",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-068": {
+"name": "HAEMOGLOBIN PHOTOMETER tropicalized machine",
+"fr": "Photomètre d'hémoglobine, appareil tropicalisé",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-069": {
+"name": "MICROCUVETTE, s.u. for haemoglobin photometer",
+"fr": "Microcuvette u.u. pour photomètre d'hémoglobine",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-070": {
+"name": "haemoglobin photometer CLEANER, 5pcs, 139123",
+"fr": "Nettoyant pour photomètre d'hémoglobine, 5 pces, 139123",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-071": {
+"name": "haemoglobin photometer CONTROL SOLUTION, kit 3 x 2 bottles (cold chain)",
+"fr": "Solution de contrôle pour photomètre d'hémoglobine, kit 3 x 2 flacons (chaîne du froid)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-072": {
+"name": "URINE TEST, pH,bili,prot,gluc,ket,blood,nit,leuc, 1 strip",
+"fr": "Test urinaire, pH, bili, prot, gluc, cét, sang, nit, leuc, 1 bandelette",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-073": {
+"name": "PREGNANCY RST/hCG TEST, urine, 1 strip",
+"fr": "Test de grossesse TDR/hCG, urine, 1 bandelette",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-074": {
+"name": "STAND, INFUSION, 2 hooks, on castors",
+"fr": "Pied à perfusion, 2 crochets, sur roulettes",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-075": {
+"name": "NEEDLE, s.u., Luer, 21 G (0.8 x 40 mm) green, IM",
+"fr": "Aiguille u.u., Luer, 21 G (0,8 x 40 mm) verte, IM",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-076": {
+"name": "NEEDLE, s.u., Luer, 23 G (0.6 x 30mm) blue, SC, IM child",
+"fr": "Aiguille u.u., Luer, 23 G (0,6 x 30 mm) bleue, SC, IM enfant",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-077": {
+"name": "NEEDLE, s.u., Luer, 25 G (0,5 x 25 mm), orange, SC",
+"fr": "Aiguille u.u., Luer, 25 G (0,5 x 25 mm), orange, SC",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-078": {
+"name": "NEEDLE, SPINAL L.P., Luer, s.u., 20 G (0.9 x 90 mm)",
+"fr": "Aiguille à ponction lombaire, Luer, u.u., 20 G (0,9 x 90 mm)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-079": {
+"name": "NEEDLE, SPINAL L.P., Luer, s.u., 22 G (0.7 x 40 mm)",
+"fr": "Aiguille à ponction lombaire, Luer, u.u., 22 G (0,7 x 40 mm)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-080": {
+"name": "INFUSION SET 'Y', Luer-lock, air inlet, sterile, s.u",
+"fr": "Tubulure de perfusion en Y, Luer-lock, prise d'air, stérile, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-081": {
+"name": "SET, INFUSION, paediatric, precision, sterile, s.u",
+"fr": "Perfuseur pédiatrique de précision, stérile, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-082": {
+"name": "SYRINGE, s.u., Luer, 2 ml",
+"fr": "Seringue u.u., Luer, 2 ml",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-083": {
+"name": "SYRINGE, s.u., Luer, 5 ml",
+"fr": "Seringue u.u., Luer, 5 ml",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-084": {
+"name": "SYRINGE, s.u., Luer, 10 ml",
+"fr": "Seringue u.u., Luer, 10 ml",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-085": {
+"name": "SYRINGE, s.u., Luer, 20 ml",
+"fr": "Seringue u.u., Luer, 20 ml",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-086": {
+"name": "SYRINGE, s.u., Luer, 50-60 ml",
+"fr": "Seringue u.u., Luer, 50-60 ml",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-087": {
+"name": "SYRINGE, U-100 insulin, 1ml + fixed needle 6-8 mm",
+"fr": "Seringue à insuline U-100, 1 ml + aiguille sertie 6-8 mm",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-088": {
+"name": "COLD CHAIN, refrigerator, 94 liters",
+"fr": "Chaîne de froid, réfrigérateur, 94 l",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-089": {
+"name": "URINE BAG 2 l, drain., non-ret. valves, sampling port, ster",
+"fr": "Poche à urine 2 l, vidange, valves anti-retour, site de prélèvement, stérile",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-090": {
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH06",
+"fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH06",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-091": {
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH08",
+"fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH08",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-092": {
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH10",
+"fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH10",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-093": {
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH14",
+"fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH14",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-094": {
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH18",
+"fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH18",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-095": {
+"name": "NASOGASTRIC TUBE, ENFit tip, s.u., 50 cm, CH06, light green",
+"fr": "Sonde nasogastrique, embout ENFit, u.u., 50 cm, CH06, vert clair",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-096": {
+"name": "NASOGASTRIC TUBE, ENFit tip, s.u., 50 cm, CH08, blue",
+"fr": "Sonde nasogastrique, embout ENFit, u.u., 50 cm, CH08, bleue",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-097": {
+"name": "NASOGASTRIC TUBE, ENFit tip, s.u., 50 cm, CH10, black",
+"fr": "Sonde nasogastrique, embout ENFit, u.u., 50 cm, CH10, noire",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-098": {
+"name": "NASOGASTRIC TUBE, ENFit tip, s.u., 90 cm, CH12, white",
+"fr": "Sonde nasogastrique, embout ENFit, u.u., 90 cm, CH12, blanche",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-099": {
+"name": "FIXATION PLASTER for NASOGASTRIC TUBE, s.u., adult / child",
+"fr": "Sparadrap de fixation pour sonde nasogastrique, u.u., adulte/enfant",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-100": {
+"name": "MiniCollect® Tube 0.5 ml LH Lithium Heparin green cap",
+"fr": "Tube MiniCollect® 0,5 ml LH héparine de lithium, bouchon vert",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-101": {
+"name": "point of care CLINICAL CHEMISTRY ANALYSER , 230V, 50-60Hz",
+"fr": "Analyseur de biochimie clinique au lit du patient, 230 V, 50-60 Hz",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-102": {
+"name": "TOURNIQUET FOR PHLEBOTOMY, elastic, 100 x 1.8 cm",
+"fr": "Garrot pour phlébotomie, élastique, 100 x 1,8 cm",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-103": {
+"name": "CHLORHEXIDINE 2%, 70% isopropyl alcohol, SWAB/WIPE",
+"fr": "Tampon/lingette chlorhexidine 2 %, alcool isopropylique 70 %",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-104": {
+"name": "HOLDER for VACUUM TUBE with needle ejector",
+"fr": "Porte-tube pour tube sous vide, avec éjecteur d'aiguille",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-105": {
+"name": "NEEDLE, sterile, 23G (Vacutainer)",
+"fr": "Aiguille stérile, 23G (Vacutainer)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-106": {
+"name": "NEEDLE, sterile, 21G (Vacutainer)",
+"fr": "Aiguille stérile, 21G (Vacutainer)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-107": {
+"name": "TUBE, VACUUM, plastic, K2EDTA, 2ml, purple (children)",
+"fr": "Tube sous vide, plastique, K2EDTA, 2 ml, violet (enfant)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-108": {
+"name": "TUBE, VACUUM, plastic, SERUM, 4 ml, red (children)",
+"fr": "Tube sous vide, plastique, sérum, 4 ml, rouge (enfant)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-109": {
+"name": "TUBE, VACUUM, plastic, K2EDTA, 10ml, purple (adult)",
+"fr": "Tube sous vide, plastique, K2EDTA, 10 ml, violet (adulte)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-110": {
+"name": "TUBE, VACUUM, plastic, SERUM, 10ml, red (adult)",
+"fr": "Tube sous vide, plastique, sérum, 10 ml, rouge (adulte)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-111": {
+"name": "CONTAINER, SAMPLE, plast., 60ml, non sterile, urine",
+"fr": "Pot à prélèvement, plastique, 60 ml, non stérile, urine",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-112": {
+"name": "ADHESIVE TAPE, fabric, 2-2.5cm x 5m",
+"fr": "Sparadrap, tissu, 2-2,5 cm x 5 m",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-113": {
+"name": "COMPRESS, NON WOVEN, 4 plies, 7.5 cm, non sterile",
+"fr": "Compresse non tissée, 4 plis, 7,5 cm, non stérile",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-114": {
+"name": "SPACER, single patient, medium mask",
+"fr": "Chambre d'inhalation, patient unique, masque moyen",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-115": {
+"name": "SPACER, single patient, small mask",
+"fr": "Chambre d'inhalation, patient unique, petit masque",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-116": {
+"name": "NEBULIZER + COMPRESSOR (PARI BOY PRO) + accessories",
+"fr": "Nébuliseur + compresseur (PARI BOY PRO) + accessoires",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-117": {
+"name": "NEBULIZER mask with chamber, adult",
+"fr": "Masque de nébulisation avec chambre, adulte",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-118": {
+"name": "NEBULIZER mask with chamber, child",
+"fr": "Masque de nébulisation avec chambre, enfant",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-119": {
+"name": "ultrasound gel",
+"fr": "Gel pour échographie",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-120": {
+"name": "1.2 micron polyether sulfone (PES) filter membrane, DEHP-free, latex-free",
+"fr": "Membrane filtrante en polyéthersulfone (PES) 1,2 micron, sans DEHP, sans latex",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-121": {
+"name": "add-on 0.2-micron filter",
+"fr": "Filtre additionnel 0,2 micron",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-122": {
+"name": "infant warming lamp",
+"fr": "Lampe chauffante pour nourrisson",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-123": {
+"name": "GIVING SET, BLOOD TRANSFUSION, with 200 µ filter, sterile, s.u",
+"fr": "Transfuseur (set de transfusion sanguine), avec filtre 200 µm, stérile, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-124": {
+"name": "Viral transport medium (VTM) collection tube",
+"fr": "Tube de prélèvement avec milieu de transport viral (MTV)",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-125": {
+"name": "Individually wrapped sterile swabs with break point",
+"fr": "Écouvillons stériles à point de rupture, emballés individuellement",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-006": {
+"name": "Fluid-resistant medical or surgical mask (duckbill or cup shape)",
+"fr": "Masque médical ou chirurgical résistant aux fluides (forme bec de canard ou coque)",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-007": {
+"name": "BOOTS, rubber, pair, size 37",
+"fr": "Bottes en caoutchouc, paire, pointure 37",
+"unit": "pair / paire"
+},
+"ACDC-IPC-008": {
+"name": "BOOTS, rubber, pair, size 39",
+"fr": "Bottes en caoutchouc, paire, pointure 39",
+"unit": "pair / paire"
+},
+"ACDC-IPC-009": {
+"name": "BOOTS, rubber, pair, size 41",
+"fr": "Bottes en caoutchouc, paire, pointure 41",
+"unit": "pair / paire"
+},
+"ACDC-IPC-010": {
+"name": "BOOTS, rubber, pair, size 43",
+"fr": "Bottes en caoutchouc, paire, pointure 43",
+"unit": "pair / paire"
+},
+"ACDC-IPC-011": {
+"name": "BOOTS, rubber, pair, size 46",
+"fr": "Bottes en caoutchouc, paire, pointure 46",
+"unit": "pair / paire"
+},
+"ACDC-IPC-012": {
+"name": "Head and neck covering",
+"fr": "Cagoule de protection tête et cou",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-013": {
+"name": "GOWN, AAMI level 3, non sterile, disp. XL",
+"fr": "Blouse, AAMI niveau 3, non stérile, jetable, XL",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-014": {
+"name": "GOWN, AAMI level 3, non sterile, disp. L",
+"fr": "Blouse, AAMI niveau 3, non stérile, jetable, L",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-015": {
+"name": "GOWN, AAMI level 3, non sterile, disp. M",
+"fr": "Blouse, AAMI niveau 3, non stérile, jetable, M",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-016": {
+"name": "COVERALL, fluid resist. cat III, type 3B or 4B, u.u., M",
+"fr": "Combinaison résistante aux fluides, cat. III, type 3B ou 4B, u.u., M",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-017": {
+"name": "COVERALL, fluid resist. cat III, type 3B or 4B, u.u., XL",
+"fr": "Combinaison résistante aux fluides, cat. III, type 3B ou 4B, u.u., XL",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-018": {
+"name": "COVERALL, fluid resist. cat III, type 3B or 4B, u.u., XXL",
+"fr": "Combinaison résistante aux fluides, cat. III, type 3B ou 4B, u.u., XXL",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-019": {
+"name": "GLOVE EXAMINATION, nitrile, pf, ext. cuff min. 28 cm, size S",
+"fr": "Gants d'examen nitrile non poudrés, manchette longue min. 28 cm, taille S",
+"unit": "pair / paire"
+},
+"ACDC-IPC-020": {
+"name": "GLOVE EXAMINATION, nitrile, pf, ext. cuff min. 28 cm, size M",
+"fr": "Gants d'examen nitrile non poudrés, manchette longue min. 28 cm, taille M",
+"unit": "pair / paire"
+},
+"ACDC-IPC-021": {
+"name": "GLOVE EXAMINATION, nitrile, pf, ext. cuff min. 28 cm, size L",
+"fr": "Gants d'examen nitrile non poudrés, manchette longue min. 28 cm, taille L",
+"unit": "pair / paire"
+},
+"ACDC-IPC-022": {
+"name": "SURGICAL GLOVES, latex, u.u., sterile, pair 6,5",
+"fr": "Gants chirurgicaux, latex, u.u., stériles, paire 6,5",
+"unit": "pair / paire"
+},
+"ACDC-IPC-023": {
+"name": "SURGICAL GLOVES, latex, u.u., sterile, pair 7,5",
+"fr": "Gants chirurgicaux, latex, u.u., stériles, paire 7,5",
+"unit": "pair / paire"
+},
+"ACDC-IPC-024": {
+"name": "SURGICAL GLOVES, latex, u.u., sterile, pair 8",
+"fr": "Gants chirurgicaux, latex, u.u., stériles, paire 8",
+"unit": "pair / paire"
+},
+"ACDC-IPC-025": {
+"name": "SURGICAL GLOVES, latex, u.u., sterile, pair 8.5",
+"fr": "Gants chirurgicaux, latex, u.u., stériles, paire 8,5",
+"unit": "pair / paire"
+},
+"ACDC-IPC-026": {
+"name": "GLOVES PROTECTION, heavy duty, nitrile, green, cat III, size 7",
+"fr": "Gants de protection, épais, nitrile, verts, cat. III, taille 7",
+"unit": "pair / paire"
+},
+"ACDC-IPC-027": {
+"name": "GLOVES PROTECTION, heavy duty, nitrile, green, cat III, size 8",
+"fr": "Gants de protection, épais, nitrile, verts, cat. III, taille 8",
+"unit": "pair / paire"
+},
+"ACDC-IPC-028": {
+"name": "GLOVES PROTECTION, heavy duty, nitrile, green, cat III, size 10",
+"fr": "Gants de protection, épais, nitrile, verts, cat. III, taille 10",
+"unit": "pair / paire"
+},
+"ACDC-IPC-029": {
+"name": "Goggles (reusable)",
+"fr": "Lunettes de protection (réutilisables)",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-030": {
+"name": "Faceshield (single use)",
+"fr": "Écran facial (usage unique)",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-031": {
+"name": "SET, TUNIC + TROUSERS SURGICAL, woven, reusable, green, size S",
+"fr": "Ensemble tunique + pantalon de chirurgie, tissé, réutilisable, vert, taille S",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-032": {
+"name": "SET, TUNIC + TROUSERS SURGICAL, woven, reusable, green, size M",
+"fr": "Ensemble tunique + pantalon de chirurgie, tissé, réutilisable, vert, taille M",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-033": {
+"name": "SET, TUNIC + TROUSERS SURGICAL, woven, reusable, green, size L",
+"fr": "Ensemble tunique + pantalon de chirurgie, tissé, réutilisable, vert, taille L",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-034": {
+"name": "APRON PROTECTION, polyester, reusable, 300g/m2",
+"fr": "Tablier de protection, polyester, réutilisable, 300 g/m²",
+"unit": "piece / pièce"
+},
+"ACDC-EQP-001": {
+"name": "Infrared thermometer",
+"fr": "Thermomètre infrarouge",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-035": {
+"name": "Examination gloves",
+"fr": "Gants d'examen",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-036": {
+"name": "Fluid-resistant surgical mask",
+"fr": "Masque chirurgical résistant aux fluides",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-003": {
+"name": "Fluid-resistant N95 respirator",
+"fr": "Masque de protection respiratoire N95 résistant aux fluides",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-001": {
+"name": "Safety box for sharps",
+"fr": "Collecteur d'objets piquants et tranchants (boîte de sécurité)",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-037": {
+"name": "GOWN, AAMI level 3, non-sterile, disp",
+"fr": "Blouse, AAMI niveau 3, non stérile, jetable",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-038": {
+"name": "Coverall",
+"fr": "Combinaison",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-039": {
+"name": "Face shield",
+"fr": "Écran facial",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-040": {
+"name": "Surgical cap / bouffant cap",
+"fr": "Calot chirurgical / charlotte",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-041": {
+"name": "Reusable apron",
+"fr": "Tablier réutilisable",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-042": {
+"name": "Protective goggles",
+"fr": "Lunettes de protection",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-002": {
+"name": "Body bag",
+"fr": "Sac mortuaire",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-003": {
+"name": "Plastic sheeting, 4 × 6 m",
+"fr": "Bâche plastique, 4 x 6 m",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-004": {
+"name": "Waste bag, 100 L",
+"fr": "Sac à déchets, 100 l",
+"unit": "bag / poche"
+},
+"ACDC-WSH-005": {
+"name": "Paper towels (roll)",
+"fr": "Essuie-mains en papier (rouleau)",
+"unit": "roll / rouleau"
+},
+"ACDC-WSH-006": {
+"name": "Biohazard waste bag, 30 L",
+"fr": "Sac pour déchets infectieux (risque biologique), 30 l",
+"unit": "bag / poche"
+},
+"ACDC-WSH-007": {
+"name": "Bar soap, 750 g",
+"fr": "Savon en barre, 750 g",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-043": {
+"name": "Heavy-duty household cleaning gloves",
+"fr": "Gants de ménage épais",
+"unit": "pair / paire"
+},
+"ACDC-WSH-008": {
+"name": "HTH chlorine, kg",
+"fr": "Chlore HTH, kg",
+"unit": "kg"
+},
+"ACDC-COM-006": {
+"name": "Ebola leaflets",
+"fr": "Dépliants Ebola",
+"unit": "piece / pièce"
+},
+"ACDC-COM-007": {
+"name": "Toll-free hotline number stickers",
+"fr": "Autocollants du numéro vert",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-009": {
+"name": "Large waste bin, 100 L",
+"fr": "Grande poubelle, 100 l",
+"unit": "piece / pièce"
+},
+"ACDC-COM-008": {
+"name": "Poster: case definition",
+"fr": "Affiche : définition de cas",
+"unit": "piece / pièce"
+},
+"ACDC-COM-009": {
+"name": "Poster: handwashing",
+"fr": "Affiche : lavage des mains",
+"unit": "piece / pièce"
+},
+"ACDC-COM-010": {
+"name": "Poster: waste management",
+"fr": "Affiche : gestion des déchets",
+"unit": "piece / pièce"
+},
+"ACDC-COM-011": {
+"name": "Poster: transmission diagram",
+"fr": "Affiche : schéma de transmission",
+"unit": "piece / pièce"
+},
+"ACDC-IPC-044": {
+"name": "Rubber boots",
+"fr": "Bottes en caoutchouc",
+"unit": "pair / paire"
+},
+"ACDC-WSH-010": {
+"name": "Plastic table",
+"fr": "Table en plastique",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-011": {
+"name": "Plastic chair",
+"fr": "Chaise en plastique",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-012": {
+"name": "Parasol",
+"fr": "Parasol",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-013": {
+"name": "Hand washing device (20 L bucket + 1/4 tap + stool + basin)",
+"fr": "Dispositif de lavage des mains (seau 20 l + robinet 1/4 + tabouret + bassine)",
+"unit": "set / ensemble"
+},
+"ACDC-WSH-014": {
+"name": "Incinerator burner – biomedical waste treatment",
+"fr": "Brûleur d'incinérateur – traitement des déchets biomédicaux",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-015": {
+"name": "Hand washing tank, 135 L",
+"fr": "Réservoir de lavage des mains, 135 l",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-016": {
+"name": "Alcohol-based handrub (ABHR), 100 mL",
+"fr": "Solution hydroalcoolique (SHA), 100 ml",
+"unit": "bottle / flacon"
+},
+"ACDC-WSH-017": {
+"name": "Alcohol-based handrub (ABHR), 1 L",
+"fr": "Solution hydroalcoolique (SHA), 1 l",
+"unit": "bottle / flacon"
+},
+"ACDC-WSH-018": {
+"name": "ANTI FOG solution, approx. 100 ml",
+"fr": "Solution antibuée, env. 100 ml",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-019": {
+"name": "(BODY BAG) absorbent pad",
+"fr": "(Sac mortuaire) Alèse absorbante",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-020": {
+"name": "Absorbent pad, 60 x 60 cm",
+"fr": "Alèse absorbante, 60 x 60 cm",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-021": {
+"name": "STRETCHER, approx. 210x54cm, foldable along length/width, unit",
+"fr": "Brancard, env. 210 x 54 cm, pliable en longueur/largeur, unité",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-022": {
+"name": "Disposable plastic PLATE",
+"fr": "Assiette en plastique jetable",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-023": {
+"name": "CONTAINER + LID, 120 l",
+"fr": "Conteneur + couvercle, 120 l",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-024": {
+"name": "BROOM, with handle",
+"fr": "Balai avec manche",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-025": {
+"name": "BASIN, 40 liters, plastic",
+"fr": "Bassine, 40 l, plastique",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-026": {
+"name": "Chlorine (HTH or NADCC, in between 40 and 80%)",
+"fr": "Chlore (HTH ou NaDCC, entre 40 et 80 %)",
+"unit": "kg"
+},
+"ACDC-WSH-027": {
+"name": "CUP 250 ml, red, plastic,",
+"fr": "Gobelet 250 ml, rouge, plastique",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-028": {
+"name": "CUP, 250 ml, green, plastic, graduated",
+"fr": "Gobelet, 250 ml, vert, plastique, gradué",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-029": {
+"name": "MATTRESS COVER, washable, zipper, 220 cm, epidemics",
+"fr": "Housse de matelas, lavable, fermeture éclair, 220 cm, épidémies",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-030": {
+"name": "Bed",
+"fr": "Lit",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-031": {
+"name": "MATTRESS",
+"fr": "Matelas",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-032": {
+"name": "MIRROR, classic, 20 x 30 cm",
+"fr": "Miroir, classique, 20 x 30 cm",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-033": {
+"name": "BIN, 100 liters, + lid, white",
+"fr": "Poubelle, 100 l, + couvercle, blanche",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-034": {
+"name": "SQUEEGEE FOR GROUND, with handle",
+"fr": "Raclette de sol, avec manche",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-035": {
+"name": "Mop, with handle",
+"fr": "Balai à franges, avec manche",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-036": {
+"name": "BODY BAG, plastic, white, 400 microns, ad., 250x120cm",
+"fr": "Sac mortuaire, plastique, blanc, 400 microns, adulte, 250 x 120 cm",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-037": {
+"name": "BODY BAG, plastic, white, 400 microns, child 150x100cm",
+"fr": "Sac mortuaire, plastique, blanc, 400 microns, enfant, 150 x 100 cm",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-038": {
+"name": "GARBAGE BAG, 100 liters, black, 70 microns",
+"fr": "Sac poubelle, 100 l, noir, 70 microns",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-039": {
+"name": "BAG biohazard, refuse 90 x 70 cm, 70 microns",
+"fr": "Sac à déchets à risque biologique, 90 x 70 cm, 70 microns",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-040": {
+"name": "Hand wash soap, 250ml bottle",
+"fr": "Savon liquide pour les mains, flacon de 250 ml",
+"unit": "bottle / flacon"
+},
+"ACDC-WSH-041": {
+"name": "Safety box burnable 5l",
+"fr": "Boîte de sécurité incinérable 5 l",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-042": {
+"name": "SOAP, 200 g,",
+"fr": "Savon, 200 g",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-043": {
+"name": "SOAP, powder",
+"fr": "Savon en poudre",
+"unit": "kg"
+},
+"ACDC-WSH-044": {
+"name": "BUCKET + LID, 20 l, with tap",
+"fr": "Seau + couvercle, 20 l, avec robinet",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-045": {
+"name": "BUCKET + LID, 20 l",
+"fr": "Seau + couvercle, 20 l",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-046": {
+"name": "Feminine sanitary napkins (box of 10 pieces)",
+"fr": "Serviettes hygiéniques (boîte de 10)",
+"unit": "box of 10 / boîte de 10"
+},
+"ACDC-WSH-047": {
+"name": "Plates washing brush (plastic)",
+"fr": "Brosse à vaisselle (plastique)",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-048": {
+"name": "Laundry brush boots (plastic)",
+"fr": "Brosse de lavage pour bottes (plastique)",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-049": {
+"name": "White vinegar",
+"fr": "Vinaigre blanc",
+"unit": "litre"
+},
+"ACDC-WSH-050": {
+"name": "Plastic bag with handle (around 33X43cm)",
+"fr": "Sac plastique avec poignées (env. 33 x 43 cm)",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-051": {
+"name": "Chairs, plastic",
+"fr": "Chaise, plastique",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-052": {
+"name": "PENCIL, fine point, black",
+"fr": "Crayon, pointe fine, noir",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-053": {
+"name": "MARKER, indelible, large, chisel point, black",
+"fr": "Marqueur indélébile, large, pointe biseautée, noir",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-054": {
+"name": "MARKER, indelible, large, chisel point, red",
+"fr": "Marqueur indélébile, large, pointe biseautée, rouge",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-055": {
+"name": "MARKER, indelible, large, chisel point, green",
+"fr": "Marqueur indélébile, large, pointe biseautée, vert",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-056": {
+"name": "AAA battery",
+"fr": "Pile AAA",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-057": {
+"name": "AA (2 battery)",
+"fr": "Pile AA",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-058": {
+"name": "Battery CR 2032",
+"fr": "Pile CR 2032",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-059": {
+"name": "Wall clock",
+"fr": "Horloge murale",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-060": {
+"name": "Plastic tap, 3/4",
+"fr": "Robinet plastique, 3/4",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-061": {
+"name": "Set posters of Doffing/Donning protocols for haemorragic fever",
+"fr": "Jeu d'affiches des protocoles d'habillage/déshabillage pour fièvre hémorragique",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-062": {
+"name": "Table, plastic",
+"fr": "Table, plastique",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-063": {
+"name": "Chlorine concentration Test reagent",
+"fr": "Chlorine Concentration Test reagent",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-064": {
+"name": "Turbidimeter 5 - 2000 NTU",
+"fr": "Turbidimètre 5 - 2000 NTU",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-065": {
+"name": "Tester pool with Dpd Nº 1 / Rapid, 1000",
+"fr": "Comparateur piscine, comprimés DPD n° 1 rapid, 1000",
+"unit": "tablet / comprimé"
+},
+"ACDC-WSH-066": {
+"name": "Scotch rolls (5cm)",
+"fr": "Rouleau de ruban adhésif (5 cm)",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-067": {
+"name": "NOTEBOOK, A4, squared, spiral, 180 pages",
+"fr": "Cahier, A4, quadrillé, spirale, 180 pages",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-068": {
+"name": "Pen, black",
+"fr": "Stylo, noir",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-069": {
+"name": "Lever Arch File, 310 X 290 Mm, Blue, Narrow Back 50 Mm",
+"fr": "Classeur à levier, 310 x 290 mm, bleu, dos étroit 50 mm",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-070": {
+"name": "Envelope, Plastic, Transparent, Perforated, A4 Open Top",
+"fr": "Pochette plastique, transparente, perforée, A4, ouverture en haut",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-071": {
+"name": "Hardcover Notebook, A4, Squared, 80g, 200 Pages",
+"fr": "Cahier à couverture rigide, A4, quadrillé, 80 g, 200 pages",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-072": {
+"name": "Paper, A4, 210 X 297 Mm, White, For Photocopy, 80 G",
+"fr": "Papier, A4, 210 x 297 mm, blanc, pour photocopie, 80 g",
+"unit": "box / boîte"
+},
+"ACDC-WSH-073": {
+"name": "Notepad, A5, 210 X 140 Mm, Squared 5 Mm",
+"fr": "Bloc-notes, A5, 210 x 140 mm, quadrillé 5 mm",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-074": {
+"name": "Stapler, Medium, 24 / 6-8, For 20 Sheets",
+"fr": "Agrafeuse, moyenne, 24/6-8, pour 20 feuilles",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-075": {
+"name": "(stapler, Medium) Staples 24-6",
+"fr": "(agrafeuse, moyenne) agrafes 24/6",
+"unit": "box of 5000 / boîte de 5000"
+},
+"ACDC-WSH-076": {
+"name": "Hole Punch, Paper, With Guide",
+"fr": "Perforatrice, papier, avec guide",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-077": {
+"name": "Whiteboard for erasable marker",
+"fr": "Tableau blanc pour marqueur effaçable",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-078": {
+"name": "Marker, Erasable, Black, Round Tip",
+"fr": "Marqueur effaçable, noir, pointe ronde",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-079": {
+"name": "Marker, Green, Erasable, Round Point",
+"fr": "Marqueur effaçable, vert, pointe ronde",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-080": {
+"name": "Marker, Blue, Erasable, Round Tip",
+"fr": "Marqueur effaçable, bleu, pointe ronde",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-081": {
+"name": "Marker, Red, Erasable, Round Point",
+"fr": "Marqueur effaçable, rouge, pointe ronde",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-082": {
+"name": "Diapers adults",
+"fr": "Couches pour adultes",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-083": {
+"name": "Children's diapers 6-10 kg",
+"fr": "Couches pour enfants 6-10 kg",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-084": {
+"name": "adult blanket",
+"fr": "Couverture adulte",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-085": {
+"name": "baby blanket",
+"fr": "Couverture bébé",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-086": {
+"name": "body soap 100 gr",
+"fr": "Savon de toilette 100 g",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-087": {
+"name": "Toilet paper",
+"fr": "Papier toilette",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-088": {
+"name": "Toilet slipper - flipflop -tong (shower sandal)",
+"fr": "Sandales de douche (tongs)",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-089": {
+"name": "Toothpaste with Toothbrush",
+"fr": "Dentifrice avec brosse à dents",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-090": {
+"name": "sandal man",
+"fr": "Sandales homme",
+"unit": "pair / paire"
+},
+"ACDC-WSH-091": {
+"name": "Girl's sandal",
+"fr": "Sandales fille",
+"unit": "pair / paire"
+},
+"ACDC-WSH-092": {
+"name": "Boy's sandal",
+"fr": "Sandales garçon",
+"unit": "pair / paire"
+},
+"ACDC-WSH-093": {
+"name": "Lady’s sandal",
+"fr": "Sandales femme",
+"unit": "pair / paire"
+},
+"ACDC-WSH-094": {
+"name": "Child sock",
+"fr": "Chaussettes enfant",
+"unit": "pair / paire"
+},
+"ACDC-WSH-095": {
+"name": "Child's clothing from 0 to 5 years old",
+"fr": "Vêtement enfant de 0 à 5 ans",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-096": {
+"name": "Child dress from 5 to 12 years old",
+"fr": "Robe enfant de 5 à 12 ans",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-097": {
+"name": "Men's adult shirt",
+"fr": "Chemise homme adulte",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-098": {
+"name": "Adult t-shirt",
+"fr": "T-shirt adulte",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-099": {
+"name": "Kids t-shirt",
+"fr": "T-shirt enfant",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-100": {
+"name": "Adult pants",
+"fr": "Pantalon adulte",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-101": {
+"name": "Child pants",
+"fr": "Pantalon enfant",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-102": {
+"name": "Jacket adult",
+"fr": "Veste adulte",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-103": {
+"name": "Child jacket",
+"fr": "Veste enfant",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-104": {
+"name": "Adult belt",
+"fr": "Ceinture adulte",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-105": {
+"name": "Men's underwear",
+"fr": "Sous-vêtement homme",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-106": {
+"name": "Adult lady dress",
+"fr": "Robe femme adulte",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-107": {
+"name": "Women's underwear",
+"fr": "Sous-vêtement femme",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-108": {
+"name": "Child underwear",
+"fr": "Sous-vêtement enfant",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-109": {
+"name": "Towel",
+"fr": "Serviette de toilette",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-110": {
+"name": "Table sugar",
+"fr": "Sucre de table",
+"unit": "kg"
+},
+"ACDC-WSH-111": {
+"name": "Disposable plastic spoon",
+"fr": "Cuillère plastique jetable",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-112": {
+"name": "Disposable plastic cup",
+"fr": "Gobelet plastique jetable",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-113": {
+"name": "Graduated cylinder",
+"fr": "Éprouvette graduée",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-114": {
+"name": "Baby Bottle",
+"fr": "Biberon",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-115": {
+"name": "Sprayer 10 or 12 liter (low-pressure to help reduce the risk of aerosol generation)",
+"fr": "Pulvérisateur 10 ou 12 l (basse pression pour réduire le risque d'aérosols)",
+"unit": "piece / pièce"
+},
+"ACDC-WSH-116": {
+"name": "Triple packaging for specimen transportation, 4G, class 6.2, w/ 1.5 l sec. container, unit",
+"fr": "Triple emballage pour transport d'échantillons, 4G, classe 6,2, avec récipient secondaire 1,5 l, unité",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-001": {
+"name": "Malaria rapid tests (all species types)",
+"fr": "Test de diagnostic rapide (TDR) paludisme (toutes espèces)",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-002": {
+"name": "HIV 1 + 2 rapid tests (2 different test for verification)",
+"fr": "TDR VIH 1 + 2 (2 tests différents pour confirmation)",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-003": {
+"name": "Hepatitis B rapid tests",
+"fr": "TDR hépatite B",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-004": {
+"name": "Hepatitis C rapid tests",
+"fr": "TDR hépatite C",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-005": {
+"name": "Syphilis rapid tests",
+"fr": "TDR syphilis",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-006": {
+"name": "BLOOD BAG + diversion pouch, single, CPDA1, 150 ml, s.u",
+"fr": "Poche de sang avec poche de dérivation, simple, CPDA1, 150 ml, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-007": {
+"name": "BLOOD BAG + diversion pouch, single, CPDA1, 450 ml, s.u",
+"fr": "Poche de sang avec poche de dérivation, simple, CPDA1, 450 ml, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-008": {
+"name": "SET, BLOOD TRANSFUSION, with 200 µ filter, sterile, s.u",
+"fr": "Transfuseur, avec filtre 200 µm, stérile, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-009": {
+"name": "BEDSIDE CONTROL CARD, ABO compatibility (Serafol)",
+"fr": "Carte de contrôle ultime au lit du patient, compatibilité ABO (Serafol)",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-010": {
+"name": "(bedside control card Serafol) ADHESIVE FOIL",
+"fr": "(carte de contrôle Serafol) film adhésif",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-011": {
+"name": "(bedside control card Serafol) MIXING STICK, plastic",
+"fr": "(carte de contrôle Serafol) bâtonnet mélangeur, plastique",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-012": {
+"name": "BLOOD GROUPING TEST, anti A (Lorne), 10 ml, dropper bot",
+"fr": "Réactif de groupage sanguin, anti-A (Lorne), 10 ml, flacon compte-gouttes",
+"unit": "bottle / flacon"
+},
+"ACDC-LAB-013": {
+"name": "BLOOD GROUPING TEST, anti AB (Lorne), 10 ml, dropper bot",
+"fr": "Réactif de groupage sanguin, anti-AB (Lorne), 10 ml, flacon compte-gouttes",
+"unit": "bottle / flacon"
+},
+"ACDC-LAB-014": {
+"name": "BLOOD GROUPING TEST, anti B (Lorne), 10 ml, dropper bot",
+"fr": "Réactif de groupage sanguin, anti-B (Lorne), 10 ml, flacon compte-gouttes",
+"unit": "bottle / flacon"
+},
+"ACDC-LAB-015": {
+"name": "RH NEGATIVE CONTROL (Lorne),monoclonal antibodies, 10ml, bot",
+"fr": "Contrôle négatif Rh (Lorne), anticorps monoclonaux, 10 ml, flacon",
+"unit": "bottle / flacon"
+},
+"ACDC-LAB-016": {
+"name": "BLOOD GROUPING TEST, RHESUS anti D (Lorne), 10 ml, drop.bot",
+"fr": "Réactif de groupage sanguin, rhésus anti-D (Lorne), 10 ml, flacon compte-gouttes",
+"unit": "bottle / flacon"
+},
+"ACDC-LAB-017": {
+"name": "TUBE STRIPPER, for blood bag tubing",
+"fr": "Pince à traire, pour tubulure de poche de sang",
+"unit": "piece / pièce"
+},
+"ACDC-LAB-018": {
+"name": "BLOOD BAG TUBE SEALER (Delcon HemoWeld T), 115-230V",
+"fr": "Soudeuse de tubulure de poche de sang (Delcon HemoWeld T), 115-230 V",
+"unit": "tube"
+},
+"ACDC-LAB-019": {
+"name": "BLOOD COLLECTION MONITOR, 230V (Hemotek2)",
+"fr": "Agitateur-peseur de prélèvement sanguin, 230 V (Hemotek2)",
+"unit": "tube"
+},
+"ACDC-LAB-020": {
+"name": "PLASMA SEPARATION STAND, manual",
+"fr": "Extracteur de plasma, manuel",
+"unit": "tube"
+},
+"ACDC-LAB-021": {
+"name": "Platelet Incubator with Agitator",
+"fr": "Agitateur-incubateur combiné des plaquettes",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-001": {
+"name": "FOAM MATTRESS, bedsore prev. M risk",
+"fr": "Matelas mousse anti-escarres, risque moyen",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-002": {
+"name": "(drainage, thoracic), VALVE NON RETURN, suction & pressure",
+"fr": "(drainage thoracique) valve anti-retour, aspiration et pression",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-003": {
+"name": "(scalpel nº 4) BLADE, s.u., sterile, nº 22, 01-22-22",
+"fr": "(bistouri n° 4) lame, u.u., stérile, n° 22, 01-22-22",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-004": {
+"name": "(syringe pump) INFUSION LINE, PE, ID 1mm, 200cm, s.u",
+"fr": "(pousse-seringue) tubulure de perfusion, PE, DI 1 mm, 200 cm, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-005": {
+"name": "(patient warmer) SET high flow, s.u. sterile 24355",
+"fr": "(réchauffeur patient) set haut débit, u.u., stérile 24355",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-006": {
+"name": "(warming unit) WARMING BLANKET, adult 3/4 reusable 92057",
+"fr": "(unité de réchauffement) couverture chauffante, adulte 3/4, réutilisable 92057",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-007": {
+"name": "BLOOD/FLUID WARMER, 230V 50/60Hz",
+"fr": "Réchauffeur de sang/soluté, 230 V 50/60 Hz",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-008": {
+"name": "BOTTLE, thoracic drainage, 2 l autoclavable + lid 2 tubes",
+"fr": "Bocal de drainage thoracique, 2 l, autoclavable + couvercle 2 tubes",
+"unit": "bottle / flacon"
+},
+"ACDC-ICU-009": {
+"name": "CENTRAL VENOUS CATHETER SET, 2 lumens, CH4-4.5 x 8-10cm",
+"fr": "Set de cathéter veineux central, 2 voies, CH4-4,5 x 8-10 cm",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-010": {
+"name": "CENTRAL VENOUS CATHETER SET, 2 lumens, CH5-5.5 x 10-13cm",
+"fr": "Set de cathéter veineux central, 2 voies, CH5-5,5 x 10-13 cm",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-011": {
+"name": "CPAP O-Two single use SET, mask n°3 child, + manometer",
+"fr": "Set CPAP O-Two usage unique, masque n° 3 enfant, + manomètre",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-012": {
+"name": "CPAP O-Two single use SET, mask n°4 adult, + manometer",
+"fr": "Set CPAP O-Two usage unique, masque n° 4 adulte, + manomètre",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-013": {
+"name": "CPAP O-Two single use SET, mask n°5 Large adult, + manometer",
+"fr": "Set CPAP O-Two usage unique, masque n° 5 grand adulte, + manomètre",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-014": {
+"name": "CRICOTHYROTOMY SET, 2 mm",
+"fr": "Set de cricothyrotomie, 2 mm",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-015": {
+"name": "CRICOTHYROTOMY SET, 4 mm",
+"fr": "Set de cricothyrotomie, 4 mm",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-016": {
+"name": "DRAIN, THORACIC, sterile, s.u., CH12",
+"fr": "Drain thoracique, stérile, u.u., CH12",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-017": {
+"name": "DRAIN, THORACIC, sterile, s.u., CH28",
+"fr": "Drain thoracique, stérile, u.u., CH28",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-018": {
+"name": "ELECTRONIC DROP COUNTER (Dripassist)",
+"fr": "Compte-gouttes électronique (Dripassist)",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-019": {
+"name": "EXTENSION TUBING with stopcock 3 way, s.u., sterile",
+"fr": "Prolongateur avec robinet 3 voies, u.u., stérile",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-020": {
+"name": "FACE MASK NIV, non-vented, complete, reusable, L",
+"fr": "Masque facial VNI, non ventilé, complet, réutilisable, L",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-021": {
+"name": "FACE MASK NIV, non-vented, complete, reusable, M",
+"fr": "Masque facial VNI, non ventilé, complet, réutilisable, M",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-022": {
+"name": "FACE MASK NIV, non-vented, complete, reusable, S",
+"fr": "Masque facial VNI, non ventilé, complet, réutilisable, S",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-023": {
+"name": "FORCEPS, MAGILL, adult, 24 cm",
+"fr": "Pince de Magill, adulte, 24 cm",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-024": {
+"name": "FORCEPS, MAGILL, paediatric, 15 cm",
+"fr": "Pince de Magill, pédiatrique, 15 cm",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-025": {
+"name": "HEADGEAR, for NIV face mask, universal size, single patient",
+"fr": "Harnais pour masque facial VNI, taille universelle, patient unique",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-026": {
+"name": "HME FILTER, BREATHING CIRCUIT, 22M/15F, adult, s.u",
+"fr": "Filtre HME, circuit respiratoire, 22M/15F, adulte, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-027": {
+"name": "HME FILTER, BREATHING CIRCUIT, 22M/15F, child, s.u",
+"fr": "Filtre HME, circuit respiratoire, 22M/15F, enfant, u.u",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-028": {
+"name": "MASK LARYNGEAL, reusable, size 2",
+"fr": "Masque laryngé, réutilisable, taille 2",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-029": {
+"name": "MASK LARYNGEAL, reusable, size 3",
+"fr": "Masque laryngé, réutilisable, taille 3",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-030": {
+"name": "MASK LARYNGEAL, reusable, size 4",
+"fr": "Masque laryngé, réutilisable, taille 4",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-031": {
+"name": "MASK LARYNGEAL, reusable, size 5",
+"fr": "Masque laryngé, réutilisable, taille 5",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-032": {
+"name": "MEDICATION TROLLEY, 30 bins, 2 drawers, centr. Lock",
+"fr": "Chariot à médicaments, 30 bacs, 2 tiroirs, verrouillage centralisé",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-033": {
+"name": "OROPHARYNGEAL AIRWAY, s.u. non ster., 100mm, ID 5.0mm, red",
+"fr": "Canule oropharyngée, u.u., non stérile, 100 mm, DI 5,0 mm, rouge",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-034": {
+"name": "OROPHARYNGEAL AIRWAY, s.u. non ster., 90mm, ID 4.5mm, yellow",
+"fr": "Canule oropharyngée, u.u., non stérile, 90 mm, DI 4,5 mm, jaune",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-035": {
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 40mm, ID 3.0mm, pink",
+"fr": "Canule oropharyngée, u.u., non stérile, 40 mm, DI 3,0 mm, rose",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-036": {
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 50mm, ID 3.5mm, blue",
+"fr": "Canule oropharyngée, u.u., non stérile, 50 mm, DI 3,5 mm, bleue",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-037": {
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 60mm, ID 4.0mm, black",
+"fr": "Canule oropharyngée, u.u., non stérile, 60 mm, DI 4,0 mm, noire",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-038": {
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 70mm, ID 4.0mm, white",
+"fr": "Canule oropharyngée, u.u., non stérile, 70 mm, DI 4,0 mm, blanche",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-039": {
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 80mm, ID 4.5mm, green",
+"fr": "Canule oropharyngée, u.u., non stérile, 80 mm, DI 4,5 mm, verte",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-040": {
+"name": "OTOSCOPE, halogen + SPECULA",
+"fr": "Otoscope, halogène + spéculums",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-041": {
+"name": "PAPER, pH INDICATOR, 2 to 9, graduation 0.5, gastric, strip",
+"fr": "Papier indicateur de pH, 2 à 9, graduation 0,5, gastrique, bandelette",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-042": {
+"name": "PATIENT TRANSFER SLIDING BOARD, whole body",
+"fr": "Planche de transfert patient, corps entier",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-043": {
+"name": "SEMI-AUTOMATED EXTERNAL DEFIBRILLATOR , manual",
+"fr": "Défibrillateur externe semi-automatique, manuel",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-044": {
+"name": "SYRINGE PUMP , single syr.,drug lib.FR",
+"fr": "Pousse-seringue, une seringue, bibliothèque de médicaments FR",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-045": {
+"name": "TUBE, SUCTION YANKAUER, adj. aspiration, sterile, s.u. CH20",
+"fr": "Sonde d'aspiration Yankauer, aspiration réglable, stérile, u.u., CH20",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-046": {
+"name": "WARMING UNIT, forced air generator",
+"fr": "Unité de réchauffement, générateur d'air pulsé",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-047": {
+"name": "Point of care ultrasound machine",
+"fr": "Échographe au lit du patient (POCUS)",
+"unit": "piece / pièce"
+},
+"ACDC-ICU-048": {
+"name": "(Point of care ultrasound) Convex and linear probe",
+"fr": "(Échographie au lit du patient) sonde convexe et linéaire",
+"unit": "piece / pièce"
+},
+"ACDC-SDB-001": {
+"name": "GLOVES PROTECTION, heavy duty, nitrile, green, cat III, size 9",
+"fr": "Gants de protection nitrile épais, vert, cat. III, taille 9",
+"unit": "pair / paire"
+},
+"ACDC-SDB-002": {
+"name": "Mask, fluid-resistant (duckbill/cup shape)",
+"fr": "Masque résistant aux liquides (forme bec de canard/coque)",
+"unit": "piece / pièce"
+},
+"ACDC-SDB-003": {
+"name": "BODY BAG, plastic, white, 400 microns, child 150x100cm (piece)",
+"fr": "Sac mortuaire, plastique, blanc, 400 microns, enfant, 150 x 100 cm (pièce)",
+"unit": "piece / pièce"
+},
+"ACDC-SDB-004": {
+"name": "BODY BAG, plastic, white, 400 microns, ad., 250x120cm (piece)",
+"fr": "Sac mortuaire, plastique, blanc, 400 microns, adulte, 250 x 120 cm (pièce)",
+"unit": "piece / pièce"
+},
+"ACDC-SDB-005": {
+"name": "Sprayer 1.5 liter",
+"fr": "Pulvérisateur 1,5 l",
+"unit": "piece / pièce"
+},
+"ACDC-SDB-006": {
+"name": "Sprayer 10 or 12 liters",
+"fr": "Pulvérisateur 10 ou 12 l",
+"unit": "piece / pièce"
+},
+"ACDC-SDB-007": {
+"name": "GARBAGE BAG, 100 liters, black, 70 microns (piece)",
+"fr": "Sac poubelle, 100 l, noir, 70 microns (pièce)",
+"unit": "piece / pièce"
+},
+"ACDC-SDB-008": {
+"name": "ANTI FOG solution, approx. 30 cl, bottle",
+"fr": "Solution antibuée, env. 30 cl, flacon",
+"unit": "bottle / flacon"
+},
+"ACDC-SDB-009": {
+"name": "TRANSPORT MEDIUM (Virocult), 1 ml medium, with swab, pack-125",
+"fr": "Milieu de transport (Virocult), 1 ml de milieu, avec écouvillon, paquet de 125",
+"unit": "pack / paquet"
+},
+"ACDC-SDB-010": {
+"name": "BAG BIOHAZARD, 25 x 15 cm, with document pouch, zip lock, pack-100",
+"fr": "Sachet risque biologique, 25 x 15 cm, avec pochette document, fermeture zip, paquet de 100",
+"unit": "pack / paquet"
+},
+"ACDC-SDB-011": {
+"name": "Transport tube PP 50 ml pack-25",
+"fr": "Tube de transport PP 50 ml, paquet de 25",
+"unit": "pack / paquet"
+},
+"ACDC-SDB-012": {
+"name": "GUM BOOTS size 43 - 45",
+"fr": "Bottes en caoutchouc pointure 43 - 45",
+"unit": "pair / paire"
+},
+"ACDC-SDB-013": {
+"name": "JERRYCAN EN PLASTIQUES 20L",
+"fr": "Jerrycan en plastique 20 l",
+"unit": "piece / pièce"
+},
+"ACDC-SDB-014": {
+"name": "20L plastic bucket with lid",
+"fr": "Seau plastique avec couvercle 20 l",
+"unit": "piece / pièce"
+}
+}

@@ -1,0 +1,690 @@
+{
+ "ACDC-EQP-029": {
+  "fr": "Pompe à perfusion avec accessoires",
+  "flag": ""
+ },
+ "ACDC-EQP-030": {
+  "fr": "(Pompe à perfusion) Tubulure de perfusion/set IV",
+  "flag": ""
+ },
+ "ACDC-EQP-031": {
+  "fr": "Perceuse pour accès vasculaire, avec sac de transport",
+  "flag": "Likely intraosseous driver (EZ-IO type); confirm device."
+ },
+ "ACDC-EQP-032": {
+  "fr": "(Perceuse) Kit aiguille + stabilisateur, 15 G, 15 mm, pédiatrique",
+  "flag": ""
+ },
+ "ACDC-EQP-033": {
+  "fr": "(Perceuse) Kit aiguille + stabilisateur, 15 G, 25 mm, adulte",
+  "flag": ""
+ },
+ "ACDC-EQP-034": {
+  "fr": "(Perceuse) Kit de formation",
+  "flag": ""
+ },
+ "ACDC-EQP-035": {
+  "fr": "Aspirateur mécanique avec bocaux de recueil",
+  "flag": ""
+ },
+ "ACDC-EQP-036": {
+  "fr": "(Aspirateur mécanique) Bocal de recueil",
+  "flag": ""
+ },
+ "ACDC-EQP-037": {
+  "fr": "(Aspirateur mécanique) Tube d'aspiration avec embout d'aspiration combiné et raccord coudé",
+  "flag": ""
+ },
+ "ACDC-EQP-038": {
+  "fr": "(Aspirateur mécanique) Tube, silicone, autoclavable, diam. int. 8 mm, 10 m",
+  "flag": ""
+ },
+ "ACDC-EQP-039": {
+  "fr": "Aspirateur électrique avec accessoires",
+  "flag": ""
+ },
+ "ACDC-EQP-040": {
+  "fr": "(Aspirateur électrique) Tube, silicone, autoclavable, diam. int. 8 mm, 10 m",
+  "flag": ""
+ },
+ "ACDC-EQP-041": {
+  "fr": "(Aspirateur électrique) Tubulure d'aspiration, CH 25, 1,8 m, stérile, u.u.",
+  "flag": ""
+ },
+ "ACDC-EQP-042": {
+  "fr": "(Aspirateur électrique) Bocal, autoclavable",
+  "flag": ""
+ },
+ "ACDC-EQP-043": {
+  "fr": "Électrocardiographe portable, avec accessoires",
+  "flag": ""
+ },
+ "ACDC-EQP-044": {
+  "fr": "(Électrocardiographe) Câble patient, 10 dérivations",
+  "flag": ""
+ },
+ "ACDC-EQP-045": {
+  "fr": "(Électrocardiographe) Jeu d'électrodes à ventouse, réutilisables",
+  "flag": ""
+ },
+ "ACDC-EQP-046": {
+  "fr": "(Électrocardiographe) Jeu d'électrodes à pince, réutilisables",
+  "flag": ""
+ },
+ "ACDC-EQP-047": {
+  "fr": "(Électrocardiographe) Papier d'enregistrement",
+  "flag": ""
+ },
+ "ACDC-EQP-048": {
+  "fr": "(Électrocardiographe) Gel pour électrodes, 5 ml",
+  "flag": ""
+ },
+ "ACDC-EQP-049": {
+  "fr": "Ballon de ventilation auto-remplisseur adulte, capacité > 1500 ml, avec masques (petit, moyen, grand)",
+  "flag": ""
+ },
+ "ACDC-EQP-050": {
+  "fr": "Ballon de réanimation auto-gonflant, enfant/nouveau-né, avec masques RH2/S1 (type Ambu)",
+  "flag": ""
+ },
+ "ACDC-EQP-051": {
+  "fr": "Set de perfusion IV, 16 G",
+  "flag": "Gauge suggests an IV cannula (cathéter IV court), not an infusion set; confirm."
+ },
+ "ACDC-EQP-052": {
+  "fr": "Set de perfusion IV, 18 G",
+  "flag": "Gauge suggests an IV cannula (cathéter IV court), not an infusion set; confirm."
+ },
+ "ACDC-EQP-053": {
+  "fr": "Set de perfusion IV, 20 G",
+  "flag": "Gauge suggests an IV cannula (cathéter IV court), not an infusion set; confirm."
+ },
+ "ACDC-EQP-054": {
+  "fr": "Set de perfusion IV, 22 G",
+  "flag": "Gauge suggests an IV cannula (cathéter IV court), not an infusion set; confirm."
+ },
+ "ACDC-EQP-055": {
+  "fr": "Set de perfusion IV, 24 G",
+  "flag": "Gauge suggests an IV cannula (cathéter IV court), not an infusion set; confirm."
+ },
+ "ACDC-EQP-056": {
+  "fr": "Autoclave, 39 l, avec réchaud à un brûleur",
+  "flag": ""
+ },
+ "ACDC-EQP-057": {
+  "fr": "Ruban indicateur de stérilisation vapeur pour autoclave, 50 m x 19 mm",
+  "flag": ""
+ },
+ "ACDC-EQP-058": {
+  "fr": "Bandelette indicatrice TST, type 5",
+  "flag": ""
+ },
+ "ACDC-EQP-059": {
+  "fr": "Feuille de stérilisation, papier crêpé, 0,9 x 0,9 m",
+  "flag": ""
+ },
+ "ACDC-EQP-060": {
+  "fr": "Poire d'aspiration pour nouveau-né, réutilisable, autoclavable",
+  "flag": ""
+ },
+ "ACDC-EQP-061": {
+  "fr": "Balance électronique, 50 g/0-200 kg",
+  "flag": ""
+ },
+ "ACDC-EQP-002": {
+  "fr": "Thermomètre numérique",
+  "flag": ""
+ },
+ "ACDC-EQP-062": {
+  "fr": "Glucomètre, lecteur de glycémie mg/dl",
+  "flag": ""
+ },
+ "ACDC-EQP-063": {
+  "fr": "(Glucomètre) Bandelette 42214",
+  "flag": "Source missing closing parenthesis; fixed."
+ },
+ "ACDC-EQP-064": {
+  "fr": "Lancette de sécurité, débit moyen, aiguille 21G x 1,8 mm, verte, u.u.",
+  "flag": ""
+ },
+ "ACDC-EQP-065": {
+  "fr": "(Glucomètre) Solution de contrôle normale, flacon 4 ml 46948",
+  "flag": "Source typos (missing parenthesis/space before 46948); fixed."
+ },
+ "ACDC-EQP-066": {
+  "fr": "(Glucomètre) Solution de contrôle haute, flacon 4 ml 46949",
+  "flag": "Source missing closing parenthesis; fixed."
+ },
+ "ACDC-EQP-067": {
+  "fr": "(Glucomètre) Solution de contrôle basse, flacon 4 ml 46947",
+  "flag": "Source missing closing parenthesis; fixed."
+ },
+ "ACDC-EQP-068": {
+  "fr": "Photomètre d'hémoglobine, appareil tropicalisé",
+  "flag": "Source typo 'tropicalizedmachine'; fixed."
+ },
+ "ACDC-EQP-069": {
+  "fr": "Microcuvette u.u. pour photomètre d'hémoglobine",
+  "flag": ""
+ },
+ "ACDC-EQP-070": {
+  "fr": "Nettoyant pour photomètre d'hémoglobine, 5 pces, 139123",
+  "flag": ""
+ },
+ "ACDC-EQP-071": {
+  "fr": "Solution de contrôle pour photomètre d'hémoglobine, kit 3 x 2 flacons (chaîne du froid)",
+  "flag": ""
+ },
+ "ACDC-EQP-072": {
+  "fr": "Test urinaire, pH, bili, prot, gluc, cét, sang, nit, leuc, 1 bandelette",
+  "flag": ""
+ },
+ "ACDC-EQP-073": {
+  "fr": "Test de grossesse TDR/hCG, urine, 1 bandelette",
+  "flag": "'RST' assumed to mean rapid (screening) test, rendered TDR; confirm."
+ },
+ "ACDC-EQP-074": {
+  "fr": "Pied à perfusion, 2 crochets, sur roulettes",
+  "flag": ""
+ },
+ "ACDC-EQP-075": {
+  "fr": "Aiguille u.u., Luer, 21 G (0,8 x 40 mm) verte, IM",
+  "flag": ""
+ },
+ "ACDC-EQP-076": {
+  "fr": "Aiguille u.u., Luer, 23 G (0,6 x 30 mm) bleue, SC, IM enfant",
+  "flag": ""
+ },
+ "ACDC-EQP-077": {
+  "fr": "Aiguille u.u., Luer, 25 G (0,5 x 25 mm), orange, SC",
+  "flag": ""
+ },
+ "ACDC-EQP-078": {
+  "fr": "Aiguille à ponction lombaire, Luer, u.u., 20 G (0,9 x 90 mm)",
+  "flag": ""
+ },
+ "ACDC-EQP-079": {
+  "fr": "Aiguille à ponction lombaire, Luer, u.u., 22 G (0,7 x 40 mm)",
+  "flag": ""
+ },
+ "ACDC-EQP-080": {
+  "fr": "Tubulure de perfusion en Y, Luer-lock, prise d'air, stérile, u.u.",
+  "flag": ""
+ },
+ "ACDC-EQP-081": {
+  "fr": "Perfuseur pédiatrique de précision, stérile, u.u.",
+  "flag": ""
+ },
+ "ACDC-EQP-082": {
+  "fr": "Seringue u.u., Luer, 2 ml",
+  "flag": ""
+ },
+ "ACDC-EQP-083": {
+  "fr": "Seringue u.u., Luer, 5 ml",
+  "flag": ""
+ },
+ "ACDC-EQP-084": {
+  "fr": "Seringue u.u., Luer, 10 ml",
+  "flag": ""
+ },
+ "ACDC-EQP-085": {
+  "fr": "Seringue u.u., Luer, 20 ml",
+  "flag": ""
+ },
+ "ACDC-EQP-086": {
+  "fr": "Seringue u.u., Luer, 50-60 ml",
+  "flag": ""
+ },
+ "ACDC-EQP-087": {
+  "fr": "Seringue à insuline U-100, 1 ml + aiguille sertie 6-8 mm",
+  "flag": ""
+ },
+ "ACDC-EQP-088": {
+  "fr": "Chaîne du froid, réfrigérateur, 94 l",
+  "flag": ""
+ },
+ "ACDC-EQP-089": {
+  "fr": "Poche à urine 2 l, vidange, valves anti-retour, site de prélèvement, stérile",
+  "flag": ""
+ },
+ "ACDC-EQP-090": {
+  "fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH06",
+  "flag": ""
+ },
+ "ACDC-EQP-091": {
+  "fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH08",
+  "flag": ""
+ },
+ "ACDC-EQP-092": {
+  "fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH10",
+  "flag": ""
+ },
+ "ACDC-EQP-093": {
+  "fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH14",
+  "flag": ""
+ },
+ "ACDC-EQP-094": {
+  "fr": "Sonde urinaire Foley 2 voies, ballonnet, stérile, u.u., CH18",
+  "flag": ""
+ },
+ "ACDC-EQP-095": {
+  "fr": "Sonde nasogastrique, embout ENFit, u.u., 50 cm, CH06, vert clair",
+  "flag": ""
+ },
+ "ACDC-EQP-096": {
+  "fr": "Sonde nasogastrique, embout ENFit, u.u., 50 cm, CH08, bleue",
+  "flag": ""
+ },
+ "ACDC-EQP-097": {
+  "fr": "Sonde nasogastrique, embout ENFit, u.u., 50 cm, CH10, noire",
+  "flag": ""
+ },
+ "ACDC-EQP-098": {
+  "fr": "Sonde nasogastrique, embout ENFit, u.u., 90 cm, CH12, blanche",
+  "flag": ""
+ },
+ "ACDC-EQP-099": {
+  "fr": "Sparadrap de fixation pour sonde nasogastrique, u.u., adulte/enfant",
+  "flag": ""
+ },
+ "ACDC-EQP-100": {
+  "fr": "Tube MiniCollect® 0,5 ml LH héparine de lithium, bouchon vert",
+  "flag": ""
+ },
+ "ACDC-EQP-101": {
+  "fr": "Analyseur de biochimie clinique au lit du patient, 230 V, 50-60 Hz",
+  "flag": ""
+ },
+ "ACDC-EQP-102": {
+  "fr": "Garrot pour phlébotomie, élastique, 100 x 1,8 cm",
+  "flag": ""
+ },
+ "ACDC-EQP-103": {
+  "fr": "Tampon/lingette chlorhexidine 2 %, alcool isopropylique 70 %",
+  "flag": ""
+ },
+ "ACDC-EQP-104": {
+  "fr": "Porte-tube pour tube sous vide, avec éjecteur d'aiguille",
+  "flag": ""
+ },
+ "ACDC-EQP-105": {
+  "fr": "Aiguille stérile, 23G (Vacutainer)",
+  "flag": ""
+ },
+ "ACDC-EQP-106": {
+  "fr": "Aiguille stérile, 21G (Vacutainer)",
+  "flag": ""
+ },
+ "ACDC-EQP-107": {
+  "fr": "Tube sous vide, plastique, K2EDTA, 2 ml, violet (enfant)",
+  "flag": ""
+ },
+ "ACDC-EQP-108": {
+  "fr": "Tube sous vide, plastique, sérum, 4 ml, rouge (enfant)",
+  "flag": ""
+ },
+ "ACDC-EQP-109": {
+  "fr": "Tube sous vide, plastique, K2EDTA, 10 ml, violet (adulte)",
+  "flag": ""
+ },
+ "ACDC-EQP-110": {
+  "fr": "Tube sous vide, plastique, sérum, 10 ml, rouge (adulte)",
+  "flag": ""
+ },
+ "ACDC-EQP-111": {
+  "fr": "Pot à prélèvement, plastique, 60 ml, non stérile, urine",
+  "flag": ""
+ },
+ "ACDC-EQP-112": {
+  "fr": "Sparadrap, tissu, 2-2,5 cm x 5 m",
+  "flag": ""
+ },
+ "ACDC-EQP-113": {
+  "fr": "Compresse non tissée, 4 plis, 7,5 cm, non stérile",
+  "flag": ""
+ },
+ "ACDC-EQP-114": {
+  "fr": "Chambre d'inhalation, patient unique, masque moyen",
+  "flag": ""
+ },
+ "ACDC-EQP-115": {
+  "fr": "Chambre d'inhalation, patient unique, petit masque",
+  "flag": ""
+ },
+ "ACDC-EQP-116": {
+  "fr": "Nébuliseur + compresseur (PARI BOY PRO) + accessoires",
+  "flag": ""
+ },
+ "ACDC-EQP-117": {
+  "fr": "Masque de nébulisation avec chambre, adulte",
+  "flag": ""
+ },
+ "ACDC-EQP-118": {
+  "fr": "Masque de nébulisation avec chambre, enfant",
+  "flag": ""
+ },
+ "ACDC-EQP-119": {
+  "fr": "Gel pour échographie",
+  "flag": ""
+ },
+ "ACDC-EQP-120": {
+  "fr": "Membrane filtrante en polyéthersulfone (PES) 1,2 micron, sans DEHP, sans latex",
+  "flag": ""
+ },
+ "ACDC-EQP-121": {
+  "fr": "Filtre additionnel 0,2 micron",
+  "flag": ""
+ },
+ "ACDC-EQP-122": {
+  "fr": "Lampe chauffante pour nourrisson",
+  "flag": ""
+ },
+ "ACDC-EQP-123": {
+  "fr": "Transfuseur (set de transfusion sanguine), avec filtre 200 µm, stérile, u.u.",
+  "flag": "Source '200 u' read as 200 µm (micron); confirm."
+ },
+ "ACDC-EQP-124": {
+  "fr": "Tube de prélèvement avec milieu de transport viral (MTV)",
+  "flag": ""
+ },
+ "ACDC-EQP-125": {
+  "fr": "Écouvillons stériles à point de rupture, emballés individuellement",
+  "flag": ""
+ },
+ "ACDC-IPC-006": {
+  "fr": "Masque médical ou chirurgical résistant aux fluides (forme bec de canard ou coque)",
+  "flag": ""
+ },
+ "ACDC-IPC-007": {
+  "fr": "Bottes en caoutchouc, paire, pointure 37",
+  "flag": ""
+ },
+ "ACDC-IPC-008": {
+  "fr": "Bottes en caoutchouc, paire, pointure 39",
+  "flag": ""
+ },
+ "ACDC-IPC-009": {
+  "fr": "Bottes en caoutchouc, paire, pointure 41",
+  "flag": ""
+ },
+ "ACDC-IPC-010": {
+  "fr": "Bottes en caoutchouc, paire, pointure 43",
+  "flag": ""
+ },
+ "ACDC-IPC-011": {
+  "fr": "Bottes en caoutchouc, paire, pointure 46",
+  "flag": ""
+ },
+ "ACDC-IPC-012": {
+  "fr": "Cagoule de protection tête et cou",
+  "flag": ""
+ },
+ "ACDC-IPC-013": {
+  "fr": "Blouse, AAMI niveau 3, non stérile, jetable, XL",
+  "flag": ""
+ },
+ "ACDC-IPC-014": {
+  "fr": "Blouse, AAMI niveau 3, non stérile, jetable, L",
+  "flag": ""
+ },
+ "ACDC-IPC-015": {
+  "fr": "Blouse, AAMI niveau 3, non stérile, jetable, M",
+  "flag": ""
+ },
+ "ACDC-IPC-016": {
+  "fr": "Combinaison résistante aux fluides, cat. III, type 3B ou 4B, u.u., M",
+  "flag": ""
+ },
+ "ACDC-IPC-017": {
+  "fr": "Combinaison résistante aux fluides, cat. III, type 3B ou 4B, u.u., XL",
+  "flag": "Source had a double comma; fixed."
+ },
+ "ACDC-IPC-018": {
+  "fr": "Combinaison résistante aux fluides, cat. III, type 3B ou 4B, u.u., XXL",
+  "flag": ""
+ },
+ "ACDC-IPC-019": {
+  "fr": "Gants d'examen nitrile non poudrés, manchette longue min. 28 cm, taille S",
+  "flag": ""
+ },
+ "ACDC-IPC-020": {
+  "fr": "Gants d'examen nitrile non poudrés, manchette longue min. 28 cm, taille M",
+  "flag": ""
+ },
+ "ACDC-IPC-021": {
+  "fr": "Gants d'examen nitrile non poudrés, manchette longue min. 28 cm, taille L",
+  "flag": ""
+ },
+ "ACDC-IPC-022": {
+  "fr": "Gants chirurgicaux, latex, u.u., stériles, paire 6,5",
+  "flag": ""
+ },
+ "ACDC-IPC-023": {
+  "fr": "Gants chirurgicaux, latex, u.u., stériles, paire 7,5",
+  "flag": ""
+ },
+ "ACDC-IPC-024": {
+  "fr": "Gants chirurgicaux, latex, u.u., stériles, paire 8",
+  "flag": ""
+ },
+ "ACDC-IPC-025": {
+  "fr": "Gants chirurgicaux, latex, u.u., stériles, paire 8,5",
+  "flag": ""
+ },
+ "ACDC-IPC-026": {
+  "fr": "Gants de protection, épais, nitrile, verts, cat. III, taille 7",
+  "flag": ""
+ },
+ "ACDC-IPC-027": {
+  "fr": "Gants de protection, épais, nitrile, verts, cat. III, taille 8",
+  "flag": ""
+ },
+ "ACDC-IPC-028": {
+  "fr": "Gants de protection, épais, nitrile, verts, cat. III, taille 10",
+  "flag": ""
+ },
+ "ACDC-IPC-029": {
+  "fr": "Lunettes de protection (réutilisables)",
+  "flag": ""
+ },
+ "ACDC-IPC-030": {
+  "fr": "Écran facial (usage unique)",
+  "flag": ""
+ },
+ "ACDC-IPC-031": {
+  "fr": "Ensemble tunique + pantalon de chirurgie, tissé, réutilisable, vert, taille S",
+  "flag": ""
+ },
+ "ACDC-IPC-032": {
+  "fr": "Ensemble tunique + pantalon de chirurgie, tissé, réutilisable, vert, taille M",
+  "flag": ""
+ },
+ "ACDC-IPC-033": {
+  "fr": "Ensemble tunique + pantalon de chirurgie, tissé, réutilisable, vert, taille L",
+  "flag": ""
+ },
+ "ACDC-IPC-034": {
+  "fr": "Tablier de protection, polyester, réutilisable, 300 g/m²",
+  "flag": ""
+ },
+ "ACDC-EQP-001": {
+  "fr": "Thermomètre infrarouge",
+  "flag": ""
+ },
+ "ACDC-IPC-035": {
+  "fr": "Gants d'examen",
+  "flag": "Unit is 'piece' for gloves; check whether pair or box is intended."
+ },
+ "ACDC-IPC-036": {
+  "fr": "Masque chirurgical résistant aux fluides",
+  "flag": ""
+ },
+ "ACDC-IPC-003": {
+  "fr": "Masque de protection respiratoire N95 résistant aux fluides",
+  "flag": ""
+ },
+ "ACDC-WSH-001": {
+  "fr": "Collecteur d'objets piquants et tranchants (boîte de sécurité)",
+  "flag": ""
+ },
+ "ACDC-IPC-037": {
+  "fr": "Blouse, AAMI niveau 3, non stérile, jetable",
+  "flag": ""
+ },
+ "ACDC-IPC-038": {
+  "fr": "Combinaison",
+  "flag": ""
+ },
+ "ACDC-IPC-039": {
+  "fr": "Écran facial",
+  "flag": ""
+ },
+ "ACDC-IPC-040": {
+  "fr": "Calot chirurgical / charlotte",
+  "flag": ""
+ },
+ "ACDC-IPC-041": {
+  "fr": "Tablier réutilisable",
+  "flag": ""
+ },
+ "ACDC-IPC-042": {
+  "fr": "Lunettes de protection",
+  "flag": ""
+ },
+ "ACDC-WSH-002": {
+  "fr": "Sac mortuaire",
+  "flag": ""
+ },
+ "ACDC-WSH-003": {
+  "fr": "Bâche plastique, 4 x 6 m",
+  "flag": ""
+ },
+ "ACDC-WSH-004": {
+  "fr": "Sac à déchets, 100 l",
+  "flag": ""
+ },
+ "ACDC-WSH-005": {
+  "fr": "Essuie-mains en papier (rouleau)",
+  "flag": ""
+ },
+ "ACDC-WSH-006": {
+  "fr": "Sac pour déchets infectieux (risque biologique), 30 l",
+  "flag": ""
+ },
+ "ACDC-WSH-007": {
+  "fr": "Savon en barre, 750 g",
+  "flag": ""
+ },
+ "ACDC-IPC-043": {
+  "fr": "Gants de ménage épais",
+  "flag": ""
+ },
+ "ACDC-WSH-008": {
+  "fr": "Chlore HTH, kg",
+  "flag": ""
+ },
+ "ACDC-COM-006": {
+  "fr": "Dépliants Ebola",
+  "flag": ""
+ },
+ "ACDC-COM-007": {
+  "fr": "Autocollants du numéro vert",
+  "flag": ""
+ },
+ "ACDC-WSH-009": {
+  "fr": "Grande poubelle, 100 l",
+  "flag": ""
+ },
+ "ACDC-COM-008": {
+  "fr": "Affiche : définition de cas",
+  "flag": ""
+ },
+ "ACDC-COM-009": {
+  "fr": "Affiche : lavage des mains",
+  "flag": ""
+ },
+ "ACDC-COM-010": {
+  "fr": "Affiche : gestion des déchets",
+  "flag": ""
+ },
+ "ACDC-COM-011": {
+  "fr": "Affiche : schéma de transmission",
+  "flag": ""
+ },
+ "ACDC-IPC-044": {
+  "fr": "Bottes en caoutchouc",
+  "flag": "Unit is 'piece' for boots; check whether pair is intended."
+ },
+ "ACDC-WSH-010": {
+  "fr": "Table en plastique",
+  "flag": ""
+ },
+ "ACDC-WSH-011": {
+  "fr": "Chaise en plastique",
+  "flag": ""
+ },
+ "ACDC-WSH-012": {
+  "fr": "Parasol",
+  "flag": ""
+ },
+ "ACDC-WSH-013": {
+  "fr": "Dispositif de lavage des mains (seau 20 l + robinet 1/4 + tabouret + bassine)",
+  "flag": "'1/4 tap' unclear (quarter-turn tap or 1/4-inch tap?); kept as '1/4'."
+ },
+ "ACDC-WSH-014": {
+  "fr": "Brûleur",
+  "flag": "Unclear item: cooking/stove burner or waste incinerator? Confirm."
+ },
+ "ACDC-WSH-015": {
+  "fr": "Réservoir de lavage des mains, 135 l",
+  "flag": ""
+ },
+ "ACDC-WSH-016": {
+  "fr": "Solution hydroalcoolique (SHA), 100 ml",
+  "flag": ""
+ },
+ "ACDC-WSH-017": {
+  "fr": "Solution hydroalcoolique (SHA), 1 l",
+  "flag": ""
+ },
+ "ACDC-WSH-018": {
+  "fr": "Solution antibuée, env. 100 ml",
+  "flag": ""
+ },
+ "ACDC-WSH-019": {
+  "fr": "(Sac mortuaire) Alèse absorbante",
+  "flag": ""
+ },
+ "ACDC-WSH-020": {
+  "fr": "Alèse absorbante, 60 x 60 cm",
+  "flag": ""
+ },
+ "ACDC-WSH-021": {
+  "fr": "Brancard, env. 210 x 54 cm, pliable en longueur/largeur, unité",
+  "flag": ""
+ },
+ "ACDC-WSH-022": {
+  "fr": "Assiette en plastique jetable",
+  "flag": ""
+ },
+ "ACDC-WSH-023": {
+  "fr": "Conteneur + couvercle, 120 l",
+  "flag": ""
+ },
+ "ACDC-WSH-024": {
+  "fr": "Balai avec manche",
+  "flag": ""
+ },
+ "ACDC-WSH-025": {
+  "fr": "Bassine, 40 l, plastique",
+  "flag": ""
+ },
+ "ACDC-WSH-026": {
+  "fr": "Chlore (HTH ou NaDCC, entre 40 et 80 %)",
+  "flag": ""
+ },
+ "ACDC-WSH-027": {
+  "fr": "Gobelet, 250 ml, rouge, plastique",
+  "flag": "Source had a trailing comma; removed."
+ }
+}

@@ -1,0 +1,8280 @@
+[
+{
+"key": "ascorbic acid vitamin c 250 mg",
+"name": "ASCORBIC ACID (Vitamin C), 250 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Vitamins and Minerals",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-011",
+"status": "new"
+},
+{
+"key": "folic acid 5 mg",
+"name": "FOLIC ACID, 5 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Vitamins and Minerals",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-012",
+"status": "new"
+},
+{
+"key": "albendazole 400 mg",
+"name": "ALBENDAZOLE, 400 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anthelminthics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-013",
+"status": "new"
+},
+{
+"key": "hydro alcoholic solution 500 ml",
+"name": "HYDRO-ALCOHOLIC solution, 500 ml",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Disinfectants",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-014",
+"status": "new"
+},
+{
+"key": "amoxicillin 500 mg clavulanic acid 125 mg",
+"name": "AMOXICILLIN 500 mg / CLAVULANIC ACID 125 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-015",
+"status": "new"
+},
+{
+"key": "amoxicillin 250 mg",
+"name": "AMOXICILLIN, 250 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-016",
+"status": "new"
+},
+{
+"key": "amoxicillin 500 mg",
+"name": "AMOXICILLIN, 500 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-017",
+"status": "new"
+},
+{
+"key": "amphotericin b sodium deoxycholate",
+"name": "AMPHOTERICIN B (sodium deoxycholate)",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antifungal Medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-018",
+"status": "new"
+},
+{
+"key": "ampicillin 1 g powder",
+"name": "AMPICILLIN, 1 g, powder",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-019",
+"status": "new"
+},
+{
+"key": "ampicillin 500 mg powder",
+"name": "AMPICILLIN, 500 mg, powder",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-020",
+"status": "new"
+},
+{
+"key": "artemether 20mg lumefantrine 120mg infant blister 6 tabs",
+"name": "ARTEMETHER 20mg / LUMEFANTRINE 120mg, infant blister 6 tabs",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiprotozoal",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-021",
+"status": "new"
+},
+{
+"key": "artemether 20mg lumefantrine 120mg child blister 12 tabs",
+"name": "ARTEMETHER 20mg / LUMEFANTRINE 120mg, child blister 12 tabs",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiprotozoal",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-022",
+"status": "new"
+},
+{
+"key": "artemether 20mg lumefantrine 120mg blister 18 tabs",
+"name": "ARTEMETHER 20mg / LUMEFANTRINE 120mg, blister 18 tabs",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiprotozoal",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-023",
+"status": "new"
+},
+{
+"key": "artemether 20mg lumefantrine 120mg adult blister 24 tabs",
+"name": "ARTEMETHER 20mg / LUMEFANTRINE 120mg, adult blister 24 tabs",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiprotozoal",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-024",
+"status": "new"
+},
+{
+"key": "artesunate 60 mg powder vial nahco3 5 1ml nacl 0 9 5ml",
+"name": "ARTESUNATE 60 mg, powder, vial + NaHCO3 5% 1ml + NaCl 0.9% 5ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiprotozoal",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-025",
+"status": "new"
+},
+{
+"key": "atropine sulfate 1 mg ml 1 ml",
+"name": "ATROPINE sulfate, 1 mg/ml, 1 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Airway management?/Anitdotes",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-026",
+"status": "new"
+},
+{
+"key": "azithromycin 500 mg",
+"name": "AZITHROMYCIN 500 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-027",
+"status": "new"
+},
+{
+"key": "azithromycin 250 mg",
+"name": "AZITHROMYCIN, 250 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-028",
+"status": "new"
+},
+{
+"key": "azithromycin",
+"name": "AZITHROMYCIN",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-029",
+"status": "new"
+},
+{
+"key": "betamethasone valerate equivalent to 0 1 base cream 15 g",
+"name": "BETAMETHASONE VALERATE, equivalent to 0.1% base, cream, 15 g",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anti-inflammatory and antipruritic medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-030",
+"status": "new"
+},
+{
+"key": "hyoscine butylbromide scopolamine butylbromide 10 mg tablet",
+"name": "HYOSCINE BUTYLBROMIDE (scopolamine butylbromide), 10 mg, tablet",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Medicines for other common symptoms in palliative care",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-031",
+"status": "new"
+},
+{
+"key": "hyoscine butylbromide scopolamine butylbromide 20 mg 1 ml",
+"name": "HYOSCINE BUTYLBROMIDE (scopolamine butylbromide), 20 mg/1 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Medicines for other common symptoms in palliative care",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-032",
+"status": "new"
+},
+{
+"key": "calcium gluconate 100 mg ml 10 ml",
+"name": "CALCIUM GLUCONATE, 100 mg/ml, 10 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antidotes/Vitamins and Minerals",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-033",
+"status": "new"
+},
+{
+"key": "zinc oxide 10 ointment 100 g",
+"name": "ZINC OXIDE, 10%, ointment, 100 g",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antidotes/Vitamins and Minerals",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-034",
+"status": "new"
+},
+{
+"key": "carbamazepine 200 mg tablet",
+"name": "CARBAMAZEPINE, 200 mg, tablet",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anticonvulsants/Antiepileptics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-035",
+"status": "new"
+},
+{
+"key": "carbamazepine oral liquid 300 ml",
+"name": "Carbamazepine Oral Liquid 300 ml",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anticonvulsants/Antiepileptics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-036",
+"status": "new"
+},
+{
+"key": "cefazolin 1 g iv powder",
+"name": "CEFAZOLIN, 1 g, (IV), powder",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-037",
+"status": "new"
+},
+{
+"key": "cefixime 100 mg 5ml powder for oral suspension 60 ml",
+"name": "CEFIXIME, 100 mg/5ml, powder for oral suspension, 60 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-038",
+"status": "new"
+},
+{
+"key": "cefixime 200 mg",
+"name": "CEFIXIME, 200 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-039",
+"status": "new"
+},
+{
+"key": "ceftriaxone 250 mg powder with iv solvent",
+"name": "CEFTRIAXONE, 250 mg, powder with IV solvent",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-040",
+"status": "new"
+},
+{
+"key": "ceftriaxone 1 g powder with iv solvent",
+"name": "CEFTRIAXONE, 1 g, powder with IV solvent",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-041",
+"status": "new"
+},
+{
+"key": "chlorpheniramine maleate 4 mg",
+"name": "CHLORPHENIRAMINE maleate, 4 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "ANTIALLERGICS AND MEDICINES USED IN ANAPHYLAXIS",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-042",
+"status": "new"
+},
+{
+"key": "chlorpromazine 25 mg ml 2 ml",
+"name": "CHLORPROMAZINE, 25 mg/ml, 2 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Psychotic Disorders",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-043",
+"status": "new"
+},
+{
+"key": "ciprofloxacin hydrochloride equivalent to 250 mg base",
+"name": "CIPROFLOXACIN hydrochloride, equivalent to 250 mg base",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-044",
+"status": "new"
+},
+{
+"key": "ciprofloxacin hydrochloride 2 mg ml base 100 ml semi rigid bottle pvc free",
+"name": "CIPROFLOXACIN hydrochloride, 2 mg/ml base, 100 ml semi-rigid bottle, PVC free",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-045",
+"status": "new"
+},
+{
+"key": "cimetidine 200 mg effervescent tablet",
+"name": "CIMETIDINE, 200 mg, effervescent, Tablet",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-046",
+"status": "new"
+},
+{
+"key": "clotrimazole 500 mg",
+"name": "Clotrimazole 500 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antifungal Medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-047",
+"status": "new"
+},
+{
+"key": "cloxacilline sodique q 500 mg base powder iv",
+"name": "CLOXACILLINE sodique, éq. 500 mg base, powder, IV",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-048",
+"status": "new"
+},
+{
+"key": "cloxacillin sodium equivalent to 250 mg base capsule",
+"name": "CLOXACILLIN sodium, equivalent to 250 mg base, capsule",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-049",
+"status": "new"
+},
+{
+"key": "cotrimoxazole 400 mg 80 mg tablet",
+"name": "COTRIMOXAZOLE, 400 mg / 80 mg, tablet",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-050",
+"status": "new"
+},
+{
+"key": "d e e t mosquito repellent lotion 30",
+"name": "D.E.E.T., mosquito repellent lotion, 30%",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-051",
+"status": "new"
+},
+{
+"key": "glucose 5 1 liter soft bag without pvc",
+"name": "GLUCOSE, 5%, 1 liter, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-052",
+"status": "new"
+},
+{
+"key": "glucose 5 500 ml soft bag without pvc",
+"name": "GLUCOSE, 5%, 500 ml, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-053",
+"status": "new"
+},
+{
+"key": "glucose 10 250 ml soft bag without pvc",
+"name": "GLUCOSE, 10%, 250 ml, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-054",
+"status": "new"
+},
+{
+"key": "doxycycline salt equivalent to 100 mg base",
+"name": "DOXYCYCLINE salt, equivalent to 100 mg base",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-055",
+"status": "new"
+},
+{
+"key": "epinephrine adrenaline tartrate equivalent to 1 mg ml base 1 ml ampoule im intramuscular",
+"name": "EPINEPHRINE (adrenaline) tartrate, equivalent to 1 mg/ml base, 1 ml ampoule IM (intramuscular)",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Sympathomimetics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-056",
+"status": "new"
+},
+{
+"key": "iron salt equivalent to 60 mg iron folic acid 0 4 mg",
+"name": "Iron salt equivalent to 60 mg iron / folic acid 0.4 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Sympathomimetics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-057",
+"status": "new"
+},
+{
+"key": "fluconazole",
+"name": "FLUCONAZOLE",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antifungal Medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-058",
+"status": "new"
+},
+{
+"key": "flumazenil 0 1mg ml in 5ml amp",
+"name": "FLUMAZENIL 0.1mg/ml in 5ml amp",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antidotes",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-059",
+"status": "new"
+},
+{
+"key": "furosemide 10 mg ml 2 ml",
+"name": "FUROSEMIDE, 10 mg/ml, 2 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Diuretics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-060",
+"status": "new"
+},
+{
+"key": "furosemide 40 mg",
+"name": "FUROSEMIDE, 40 mg,",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Diuretics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-061",
+"status": "new"
+},
+{
+"key": "gentamicine sulfate eq 40 mg ml base 2 ml",
+"name": "GENTAMICINE sulfate, eq. 40 mg/ml base, 2 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-062",
+"status": "new"
+},
+{
+"key": "glucose hypertonique 50 50 ml",
+"name": "GLUCOSE hypertonique, 50%, 50 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-063",
+"status": "new"
+},
+{
+"key": "glyceryl trinitrate",
+"name": "GLYCERYL TRINITRATE",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antianginal medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-064",
+"status": "new"
+},
+{
+"key": "hydrochlorothiazide 25 mg",
+"name": "HYDROCHLOROTHIAZIDE, 25 mg,",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antihypertensive medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-065",
+"status": "new"
+},
+{
+"key": "hydrocortisone succinate sodique eq 100mg base powder",
+"name": "HYDROCORTISONE succinate sodique, eq.100mg base, powder",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anti-inflammatory?",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-066",
+"status": "new"
+},
+{
+"key": "ibuprofene 200 mg",
+"name": "IBUPROFENE, 200 mg,",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opiods and non-steroidal anti-inflammatory medicines (NSAIMs)",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-067",
+"status": "new"
+},
+{
+"key": "wipe 70 isopropyl alcohol sachet small",
+"name": "WIPE, 70% isopropyl alcohol, sachet, small",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opiods and non-steroidal anti-inflammatory medicines (NSAIMs)",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-068",
+"status": "new"
+},
+{
+"key": "labetalol iv 5mg ml 20ml",
+"name": "Labetalol iv 5mg/ml, 20ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antihypertensive/Antiarrhythmic Medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-069",
+"status": "new"
+},
+{
+"key": "magnesium sulfate 0 5 g ml 10 ml",
+"name": "MAGNESIUM sulfate, 0.5 g/ml, 10 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anticonvulsants/Vitamins and Minerals",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-070",
+"status": "new"
+},
+{
+"key": "methyldopa 250 mg",
+"name": "METHYLDOPA, 250 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anticonvulsants/Vitamins and Minerals",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-071",
+"status": "new"
+},
+{
+"key": "metformin hydrochloride 500 mg",
+"name": "METFORMIN hydrochloride, 500 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antidiabetics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-072",
+"status": "new"
+},
+{
+"key": "metoclopramide hydrochloride anhydrous 10 mg",
+"name": "METOCLOPRAMIDE hydrochloride anhydrous, 10 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiemetic medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-073",
+"status": "new"
+},
+{
+"key": "metronidazole 5 mg ml 100 ml semi rigid without pvc",
+"name": "METRONIDAZOLE, 5 mg/ml, 100 ml, semi-rigid without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-074",
+"status": "new"
+},
+{
+"key": "metronidazole 500 mg",
+"name": "METRONIDAZOLE, 500 mg,",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-075",
+"status": "new"
+},
+{
+"key": "metronidazole 250 mg",
+"name": "METRONIDAZOLE, 250 mg,",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-076",
+"status": "new"
+},
+{
+"key": "miconazole nitrate 2 cream 30 g",
+"name": "MICONAZOLE nitrate, 2%, cream, 30 g",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-077",
+"status": "new"
+},
+{
+"key": "misoprostol 200 ug tablet",
+"name": "MISOPROSTOL, 200 ug, tablet",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Uterotonics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-078",
+"status": "new"
+},
+{
+"key": "multivitamins",
+"name": "MULTIVITAMINS",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Uterotonics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-079",
+"status": "new",
+"possible": "ACDC-NUT-001"
+},
+{
+"key": "naloxone hydrochloride",
+"name": "NALOXONE hydrochloride",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antidotes",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-080",
+"status": "new"
+},
+{
+"key": "nifedipine 10 mg immediate release",
+"name": "NIFEDIPINE, 10 mg, immediate release",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antidotes",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-081",
+"status": "new"
+},
+{
+"key": "norepinephrine norepinephrine tartrate equivalent to 1 mg ml base 4 ml",
+"name": "NOREPINEPHRINE (norepinephrine) tartrate, equivalent to 1 mg/ml base, 4 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Vasoactive Drugs",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-082",
+"status": "new"
+},
+{
+"key": "nystatin 100 000 iu ml oral suspension",
+"name": "NYSTATIN, 100,000 IU/ml, oral suspension",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antifungal Medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-083",
+"status": "new"
+},
+{
+"key": "omeprazole 20 mg enteric coated capsule",
+"name": "OMEPRAZOLE, 20 mg, enteric-coated capsule",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiulcer medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-084",
+"status": "new"
+},
+{
+"key": "omeprazole sodium equivalent to 40 mg base powder for infusion",
+"name": "OMEPRAZOLE sodium, equivalent to 40 mg base, powder for infusion",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiulcer medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-085",
+"status": "new"
+},
+{
+"key": "ondansetron hydrochloride equivalent to 2 mg ml base 2 ml",
+"name": "ONDANSETRON hydrochloride, equivalent to 2 mg/ml base, 2 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiemetic medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-086",
+"status": "new"
+},
+{
+"key": "ondansetron hydrochloride equivalent to 4 mg base",
+"name": "ONDANSETRON hydrochloride, equivalent to 4 mg base",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiemetic medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-087",
+"status": "new"
+},
+{
+"key": "ondansetron hydrochloride 8mg",
+"name": "ONDANSETRON hydrochloride 8mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiemetic medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-088",
+"status": "new"
+},
+{
+"key": "oral rehydration salts ors low osmol sachet 20 5g 1l",
+"name": "ORAL REHYDRATION SALTS (ORS) low osmol., sachet 20.5g/1l",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Medicines Used in diarrhoea",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-089",
+"status": "new",
+"possible": "ACDC-MED-008"
+},
+{
+"key": "oxytocine 10 ui ml 1 ml amp",
+"name": "OXYTOCINE, 10 UI/ml, 1 ml, amp",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Uterotonics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-090",
+"status": "new"
+},
+{
+"key": "paracetamol acetaminophen 100 mg",
+"name": "PARACETAMOL (acetaminophen), 100 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opiods and non-steroidal anti-inflammatory medicines (NSAIMs)",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-091",
+"status": "new"
+},
+{
+"key": "paracetamol acetaminophen 10 mg ml 100 ml soft bag without pvc",
+"name": "PARACETAMOL (acetaminophen), 10 mg/ml, 100 ml, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opiods and non-steroidal anti-inflammatory medicines (NSAIMs)",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-092",
+"status": "new",
+"possible": "ACDC-MED-004"
+},
+{
+"key": "paracetamol acetaminophen 120 mg 5 ml oral suspension 100 ml",
+"name": "PARACETAMOL (acetaminophen), 120 mg/5 ml, oral suspension, 100 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opiods and non-steroidal anti-inflammatory medicines (NSAIMs)",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-093",
+"status": "new"
+},
+{
+"key": "paracetamol acetaminophen 500 mg",
+"name": "PARACETAMOL (acetaminophen), 500 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opiods and non-steroidal anti-inflammatory medicines (NSAIMs)",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-003",
+"status": "existing"
+},
+{
+"key": "phenytoin sodium 100mg",
+"name": "PHENYTOIN sodium 100mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anticonvulsants/Antiepileptics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-094",
+"status": "new"
+},
+{
+"key": "phenytoin sodium 50mg ml in 5ml",
+"name": "PHENYTOIN sodium 50mg/ml in 5ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anticonvulsants/Antiepileptics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-095",
+"status": "new"
+},
+{
+"key": "phenytoin sodium 30mg 5ml oral suspension",
+"name": "PHENYTOIN sodium 30mg/5ml oral suspension",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anticonvulsants/Antiepileptics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-096",
+"status": "new"
+},
+{
+"key": "phytomenadione vitamine k1 10mg ml 2mg 0 2ml 0 2ml amp",
+"name": "PHYTOMENADIONE (vitamine K1), 10mg/ml (2mg/0,2ml),0.2ml amp",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Medicines affecting coagulation",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-097",
+"status": "new"
+},
+{
+"key": "phytomenadione vitamine k1 10mg ml 1ml amp 10mg injec",
+"name": "PHYTOMENADIONE (VITAMINE K1), 10MG/ML, 1ML AMP., 10mg, injec",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Medicines affecting coagulation",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-007",
+"status": "existing"
+},
+{
+"key": "piperacillin and tazobactam",
+"name": "Piperacillin and Tazobactam",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-098",
+"status": "new"
+},
+{
+"key": "povidone iodine 10 solution 200 ml",
+"name": "POVIDONE-IODINE, 10%, solution, 200 ml",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Disinfectants and Antiseptics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-099",
+"status": "new"
+},
+{
+"key": "potassium chloride 100 mg ml 10 ml",
+"name": "POTASSIUM chloride, 100 mg/ml, 10 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-100",
+"status": "new",
+"possible": "ACDC-MED-006"
+},
+{
+"key": "promethazine hydrochloride equivalent to 25 mg base",
+"name": "PROMETHAZINE hydrochloride, equivalent to 25 mg base",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-101",
+"status": "new"
+},
+{
+"key": "quinine dihydrochloride solution for dilution for infusion 300 mg ml 2 ml ampoule",
+"name": "Quinine dihydrochloride, solution for dilution for infusion, 300 mg/ml, 2-ml ampoule",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antimalarial Medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-102",
+"status": "new"
+},
+{
+"key": "sodium polystyrene sulfonate",
+"name": "Sodium polystyrene sulfonate",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antidotes and other substances used in poisonings",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-103",
+"status": "new"
+},
+{
+"key": "retinol vitamin a silicized 200 000 iu soft capsule",
+"name": "RETINOL (vitamin A) silicized, 200,000 IU, soft capsule",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Vitamins and Minerals",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-104",
+"status": "new"
+},
+{
+"key": "ringer lactate 1 liter soft bag without pvc",
+"name": "RINGER lactate, 1 liter, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-105",
+"status": "new"
+},
+{
+"key": "salbutamol sulfate equivalent to 0 1 mg base per puff 200 puffs aerosol",
+"name": "SALBUTAMOL sulfate, equivalent to 0.1 mg base per puff, 200 puffs aerosol",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiathmatic medicines and medicines for chronic obstrutive pulmonary disease",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-106",
+"status": "new"
+},
+{
+"key": "silver sulfadiazine 1 cream sterile 50 g",
+"name": "SILVER SULFADIAZINE, 1%, cream, sterile, 50 g",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antiathmatic medicines and medicines for chronic obstrutive pulmonary disease",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-107",
+"status": "new"
+},
+{
+"key": "sodium bicarbonate 8 4 1 meq ml 20 ml",
+"name": "SODIUM BICARBONATE, 8.4%, 1 mEq/ml, 20 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Acid-Base Balance",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-108",
+"status": "new"
+},
+{
+"key": "ringer lactate 500 ml soft bag without pvc",
+"name": "RINGER lactate, 500 ml, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-005",
+"status": "existing"
+},
+{
+"key": "sodium chloride 0 9 100 ml soft bag without pvc",
+"name": "SODIUM chloride, 0.9%, 100 ml, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-109",
+"status": "new"
+},
+{
+"key": "sodium chloride 0 9 w v in 10 ml",
+"name": "SODIUM chloride 0.9% w/v in 10 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-110",
+"status": "new"
+},
+{
+"key": "sodium chloride 0 9 250 ml soft bag without pvc",
+"name": "SODIUM chloride, 0.9%, 250 ml, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-111",
+"status": "new"
+},
+{
+"key": "sodium chloride 0 9 500 ml soft bag without pvc",
+"name": "SODIUM chloride, 0.9%, 500 ml, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-112",
+"status": "new"
+},
+{
+"key": "sodium chloride 0 9 1 l soft bag without pvc",
+"name": "SODIUM chloride, 0.9%, 1 l, soft bag, without PVC",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-113",
+"status": "new"
+},
+{
+"key": "thiamine hydrochloride vitamin b1 50 mg",
+"name": "THIAMINE hydrochloride (vitamin B1), 50 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-114",
+"status": "new"
+},
+{
+"key": "sulfamethoxazole 400mg trimethoprim 80mg",
+"name": "SULFAMETHOXAZOLE 400mg/TRIMETHOPRIM 80mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-115",
+"status": "new"
+},
+{
+"key": "tetracycline hydrochloride 1 ophthalmic ointment sterile 5g",
+"name": "TETRACYCLINE hydrochloride, 1%, ophthalmic ointment, sterile, 5g",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Antibacterials",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-116",
+"status": "new"
+},
+{
+"key": "tranexamic acid 100 mg ml 5 ml",
+"name": "TRANEXAMIC ACID, 100 mg/ml, 5 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Medicines affecting coagulation",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-117",
+"status": "new"
+},
+{
+"key": "water for injection 10 ml amp plastique",
+"name": "Water for injection, 10 ml, amp. Plastique",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "SOLUTIONS CORRECTING WATER, ELECTROLYTE AND ACID–BASE DISTURBANCES",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-118",
+"status": "new"
+},
+{
+"key": "zinc sulfate",
+"name": "ZINC sulfate",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Diarrhoea",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-119",
+"status": "new"
+},
+{
+"key": "insulin isophane",
+"name": "Insulin Isophane",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Medicines for diabetes",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-120",
+"status": "new"
+},
+{
+"key": "insulin rapid actrapid",
+"name": "INSULIN RAPID (Actrapid)",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Medicines for diabetes",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-121",
+"status": "new"
+},
+{
+"key": "diazepam 5 mg",
+"name": "DIAZEPAM, 5 mg,",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Anxiety disorders",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-122",
+"status": "new"
+},
+{
+"key": "diazepam 5 mg ml 2 ml",
+"name": "DIAZEPAM, 5 mg/ml, 2 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "ANTICONVULSANTS/ANTIEPILEPTICS",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-123",
+"status": "new"
+},
+{
+"key": "fentanyl citrate",
+"name": "FENTANYL citrate",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Opioid analgesics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-124",
+"status": "new"
+},
+{
+"key": "haloperidol 5 mg ml 1 ml",
+"name": "HALOPERIDOL, 5 mg/ml, 1 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Medicines for Mental and Behavioural disorder",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-125",
+"status": "new"
+},
+{
+"key": "morphine hydrochloride 10 mg ml 1 ml ampoule",
+"name": "MORPHINE hydrochloride, 10 mg/ml, 1 ml, ampoule",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Opioid analgesics",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-126",
+"status": "new"
+},
+{
+"key": "phenobarbital sodium 200 mg ml 1 ml",
+"name": "PHENOBARBITAL sodium, 200 mg/ml, 1 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "ANTICONVULSANTS/ANTIEPILEPTICS",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-127",
+"status": "new"
+},
+{
+"key": "phenobarbital 50 mg",
+"name": "PHENOBARBITAL, 50 mg",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "ANTICONVULSANTS/ANTIEPILEPTICS",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-128",
+"status": "new"
+},
+{
+"key": "tramadol hydrochloride 50 mg capsule",
+"name": "TRAMADOL hydrochloride, 50 mg, capsule",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-129",
+"status": "new"
+},
+{
+"key": "tramadol hydrochloride 50 mg ml 2 ml",
+"name": "TRAMADOL hydrochloride, 50 mg/ml, 2 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-130",
+"status": "new"
+},
+{
+"key": "tramadol hydrochloride 100 mg ml 40 drops 10 ml",
+"name": "TRAMADOL hydrochloride, 100 mg/ml / 40 drops, 10 ml",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-131",
+"status": "new"
+},
+{
+"key": "prednisolone 5mg tabs po",
+"name": "Prednisolone 5mg tabs PO",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-132",
+"status": "new"
+},
+{
+"key": "levetiracetam 250mg tab",
+"name": "LEVETIRACETAM, 250mg, tab",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-133",
+"status": "new"
+},
+{
+"key": "zinc oxide 10 ointment 100g tube",
+"name": "ZINC OXIDE, 10%, ointment, 100g, tube",
+"unit_src": "Tube",
+"unit": "tube",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-134",
+"status": "new"
+},
+{
+"key": "salbutamol 2mg ml 2 5ml sol for nebulizer monodose",
+"name": "SALBUTAMOL, 2mg/ml, 2.5ml, sol. for nebulizer, monodose",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-135",
+"status": "new"
+},
+{
+"key": "ipratropium bromide 0 25mg ml 2ml sol for nebulizer",
+"name": "IPRATROPIUM bromide, 0.25mg/ml, 2ml, sol. for nebulizer",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-136",
+"status": "new"
+},
+{
+"key": "lidocaine hydrochloride 1 preservative free 10ml amp",
+"name": "LIDOCAINE hydrochloride, 1%, preservative-free, 10ml, amp",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-137",
+"status": "new"
+},
+{
+"key": "valproate sodium 200mg gastro resistant tab",
+"name": "VALPROATE SODIUM, 200mg, gastro-resistant tab",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-138",
+"status": "new"
+},
+{
+"key": "ivermectin 3mg tab",
+"name": "IVERMECTIN, 3mg, tab",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-139",
+"status": "new"
+},
+{
+"key": "praziquantel 600mg break tab",
+"name": "PRAZIQUANTEL, 600mg, break. tab",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-140",
+"status": "new"
+},
+{
+"key": "amikacin sulfate eq 250mg ml base 2ml amp",
+"name": "AMIKACIN sulfate, eq. 250mg/ml base, 2ml, amp",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-141",
+"status": "new"
+},
+{
+"key": "benzyl benzoate 25 lotion 400ml bot",
+"name": "BENZYL BENZOATE, 25%, lotion, 400ml, bot",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-142",
+"status": "new"
+},
+{
+"key": "aciclovir sodium eq 500mg base powder vial",
+"name": "ACICLOVIR sodium, eq. 500mg base, powder, vial",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-143",
+"status": "new"
+},
+{
+"key": "aciclovir 200mg tab",
+"name": "ACICLOVIR, 200mg, tab",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-144",
+"status": "new"
+},
+{
+"key": "bisoprolol fumarate 2 5mg break tab",
+"name": "BISOPROLOL fumarate, 2.5mg, break. tab",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-145",
+"status": "new"
+},
+{
+"key": "digoxin 0 25mg tab",
+"name": "DIGOXIN, 0.25mg, tab",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-146",
+"status": "new"
+},
+{
+"key": "amlodipine 5mg tab",
+"name": "AMLODIPINE, 5mg, tab",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-147",
+"status": "new"
+},
+{
+"key": "enalapril maleate 5mg tab",
+"name": "ENALAPRIL maleate, 5mg, tab",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-148",
+"status": "new"
+},
+{
+"key": "gliclazide 60mg slow release",
+"name": "GLICLAZIDE, 60mg, Slow release",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-149",
+"status": "new"
+},
+{
+"key": "ansuvimab 400mg powder for injection",
+"name": "ANSUVIMAB, 400mg, powder for injection",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-150",
+"status": "new"
+},
+{
+"key": "altoltivimab maftivimab odesivimab 241 7mg 241 7mg 241 7mg in 14 5 ml vial",
+"name": "ALTOLTIVIMAB + MAFTIVIMAB + ODESIVIMAB 241.7mg + 241.7mg + 241.7mg in 14.5 ml vial",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-151",
+"status": "new"
+},
+{
+"key": "premix isotonic fluids with potassium 20 mmol",
+"name": "premix isotonic fluids with potassium 20 mmol",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-152",
+"status": "new"
+},
+{
+"key": "dextrose 5 ringer lactate 500ml flex bag pvc free",
+"name": "DEXTROSE 5%/ RINGER LACTATE, 500ml, flex. bag, PVC free",
+"unit_src": "Bag",
+"unit": "bag / poche",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-153",
+"status": "new"
+},
+{
+"key": "carbamazepine 250mg suppository",
+"name": "CARBAMAZEPINE, 250mg, suppository",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-154",
+"status": "new"
+},
+{
+"key": "levetiracetam 100mg ml vial for injection",
+"name": "LEVETIRACETAM, 100mg/ml, vial for injection",
+"unit_src": "Vial",
+"unit": "vial / fiole",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-155",
+"status": "new"
+},
+{
+"key": "tdf 300mg 3tc 300mg dtg 50mg tab for pep",
+"name": "TDF 300mg / 3TC 300mg / DTG 50mg, tab., for PEP",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "Medicines",
+"prefix": "MED",
+"sources": [
+"ETC medicines"
+],
+"subclass": "Non-opioids and non-steroidal anti-inflammatory medicines",
+"typ": "",
+"cost": null,
+"code": "ACDC-MED-156",
+"status": "new"
+},
+{
+"key": "o2 concentrator bedside 10l for adults",
+"name": "O2 CONCENTRATOR (BEDSIDE) - 10L (For adults)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-006",
+"status": "new"
+},
+{
+"key": "o2 concentrator o2 nipple nut connector for nasal cannula and humidifier",
+"name": "(O2 concentrator) O2 nipple nut connector, for nasal cannula and humidifier",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-007",
+"status": "new"
+},
+{
+"key": "o2 concentrator humidifier bubble non heated autoclavable",
+"name": "(O2 Concentrator) Humidifier, bubble, non-heated, autoclavable",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-008",
+"status": "new"
+},
+{
+"key": "o2 concentrator nasal oxygen cannula with prongs adult single use",
+"name": "(O2 Concentrator) Nasal oxygen cannula, with prongs, adult, single use",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-009",
+"status": "new"
+},
+{
+"key": "o2 concentrator mask oxygen with connection tube reservoir bag and valve high concentration adult non sterile single use",
+"name": "(O2 Concentrator) Mask, oxygen, with connection tube, reservoir bag and valve, high-concentration, adult, non-sterile, single use",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-010",
+"status": "new"
+},
+{
+"key": "concentrator o2 bedside 5l for paediatrics",
+"name": "CONCENTRATOR O2 (BEDSIDE) - 5L (For paediatrics)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-011",
+"status": "new"
+},
+{
+"key": "o2 concentrator nasal oxygen cannula with prongs neonate single use",
+"name": "(O2 Concentrator) Nasal oxygen cannula, with prongs, neonate, single use",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-012",
+"status": "new"
+},
+{
+"key": "o2 concentrator nasal oxygen cannula with prongs paediatric single use",
+"name": "(O2 Concentrator) Nasal oxygen cannula, with prongs, paediatric, single use",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-013",
+"status": "new"
+},
+{
+"key": "o2 concentrator nasal oxygen cannula with prongs premature low flow single use",
+"name": "(O2 concentrator) Nasal oxygen cannula, with prongs, premature low flow, single use",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-014",
+"status": "new"
+},
+{
+"key": "o2 concentrator mask oxygen with connection tube reservoir bag and valve high concentration paediatric non sterile single use",
+"name": "(O2 Concentrator) Mask, oxygen, with connection tube, reservoir bag and valve, high-concentration, paediatric, non-sterile, single use",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-015",
+"status": "new"
+},
+{
+"key": "patient monitor multiparametric without ecg",
+"name": "PATIENT MONITOR, MULTIPARAMETRIC WITHOUT ECG",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-016",
+"status": "new"
+},
+{
+"key": "patient monitor adult nibp cuff",
+"name": "(Patient monitor) Adult NIBP cuff",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-017",
+"status": "new"
+},
+{
+"key": "patient monitor pediatric nibp cuff",
+"name": "(Patient monitor) Pediatric NIBP cuff",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-018",
+"status": "new"
+},
+{
+"key": "patient monitor nibp hose",
+"name": "(Patient monitor) NIBP hose",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-019",
+"status": "new"
+},
+{
+"key": "patient monitor adult spo2 sensor",
+"name": "(Patient monitor) Adult SPO2 sensor",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-020",
+"status": "new"
+},
+{
+"key": "patient monitor pediatric spo2 sensor",
+"name": "(Patient monitor) Pediatric SPO2 sensor",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-021",
+"status": "new"
+},
+{
+"key": "patient monitor multiparametric with ecg",
+"name": "PATIENT MONITOR, MULTIPARAMETRIC WITH ECG",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-022",
+"status": "new"
+},
+{
+"key": "patient monitor temperature cable",
+"name": "(Patient monitor) Temperature cable",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-023",
+"status": "new"
+},
+{
+"key": "patient monitor temperature probe single use",
+"name": "(Patient monitor) Temperature probe, single use",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-024",
+"status": "new"
+},
+{
+"key": "patient monitor ecg limb wire leads",
+"name": "(Patient monitor) ECG limb wire leads",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-025",
+"status": "new"
+},
+{
+"key": "patient monitor ecg trunk cable",
+"name": "(Patient monitor) ECG trunk cable",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-026",
+"status": "new"
+},
+{
+"key": "patient monitor ecg gel bottle",
+"name": "(Patient monitor) ECG gel, bottle",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-027",
+"status": "new"
+},
+{
+"key": "electronic drop counter",
+"name": "ELECTRONIC DROP COUNTER",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-028",
+"status": "new"
+},
+{
+"key": "infusion pump with accessories",
+"name": "INFUSION PUMP WITH ACCESSORIES",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-029",
+"status": "new"
+},
+{
+"key": "infusion pump infusion line iv set",
+"name": "(Infusion pump) Infusion line/IV set",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-030",
+"status": "new"
+},
+{
+"key": "drill for vascular access with transport bag",
+"name": "DRILL, FOR VASCULAR ACCESS - WITH TRANSPORT BAG",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-031",
+"status": "new"
+},
+{
+"key": "drill needle stabilizer kit 15 g 15 mm paediatric",
+"name": "(Drill) Needle + Stabilizer Kit, 15 G, 15 mm, paediatric",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-032",
+"status": "new"
+},
+{
+"key": "drill needle stabilizer kit 15 g 25 mm adult",
+"name": "(Drill) Needle + Stabilizer Kit, 15 G, 25 mm, adult",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-033",
+"status": "new"
+},
+{
+"key": "drill training kit",
+"name": "(Drill) TRAINING KIT",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-034",
+"status": "new"
+},
+{
+"key": "suction pump mechanical with collection bottles",
+"name": "SUCTION PUMP, MECHANICAL WITH COLLECTION BOTTLES",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-035",
+"status": "new"
+},
+{
+"key": "suction pump mechanical collection bottle",
+"name": "(Suction pump, mechanical) COLLECTION BOTTLE",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-036",
+"status": "new"
+},
+{
+"key": "suction pump mechanical suction tube with combination suction tip and angle connector",
+"name": "(Suction pump, mechanical) Suction tube with combination suction tip and angle connector",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-037",
+"status": "new"
+},
+{
+"key": "suction pump mechanical tube silicone autoclavable int diam 8 mm 10 m",
+"name": "(Suction pump, mechanical) Tube, silicone, autoclavable, int. diam.8 mm, 10 m",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-038",
+"status": "new"
+},
+{
+"key": "suction pump electrical with accessories",
+"name": "SUCTION PUMP, ELECTRICAL WITH ACCESSORIES",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-039",
+"status": "new"
+},
+{
+"key": "suction pump electrical tube silicone autoclavable int diam 8 mm 10 m",
+"name": "(Suction pump, electrical) Tube, silicone, autoclavable, int. diam.8 mm, 10 m",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-040",
+"status": "new"
+},
+{
+"key": "suction pump electrical tube suction machine ch 25 1 8m sterile s u",
+"name": "(Suction pump, electrical) Tube, Suction Machine, CH 25,1.8m, sterile, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-041",
+"status": "new"
+},
+{
+"key": "suction pump electrical bottle autoclavable",
+"name": "(Suction pump, electrical) Bottle, autoclavable",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-042",
+"status": "new"
+},
+{
+"key": "electrocardiograph portable with accessories",
+"name": "ELECTROCARDIOGRAPH, PORTABLE, WITH ACCESSORIES",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-043",
+"status": "new"
+},
+{
+"key": "electrocardiograph patient cable 10 leads",
+"name": "(Electrocardiograph) PATIENT CABLE, 10 leads",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-044",
+"status": "new"
+},
+{
+"key": "electrocardiograph set suction electrodes reusable",
+"name": "(Electrocardiograph) SET SUCTION ELECTRODES, reusable",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-045",
+"status": "new"
+},
+{
+"key": "electrocardiograph set clip electrodes reusable",
+"name": "(Electrocardiograph) SET CLIP ELECTRODES, reusable",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Accessories",
+"typ": "Accessories",
+"cost": null,
+"code": "ACDC-EQP-046",
+"status": "new"
+},
+{
+"key": "electrocardiograph recording paper",
+"name": "(Electrocardiograph) RECORDING PAPER",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-047",
+"status": "new"
+},
+{
+"key": "electrocardiograph electrode gel 5 ml",
+"name": "(Electrocardiograph) ELECTRODE GEL, 5 mL",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-048",
+"status": "new"
+},
+{
+"key": "compressible self refilling ventilation bag for adult capacity 1500 ml with masks small medium large",
+"name": "COMPRESSIBLE SELF-REFILLING VENTILATION BAG FOR ADULT, CAPACITY > 1500 mL - WITH MASKS (SMALL, MEDIUM, LARGE)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-049",
+"status": "new"
+},
+{
+"key": "self inflating resuscitation bag child neonate with masks rh2 s1 ambu type",
+"name": "SELF-INFLATING RESUSCITATION BAG, CHILD/NEONATE - WITH MASKS RH2/S1 (AMBU TYPE)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Equipment",
+"typ": "Equipment",
+"cost": null,
+"code": "ACDC-EQP-050",
+"status": "new"
+},
+{
+"key": "iv infusion set 16 g",
+"name": "IV infusion set, 16 G",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-051",
+"status": "new"
+},
+{
+"key": "iv infusion set 18 g",
+"name": "IV infusion set, 18 G",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-052",
+"status": "new"
+},
+{
+"key": "iv infusion set 20 g",
+"name": "IV infusion set, 20 G",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-053",
+"status": "new"
+},
+{
+"key": "iv infusion set 22 g",
+"name": "IV infusion set, 22 G",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-054",
+"status": "new"
+},
+{
+"key": "iv infusion set 24 g",
+"name": "IV infusion set, 24 G",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Consumables",
+"typ": "Consumables",
+"cost": null,
+"code": "ACDC-EQP-055",
+"status": "new"
+},
+{
+"key": "autoclave 39 l with single burner",
+"name": "AUTOCLAVE, 39 L, with single burner",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-056",
+"status": "new"
+},
+{
+"key": "tape autoclave steam indicator 50 m x 19 mm",
+"name": "TAPE, AUTOCLAVE STEAM INDICATOR, 50 m x 19 mm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-057",
+"status": "new"
+},
+{
+"key": "tst indicator strip type 5",
+"name": "TST INDICATOR STRIP, Type 5",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-058",
+"status": "new"
+},
+{
+"key": "sheet sterilization crepe paper 0 9 x 0 9 m",
+"name": "SHEET, STERILIZATION, crepe paper, 0.9 x 0.9 m",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-059",
+"status": "new"
+},
+{
+"key": "suction bulb for newborn reusable autoclavable",
+"name": "SUCTION BULB, for newborn, reusable, autoclavable",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-060",
+"status": "new"
+},
+{
+"key": "scale electronic 50g 0 200kg",
+"name": "SCALE, electronic, 50g/0-200kg",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-061",
+"status": "new"
+},
+{
+"key": "digital thermometer",
+"name": "Digital thermometer",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-002",
+"status": "existing"
+},
+{
+"key": "glucometer blood glucose monitor mg dl",
+"name": "GLUCOMETER, blood glucose monitor mg/dl",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-062",
+"status": "new"
+},
+{
+"key": "glucometer strip 42214",
+"name": "(glucometer STRIP 42214",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-063",
+"status": "new"
+},
+{
+"key": "safety lancet medium flow needle 21g x 1 8mm green s u",
+"name": "SAFETY LANCET, medium flow, needle 21G x 1.8mm, green, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-064",
+"status": "new"
+},
+{
+"key": "glucometer control sol normal 4ml vial46948",
+"name": "(glucometer CONTROL SOL.normal 4ml vial46948",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-065",
+"status": "new"
+},
+{
+"key": "glucometer control sol high 4ml vial 46949",
+"name": "(glucometer CONTROL SOL.high, 4ml vial 46949",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-066",
+"status": "new"
+},
+{
+"key": "glucometer control sol low 4ml vial 46947",
+"name": "(glucometer CONTROL SOL. low, 4ml vial 46947",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-067",
+"status": "new"
+},
+{
+"key": "haemoglobin photometer tropicalizedmachine",
+"name": "HAEMOGLOBIN PHOTOMETER tropicalizedmachine",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-068",
+"status": "new"
+},
+{
+"key": "microcuvette s u for haemoglobin photometer",
+"name": "MICROCUVETTE, s.u. for haemoglobin photometer",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-069",
+"status": "new"
+},
+{
+"key": "haemoglobin photometer cleaner 5pcs 139123",
+"name": "haemoglobin photometer CLEANER, 5pcs, 139123",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-070",
+"status": "new"
+},
+{
+"key": "haemoglobin photometer control solution kit 3 x 2 bottles cold chain",
+"name": "haemoglobin photometer CONTROL SOLUTION, kit 3 x 2 bottles (cold chain)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-071",
+"status": "new"
+},
+{
+"key": "urine test ph bili prot gluc ket blood nit leuc 1 strip",
+"name": "URINE TEST, pH,bili,prot,gluc,ket,blood,nit,leuc, 1 strip",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-072",
+"status": "new"
+},
+{
+"key": "pregnancy rst hcg test urine 1 strip",
+"name": "PREGNANCY RST/hCG TEST, urine, 1 strip",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-073",
+"status": "new"
+},
+{
+"key": "stand infusion 2 hooks on castors",
+"name": "STAND, INFUSION, 2 hooks, on castors",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-074",
+"status": "new"
+},
+{
+"key": "needle s u luer 21 g 0 8 x 40 mm green im",
+"name": "NEEDLE, s.u., Luer, 21 G (0.8 x 40 mm) green, IM",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-075",
+"status": "new"
+},
+{
+"key": "needle s u luer 23 g 0 6 x 30mm blue sc im child",
+"name": "NEEDLE, s.u., Luer, 23 G (0.6 x 30mm) blue, SC, IM child",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-076",
+"status": "new"
+},
+{
+"key": "needle s u luer 25 g 0 5 x 25 mm orange sc",
+"name": "NEEDLE, s.u., Luer, 25 G (0,5 x 25 mm), orange, SC",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-077",
+"status": "new"
+},
+{
+"key": "needle spinal l p luer s u 20 g 0 9 x 90 mm",
+"name": "NEEDLE, SPINAL L.P., Luer, s.u., 20 G (0.9 x 90 mm)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-078",
+"status": "new"
+},
+{
+"key": "needle spinal l p luer s u 22 g 0 7 x 40 mm",
+"name": "NEEDLE, SPINAL L.P., Luer, s.u., 22 G (0.7 x 40 mm)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-079",
+"status": "new"
+},
+{
+"key": "infusion set y luer lock air inlet sterile s u",
+"name": "INFUSION SET 'Y', Luer-lock, air inlet, sterile, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-080",
+"status": "new"
+},
+{
+"key": "set infusion paediatric precision sterile s u",
+"name": "SET, INFUSION, paediatric, precision, sterile, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-081",
+"status": "new"
+},
+{
+"key": "syringe s u luer 2 ml",
+"name": "SYRINGE, s.u., Luer, 2 ml",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-082",
+"status": "new"
+},
+{
+"key": "syringe s u luer 5 ml",
+"name": "SYRINGE, s.u., Luer, 5 ml",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-083",
+"status": "new"
+},
+{
+"key": "syringe s u luer 10 ml",
+"name": "SYRINGE, s.u., Luer, 10 ml",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-084",
+"status": "new"
+},
+{
+"key": "syringe s u luer 20 ml",
+"name": "SYRINGE, s.u., Luer, 20 ml",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-085",
+"status": "new"
+},
+{
+"key": "syringe s u luer 50 60 ml",
+"name": "SYRINGE, s.u., Luer, 50-60 ml",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-086",
+"status": "new"
+},
+{
+"key": "syringe u 100 insulin 1ml fixed needle 6 8 mm",
+"name": "SYRINGE, U-100 insulin, 1ml + fixed needle 6-8 mm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-087",
+"status": "new"
+},
+{
+"key": "cold chain refrigerator 94 liters",
+"name": "COLD CHAIN, refrigerator, 94 liters",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-088",
+"status": "new"
+},
+{
+"key": "urine bag 2 l drain non ret valves sampling port ster",
+"name": "URINE BAG 2 l, drain., non-ret. valves, sampling port, ster",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-089",
+"status": "new"
+},
+{
+"key": "urinary catheter foley 2 way balloon sterile s u ch06",
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH06",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-090",
+"status": "new"
+},
+{
+"key": "urinary catheter foley 2 way balloon sterile s u ch08",
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH08",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-091",
+"status": "new"
+},
+{
+"key": "urinary catheter foley 2 way balloon sterile s u ch10",
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH10",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-092",
+"status": "new"
+},
+{
+"key": "urinary catheter foley 2 way balloon sterile s u ch14",
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH14",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-093",
+"status": "new"
+},
+{
+"key": "urinary catheter foley 2 way balloon sterile s u ch18",
+"name": "URINARY CATHETER, FOLEY 2 way, balloon, sterile, s.u., CH18",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-094",
+"status": "new"
+},
+{
+"key": "nasogastric tube enfit tip s u 50 cm ch06 light green",
+"name": "NASOGASTRIC TUBE, ENFit tip, s.u., 50 cm, CH06, light green",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-095",
+"status": "new"
+},
+{
+"key": "nasogastric tube enfit tip s u 50 cm ch08 blue",
+"name": "NASOGASTRIC TUBE, ENFit tip, s.u., 50 cm, CH08, blue",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-096",
+"status": "new"
+},
+{
+"key": "nasogastric tube enfit tip s u 50 cm ch10 black",
+"name": "NASOGASTRIC TUBE, ENFit tip, s.u., 50 cm, CH10, black",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-097",
+"status": "new"
+},
+{
+"key": "nasogastric tube enfit tip s u 90 cm ch12 white",
+"name": "NASOGASTRIC TUBE, ENFit tip, s.u., 90 cm, CH12, white",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-098",
+"status": "new"
+},
+{
+"key": "fixation plaster for nasogastric tube s u adult child",
+"name": "FIXATION PLASTER for NASOGASTRIC TUBE, s.u., adult / child",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-099",
+"status": "new"
+},
+{
+"key": "minicollect tube 0 5 ml lh lithium heparin green cap",
+"name": "MiniCollect® Tube 0.5 ml LH Lithium Heparin green cap",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-100",
+"status": "new"
+},
+{
+"key": "point of care clinical chemistry analyser 230v 50 60hz",
+"name": "point of care CLINICAL CHEMISTRY ANALYSER , 230V, 50-60Hz",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-101",
+"status": "new"
+},
+{
+"key": "tourniquet for phlebotomy elastic 100 x 1 8 cm",
+"name": "TOURNIQUET FOR PHLEBOTOMY, elastic, 100 x 1.8 cm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-102",
+"status": "new"
+},
+{
+"key": "chlorhexidine 2 70 isopropyl alcohol swab wipe",
+"name": "CHLORHEXIDINE 2%, 70% isopropyl alcohol, SWAB/WIPE",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-103",
+"status": "new"
+},
+{
+"key": "holder for vacuum tube with needle ejector",
+"name": "HOLDER for VACUUM TUBE with needle ejector",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-104",
+"status": "new"
+},
+{
+"key": "needle sterile 23g vacutainer",
+"name": "NEEDLE, sterile, 23G (Vacutainer)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-105",
+"status": "new"
+},
+{
+"key": "needle sterile 21g vacutainer",
+"name": "NEEDLE, sterile, 21G (Vacutainer)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-106",
+"status": "new"
+},
+{
+"key": "tube vacuum plastic k2edta 2ml purple children",
+"name": "TUBE, VACUUM, plastic, K2EDTA, 2ml, purple (children)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-107",
+"status": "new"
+},
+{
+"key": "tube vacuum plastic serum 4 ml red children",
+"name": "TUBE, VACUUM, plastic, SERUM, 4 ml, red (children)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-108",
+"status": "new"
+},
+{
+"key": "tube vacuum plastic k2edta 10ml purple adult",
+"name": "TUBE, VACUUM, plastic, K2EDTA, 10ml, purple (adult)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-109",
+"status": "new"
+},
+{
+"key": "tube vacuum plastic serum 10ml red adult",
+"name": "TUBE, VACUUM, plastic, SERUM, 10ml, red (adult)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-110",
+"status": "new"
+},
+{
+"key": "container sample plast 60ml non sterile urine",
+"name": "CONTAINER, SAMPLE, plast., 60ml, non sterile, urine",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-111",
+"status": "new"
+},
+{
+"key": "adhesive tape fabric 2 2 5cm x 5m",
+"name": "ADHESIVE TAPE, fabric, 2-2.5cm x 5m",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-112",
+"status": "new"
+},
+{
+"key": "compress non woven 4 plies 7 5 cm non sterile",
+"name": "COMPRESS, NON WOVEN, 4 plies, 7.5 cm, non sterile",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-113",
+"status": "new"
+},
+{
+"key": "spacer single patient medium mask",
+"name": "SPACER, single patient, medium mask",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-114",
+"status": "new"
+},
+{
+"key": "spacer single patient small mask",
+"name": "SPACER, single patient, small mask",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-115",
+"status": "new"
+},
+{
+"key": "nebulizer compressor pari boy pro accessories",
+"name": "NEBULIZER + COMPRESSOR (PARI BOY PRO) + accessories",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC intensive care",
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-116",
+"status": "new"
+},
+{
+"key": "nebulizer mask with chamber adult",
+"name": "NEBULIZER mask with chamber, adult",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-117",
+"status": "new"
+},
+{
+"key": "nebulizer mask with chamber child",
+"name": "NEBULIZER mask with chamber, child",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-118",
+"status": "new"
+},
+{
+"key": "ultrasound gel",
+"name": "ultrasound gel",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-119",
+"status": "new"
+},
+{
+"key": "1 2 micron polyether sulfone pes filter membrane dehp free latex free",
+"name": "1.2 micron polyether sulfone (PES) filter membrane, DEHP-free, latex-free",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-120",
+"status": "new"
+},
+{
+"key": "add on 0 2 micron filter",
+"name": "add-on 0.2-micron filter",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-121",
+"status": "new"
+},
+{
+"key": "infant warming lamp",
+"name": "infant warming lamp",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-122",
+"status": "new"
+},
+{
+"key": "giving set blood transfusion with 200 u filter sterile s u",
+"name": "GIVING SET, BLOOD TRANSFUSION, with 200 u filter, sterile, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-123",
+"status": "new"
+},
+{
+"key": "viral transport medium vtm collection tube",
+"name": "Viral transport medium (VTM) collection tube",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-124",
+"status": "new"
+},
+{
+"key": "individually wrapped sterile swabs with break point",
+"name": "Individually wrapped sterile swabs with break point",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Medical equipment",
+"prefix": "EQP",
+"sources": [
+"ETC medical devices"
+],
+"subclass": "Medical Devices",
+"typ": "",
+"cost": null,
+"code": "ACDC-EQP-125",
+"status": "new"
+},
+{
+"key": "fluid resistant medical or surgical mask duckbill or cup shape",
+"name": "Fluid-resistant medical or surgical mask (duckbill or cup shape)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-006",
+"status": "new"
+},
+{
+"key": "boots rubber pair size 37",
+"name": "BOOTS, rubber, pair, size 37",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-007",
+"status": "new"
+},
+{
+"key": "boots rubber pair size 39",
+"name": "BOOTS, rubber, pair, size 39",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-008",
+"status": "new"
+},
+{
+"key": "boots rubber pair size 41",
+"name": "BOOTS, rubber, pair, size 41",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-009",
+"status": "new"
+},
+{
+"key": "boots rubber pair size 43",
+"name": "BOOTS, rubber, pair, size 43",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-010",
+"status": "new"
+},
+{
+"key": "boots rubber pair size 46",
+"name": "BOOTS, rubber, pair, size 46",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-011",
+"status": "new"
+},
+{
+"key": "head and neck covering",
+"name": "Head and neck covering",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-012",
+"status": "new"
+},
+{
+"key": "gown aami level 3 non sterile disp xl",
+"name": "GOWN, AAMI level 3, non sterile, disp. XL",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-013",
+"status": "new"
+},
+{
+"key": "gown aami level 3 non sterile disp l",
+"name": "GOWN, AAMI level 3, non sterile, disp. L",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-014",
+"status": "new"
+},
+{
+"key": "gown aami level 3 non sterile disp m",
+"name": "GOWN, AAMI level 3, non sterile, disp. M",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-015",
+"status": "new"
+},
+{
+"key": "coverall fluid resist cat iii type 3b or 4b u u m",
+"name": "COVERALL, fluid resist. cat III, type 3B or 4B, u.u., M",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-016",
+"status": "new"
+},
+{
+"key": "coverall fluid resist cat iii type 3b or 4b u u xl",
+"name": "COVERALL, fluid resist. cat III, type 3B or 4B, , u.u., XL",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-017",
+"status": "new"
+},
+{
+"key": "coverall fluid resist cat iii type 3b or 4b u u xxl",
+"name": "COVERALL, fluid resist. cat III, type 3B or 4B, u.u., XXL",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-018",
+"status": "new"
+},
+{
+"key": "glove examination nitrile pf ext cuff min 28 cm size s",
+"name": "GLOVE EXAMINATION, nitrile, pf, ext. cuff min. 28 cm, size S",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-019",
+"status": "new"
+},
+{
+"key": "glove examination nitrile pf ext cuff min 28 cm size m",
+"name": "GLOVE EXAMINATION, nitrile, pf, ext. cuff min. 28 cm, size M",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-020",
+"status": "new",
+"possible": "ACDC-IPC-002"
+},
+{
+"key": "glove examination nitrile pf ext cuff min 28 cm size l",
+"name": "GLOVE EXAMINATION, nitrile, pf, ext. cuff min. 28 cm, size L",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-021",
+"status": "new"
+},
+{
+"key": "surgical gloves latex u u sterile pair 6 5",
+"name": "SURGICAL GLOVES, latex, u.u., sterile, pair 6,5",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-022",
+"status": "new"
+},
+{
+"key": "surgical gloves latex u u sterile pair 7 5",
+"name": "SURGICAL GLOVES, latex, u.u., sterile, pair 7,5",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-023",
+"status": "new"
+},
+{
+"key": "surgical gloves latex u u sterile pair 8",
+"name": "SURGICAL GLOVES, latex, u.u., sterile, pair 8",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-024",
+"status": "new"
+},
+{
+"key": "surgical gloves latex u u sterile pair 8 5",
+"name": "SURGICAL GLOVES, latex, u.u., sterile, pair 8.5",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-025",
+"status": "new"
+},
+{
+"key": "gloves protection heavy duty nitrile green cat iii size 7",
+"name": "GLOVES PROTECTION, heavy duty, nitrile, green, cat III, size 7",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-026",
+"status": "new"
+},
+{
+"key": "gloves protection heavy duty nitrile green cat iii size 8",
+"name": "GLOVES PROTECTION, heavy duty, nitrile, green, cat III, size 8",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-027",
+"status": "new"
+},
+{
+"key": "gloves protection heavy duty nitrile green cat iii size 10",
+"name": "GLOVES PROTECTION, heavy duty, nitrile, green, cat III, size 10",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-028",
+"status": "new"
+},
+{
+"key": "goggles reusable",
+"name": "Goggles (reusable)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-029",
+"status": "new"
+},
+{
+"key": "faceshield single use",
+"name": "Faceshield (single use)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-030",
+"status": "new"
+},
+{
+"key": "set tunic trousers surgical woven reusable green size s",
+"name": "SET, TUNIC + TROUSERS SURGICAL, woven, reusable, green, size S",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-031",
+"status": "new"
+},
+{
+"key": "set tunic trousers surgical woven reusable green size m",
+"name": "SET, TUNIC + TROUSERS SURGICAL, woven, reusable, green, size M",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-032",
+"status": "new"
+},
+{
+"key": "set tunic trousers surgical woven reusable green size l",
+"name": "SET, TUNIC + TROUSERS SURGICAL, woven, reusable, green, size L",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-033",
+"status": "new"
+},
+{
+"key": "apron protection polyester reusable 300g m2",
+"name": "APRON PROTECTION, polyester, reusable, 300g/m2",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"ETC PPE",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-IPC-034",
+"status": "new"
+},
+{
+"key": "infrared thermometer",
+"name": "Infrared thermometer",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 15,
+"code": "ACDC-EQP-001",
+"status": "existing"
+},
+{
+"key": "examination gloves",
+"name": "Examination gloves",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 0.066,
+"code": "ACDC-IPC-035",
+"status": "new",
+"possible": "ACDC-IPC-001"
+},
+{
+"key": "fluid resistant surgical mask",
+"name": "Fluid-resistant surgical mask",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 0.02736,
+"code": "ACDC-IPC-036",
+"status": "new"
+},
+{
+"key": "fluid resistant n95 respirator",
+"name": "Fluid-resistant N95 respirator",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 0.243732,
+"code": "ACDC-IPC-003",
+"status": "existing"
+},
+{
+"key": "safety box for sharps",
+"name": "Safety box for sharps",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 0.4218,
+"code": "ACDC-WSH-001",
+"status": "new"
+},
+{
+"key": "gown aami level 3 non sterile disp",
+"name": "GOWN, AAMI level 3, non-sterile, disp",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 0.43,
+"code": "ACDC-IPC-037",
+"status": "new"
+},
+{
+"key": "coverall",
+"name": "Coverall",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 7.9,
+"code": "ACDC-IPC-038",
+"status": "new"
+},
+{
+"key": "face shield",
+"name": "Face shield",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 0.4218,
+"code": "ACDC-IPC-039",
+"status": "new"
+},
+{
+"key": "surgical cap bouffant cap",
+"name": "Surgical cap / bouffant cap",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 0.02,
+"code": "ACDC-IPC-040",
+"status": "new"
+},
+{
+"key": "reusable apron",
+"name": "Reusable apron",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 5.0046,
+"code": "ACDC-IPC-041",
+"status": "new"
+},
+{
+"key": "protective goggles",
+"name": "Protective goggles",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 1,
+"code": "ACDC-IPC-042",
+"status": "new"
+},
+{
+"key": "body bag",
+"name": "Body bag",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 20,
+"code": "ACDC-WSH-002",
+"status": "new"
+},
+{
+"key": "plastic sheeting 4 6 m",
+"name": "Plastic sheeting, 4 × 6 m",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 12,
+"code": "ACDC-WSH-003",
+"status": "new"
+},
+{
+"key": "waste bag 100 l",
+"name": "Waste bag, 100 L",
+"unit_src": "Bag",
+"unit": "bag / poche",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 1.5,
+"code": "ACDC-WSH-004",
+"status": "new"
+},
+{
+"key": "paper towels roll",
+"name": "Paper towels (roll)",
+"unit_src": "Roll",
+"unit": "roll / rouleau",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 1,
+"code": "ACDC-WSH-005",
+"status": "new"
+},
+{
+"key": "biohazard waste bag 30 l",
+"name": "Biohazard waste bag, 30 L",
+"unit_src": "Bag",
+"unit": "bag / poche",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 1,
+"code": "ACDC-WSH-006",
+"status": "new"
+},
+{
+"key": "bar soap 750 g",
+"name": "Bar soap, 750 g",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 1.111111111111,
+"code": "ACDC-WSH-007",
+"status": "new"
+},
+{
+"key": "heavy duty household cleaning gloves",
+"name": "Heavy-duty household cleaning gloves",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 1.03,
+"code": "ACDC-IPC-043",
+"status": "new"
+},
+{
+"key": "hth chlorine kg",
+"name": "HTH chlorine, kg",
+"unit_src": "kg",
+"unit": "kg",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 6,
+"code": "ACDC-WSH-008",
+"status": "new"
+},
+{
+"key": "ebola leaflets",
+"name": "Ebola leaflets",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Community / training supplies",
+"prefix": "COM",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 5,
+"code": "ACDC-COM-006",
+"status": "new"
+},
+{
+"key": "toll free hotline number stickers",
+"name": "Toll-free hotline number stickers",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Community / training supplies",
+"prefix": "COM",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 3,
+"code": "ACDC-COM-007",
+"status": "new"
+},
+{
+"key": "large waste bin 100 l",
+"name": "Large waste bin, 100 L",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 15,
+"code": "ACDC-WSH-009",
+"status": "new"
+},
+{
+"key": "poster case definition",
+"name": "Poster: case definition",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Community / training supplies",
+"prefix": "COM",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 3,
+"code": "ACDC-COM-008",
+"status": "new"
+},
+{
+"key": "poster handwashing",
+"name": "Poster: handwashing",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Community / training supplies",
+"prefix": "COM",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 3,
+"code": "ACDC-COM-009",
+"status": "new"
+},
+{
+"key": "poster waste management",
+"name": "Poster: waste management",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Community / training supplies",
+"prefix": "COM",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 3,
+"code": "ACDC-COM-010",
+"status": "new"
+},
+{
+"key": "poster transmission diagram",
+"name": "Poster: transmission diagram",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Community / training supplies",
+"prefix": "COM",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 3,
+"code": "ACDC-COM-011",
+"status": "new"
+},
+{
+"key": "rubber boots",
+"name": "Rubber boots",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "IPC / PPE",
+"prefix": "IPC",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 6.1,
+"code": "ACDC-IPC-044",
+"status": "new"
+},
+{
+"key": "plastic table",
+"name": "Plastic table",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 30,
+"code": "ACDC-WSH-010",
+"status": "new"
+},
+{
+"key": "plastic chair",
+"name": "Plastic chair",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 12,
+"code": "ACDC-WSH-011",
+"status": "new"
+},
+{
+"key": "parasol",
+"name": "Parasol",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": "",
+"code": "ACDC-WSH-012",
+"status": "new"
+},
+{
+"key": "hand washing device 20 l bucket 1 4 tap stool basin",
+"name": "Hand washing device (20 L bucket + 1/4 tap + stool + basin)",
+"unit_src": "Set",
+"unit": "set / ensemble",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 40,
+"code": "ACDC-WSH-013",
+"status": "new"
+},
+{
+"key": "burner",
+"name": "Burner",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 150,
+"code": "ACDC-WSH-014",
+"status": "new"
+},
+{
+"key": "hand washing tank 135 l",
+"name": "Hand washing tank, 135 L",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 100,
+"code": "ACDC-WSH-015",
+"status": "new"
+},
+{
+"key": "alcohol based handrub abhr 100 ml",
+"name": "Alcohol-based handrub (ABHR), 100 mL",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 1,
+"code": "ACDC-WSH-016",
+"status": "new"
+},
+{
+"key": "alcohol based handrub abhr 1 l",
+"name": "Alcohol-based handrub (ABHR), 1 L",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"IPC health facilities"
+],
+"subclass": "",
+"typ": "",
+"cost": 10,
+"code": "ACDC-WSH-017",
+"status": "new"
+},
+{
+"key": "anti fog solution approx 100 ml",
+"name": "ANTI FOG solution, approx. 100 ml",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-018",
+"status": "new"
+},
+{
+"key": "body bag absorbent pad",
+"name": "(BODY BAG) absorbent pad",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-019",
+"status": "new"
+},
+{
+"key": "absorbent pad 60 x 60 cm",
+"name": "Absorbent pad, 60 x 60 cm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-020",
+"status": "new"
+},
+{
+"key": "stretcher approx 210x54cm foldable along length width unit",
+"name": "STRETCHER, approx. 210x54cm, foldable along length/width, unit",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-021",
+"status": "new"
+},
+{
+"key": "disposable plastic plate",
+"name": "Disposable plastic PLATE",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-022",
+"status": "new"
+},
+{
+"key": "container lid 120 l",
+"name": "CONTAINER + LID, 120 l",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-023",
+"status": "new"
+},
+{
+"key": "broom with handle",
+"name": "BROOM, with handle",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-024",
+"status": "new"
+},
+{
+"key": "basin 40 liters plastic",
+"name": "BASIN, 40 liters, plastic",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-025",
+"status": "new"
+},
+{
+"key": "chlorine hth or nadcc in between 40 and 80",
+"name": "Chlorine (HTH or NADCC, in between 40 and 80%)",
+"unit_src": "Kg",
+"unit": "kg",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-026",
+"status": "new"
+},
+{
+"key": "cup 250 ml red plastic",
+"name": "CUP, 250 ml, red, plastic,",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-027",
+"status": "new"
+},
+{
+"key": "cup 250 ml green plastic graduated",
+"name": "CUP, 250 ml, green, plastic, graduated",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-028",
+"status": "new"
+},
+{
+"key": "mattress cover washable zipper 220 cm epidemics",
+"name": "MATTRESS COVER, washable, zipper, 220 cm, epidemics",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-029",
+"status": "new"
+},
+{
+"key": "bed",
+"name": "Bed",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-030",
+"status": "new"
+},
+{
+"key": "mattress",
+"name": "MATTRESS",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-031",
+"status": "new"
+},
+{
+"key": "mirror classic 20 x 30 cm",
+"name": "MIRROR, classic, 20 x 30 cm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-032",
+"status": "new"
+},
+{
+"key": "bin 100 liters lid white",
+"name": "BIN, 100 liters, + lid, white",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-033",
+"status": "new"
+},
+{
+"key": "squeegee for ground with handle",
+"name": "SQUEEGEE FOR GROUND, with handle",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-034",
+"status": "new"
+},
+{
+"key": "mop with handle",
+"name": "Mop, with handle",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-035",
+"status": "new"
+},
+{
+"key": "body bag plastic white 400 microns ad 250x120cm",
+"name": "BODY BAG, plastic, white, 400 microns, ad., 250x120cm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-036",
+"status": "new"
+},
+{
+"key": "body bag plastic white 400 microns child 150x100cm",
+"name": "BODY BAG, plastic, white, 400 microns, child 150x100cm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-037",
+"status": "new"
+},
+{
+"key": "garbage bag 100 liters black 70 microns",
+"name": "GARBAGE BAG, 100 liters, black, 70 microns",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-038",
+"status": "new"
+},
+{
+"key": "bag biohazard refuse 90 x 70 cm 70 microns",
+"name": "BAG biohazard, refuse 90 x 70 cm, 70 microns",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-039",
+"status": "new"
+},
+{
+"key": "hand wash soap 250ml bottle",
+"name": "Hand wash soap, 250ml bottle",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-040",
+"status": "new"
+},
+{
+"key": "safety box burnable 5l",
+"name": "Safety box burnable 5l",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-041",
+"status": "new"
+},
+{
+"key": "soap 200 g",
+"name": "SOAP, 200 g,",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-042",
+"status": "new"
+},
+{
+"key": "soap powder",
+"name": "SOAP, powder",
+"unit_src": "Kg",
+"unit": "kg",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-043",
+"status": "new"
+},
+{
+"key": "bucket lid 20 l with tap",
+"name": "BUCKET + LID, 20 l, with tap",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-044",
+"status": "new"
+},
+{
+"key": "bucket lid 20 l",
+"name": "BUCKET + LID, 20 l",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-045",
+"status": "new"
+},
+{
+"key": "feminine sanitary napkins box of 10 pieces",
+"name": "Feminine sanitary napkins (box of 10 pieces)",
+"unit_src": "Box of 10 pieces",
+"unit": "box of 10 / boîte de 10",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-046",
+"status": "new"
+},
+{
+"key": "plates laundry brush plastic",
+"name": "Plates laundry brush (plastic)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-047",
+"status": "new"
+},
+{
+"key": "laundry brush boots plastic",
+"name": "Laundry brush boots (plastic)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-048",
+"status": "new"
+},
+{
+"key": "white vinegar",
+"name": "White vinegar",
+"unit_src": "Liter",
+"unit": "litre",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-049",
+"status": "new"
+},
+{
+"key": "plastic bag with handle around 33x43cm",
+"name": "Plastic bag with handle (around 33X43cm)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-050",
+"status": "new"
+},
+{
+"key": "chairs plastic",
+"name": "Chairs, plastic",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-051",
+"status": "new"
+},
+{
+"key": "pencil fine point black",
+"name": "PENCIL, fine point, black",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-052",
+"status": "new"
+},
+{
+"key": "marker indelible large chisel point black",
+"name": "MARKER, indelible, large, chisel point, black",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-053",
+"status": "new"
+},
+{
+"key": "marker indelible large chisel point red",
+"name": "MARKER, indelible, large, chisel point, red",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-054",
+"status": "new"
+},
+{
+"key": "marker indelible large chisel point green",
+"name": "MARKER, indelible, large, chisel point, green",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-055",
+"status": "new"
+},
+{
+"key": "aaa battery",
+"name": "AAA battery",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-056",
+"status": "new"
+},
+{
+"key": "aa 2 battery",
+"name": "AA 2 battery",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-057",
+"status": "new"
+},
+{
+"key": "battery cr 2032",
+"name": "Battery CR 2032",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-058",
+"status": "new"
+},
+{
+"key": "wall clock",
+"name": "Wall clock",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-059",
+"status": "new"
+},
+{
+"key": "plastic tap 3 4",
+"name": "Plastic tap, 3/4",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-060",
+"status": "new"
+},
+{
+"key": "set posters of dof don protocols for haemorragic fever",
+"name": "Set posters of Dof/Don protocols for haemorragic fever",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-061",
+"status": "new"
+},
+{
+"key": "table plastic",
+"name": "Table, plastic",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-062",
+"status": "new"
+},
+{
+"key": "wata test",
+"name": "Wata Test",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-063",
+"status": "new"
+},
+{
+"key": "turbidimeter 5 2000 ntu",
+"name": "Turbidimeter 5 - 2000 NTU",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-064",
+"status": "new"
+},
+{
+"key": "tester pool with dpd n 1 rapid 1000",
+"name": "(Tester pool with Dpd Nº 1 / Rapid, 1000",
+"unit_src": "Tablet",
+"unit": "tablet / comprimé",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-065",
+"status": "new"
+},
+{
+"key": "scotch rolls 5cm",
+"name": "Scotch rolls (5cm)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-066",
+"status": "new"
+},
+{
+"key": "notebook a4 squared spiral 180 pages",
+"name": "NOTEBOOK, A4, squared, spiral, 180 pages",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-067",
+"status": "new"
+},
+{
+"key": "pen black",
+"name": "Pen, black",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-068",
+"status": "new"
+},
+{
+"key": "lever arch file 310 x 290 mm blue narrow back 50 mm",
+"name": "Lever Arch File, 310 X 290 Mm, Blue, Narrow Back 50 Mm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-069",
+"status": "new"
+},
+{
+"key": "envelope plastic transparent perforated a4 open top",
+"name": "Envelope, Plastic, Transparent, Perforated, A4 Open Top",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-070",
+"status": "new"
+},
+{
+"key": "hardcover notebook a4 squared 80g 200 pages",
+"name": "Hardcover Notebook, A4, Squared, 80g, 200 Pages",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-071",
+"status": "new"
+},
+{
+"key": "paper a4 210 x 297 mm white for photocopy 80 g",
+"name": "Paper, A4, 210 X 297 Mm, White, For Photocopy, 80 G",
+"unit_src": "Box",
+"unit": "box / boîte",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-072",
+"status": "new"
+},
+{
+"key": "notepad a5 210 x 140 mm squared 5 mm",
+"name": "Notepad, A5, 210 X 140 Mm, Squared 5 Mm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-073",
+"status": "new"
+},
+{
+"key": "stapler medium 24 6 8 for 20 sheets",
+"name": "Stapler, Medium, 24 / 6-8, For 20 Sheets",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-074",
+"status": "new"
+},
+{
+"key": "stapler medium staples 24 6",
+"name": "(stapler, Medium) Staples 24-6",
+"unit_src": "Box of 5000 piece",
+"unit": "box of 5000 / boîte de 5000",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-075",
+"status": "new"
+},
+{
+"key": "hole punch paper with guide",
+"name": "Hole Punch, Paper, With Guide",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-076",
+"status": "new"
+},
+{
+"key": "whiteboard for erasable marker",
+"name": "Whiteboard for erasable marker",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-077",
+"status": "new"
+},
+{
+"key": "marker erasable black round tip",
+"name": "Marker, Erasable, Black, Round Tip",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-078",
+"status": "new"
+},
+{
+"key": "marker green erasable round point",
+"name": "Marker, Green, Erasable, Round Point",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-079",
+"status": "new"
+},
+{
+"key": "marker blue erasable round tip",
+"name": "Marker, Blue, Erasable, Round Tip",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-080",
+"status": "new"
+},
+{
+"key": "marker red erasable round point",
+"name": "Marker, Red, Erasable, Round Point",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-081",
+"status": "new"
+},
+{
+"key": "diapers adults",
+"name": "Diapers adults",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-082",
+"status": "new"
+},
+{
+"key": "children s diapers 6 10 kg",
+"name": "Children's diapers 6-10 kg",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-083",
+"status": "new"
+},
+{
+"key": "adult blanket",
+"name": "adult blanket",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-084",
+"status": "new"
+},
+{
+"key": "baby blanket",
+"name": "baby blanket",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-085",
+"status": "new"
+},
+{
+"key": "body soap 100 gr",
+"name": "body soap 100 gr",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-086",
+"status": "new",
+"possible": "ACDC-IPC-005"
+},
+{
+"key": "toilet paper",
+"name": "Toilet paper",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-087",
+"status": "new"
+},
+{
+"key": "toilet slipper flipflop tong shower sandal",
+"name": "Toilet slipper - flipflop -tong (shower sandal)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-088",
+"status": "new"
+},
+{
+"key": "toothpaste with toothbrush",
+"name": "Toothpaste with Toothbrush",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-089",
+"status": "new"
+},
+{
+"key": "sandal man",
+"name": "sandal man",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-090",
+"status": "new"
+},
+{
+"key": "girl s sandal",
+"name": "Girl's sandal",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-091",
+"status": "new"
+},
+{
+"key": "boy s sandal",
+"name": "Boy's sandal",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-092",
+"status": "new"
+},
+{
+"key": "lady s sandal",
+"name": "Lady’s sandal",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-093",
+"status": "new"
+},
+{
+"key": "child sock",
+"name": "Child sock",
+"unit_src": "Pair",
+"unit": "pair / paire",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-094",
+"status": "new"
+},
+{
+"key": "child s clothing from 0 to 5 years old",
+"name": "Child's clothing from 0 to 5 years old",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-095",
+"status": "new"
+},
+{
+"key": "child dress from 5 to 12 years old",
+"name": "Child dress from 5 to 12 years old",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-096",
+"status": "new"
+},
+{
+"key": "men s adult shirt",
+"name": "Men's adult shirt",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-097",
+"status": "new"
+},
+{
+"key": "adult t shirt",
+"name": "Adult t-shirt",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-098",
+"status": "new"
+},
+{
+"key": "kids t shirt",
+"name": "Kids t-shirt",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-099",
+"status": "new"
+},
+{
+"key": "adult pants",
+"name": "Adult pants",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-100",
+"status": "new"
+},
+{
+"key": "child pants",
+"name": "Child pants",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-101",
+"status": "new"
+},
+{
+"key": "jacket adult",
+"name": "Jacket adult",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-102",
+"status": "new"
+},
+{
+"key": "child jacket",
+"name": "Child jacket",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-103",
+"status": "new"
+},
+{
+"key": "adult belt",
+"name": "Adult belt",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-104",
+"status": "new"
+},
+{
+"key": "men s underwear",
+"name": "Men's underwear",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-105",
+"status": "new"
+},
+{
+"key": "adult lady dress",
+"name": "Adult lady dress",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-106",
+"status": "new"
+},
+{
+"key": "women s underwear",
+"name": "Women's underwear",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-107",
+"status": "new"
+},
+{
+"key": "child underwear",
+"name": "Child underwear",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-108",
+"status": "new"
+},
+{
+"key": "towel",
+"name": "Towel",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-109",
+"status": "new"
+},
+{
+"key": "table sugar",
+"name": "Table sugar",
+"unit_src": "Kg",
+"unit": "kg",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-110",
+"status": "new"
+},
+{
+"key": "disposable plastic spoon",
+"name": "Disposable plastic spoon",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-111",
+"status": "new"
+},
+{
+"key": "disposable plastic cup",
+"name": "Disposable plastic cup",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-112",
+"status": "new"
+},
+{
+"key": "graduated cilinder",
+"name": "Graduated cilinder",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-113",
+"status": "new"
+},
+{
+"key": "baby bottle",
+"name": "Baby Bottle",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-114",
+"status": "new"
+},
+{
+"key": "sprayer 10 or 12 liter low pressure to help reduce the risk of aerosol generation",
+"name": "Sprayer 10 or 12 liter (low-pressure to help reduce the risk of aerosol generation)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-115",
+"status": "new"
+},
+{
+"key": "triple packaging for specimen transportation 4g class 6 2 w 1 5 l sec container unit",
+"name": "Triple packaging for specimen transportation, 4G, class 6.2, w/ 1.5 l sec. container, unit",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "WASH & logistics",
+"prefix": "WSH",
+"sources": [
+"ETC WASH & logistics",
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-WSH-116",
+"status": "new"
+},
+{
+"key": "malaria rapid tests all species types",
+"name": "Malaria rapid tests (all species types)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-001",
+"status": "new"
+},
+{
+"key": "hiv 1 2 rapid tests 2 different test for verifiction",
+"name": "HIV 1 + 2 rapid tests (2 different test for verifiction)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-002",
+"status": "new"
+},
+{
+"key": "hepatitis b rapid tests",
+"name": "Hepatitis B rapid tests",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-003",
+"status": "new"
+},
+{
+"key": "hepatitis c rapid tests",
+"name": "Hepatitis C rapid tests",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-004",
+"status": "new"
+},
+{
+"key": "syphylis rapid tests",
+"name": "Syphylis rapid tests",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-005",
+"status": "new"
+},
+{
+"key": "blood bag diversion pouch single cpda1 150 ml s u",
+"name": "BLOOD BAG + diversion pouch, single, CPDA1, 150 ml, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-006",
+"status": "new"
+},
+{
+"key": "blood bag diversion pouch single cpda1 450 ml s u",
+"name": "BLOOD BAG + diversion pouch, single, CPDA1, 450 ml, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-007",
+"status": "new"
+},
+{
+"key": "set blood transfusion with 200 u filter sterile s u",
+"name": "SET, BLOOD TRANSFUSION, with 200 u filter, sterile, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-008",
+"status": "new"
+},
+{
+"key": "bedside control card abo compatibility serafol",
+"name": "BEDSIDE CONTROL CARD, ABO compatibility (Serafol)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-009",
+"status": "new"
+},
+{
+"key": "bedside control card serafol adhesive foil",
+"name": "(bedside control card Serafol) ADHESIVE FOIL",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-010",
+"status": "new"
+},
+{
+"key": "bedside control card serafol mixing stick plastic",
+"name": "(bedside control card Serafol) MIXING STICK, plastic",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-011",
+"status": "new"
+},
+{
+"key": "blood grouping test anti a lorne 10 ml dropper bot",
+"name": "BLOOD GROUPING TEST, anti A (Lorne), 10 ml, dropper bot",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-012",
+"status": "new"
+},
+{
+"key": "blood grouping test anti ab lorne 10 ml dropper bot",
+"name": "BLOOD GROUPING TEST, anti AB (Lorne), 10 ml, dropper bot",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-013",
+"status": "new"
+},
+{
+"key": "blood grouping test anti b lorne 10 ml dropper bot",
+"name": "BLOOD GROUPING TEST, anti B (Lorne), 10 ml, dropper bot",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-014",
+"status": "new"
+},
+{
+"key": "rh negative control lorne monoclonal antibodies 10ml bot",
+"name": "RH NEGATIVE CONTROL (Lorne),monoclonal antibodies, 10ml, bot",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-015",
+"status": "new"
+},
+{
+"key": "blood grouping test rhesus anti d lorne 10 ml drop bot",
+"name": "BLOOD GROUPING TEST, RHESUS anti D (Lorne), 10 ml, drop.bot",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-016",
+"status": "new"
+},
+{
+"key": "tube stripper for blood bag tubing",
+"name": "TUBE STRIPPER, for blood bag tubing",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-017",
+"status": "new"
+},
+{
+"key": "blood bag tube sealer delcon hemoweld t 115 230v",
+"name": "BLOOD BAG TUBE SEALER (Delcon HemoWeld T), 115-230V",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-018",
+"status": "new"
+},
+{
+"key": "blood collection monitor 230v hemotek2",
+"name": "BLOOD COLLECTION MONITOR, 230V (Hemotek2)",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-019",
+"status": "new"
+},
+{
+"key": "plasma separation stand manual",
+"name": "PLASMA SEPARATION STAND, manual",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-020",
+"status": "new"
+},
+{
+"key": "platelet",
+"name": "platelet",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Laboratory & blood transfusion",
+"prefix": "LAB",
+"sources": [
+"ETC blood transfusion"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-LAB-021",
+"status": "new"
+},
+{
+"key": "foam mattress bedsore prev m risk",
+"name": "FOAM MATTRESS, bedsore prev. M risk",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-001",
+"status": "new"
+},
+{
+"key": "drainage thoracic valve non return suction pressure",
+"name": "(drainage, thoracic), VALVE NON RETURN, suction & pressure",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-002",
+"status": "new"
+},
+{
+"key": "scalpel n 4 blade s u sterile n 22 01 22 22",
+"name": "(scalpel nº 4) BLADE, s.u., sterile, nº 22, 01-22-22",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-003",
+"status": "new"
+},
+{
+"key": "syringe pump infusion line pe id 1mm 200cm s u",
+"name": "(syringe pump) INFUSION LINE, PE, ID 1mm, 200cm, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-004",
+"status": "new"
+},
+{
+"key": "patient warmer set high flow s u sterile 24355",
+"name": "(patient warmer) SET high flow, s.u. sterile 24355",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-005",
+"status": "new"
+},
+{
+"key": "warming unit warming blanket adult 3 4 reusable 92057",
+"name": "(warming unit) WARMING BLANKET, adult 3/4 reusable 92057",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-006",
+"status": "new"
+},
+{
+"key": "blood fluid warmer 230v 50 60hz",
+"name": "BLOOD/FLUID WARMER, 230V 50/60Hz",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-007",
+"status": "new"
+},
+{
+"key": "bottle thoracic drainage 2 l autoclavable lid 2 tubes",
+"name": "BOTTLE, thoracic drainage, 2 l autoclavable + lid 2 tubes",
+"unit_src": "Bottle",
+"unit": "bottle / flacon",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-008",
+"status": "new"
+},
+{
+"key": "central venous catheter set 2 lumens ch4 4 5 x 8 10cm",
+"name": "CENTRAL VENOUS CATHETER SET, 2 lumens, CH4-4.5 x 8-10cm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-009",
+"status": "new"
+},
+{
+"key": "central venous catheter set 2 lumens ch5 5 5 x 10 13cm",
+"name": "CENTRAL VENOUS CATHETER SET, 2 lumens, CH5-5.5 x 10-13cm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-010",
+"status": "new"
+},
+{
+"key": "cpap o two single use set mask n 3 child manometer",
+"name": "CPAP O-Two single use SET, mask n°3 child, + manometer",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-011",
+"status": "new"
+},
+{
+"key": "cpap o two single use set mask n 4 adult manometer",
+"name": "CPAP O-Two single use SET, mask n°4 adult, + manometer",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-012",
+"status": "new"
+},
+{
+"key": "cpap o two single use set mask n 5 large adult manometer",
+"name": "CPAP O-Two single use SET, mask n°5 Large adult, + manometer",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-013",
+"status": "new"
+},
+{
+"key": "cricothyrotomy set 2 mm",
+"name": "CRICOTHYROTOMY SET, 2 mm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-014",
+"status": "new"
+},
+{
+"key": "cricothyrotomy set 4 mm",
+"name": "CRICOTHYROTOMY SET, 4 mm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-015",
+"status": "new"
+},
+{
+"key": "drain thoracic sterile s u ch12",
+"name": "DRAIN, THORACIC, sterile, s.u., CH12",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-016",
+"status": "new"
+},
+{
+"key": "drain thoracic sterile s u ch28",
+"name": "DRAIN, THORACIC, sterile, s.u., CH28",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-017",
+"status": "new"
+},
+{
+"key": "electronic drop counter dripassist",
+"name": "ELECTRONIC DROP COUNTER (Dripassist)",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-018",
+"status": "new"
+},
+{
+"key": "extension tubing with stopcock 3 way s u sterile",
+"name": "EXTENSION TUBING with stopcock 3 way, s.u., sterile",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-019",
+"status": "new"
+},
+{
+"key": "face mask niv non vented complete reusable l",
+"name": "FACE MASK NIV, non-vented, complete, reusable, L",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-020",
+"status": "new"
+},
+{
+"key": "face mask niv non vented complete reusable m",
+"name": "FACE MASK NIV, non-vented, complete, reusable, M",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-021",
+"status": "new"
+},
+{
+"key": "face mask niv non vented complete reusable s",
+"name": "FACE MASK NIV, non-vented, complete, reusable, S",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-022",
+"status": "new"
+},
+{
+"key": "forceps magill adult 24 cm",
+"name": "FORCEPS, MAGILL, adult, 24 cm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-023",
+"status": "new"
+},
+{
+"key": "forceps magill paediatric 15 cm",
+"name": "FORCEPS, MAGILL, paediatric, 15 cm",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-024",
+"status": "new"
+},
+{
+"key": "headgear for niv face mask universal size single patient",
+"name": "HEADGEAR, for NIV face mask, universal size, single patient",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-025",
+"status": "new"
+},
+{
+"key": "hme filter breathing circuit 22m 15f adult s u",
+"name": "HME FILTER, BREATHING CIRCUIT, 22M/15F, adult, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-026",
+"status": "new"
+},
+{
+"key": "hme filter breathing circuit 22m 15f child s u",
+"name": "HME FILTER, BREATHING CIRCUIT, 22M/15F, child, s.u",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-027",
+"status": "new"
+},
+{
+"key": "mask laryngeal reusable size 2",
+"name": "MASK LARYNGEAL, reusable, size 2",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-028",
+"status": "new"
+},
+{
+"key": "mask laryngeal reusable size 3",
+"name": "MASK LARYNGEAL, reusable, size 3",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-029",
+"status": "new"
+},
+{
+"key": "mask laryngeal reusable size 4",
+"name": "MASK LARYNGEAL, reusable, size 4",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-030",
+"status": "new"
+},
+{
+"key": "mask laryngeal reusable size 5",
+"name": "MASK LARYNGEAL, reusable, size 5",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-031",
+"status": "new"
+},
+{
+"key": "medication trolley 30 bins 2 drawers centr lock",
+"name": "MEDICATION TROLLEY, 30 bins, 2 drawers, centr. Lock",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-032",
+"status": "new"
+},
+{
+"key": "oropharyngeal airway s u non ster 100mm id 5 0mm red",
+"name": "OROPHARYNGEAL AIRWAY, s.u. non ster., 100mm, ID 5.0mm, red",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-033",
+"status": "new"
+},
+{
+"key": "oropharyngeal airway s u non ster 90mm id 4 5mm yellow",
+"name": "OROPHARYNGEAL AIRWAY, s.u. non ster., 90mm, ID 4.5mm, yellow",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-034",
+"status": "new"
+},
+{
+"key": "oropharyngeal airway s u non ster 40mm id 3 0mm pink",
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 40mm, ID 3.0mm, pink",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-035",
+"status": "new"
+},
+{
+"key": "oropharyngeal airway s u non ster 50mm id 3 5mm blue",
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 50mm, ID 3.5mm, blue",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-036",
+"status": "new"
+},
+{
+"key": "oropharyngeal airway s u non ster 60mm id 4 0mm black",
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 60mm, ID 4.0mm, black",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-037",
+"status": "new"
+},
+{
+"key": "oropharyngeal airway s u non ster 70mm id 4 0mm white",
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 70mm, ID 4.0mm, white",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-038",
+"status": "new"
+},
+{
+"key": "oropharyngeal airway s u non ster 80mm id 4 5mm green",
+"name": "OROPHARYNGEAL AIRWAY, s.u., non ster., 80mm, ID 4.5mm, green",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-039",
+"status": "new"
+},
+{
+"key": "otoscope halogen specula",
+"name": "OTOSCOPE, halogen + SPECULA",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-040",
+"status": "new"
+},
+{
+"key": "paper ph indicator 2 to 9 graduation 0 5 gastric strip",
+"name": "PAPER, pH INDICATOR, 2 to 9, graduation 0.5, gastric, strip",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-041",
+"status": "new"
+},
+{
+"key": "patient transfer sliding board whole body",
+"name": "PATIENT TRANSFER SLIDING BOARD, whole body",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-042",
+"status": "new"
+},
+{
+"key": "semi automated external defibrillator manual eng",
+"name": "SEMI-AUTOMATED EXTERNAL DEFIBRILLATOR , manual, eng",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-043",
+"status": "new"
+},
+{
+"key": "syringe pump single syr drug lib fr",
+"name": "SYRINGE PUMP , single syr.,drug lib.FR",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-044",
+"status": "new"
+},
+{
+"key": "tube suction yankauer adj aspiration sterile s u ch20",
+"name": "TUBE, SUCTION YANKAUER, adj. aspiration, sterile, s.u. CH20",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-045",
+"status": "new"
+},
+{
+"key": "warming unit forced air generator",
+"name": "WARMING UNIT, forced air generator",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-046",
+"status": "new"
+},
+{
+"key": "point of care ultrasound machine",
+"name": "Point of care ultrasound machine",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-047",
+"status": "new"
+},
+{
+"key": "point of care ultrasound convex and linear probe",
+"name": "Point of care ultrasound; , Convex and linear probe",
+"unit_src": "Piece",
+"unit": "piece / pièce",
+"category": "Intensive care",
+"prefix": "ICU",
+"sources": [
+"ETC intensive care"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-ICU-048",
+"status": "new"
+},
+{
+"key": "gloves protection heavy duty nitrile green cat iii size 9",
+"name": "GLOVES PROTECTION, heavy duty, nitrile, green, cat III, size 9",
+"unit_src": "paires",
+"unit": "pair / paire",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-001",
+"status": "new"
+},
+{
+"key": "mask fluid resistant duckbill cup shape",
+"name": "Mask, fluid-resistant (duckbill/cup shape)",
+"unit_src": "pce",
+"unit": "piece / pièce",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-002",
+"status": "new"
+},
+{
+"key": "body bag plastic white 400 microns child 150x100cm piece",
+"name": "BODY BAG, plastic, white, 400 microns, child 150x100cm (piece)",
+"unit_src": "pce",
+"unit": "piece / pièce",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-003",
+"status": "new"
+},
+{
+"key": "body bag plastic white 400 microns ad 250x120cm piece",
+"name": "BODY BAG, plastic, white, 400 microns, ad., 250x120cm (piece)",
+"unit_src": "pce",
+"unit": "piece / pièce",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-004",
+"status": "new"
+},
+{
+"key": "sprayer 1 5 liter",
+"name": "Sprayer 1.5 liter",
+"unit_src": "pce",
+"unit": "piece / pièce",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-005",
+"status": "new"
+},
+{
+"key": "sprayer 10 or 12 liters",
+"name": "Sprayer 10 or 12 liters",
+"unit_src": "pce",
+"unit": "piece / pièce",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-006",
+"status": "new"
+},
+{
+"key": "garbage bag 100 liters black 70 microns piece",
+"name": "GARBAGE BAG, 100 liters, black, 70 microns (piece)",
+"unit_src": "pce",
+"unit": "piece / pièce",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-007",
+"status": "new"
+},
+{
+"key": "anti fog solution approx 30 cl bottle",
+"name": "ANTI FOG solution, approx. 30 cl, bottle",
+"unit_src": "bottles",
+"unit": "bottle / flacon",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-008",
+"status": "new"
+},
+{
+"key": "transport medium virocult 1 ml medium with swab pack 125",
+"name": "TRANSPORT MEDIUM (Virocult), 1 ml medium, with swab, pack-125",
+"unit_src": "pack",
+"unit": "pack / paquet",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-009",
+"status": "new"
+},
+{
+"key": "bag biohazard 25 x 15 cm with document pouch zip lock pack 100",
+"name": "BAG BIOHAZARD, 25 x 15 cm, with document pouch, zip lock, pack-100",
+"unit_src": "pack",
+"unit": "pack / paquet",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-010",
+"status": "new"
+},
+{
+"key": "transport tube pp 50 ml pack 25",
+"name": "Transport tube PP 50 ml pack-25",
+"unit_src": "pack",
+"unit": "pack / paquet",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-011",
+"status": "new"
+},
+{
+"key": "gum boots size 43 45",
+"name": "GUM BOOTS size 43 - 45",
+"unit_src": "paires",
+"unit": "pair / paire",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-012",
+"status": "new"
+},
+{
+"key": "jerrycan en plastiques 20l",
+"name": "JERRYCAN EN PLASTIQUES 20L",
+"unit_src": "pce",
+"unit": "piece / pièce",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-013",
+"status": "new"
+},
+{
+"key": "seax plastiques avec couvercle 20l",
+"name": "SEAX PLASTIQUES AVEC COUVERCLE 20L",
+"unit_src": "pce",
+"unit": "piece / pièce",
+"category": "Safe & dignified burials",
+"prefix": "SDB",
+"sources": [
+"Safe & dignified burials"
+],
+"subclass": "",
+"typ": "",
+"cost": null,
+"code": "ACDC-SDB-014",
+"status": "new"
+}
+]
